@@ -19,17 +19,11 @@ IF %ERRORLEVEL% NEQ 0 (
     exit /b
 )
 
-:: Check if port 8000 is already in use before starting
-netstat -ano | find ":8000" >nul 2>&1
-IF %ERRORLEVEL% EQU 0 (
-    echo Port 8000 is already in use!
-    pause
-    exit /b
-)
+
 
 :: Start server
 echo Starting local server on port 8000...
-start "" "http://localhost:8000/app-page.html"
+start "" "http://localhost:8000/src/app-page.html"
 python -m http.server 8000
 
 ENDLOCAL
