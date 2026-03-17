@@ -386,8 +386,8 @@ You can use AI models like Claude or Grok to automatically convert question pape
 
 ### AI Model Links
 
-- **Claude (Sonnet 4):** https://claude.ai
-- **Grok (xAI):** https://x.ai/grok
+- **Claude Sonnet 4.6 (Extended Thinking):** https://claude.ai
+- **Grok (Expert Mode):** https://x.ai/grok
 
 ### Step-by-Step Process
 
