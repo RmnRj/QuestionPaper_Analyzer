@@ -2,26 +2,37 @@
 SETLOCAL
 
 :: Check if Python is installed
-@REM python --version >nul 2>&1
-@REM IF %ERRORLEVEL% NEQ 0 (
-@REM     echo Python not found. Downloading Python 3.12.2 installer...
-@REM     powershell -Command "Invoke-WebRequest -Uri https://www.python.org/ftp/python/3.12.2/python-3.12.2-amd64.exe -OutFile python_installer.exe"
+python --version >nul 2>&1
+IF %ERRORLEVEL% EQU 0 (
+    echo Python found. Starting server on port 8000...
+    start "" "http://localhost:8000/src/app-page.html"
+    python -m http.server 8000
+    goto :end
+)
 
-@REM     echo Installing Python silently... Please wait.
-@REM     :: 'start /wait' ensures the script waits until the installation is 100% finished
-@REM     :: InstallAllUsers=0 allows it to run without Admin rights
-@REM     start /wait python_installer.exe /quiet InstallAllUsers=0 PrependPath=1 Include_test=0
-    
-@REM     echo.
-@REM     echo Installation complete! 
-@REM     echo Please close this window and run this script again to apply the new system paths.
-@REM     pause
-@REM     exit /b
-@REM )
+:: Check if Node.js is installed
+node --version >nul 2>&1
+IF %ERRORLEVEL% EQU 0 (
+    echo Node.js found. Starting server on port 8000...
+    start "" "http://localhost:8000/src/app-page.html"
+    npx http-server -p 8000
+    goto :end
+)
 
-:: Start server
-echo Starting local server on port 8000...
-start "" "http://localhost:8000/src/app-page.html"
-python -m http.server 8000
+:: Neither Python nor Node.js found
+echo.
+echo ERROR: Neither Python nor Node.js is installed!
+echo.
+echo Please install one of the following:
+echo   - Python: https://www.python.org/downloads/
+echo   - Node.js: https://nodejs.org/
+echo.
+echo Then run this script again.
+echo.
+echo Or open this Web App using port by any mean like from Live Server of VS Code.
+echo.
+echo.
+pause
 
+:end
 ENDLOCAL

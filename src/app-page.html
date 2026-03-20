@@ -11,12 +11,13 @@
         href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
         rel="stylesheet">
     <style>
+        /* === ALL ORIGINAL STYLES UNCHANGED === */
         *,
         *::before,
         *::after {
             box-sizing: border-box;
             margin: 0;
-            padding: 0;
+            padding: 0
         }
 
         :root {
@@ -42,7 +43,7 @@
             --font-serif: 'Libre Baskerville', Georgia, serif;
             --font-sans: 'Source Sans 3', system-ui, sans-serif;
             --font-mono: 'JetBrains Mono', monospace;
-            --r: 4px;
+            --r: 4px
         }
 
         body {
@@ -51,10 +52,9 @@
             color: var(--text-1);
             min-height: 100vh;
             font-size: 15px;
-            line-height: 1.6;
+            line-height: 1.6
         }
 
-        /* LOADING */
         #loading {
             position: fixed;
             inset: 0;
@@ -64,18 +64,18 @@
             align-items: center;
             justify-content: center;
             gap: 14px;
-            z-index: 999;
+            z-index: 999
         }
 
         .ld-title {
             font-family: var(--font-serif);
             font-size: 18px;
-            color: var(--text-2);
+            color: var(--text-2)
         }
 
         .ld-dots {
             display: flex;
-            gap: 6px;
+            gap: 6px
         }
 
         .ld-dots span {
@@ -83,18 +83,32 @@
             height: 7px;
             border-radius: 50%;
             background: var(--accent);
-            animation: ld 1.2s infinite ease-in-out;
+            animation: ld 1.2s infinite ease-in-out
         }
 
-        .ld-dots span:nth-child(2) { animation-delay: .2s }
-        .ld-dots span:nth-child(3) { animation-delay: .4s }
+        .ld-dots span:nth-child(2) {
+            animation-delay: .2s
+        }
+
+        .ld-dots span:nth-child(3) {
+            animation-delay: .4s
+        }
 
         @keyframes ld {
-            0%, 80%, 100% { transform: translateY(0); opacity: .3 }
-            40% { transform: translateY(-8px); opacity: 1 }
+
+            0%,
+            80%,
+            100% {
+                transform: translateY(0);
+                opacity: .3
+            }
+
+            40% {
+                transform: translateY(-8px);
+                opacity: 1
+            }
         }
 
-        /* HEADER */
         #header {
             background: var(--surface);
             border-bottom: 2px solid var(--text-1);
@@ -105,14 +119,33 @@
             height: 52px;
             position: sticky;
             top: 0;
-            z-index: 50;
+            z-index: 50
         }
 
-        #hdr-icon { width: 26px; height: 26px; object-fit: contain; }
+        #hdr-icon {
+            width: 26px;
+            height: 26px;
+            object-fit: contain
+        }
 
-        .hdr-text { flex: 1; display: flex; flex-direction: column; }
-        #hdr-title { font-family: var(--font-serif); font-size: 14.5px; font-weight: 700; line-height: 1.2; }
-        #hdr-sub { font-size: 11px; color: var(--text-3); line-height: 1; }
+        .hdr-text {
+            flex: 1;
+            display: flex;
+            flex-direction: column
+        }
+
+        #hdr-title {
+            font-family: var(--font-serif);
+            font-size: 14.5px;
+            font-weight: 700;
+            line-height: 1.2
+        }
+
+        #hdr-sub {
+            font-size: 11px;
+            color: var(--text-3);
+            line-height: 1
+        }
 
         .hdr-badge {
             font-family: var(--font-mono);
@@ -120,10 +153,9 @@
             color: var(--text-3);
             border: 1px solid var(--border);
             padding: 2px 8px;
-            border-radius: 20px;
+            border-radius: 20px
         }
 
-        /* TABS */
         #tabs {
             background: var(--surface);
             border-bottom: 1px solid var(--border);
@@ -131,7 +163,7 @@
             display: flex;
             position: sticky;
             top: 52px;
-            z-index: 40;
+            z-index: 40
         }
 
         .tab-btn {
@@ -145,39 +177,80 @@
             cursor: pointer;
             border-bottom: 2px solid transparent;
             margin-bottom: -1px;
-            transition: color .15s, border-color .15s;
+            transition: color .15s, border-color .15s
         }
 
-        .tab-btn:hover { color: var(--text-1) }
-        .tab-btn.active { color: var(--accent); border-bottom-color: var(--accent) }
+        .tab-btn:hover {
+            color: var(--text-1)
+        }
 
-        /* MAIN */
-        #main { max-width: 1100px; margin: 0 auto; padding: 20px 24px; }
+        .tab-btn.active {
+            color: var(--accent);
+            border-bottom-color: var(--accent)
+        }
 
-        .tab-pane { display: none; }
-        .tab-pane.active { display: block; animation: fadeIn .18s ease; }
+        #main {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 20px 24px
+        }
+
+        .tab-pane {
+            display: none
+        }
+
+        .tab-pane.active {
+            display: block;
+            animation: fadeIn .18s ease
+        }
 
         @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(3px) }
-            to { opacity: 1; transform: none }
+            from {
+                opacity: 0;
+                transform: translateY(3px)
+            }
+
+            to {
+                opacity: 1;
+                transform: none
+            }
         }
 
-        /* STATS BAR */
         .stats-bar {
             display: grid;
             border: 1px solid var(--border);
             border-radius: var(--r);
             background: var(--surface);
             overflow: hidden;
-            margin-bottom: 14px;
+            margin-bottom: 14px
         }
 
-        .stat-cell { padding: 14px 18px; border-right: 1px solid var(--border); }
-        .stat-cell:last-child { border-right: none }
-        .stat-val { font-family: var(--font-serif); font-size: 22px; font-weight: 700; line-height: 1; color: var(--text-1); }
-        .stat-lbl { font-size: 10px; font-weight: 600; letter-spacing: .9px; text-transform: uppercase; color: var(--text-3); margin-top: 5px; }
+        .stat-cell {
+            padding: 14px 18px;
+            border-right: 1px solid var(--border)
+        }
 
-        /* FILTER BAR */
+        .stat-cell:last-child {
+            border-right: none
+        }
+
+        .stat-val {
+            font-family: var(--font-serif);
+            font-size: 22px;
+            font-weight: 700;
+            line-height: 1;
+            color: var(--text-1)
+        }
+
+        .stat-lbl {
+            font-size: 10px;
+            font-weight: 600;
+            letter-spacing: .9px;
+            text-transform: uppercase;
+            color: var(--text-3);
+            margin-top: 5px
+        }
+
         .filter-bar {
             background: var(--surface);
             border: 1px solid var(--border);
@@ -187,7 +260,7 @@
             display: flex;
             flex-wrap: wrap;
             gap: 8px;
-            align-items: center;
+            align-items: center
         }
 
         .f-select {
@@ -202,11 +275,20 @@
             color: var(--text-1);
             cursor: pointer;
             transition: border-color .12s;
-            min-width: 130px;
+            min-width: 130px
         }
 
-        .f-select:hover, .f-select:focus { border-color: var(--accent); outline: none }
-        .f-select.active { border-color: var(--accent); color: var(--accent); background-color: var(--accent-bg) }
+        .f-select:hover,
+        .f-select:focus {
+            border-color: var(--accent);
+            outline: none
+        }
+
+        .f-select.active {
+            border-color: var(--accent);
+            color: var(--accent);
+            background-color: var(--accent-bg)
+        }
 
         .f-input {
             padding: 5px 10px;
@@ -216,14 +298,30 @@
             font-size: 13px;
             color: var(--text-1);
             width: 96px;
-            transition: border-color .12s;
+            transition: border-color .12s
         }
 
-        .f-input:hover, .f-input:focus { border-color: var(--accent); outline: none }
-        .f-input::placeholder { color: var(--text-3) }
-        .f-input.active { border-color: var(--accent); background: var(--accent-bg) }
+        .f-input:hover,
+        .f-input:focus {
+            border-color: var(--accent);
+            outline: none
+        }
 
-        .f-sep { width: 1px; height: 22px; background: var(--border); margin: 0 2px }
+        .f-input::placeholder {
+            color: var(--text-3)
+        }
+
+        .f-input.active {
+            border-color: var(--accent);
+            background: var(--accent-bg)
+        }
+
+        .f-sep {
+            width: 1px;
+            height: 22px;
+            background: var(--border);
+            margin: 0 2px
+        }
 
         .btn-reset {
             padding: 5px 14px;
@@ -234,13 +332,21 @@
             font-size: 13px;
             color: var(--text-2);
             cursor: pointer;
-            transition: all .12s;
+            transition: all .12s
         }
 
-        .btn-reset:hover { background: var(--surface-2); color: var(--text-1) }
-        .res-info { font-size: 12px; color: var(--text-3); margin-bottom: 9px; padding: 0 2px }
+        .btn-reset:hover {
+            background: var(--surface-2);
+            color: var(--text-1)
+        }
 
-        /* ── CONTEXT BLOCK (case study / scenario paragraph) ── */
+        .res-info {
+            font-size: 12px;
+            color: var(--text-3);
+            margin-bottom: 9px;
+            padding: 0 2px
+        }
+
         .ctx-block {
             background: var(--ctx-bg);
             border: 1px solid var(--ctx-border);
@@ -248,7 +354,7 @@
             border-radius: var(--r);
             padding: 10px 14px;
             margin-bottom: 8px;
-            position: relative;
+            position: relative
         }
 
         .ctx-label {
@@ -257,24 +363,23 @@
             letter-spacing: .8px;
             text-transform: uppercase;
             color: var(--amber);
-            margin-bottom: 6px;
+            margin-bottom: 6px
         }
 
         .ctx-text {
             font-size: 12.5px;
             color: var(--text-2);
             line-height: 1.6;
-            /* Collapse after 4 lines by default */
             display: -webkit-box;
             -webkit-line-clamp: 4;
             -webkit-box-orient: vertical;
-            overflow: hidden;
+            overflow: hidden
         }
 
         .ctx-text.expanded {
             display: block;
             -webkit-line-clamp: unset;
-            overflow: visible;
+            overflow: visible
         }
 
         .ctx-toggle {
@@ -287,13 +392,18 @@
             background: none;
             border: none;
             padding: 0;
-            font-family: var(--font-sans);
+            font-family: var(--font-sans)
         }
 
-        .ctx-toggle:hover { text-decoration: underline; }
+        .ctx-toggle:hover {
+            text-decoration: underline
+        }
 
-        /* Q CARDS */
-        .q-list { display: flex; flex-direction: column; gap: 5px }
+        .q-list {
+            display: flex;
+            flex-direction: column;
+            gap: 5px
+        }
 
         .q-card {
             background: var(--surface);
@@ -303,28 +413,67 @@
             display: flex;
             flex-direction: column;
             gap: 8px;
-            transition: border-color .12s, box-shadow .12s;
+            transition: border-color .12s, box-shadow .12s
         }
 
-        .q-card:hover { border-color: var(--border); box-shadow: 0 1px 4px rgba(0,0,0,.05) }
+        .q-card:hover {
+            border-color: var(--border);
+            box-shadow: 0 1px 4px rgba(0, 0, 0, .05)
+        }
 
-        /* inner row: meta | text | marks */
         .q-inner {
             display: grid;
             grid-template-columns: 90px 1fr 46px;
             gap: 12px;
-            align-items: start;
+            align-items: start
         }
 
-        .q-meta { display: flex; flex-direction: column; gap: 4px }
-        .q-paper { font-family: var(--font-mono); font-size: 10.5px; font-weight: 500; color: var(--accent); background: var(--accent-bg); padding: 2px 6px; border-radius: 3px; white-space: nowrap; width: fit-content }
-        .q-id { font-family: var(--font-mono); font-size: 10.5px; color: var(--text-3) }
-        .q-text { font-size: 13.5px; color: var(--text-1); line-height: 1.55 }
-        .q-marks { font-family: var(--font-mono); font-size: 11px; color: var(--text-3); text-align: right; padding-top: 2px; white-space: nowrap }
+        .q-meta {
+            display: flex;
+            flex-direction: column;
+            gap: 4px
+        }
 
-        .no-results { text-align: center; padding: 60px 20px; color: var(--text-3); font-size: 14px }
+        .q-paper {
+            font-family: var(--font-mono);
+            font-size: 10.5px;
+            font-weight: 500;
+            color: var(--accent);
+            background: var(--accent-bg);
+            padding: 2px 6px;
+            border-radius: 3px;
+            white-space: nowrap;
+            width: fit-content
+        }
 
-        /* ── REPEATED QUESTIONS TAB ── */
+        .q-id {
+            font-family: var(--font-mono);
+            font-size: 10.5px;
+            color: var(--text-3)
+        }
+
+        .q-text {
+            font-size: 13.5px;
+            color: var(--text-1);
+            line-height: 1.55
+        }
+
+        .q-marks {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            color: var(--text-3);
+            text-align: right;
+            padding-top: 2px;
+            white-space: nowrap
+        }
+
+        .no-results {
+            text-align: center;
+            padding: 60px 20px;
+            color: var(--text-3);
+            font-size: 14px
+        }
+
         .rq-toolbar {
             background: var(--surface);
             border: 1px solid var(--border);
@@ -334,20 +483,27 @@
             display: flex;
             flex-wrap: wrap;
             gap: 8px;
-            align-items: center;
+            align-items: center
         }
 
-        .rq-list { display: flex; flex-direction: column; gap: 8px; }
+        .rq-list {
+            display: flex;
+            flex-direction: column;
+            gap: 8px
+        }
 
         .rq-card {
             background: var(--surface);
             border: 1px solid var(--border-lt);
             border-radius: var(--r);
             overflow: hidden;
-            transition: border-color .12s, box-shadow .12s;
+            transition: border-color .12s, box-shadow .12s
         }
 
-        .rq-card:hover { border-color: var(--border); box-shadow: 0 1px 5px rgba(0,0,0,.06); }
+        .rq-card:hover {
+            border-color: var(--border);
+            box-shadow: 0 1px 5px rgba(0, 0, 0, .06)
+        }
 
         .rq-main {
             padding: 13px 16px;
@@ -355,45 +511,153 @@
             grid-template-columns: 1fr 220px 52px;
             gap: 14px;
             align-items: start;
-            cursor: pointer;
+            cursor: pointer
         }
 
-        .rq-text { font-size: 13.5px; color: var(--text-1); line-height: 1.55; }
+        .rq-text {
+            font-size: 13.5px;
+            color: var(--text-1);
+            line-height: 1.55
+        }
 
-        .rq-topic { display: flex; align-items: flex-start; gap: 7px; }
-        .rq-topic-dot { width: 7px; height: 7px; border-radius: 50%; margin-top: 5px; flex-shrink: 0; }
-        .rq-topic-name { font-size: 11.5px; color: var(--text-2); line-height: 1.4; }
+        .rq-topic {
+            display: flex;
+            align-items: flex-start;
+            gap: 7px
+        }
 
-        .rq-freq-col { display: flex; flex-direction: column; align-items: flex-end; gap: 5px; }
-        .rq-freq-badge { font-family: var(--font-serif); font-size: 19px; font-weight: 700; line-height: 1; }
-        .rq-freq-track { width: 48px; height: 4px; background: var(--border); border-radius: 2px; overflow: hidden; }
-        .rq-freq-fill { height: 100%; border-radius: 2px; }
-        .rq-freq-lbl { font-size: 9.5px; font-weight: 600; letter-spacing: .6px; text-transform: uppercase; }
+        .rq-topic-dot {
+            width: 7px;
+            height: 7px;
+            border-radius: 50%;
+            margin-top: 5px;
+            flex-shrink: 0
+        }
 
-        /* freq tiers */
-        .rq-hi .rq-freq-badge { color: var(--green); }
-        .rq-hi .rq-freq-fill { background: var(--green); }
-        .rq-hi .rq-freq-lbl { color: var(--green); }
-        .rq-hi .rq-topic-dot { background: var(--green); }
+        .rq-topic-name {
+            font-size: 11.5px;
+            color: var(--text-2);
+            line-height: 1.4
+        }
 
-        .rq-mi .rq-freq-badge { color: var(--amber); }
-        .rq-mi .rq-freq-fill { background: var(--amber); }
-        .rq-mi .rq-freq-lbl { color: var(--amber); }
-        .rq-mi .rq-topic-dot { background: var(--amber); }
+        .rq-freq-col {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            gap: 5px
+        }
 
-        .rq-lo .rq-freq-badge { color: var(--red); }
-        .rq-lo .rq-freq-fill { background: var(--red); }
-        .rq-lo .rq-freq-lbl { color: var(--red); }
-        .rq-lo .rq-topic-dot { background: var(--red); }
+        .rq-freq-badge {
+            font-family: var(--font-serif);
+            font-size: 19px;
+            font-weight: 700;
+            line-height: 1
+        }
 
-        /* expandable papers list */
-        .rq-papers { display: none; padding: 10px 16px 13px; border-top: 1px solid var(--border-lt); background: var(--surface-2); }
-        .rq-papers.open { display: block; }
-        .rq-papers-label { font-size: 10px; font-weight: 600; letter-spacing: .7px; text-transform: uppercase; color: var(--text-3); margin-bottom: 8px; }
-        .rq-paper-chips { display: flex; flex-wrap: wrap; gap: 5px; }
-        .rq-chip { font-family: var(--font-mono); font-size: 11px; background: var(--surface); border: 1px solid var(--border); padding: 2px 9px; border-radius: 3px; color: var(--text-2); }
+        .rq-freq-track {
+            width: 48px;
+            height: 4px;
+            background: var(--border);
+            border-radius: 2px;
+            overflow: hidden
+        }
 
-        /* PAPERS */
+        .rq-freq-fill {
+            height: 100%;
+            border-radius: 2px
+        }
+
+        .rq-freq-lbl {
+            font-size: 9.5px;
+            font-weight: 600;
+            letter-spacing: .6px;
+            text-transform: uppercase
+        }
+
+        .rq-hi .rq-freq-badge {
+            color: var(--green)
+        }
+
+        .rq-hi .rq-freq-fill {
+            background: var(--green)
+        }
+
+        .rq-hi .rq-freq-lbl {
+            color: var(--green)
+        }
+
+        .rq-hi .rq-topic-dot {
+            background: var(--green)
+        }
+
+        .rq-mi .rq-freq-badge {
+            color: var(--amber)
+        }
+
+        .rq-mi .rq-freq-fill {
+            background: var(--amber)
+        }
+
+        .rq-mi .rq-freq-lbl {
+            color: var(--amber)
+        }
+
+        .rq-mi .rq-topic-dot {
+            background: var(--amber)
+        }
+
+        .rq-lo .rq-freq-badge {
+            color: var(--red)
+        }
+
+        .rq-lo .rq-freq-fill {
+            background: var(--red)
+        }
+
+        .rq-lo .rq-freq-lbl {
+            color: var(--red)
+        }
+
+        .rq-lo .rq-topic-dot {
+            background: var(--red)
+        }
+
+        .rq-papers {
+            display: none;
+            padding: 10px 16px 13px;
+            border-top: 1px solid var(--border-lt);
+            background: var(--surface-2)
+        }
+
+        .rq-papers.open {
+            display: block
+        }
+
+        .rq-papers-label {
+            font-size: 10px;
+            font-weight: 600;
+            letter-spacing: .7px;
+            text-transform: uppercase;
+            color: var(--text-3);
+            margin-bottom: 8px
+        }
+
+        .rq-paper-chips {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px
+        }
+
+        .rq-chip {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 2px 9px;
+            border-radius: 3px;
+            color: var(--text-2)
+        }
+
         .paper-sel {
             background: var(--surface);
             border: 1px solid var(--border);
@@ -406,15 +670,53 @@
             align-items: center
         }
 
-        .sem-toggle { display: flex; border: 1px solid var(--border); border-radius: var(--r); overflow: hidden }
-        .sem-toggle button { padding: 5px 14px; border: none; background: var(--surface); font-family: var(--font-sans); font-size: 13px; color: var(--text-2); cursor: pointer; transition: all .12s }
-        .sem-toggle button.on { background: var(--accent); color: #fff }
+        .sem-toggle {
+            display: flex;
+            border: 1px solid var(--border);
+            border-radius: var(--r);
+            overflow: hidden
+        }
 
-        .paper-wrap { background: var(--surface); border: 1px solid var(--border); border-radius: var(--r); overflow: hidden }
+        .sem-toggle button {
+            padding: 5px 14px;
+            border: none;
+            background: var(--surface);
+            font-family: var(--font-sans);
+            font-size: 13px;
+            color: var(--text-2);
+            cursor: pointer;
+            transition: all .12s
+        }
 
-        .paper-hdr { background: var(--surface-2); padding: 14px 22px; border-bottom: 1px solid var(--border) }
-        .paper-hdr h2 { font-family: var(--font-serif); font-size: 15px; font-weight: 700 }
-        .paper-hdr p { font-size: 12px; color: var(--text-2); margin-top: 3px }
+        .sem-toggle button.on {
+            background: var(--accent);
+            color: #fff
+        }
+
+        .paper-wrap {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--r);
+            overflow: hidden
+        }
+
+        .paper-hdr {
+            background: var(--surface-2);
+            padding: 14px 22px;
+            border-bottom: 1px solid var(--border)
+        }
+
+        .paper-hdr h2 {
+            font-family: var(--font-serif);
+            font-size: 15px;
+            font-weight: 700
+        }
+
+        .paper-hdr p {
+            font-size: 12px;
+            color: var(--text-2);
+            margin-top: 3px
+        }
 
         .pq-section {
             padding: 6px 22px;
@@ -427,9 +729,8 @@
             color: var(--text-3)
         }
 
-        /* Context block inside paper view — slightly different indent */
         .pq-context {
-            padding: 10px 22px 0 22px;
+            padding: 10px 22px 0 22px
         }
 
         .pq-row {
@@ -442,14 +743,35 @@
             transition: background .1s
         }
 
-        .pq-row:last-child { border-bottom: none }
-        .pq-row:hover { background: var(--bg) }
+        .pq-row:last-child {
+            border-bottom: none
+        }
 
-        .pq-num { font-family: var(--font-mono); font-size: 12px; font-weight: 500; color: var(--accent) }
-        .pq-text { font-size: 13.5px; color: var(--text-1); line-height: 1.55 }
-        .pq-marks { font-family: var(--font-mono); font-size: 12px; color: var(--text-3); text-align: right; padding-top: 2px }
+        .pq-row:hover {
+            background: var(--bg)
+        }
 
-        /* SYLLABUS */
+        .pq-num {
+            font-family: var(--font-mono);
+            font-size: 12px;
+            font-weight: 500;
+            color: var(--accent)
+        }
+
+        .pq-text {
+            font-size: 13.5px;
+            color: var(--text-1);
+            line-height: 1.55
+        }
+
+        .pq-marks {
+            font-family: var(--font-mono);
+            font-size: 12px;
+            color: var(--text-3);
+            text-align: right;
+            padding-top: 2px
+        }
+
         .syl-info {
             background: var(--surface);
             border: 1px solid var(--border-lt);
@@ -462,76 +784,476 @@
             align-items: center
         }
 
-        .syl-info-item { display: flex; flex-direction: column; gap: 1px }
-        .sil { font-size: 10px; color: var(--text-3); text-transform: uppercase; letter-spacing: .7px }
-        .siv { font-size: 13.5px; font-weight: 500 }
+        .syl-info-item {
+            display: flex;
+            flex-direction: column;
+            gap: 1px
+        }
 
-        .freq-key { display: flex; gap: 12px; align-items: center; margin-left: auto }
-        .fk-item { display: flex; align-items: center; gap: 5px; font-size: 12px }
-        .fk-dot { width: 8px; height: 8px; border-radius: 50% }
-        .fk-dot.hi { background: var(--green) }
-        .fk-dot.mi { background: var(--amber) }
-        .fk-dot.lo { background: var(--red) }
+        .sil {
+            font-size: 10px;
+            color: var(--text-3);
+            text-transform: uppercase;
+            letter-spacing: .7px
+        }
 
-        .unit-block { background: var(--surface); border: 1px solid var(--border-lt); border-radius: var(--r); margin-bottom: 7px; overflow: hidden }
-        .unit-hdr { padding: 11px 18px; display: flex; align-items: center; gap: 12px; cursor: pointer; user-select: none; transition: background .12s }
-        .unit-hdr:hover { background: var(--surface-2) }
+        .siv {
+            font-size: 13.5px;
+            font-weight: 500
+        }
 
-        .u-num { font-family: var(--font-mono); font-size: 10.5px; font-weight: 500; color: var(--text-3); min-width: 52px }
-        .u-title { font-family: var(--font-serif); font-size: 14px; font-weight: 700; flex: 1 }
-        .u-hours { font-size: 12px; color: var(--text-3) }
-        .u-chev { font-size: 10px; color: var(--text-3); transition: transform .2s }
-        .unit-block.open .u-chev { transform: rotate(90deg) }
+        .freq-key {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+            margin-left: auto
+        }
 
-        .unit-topics { display: none; border-top: 1px solid var(--border-lt) }
-        .unit-block.open .unit-topics { display: block }
+        .fk-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            font-size: 12px
+        }
 
-        .topic-row { padding: 10px 18px 10px 28px; border-bottom: 1px solid var(--border-lt); display: grid; grid-template-columns: 1fr 210px; gap: 16px; align-items: center }
-        .topic-row:last-child { border-bottom: none }
-        .topic-row:hover { background: var(--bg) }
-        .t-name { font-size: 13px; color: var(--text-1) }
+        .fk-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%
+        }
 
-        .freq-grp { display: flex; align-items: center; gap: 8px }
-        .freq-track { flex: 1; height: 4px; background: var(--border); border-radius: 2px; overflow: hidden }
-        .freq-fill { height: 100%; border-radius: 2px; transition: width .7s ease }
+        .fk-dot.hi {
+            background: var(--green)
+        }
 
-        .fhi .freq-fill { background: var(--green) }
-        .fmi .freq-fill { background: var(--amber) }
-        .flo .freq-fill { background: var(--red) }
+        .fk-dot.mi {
+            background: var(--amber)
+        }
 
-        .freq-n { font-family: var(--font-mono); font-size: 11.5px; font-weight: 500; min-width: 22px; text-align: right }
-        .fhi .freq-n { color: var(--green) }
-        .fmi .freq-n { color: var(--amber) }
-        .flo .freq-n { color: var(--red) }
+        .fk-dot.lo {
+            background: var(--red)
+        }
 
-        .freq-tag { font-size: 10px; font-weight: 600; padding: 1px 7px; border-radius: 10px; min-width: 34px; text-align: center }
-        .fhi .freq-tag { background: var(--green-bg); color: var(--green) }
-        .fmi .freq-tag { background: var(--amber-bg); color: var(--amber) }
-        .flo .freq-tag { background: var(--red-bg); color: var(--red) }
+        .unit-block {
+            background: var(--surface);
+            border: 1px solid var(--border-lt);
+            border-radius: var(--r);
+            margin-bottom: 7px;
+            overflow: hidden
+        }
 
-        /* ERROR */
-        .err { background: var(--red-bg); border: 1px solid #FFC0C0; border-radius: var(--r); padding: 16px 20px; color: var(--red); font-size: 14px }
-        .err code { font-family: var(--font-mono); font-size: 12px; background: #fff; padding: 2px 6px; border-radius: 3px }
+        .unit-hdr {
+            padding: 11px 18px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            cursor: pointer;
+            user-select: none;
+            transition: background .12s
+        }
 
-        /* RESPONSIVE */
+        .unit-hdr:hover {
+            background: var(--surface-2)
+        }
+
+        .u-num {
+            font-family: var(--font-mono);
+            font-size: 10.5px;
+            font-weight: 500;
+            color: var(--text-3);
+            min-width: 52px
+        }
+
+        .u-title {
+            font-family: var(--font-serif);
+            font-size: 14px;
+            font-weight: 700;
+            flex: 1
+        }
+
+        .u-hours {
+            font-size: 12px;
+            color: var(--text-3)
+        }
+
+        .u-chev {
+            font-size: 10px;
+            color: var(--text-3);
+            transition: transform .2s
+        }
+
+        .unit-block.open .u-chev {
+            transform: rotate(90deg)
+        }
+
+        .unit-topics {
+            display: none;
+            border-top: 1px solid var(--border-lt)
+        }
+
+        .unit-block.open .unit-topics {
+            display: block
+        }
+
+        .topic-row {
+            padding: 10px 18px 10px 28px;
+            border-bottom: 1px solid var(--border-lt);
+            display: grid;
+            grid-template-columns: 1fr 210px;
+            gap: 16px;
+            align-items: center
+        }
+
+        .topic-row:last-child {
+            border-bottom: none
+        }
+
+        .topic-row:hover {
+            background: var(--bg)
+        }
+
+        .t-name {
+            font-size: 13px;
+            color: var(--text-1)
+        }
+
+        .freq-grp {
+            display: flex;
+            align-items: center;
+            gap: 8px
+        }
+
+        .freq-track {
+            flex: 1;
+            height: 4px;
+            background: var(--border);
+            border-radius: 2px;
+            overflow: hidden
+        }
+
+        .freq-fill {
+            height: 100%;
+            border-radius: 2px;
+            transition: width .7s ease
+        }
+
+        .fhi .freq-fill {
+            background: var(--green)
+        }
+
+        .fmi .freq-fill {
+            background: var(--amber)
+        }
+
+        .flo .freq-fill {
+            background: var(--red)
+        }
+
+        .freq-n {
+            font-family: var(--font-mono);
+            font-size: 11.5px;
+            font-weight: 500;
+            min-width: 22px;
+            text-align: right
+        }
+
+        .fhi .freq-n {
+            color: var(--green)
+        }
+
+        .fmi .freq-n {
+            color: var(--amber)
+        }
+
+        .flo .freq-n {
+            color: var(--red)
+        }
+
+        .freq-tag {
+            font-size: 10px;
+            font-weight: 600;
+            padding: 1px 7px;
+            border-radius: 10px;
+            min-width: 34px;
+            text-align: center
+        }
+
+        .fhi .freq-tag {
+            background: var(--green-bg);
+            color: var(--green)
+        }
+
+        .fmi .freq-tag {
+            background: var(--amber-bg);
+            color: var(--amber)
+        }
+
+        .flo .freq-tag {
+            background: var(--red-bg);
+            color: var(--red)
+        }
+
+        .err {
+            background: var(--red-bg);
+            border: 1px solid #FFC0C0;
+            border-radius: var(--r);
+            padding: 16px 20px;
+            color: var(--red);
+            font-size: 14px
+        }
+
+        .err code {
+            font-family: var(--font-mono);
+            font-size: 12px;
+            background: #fff;
+            padding: 2px 6px;
+            border-radius: 3px
+        }
+
+        /* ── GUIDE TAB (new) ── */
+        .guide-wrap {
+            max-width: 720px
+        }
+
+        .guide-intro {
+            background: var(--surface);
+            border: 1px solid var(--border-lt);
+            border-radius: var(--r);
+            padding: 16px 20px;
+            margin-bottom: 18px
+        }
+
+        .guide-intro p {
+            font-size: 13.5px;
+            color: var(--text-2);
+            line-height: 1.65
+        }
+
+        .guide-section {
+            margin-bottom: 10px
+        }
+
+        .guide-section-hdr {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 11px 16px;
+            background: var(--surface);
+            border: 1px solid var(--border-lt);
+            border-radius: var(--r);
+            cursor: pointer;
+            user-select: none;
+            transition: background .12s
+        }
+
+        .guide-section-hdr:hover {
+            background: var(--surface-2)
+        }
+
+        .guide-section.open .guide-section-hdr {
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+            border-bottom-color: transparent
+        }
+
+        .gs-num {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            font-weight: 500;
+            color: var(--accent);
+            background: var(--accent-bg);
+            border-radius: 3px;
+            padding: 2px 7px;
+            white-space: nowrap
+        }
+
+        .gs-title {
+            font-family: var(--font-serif);
+            font-size: 13.5px;
+            font-weight: 700;
+            flex: 1
+        }
+
+        .gs-chev {
+            font-size: 10px;
+            color: var(--text-3);
+            transition: transform .2s
+        }
+
+        .guide-section.open .gs-chev {
+            transform: rotate(90deg)
+        }
+
+        .guide-section-body {
+            display: none;
+            background: var(--surface);
+            border: 1px solid var(--border-lt);
+            border-top: none;
+            border-bottom-left-radius: var(--r);
+            border-bottom-right-radius: var(--r)
+        }
+
+        .guide-section.open .guide-section-body {
+            display: block
+        }
+
+        .guide-step {
+            display: grid;
+            grid-template-columns: 32px 1fr;
+            gap: 14px;
+            padding: 14px 18px;
+            border-bottom: 1px solid var(--border-lt);
+            align-items: start
+        }
+
+        .guide-step:last-child {
+            border-bottom: none
+        }
+
+        .gs-dot {
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            background: var(--accent-bg);
+            color: var(--accent);
+            font-family: var(--font-mono);
+            font-size: 11px;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            margin-top: 1px
+        }
+
+        .gs-content {
+            display: flex;
+            flex-direction: column;
+            gap: 6px
+        }
+
+        .gs-label {
+            font-size: 13.5px;
+            font-weight: 600;
+            color: var(--text-1);
+            line-height: 1.4
+        }
+
+        .gs-desc {
+            font-size: 13px;
+            color: var(--text-2);
+            line-height: 1.6
+        }
+
+        .gs-code {
+            font-family: var(--font-mono);
+            font-size: 12px;
+            background: var(--text-1);
+            color: #E8E4DC;
+            border-radius: var(--r);
+            padding: 9px 13px;
+            white-space: pre-wrap;
+            word-break: break-all;
+            line-height: 1.6
+        }
+
+        .gs-note {
+            font-size: 12px;
+            color: var(--text-3);
+            background: var(--surface-2);
+            border: 1px solid var(--border-lt);
+            border-radius: var(--r);
+            padding: 7px 11px;
+            line-height: 1.5
+        }
+
+        .gs-tag-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px
+        }
+
+        .gs-tag {
+            font-family: var(--font-mono);
+            font-size: 11.5px;
+            background: var(--surface-2);
+            border: 1px solid var(--border);
+            border-radius: 3px;
+            padding: 2px 8px;
+            color: var(--text-2)
+        }
+
+        .gs-ic {
+            font-size: 11px;
+            font-family: var(--font-mono);
+            background: var(--surface-2);
+            padding: 1px 5px;
+            border-radius: 3px
+        }
+
         @media(max-width:760px) {
-            .stats-bar { grid-template-columns: repeat(3, 1fr) !important }
-            .stat-cell:nth-child(3) { border-right: none }
-            .stat-cell:nth-child(n+4) { border-top: 1px solid var(--border) }
-            .rq-main { grid-template-columns: 1fr 160px 48px }
+            .stats-bar {
+                grid-template-columns: repeat(3, 1fr) !important
+            }
+
+            .stat-cell:nth-child(3) {
+                border-right: none
+            }
+
+            .stat-cell:nth-child(n+4) {
+                border-top: 1px solid var(--border)
+            }
+
+            .rq-main {
+                grid-template-columns: 1fr 160px 48px
+            }
         }
 
         @media(max-width:540px) {
-            #main { padding: 12px }
-            .stats-bar { grid-template-columns: repeat(2, 1fr) !important }
-            .stat-cell:nth-child(even) { border-right: none }
-            .stat-cell:nth-child(n+3) { border-top: 1px solid var(--border) }
-            .q-inner { grid-template-columns: 76px 1fr }
-            .q-marks { display: none }
-            .rq-main { grid-template-columns: 1fr 48px }
-            .rq-topic { display: none }
-            .topic-row { grid-template-columns: 1fr }
-            .pq-row { grid-template-columns: 58px 1fr 34px }
+            #main {
+                padding: 12px
+            }
+
+            .stats-bar {
+                grid-template-columns: repeat(2, 1fr) !important
+            }
+
+            .stat-cell:nth-child(even) {
+                border-right: none
+            }
+
+            .stat-cell:nth-child(n+3) {
+                border-top: 1px solid var(--border)
+            }
+
+            .q-inner {
+                grid-template-columns: 76px 1fr
+            }
+
+            .q-marks {
+                display: none
+            }
+
+            .rq-main {
+                grid-template-columns: 1fr 48px
+            }
+
+            .rq-topic {
+                display: none
+            }
+
+            .topic-row {
+                grid-template-columns: 1fr
+            }
+
+            .pq-row {
+                grid-template-columns: 58px 1fr 34px
+            }
+
+            .guide-step {
+                grid-template-columns: 26px 1fr;
+                gap: 10px
+            }
         }
     </style>
 </head>
@@ -616,102 +1338,320 @@
             <div class="tab-pane" id="pane-syllabus">
                 <div id="syl-out"></div>
             </div>
+
+            <!-- GUIDE (new) -->
+            <div class="tab-pane" id="pane-guide">
+                <div class="guide-wrap">
+
+                    <div class="guide-intro">
+                        <p>Follow these steps to set up a new analyzer for any course. You only need a text editor and
+                            your question paper files — no coding required.</p>
+                    </div>
+
+                    <!-- Step 1 -->
+                    <div class="guide-section open" id="gs-1">
+                        <div class="guide-section-hdr" onclick="togGuide(1)">
+                            <span class="gs-num">Step 1</span>
+                            <span class="gs-title">Copy the template files</span>
+                            <span class="gs-chev">&#9654;</span>
+                        </div>
+                        <div class="guide-section-body">
+                            <div class="guide-step">
+                                <div class="gs-dot">1</div>
+                                <div class="gs-content">
+                                    <div class="gs-label">Create a new folder for your course</div>
+                                    <div class="gs-desc">Name it anything, e.g. <span class="gs-ic">dsap-analyzer</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="guide-step">
+                                <div class="gs-dot">2</div>
+                                <div class="gs-content">
+                                    <div class="gs-label">Copy these files into the folder</div>
+                                    <div class="gs-tag-row">
+                                        <span class="gs-tag">app-page.html</span>
+                                        <span class="gs-tag">App.bat</span>
+                                        <span class="gs-tag">app-info.json</span>
+                                    </div>
+                                    <div class="gs-note">app-page.html and App.bat never need editing. Only the JSON
+                                        files change per course.</div>
+                                </div>
+                            </div>
+                            <div class="guide-step">
+                                <div class="gs-dot">3</div>
+                                <div class="gs-content">
+                                    <div class="gs-label">Create these empty data files in the same folder</div>
+                                    <div class="gs-tag-row">
+                                        <span class="gs-tag">old_question_papers.json</span>
+                                        <span class="gs-tag">repeated_questions.json</span>
+                                        <span class="gs-tag">syllabus.json</span>
+                                    </div>
+                                    <div class="gs-note">repeated_questions.json and syllabus.json are optional. If you
+                                        skip them, those tabs simply won't appear.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Step 2 -->
+                    <div class="guide-section open" id="gs-2">
+                        <div class="guide-section-hdr" onclick="togGuide(2)">
+                            <span class="gs-num">Step 2</span>
+                            <span class="gs-title">Edit app-info.json</span>
+                            <span class="gs-chev">&#9654;</span>
+                        </div>
+                        <div class="guide-section-body">
+                            <div class="guide-step">
+                                <div class="gs-dot">1</div>
+                                <div class="gs-content">
+                                    <div class="gs-label">Open app-info.json in any text editor</div>
+                                    <div class="gs-desc">Notepad, VS Code, or any editor works fine.</div>
+                                </div>
+                            </div>
+                            <div class="guide-step">
+                                <div class="gs-dot">2</div>
+                                <div class="gs-content">
+                                    <div class="gs-label">Replace the values with your course details</div>
+                                    <div class="gs-code">{
+                                        "app_name": "DSAP Analyzer",
+                                        "university": "Pokhara University",
+                                        "program": "BE — Computer Engineering",
+                                        "course": "Digital Signal Analysis and Processing",
+                                        "course_code": "3-1-2",
+                                        "accent_color": "#2B5EA7",
+                                        "content": [
+                                        { "file": "old_question_papers.json", "type": "questions" },
+                                        { "file": "repeated_questions.json", "type": "repeated" },
+                                        { "file": "syllabus.json", "type": "syllabus" }
+                                        ]
+                                        }</div>
+                                    <div class="gs-note">Remove any line from "content" whose file you don't have yet —
+                                        its tab won't appear.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Step 3 -->
+                    <div class="guide-section open" id="gs-3">
+                        <div class="guide-section-hdr" onclick="togGuide(3)">
+                            <span class="gs-num">Step 3</span>
+                            <span class="gs-title">Convert question papers to JSON using AI</span>
+                            <span class="gs-chev">&#9654;</span>
+                        </div>
+                        <div class="guide-section-body">
+                            <div class="guide-step">
+                                <div class="gs-dot">1</div>
+                                <div class="gs-content">
+                                    <div class="gs-label">Open Claude or Grok in your browser</div>
+                                    <div class="gs-tag-row">
+                                        <span class="gs-tag">claude.ai</span>
+                                        <span class="gs-tag">x.ai/grok</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="guide-step">
+                                <div class="gs-dot">2</div>
+                                <div class="gs-content">
+                                    <div class="gs-label">Upload your question paper</div>
+                                    <div class="gs-desc">Attach the PDF or image of the question paper. You can do one
+                                        paper at a time or several at once.</div>
+                                </div>
+                            </div>
+                            <div class="guide-step">
+                                <div class="gs-dot">3</div>
+                                <div class="gs-content">
+                                    <div class="gs-label">Send this prompt to the AI</div>
+                                    <div class="gs-code">Convert this question paper into JSON using this exact
+                                        structure:
+
+                                        {
+                                        "papers": [{
+                                        "id": "2024_fall",
+                                        "year": "2024",
+                                        "semester": "Fall",
+                                        "questions": [
+                                        { "number": "1", "sub_no": "a", "marks": "7", "question": "..." },
+                                        { "number": "1", "sub_no": "or", "marks": "7", "question": "..." },
+                                        {
+                                        "number": "7",
+                                        "instruction": "Write short notes on: (Any two)",
+                                        "marks": "10",
+                                        "options": [
+                                        { "sub_no": "a", "marks": "5", "question": "..." }
+                                        ]
+                                        }
+                                        ]
+                                        }]
+                                        }
+
+                                        Rules:
+                                        - id format: "YYYY_fall" or "YYYY_spring"
+                                        - OR questions: use sub_no "or"
+                                        - Q7 short notes: use the options array
+                                        - Copy full question text exactly, nothing abbreviated</div>
+                                </div>
+                            </div>
+                            <div class="guide-step">
+                                <div class="gs-dot">4</div>
+                                <div class="gs-content">
+                                    <div class="gs-label">Validate the JSON before saving</div>
+                                    <div class="gs-desc">Paste the AI output into <span
+                                            class="gs-ic">jsonlint.com</span> — it will highlight any syntax errors
+                                        instantly.</div>
+                                </div>
+                            </div>
+                            <div class="guide-step">
+                                <div class="gs-dot">5</div>
+                                <div class="gs-content">
+                                    <div class="gs-label">Save into old_question_papers.json</div>
+                                    <div class="gs-desc">To add more papers later, insert new paper objects at the top
+                                        of the <span class="gs-ic">"papers"</span> array and repeat from step 1 of this
+                                        section.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Step 4 -->
+                    <div class="guide-section open" id="gs-4">
+                        <div class="guide-section-hdr" onclick="togGuide(4)">
+                            <span class="gs-num">Step 4</span>
+                            <span class="gs-title">Add syllabus.json (optional)</span>
+                            <span class="gs-chev">&#9654;</span>
+                        </div>
+                        <div class="guide-section-body">
+                            <div class="guide-step">
+                                <div class="gs-dot">1</div>
+                                <div class="gs-content">
+                                    <div class="gs-label">Structure the file by units and topics</div>
+                                    <div class="gs-code">{
+                                        "course_title": "Your Course Name",
+                                        "course_code": "3-1-2",
+                                        "total_hours": 45,
+                                        "course_contents": [
+                                        {
+                                        "unit": 1,
+                                        "title": "Unit Title Here",
+                                        "hours": 6,
+                                        "topics": [
+                                        { "topic": "1.1 Topic name", "frequency": 10 },
+                                        { "topic": "1.2 Topic name", "frequency": 4 }
+                                        ]
+                                        }
+                                        ]
+                                        }</div>
+                                </div>
+                            </div>
+                            <div class="guide-step">
+                                <div class="gs-dot">2</div>
+                                <div class="gs-content">
+                                    <div class="gs-label">Set frequency = number of past papers that asked each topic
+                                    </div>
+                                    <div class="gs-desc">Count once per paper even if the topic appeared multiple times
+                                        in the same paper. High / Mid / Low colour coding is calculated automatically
+                                        relative to the highest frequency value.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Step 5 -->
+                    <div class="guide-section open" id="gs-5">
+                        <div class="guide-section-hdr" onclick="togGuide(5)">
+                            <span class="gs-num">Step 5</span>
+                            <span class="gs-title">Add repeated_questions.json (optional)</span>
+                            <span class="gs-chev">&#9654;</span>
+                        </div>
+                        <div class="guide-section-body">
+                            <div class="guide-step">
+                                <div class="gs-dot">1</div>
+                                <div class="gs-content">
+                                    <div class="gs-label">List questions that appeared in multiple papers</div>
+                                    <div class="gs-code">{
+                                        "repeated_questions": [
+                                        {
+                                        "question": "Design a FIR filter using Kaiser window...",
+                                        "topic": "6.3 Kaiser Window Design",
+                                        "freq": 9,
+                                        "papers": ["2024_fall", "2023_spring", "2021_fall"]
+                                        }
+                                        ]
+                                        }</div>
+                                </div>
+                            </div>
+                            <div class="guide-step">
+                                <div class="gs-dot">2</div>
+                                <div class="gs-content">
+                                    <div class="gs-label">Paper IDs must match those in old_question_papers.json</div>
+                                    <div class="gs-desc">Use the exact <span class="gs-ic">"id"</span> value from each
+                                        paper object, e.g. <span class="gs-ic">"2024_fall"</span>. Mismatched IDs will
+                                        show blank chips in the Repeated tab.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Step 6 -->
+                    <div class="guide-section open" id="gs-6">
+                        <div class="guide-section-hdr" onclick="togGuide(6)">
+                            <span class="gs-num">Step 6</span>
+                            <span class="gs-title">Run the app</span>
+                            <span class="gs-chev">&#9654;</span>
+                        </div>
+                        <div class="guide-section-body">
+                            <div class="guide-step">
+                                <div class="gs-dot">1</div>
+                                <div class="gs-content">
+                                    <div class="gs-label">Windows — double-click App.bat</div>
+                                    <div class="gs-desc">It starts a local server and opens the app in your browser
+                                        automatically.</div>
+                                </div>
+                            </div>
+                            <div class="guide-step">
+                                <div class="gs-dot">2</div>
+                                <div class="gs-content">
+                                    <div class="gs-label">Any OS — run a server manually in the project folder</div>
+                                    <div class="gs-code">python -m http.server 8000</div>
+                                    <div class="gs-desc">Then open <span
+                                            class="gs-ic">http://localhost:8000/app-page.html</span> in your browser.
+                                    </div>
+                                    <div class="gs-note">Do not open app-page.html by double-clicking — the browser will
+                                        block JSON loading for security reasons.</div>
+                                </div>
+                            </div>
+                            <div class="guide-step">
+                                <div class="gs-dot">3</div>
+                                <div class="gs-content">
+                                    <div class="gs-label">If something looks wrong, open browser console (F12)</div>
+                                    <div class="gs-desc">Most errors are JSON syntax mistakes. Validate every file at
+                                        <span class="gs-ic">jsonlint.com</span> if the app doesn't load correctly.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div><!-- /guide-wrap -->
+            </div><!-- /pane-guide -->
+
         </div>
     </div>
 
     <script>
-        // ════════════════════════════════════════════════════
-        // STATE
-        // ════════════════════════════════════════════════════
-        const S = {
-            cfg: null, qp: null, rq: null, syl: null,
-            f: { year: '', sem: '', qno: '', sub: '', marks: '' },
-            p: { year: null, sem: 'Fall' },
-            all: []
-        };
+        const S = { cfg: null, qp: null, rq: null, syl: null, f: { year: '', sem: '', qno: '', sub: '', marks: '' }, p: { year: null, sem: 'Fall' }, all: [] };
 
-        // ════════════════════════════════════════════════════
-        // BOOT
-        // ════════════════════════════════════════════════════
         async function init() {
             try {
                 S.cfg = await get('app-info.json');
-                applyTheme(S.cfg);
-                renderHeader(S.cfg);
+                applyTheme(S.cfg); renderHeader(S.cfg);
                 for (const item of S.cfg.content) {
-                    try {
-                        const d = await get(item.file);
-                        if (d.papers) S.qp = d;
-                        if (d.repeated_questions) S.rq = d;
-                        if (d.course_contents) S.syl = d;
-                    } catch (e) { console.warn('Could not load', item.file, e); }
+                    try { const d = await get(item.file); if (d.papers) S.qp = d; if (d.repeated_questions) S.rq = d; if (d.course_contents) S.syl = d; }
+                    catch (e) { console.warn('Could not load', item.file, e); }
                 }
                 if (S.qp) S.all = flatQ();
-                buildTabs();
-                hide('loading');
-                show('app');
+                buildTabs(); hide('loading'); show('app');
             } catch (e) {
-                document.getElementById('loading').innerHTML = `
-        <div style="max-width:480px;margin:24px;font-family:'Source Sans 3',system-ui,sans-serif">
-
-            <div style="background:#FAEBEB;border:1px solid #F5C0C0;border-radius:6px;padding:20px 24px;margin-bottom:16px">
-                <div style="font-weight:700;font-size:15px;color:#7A1A1A;margin-bottom:4px">⚠ Cannot load App.json</div>
-                <div style="font-size:13.5px;color:#A03030;line-height:1.5">
-                    Browsers block local file reading for security. This app must be served over HTTP.
-                </div>
-            </div>
-
-            <div style="background:#fff;border:1px solid #DDD9CE;border-radius:6px;padding:20px 24px">
-                <div style="font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:.7px;color:#9A9189;margin-bottom:14px">How to run</div>
-
-                <div style="display:flex;flex-direction:column;gap:12px">
-
-                    <div style="display:flex;gap:12px;align-items:flex-start">
-                        <span style="background:#EBF0FA;color:#2B5EA7;font-weight:700;font-size:12px;width:22px;height:22px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px">1</span>
-                        <div>
-                            <div style="font-size:13.5px;color:#1A1816;margin-bottom:5px">Open a terminal in this project folder</div>
-                            <div style="font-size:11.5px;color:#9A9189">The folder that contains <code style="background:#F1EEE8;padding:1px 5px;border-radius:3px;font-family:monospace">index.html</code> and <code style="background:#F1EEE8;padding:1px 5px;border-radius:3px;font-family:monospace">App.json</code></div>
-                        </div>
-                    </div>
-
-                    <div style="display:flex;gap:12px;align-items:flex-start">
-                        <span style="background:#EBF0FA;color:#2B5EA7;font-weight:700;font-size:12px;width:22px;height:22px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px">2</span>
-                        <div style="width:100%">
-                            <div style="font-size:13.5px;color:#1A1816;margin-bottom:6px">Run one of these commands:</div>
-                            <div style="display:flex;flex-direction:column;gap:5px">
-                                <div style="background:#1A1816;border-radius:4px;padding:8px 12px;display:flex;justify-content:space-between;align-items:center">
-                                    <code style="font-family:monospace;font-size:13px;color:#E8E4DC">python -m http.server 8000</code>
-                                    <span style="font-size:10px;color:#9A9189;margin-left:10px;white-space:nowrap">Python 3</span>
-                                </div>
-                                <div style="background:#1A1816;border-radius:4px;padding:8px 12px;display:flex;justify-content:space-between;align-items:center">
-                                    <code style="font-family:monospace;font-size:13px;color:#E8E4DC">npx serve .</code>
-                                    <span style="font-size:10px;color:#9A9189;margin-left:10px;white-space:nowrap">Node.js</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div style="display:flex;gap:12px;align-items:flex-start">
-                        <span style="background:#EBF0FA;color:#2B5EA7;font-weight:700;font-size:12px;width:22px;height:22px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px">3</span>
-                        <div style="width:100%">
-                            <div style="font-size:13.5px;color:#1A1816;margin-bottom:8px">Once the server is running, open:</div>
-                            <button onclick="window.location.href='http://localhost:8000'"
-                                style="width:100%;padding:10px;background:#2B5EA7;color:#fff;border:none;border-radius:5px;font-family:'Source Sans 3',system-ui,sans-serif;font-size:14px;font-weight:600;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:8px;transition:background .15s"
-                                onmouseover="this.style.background='#1F4A8A'"
-                                onmouseout="this.style.background='#2B5EA7'">
-                                <span>Open localhost:8000</span>
-                                <span style="font-size:16px">→</span>
-                            </button>
-                            <div style="font-size:11px;color:#9A9189;margin-top:6px;text-align:center">
-                                Click after the server has started in your terminal
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-        </div>`;
+                document.getElementById('loading').innerHTML = `<div style="max-width:480px;margin:24px;font-family:'Source Sans 3',system-ui,sans-serif"><div style="background:#FAEBEB;border:1px solid #F5C0C0;border-radius:6px;padding:20px 24px;margin-bottom:16px"><div style="font-weight:700;font-size:15px;color:#7A1A1A;margin-bottom:4px">⚠ Cannot load App.json</div><div style="font-size:13.5px;color:#A03030;line-height:1.5">Browsers block local file reading for security. This app must be served over HTTP.</div></div><div style="background:#fff;border:1px solid #DDD9CE;border-radius:6px;padding:20px 24px"><div style="font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:.7px;color:#9A9189;margin-bottom:14px">How to run</div><div style="display:flex;flex-direction:column;gap:12px"><div style="display:flex;gap:12px;align-items:flex-start"><span style="background:#EBF0FA;color:#2B5EA7;font-weight:700;font-size:12px;width:22px;height:22px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px">1</span><div><div style="font-size:13.5px;color:#1A1816;margin-bottom:5px">Open a terminal in this project folder</div><div style="font-size:11.5px;color:#9A9189">The folder that contains <code style="background:#F1EEE8;padding:1px 5px;border-radius:3px;font-family:monospace">index.html</code> and <code style="background:#F1EEE8;padding:1px 5px;border-radius:3px;font-family:monospace">App.json</code></div></div></div><div style="display:flex;gap:12px;align-items:flex-start"><span style="background:#EBF0FA;color:#2B5EA7;font-weight:700;font-size:12px;width:22px;height:22px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px">2</span><div style="width:100%"><div style="font-size:13.5px;color:#1A1816;margin-bottom:6px">Run one of these commands:</div><div style="display:flex;flex-direction:column;gap:5px"><div style="background:#1A1816;border-radius:4px;padding:8px 12px;display:flex;justify-content:space-between;align-items:center"><code style="font-family:monospace;font-size:13px;color:#E8E4DC">python -m http.server 8000</code><span style="font-size:10px;color:#9A9189;margin-left:10px;white-space:nowrap">Python 3</span></div><div style="background:#1A1816;border-radius:4px;padding:8px 12px;display:flex;justify-content:space-between;align-items:center"><code style="font-family:monospace;font-size:13px;color:#E8E4DC">npx serve .</code><span style="font-size:10px;color:#9A9189;margin-left:10px;white-space:nowrap">Node.js</span></div></div></div></div><div style="display:flex;gap:12px;align-items:flex-start"><span style="background:#EBF0FA;color:#2B5EA7;font-weight:700;font-size:12px;width:22px;height:22px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px">3</span><div style="width:100%"><div style="font-size:13.5px;color:#1A1816;margin-bottom:8px">Once the server is running, open:</div><button onclick="window.location.href='http://localhost:8000'" style="width:100%;padding:10px;background:#2B5EA7;color:#fff;border:none;border-radius:5px;font-family:'Source Sans 3',system-ui,sans-serif;font-size:14px;font-weight:600;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:8px;transition:background .15s" onmouseover="this.style.background='#1F4A8A'" onmouseout="this.style.background='#2B5EA7'"><span>Open localhost:8000</span><span style="font-size:16px">→</span></button><div style="font-size:11px;color:#9A9189;margin-top:6px;text-align:center">Click after the server has started in your terminal</div></div></div></div></div></div>`;
             }
         }
 
@@ -722,27 +1662,15 @@
         function show(id) { el(id).style.display = '' }
         function hide(id) { el(id).style.display = 'none' }
 
-        // ════════════════════════════════════════════════════
-        // THEME & HEADER
-        // ════════════════════════════════════════════════════
-        function applyTheme(cfg) {
-            if (cfg.accent_color)
-                document.documentElement.style.setProperty('--accent', cfg.accent_color);
-        }
+        function applyTheme(cfg) { if (cfg.accent_color) document.documentElement.style.setProperty('--accent', cfg.accent_color); }
         function renderHeader(cfg) {
             document.title = cfg.app_name || cfg.app || 'OM Analyzer';
             el('hdr-title').textContent = cfg.app_name || cfg.app || 'OM Analyzer';
             el('hdr-sub').textContent = [cfg.university, cfg.program].filter(Boolean).join(' · ');
             el('hdr-badge').textContent = [cfg.course, cfg.course_code].filter(Boolean).join(' — ');
-            if (cfg.app_ic) {
-                const img = el('hdr-icon'); img.src = cfg.app_ic; img.style.display = 'block';
-                img.onerror = () => { img.style.display = 'none'; };
-            }
+            if (cfg.app_ic) { const img = el('hdr-icon'); img.src = cfg.app_ic; img.style.display = 'block'; img.onerror = () => { img.style.display = 'none'; }; }
         }
 
-        // ════════════════════════════════════════════════════
-        // TABS
-        // ════════════════════════════════════════════════════
         function buildTabs() {
             const lbl = S.cfg.tab_labels || {};
             const tabs = [];
@@ -750,9 +1678,8 @@
             if (S.qp) tabs.push({ id: 'papers', label: lbl.papers || 'Papers' });
             if (S.rq) tabs.push({ id: 'repeated', label: lbl.repeated || 'Repeated' });
             if (S.syl) tabs.push({ id: 'syllabus', label: lbl.syllabus || 'Syllabus' });
-            qs('#tabs').innerHTML = tabs.map(t =>
-                `<button class="tab-btn" data-t="${t.id}" onclick="goTab('${t.id}')">${t.label}</button>`
-            ).join('');
+            tabs.push({ id: 'guide', label: lbl.guide || 'Setup Guide' });   // ← always shown
+            qs('#tabs').innerHTML = tabs.map(t => `<button class="tab-btn" data-t="${t.id}" onclick="goTab('${t.id}')">${t.label}</button>`).join('');
             if (tabs.length) goTab(tabs[0].id);
         }
         function goTab(id) {
@@ -764,103 +1691,39 @@
             if (id === 'syllabus' && S.syl && !el('syl-out').children.length) { renderSyl(); }
         }
 
-        // ════════════════════════════════════════════════════
-        // FLATTEN + AUTO-STATS
-        // ════════════════════════════════════════════════════
         function flatQ() {
             const all = [];
             for (const p of S.qp.papers) {
                 for (const q of p.questions) {
-                    if (q.options) {
-                        // Options inherit the parent question's context (if any)
-                        q.options.forEach(o => all.push({
-                            pid: p.id,
-                            year: p.year,
-                            sem: p.semester,
-                            num: q.number,
-                            sub: o.sub_no,
-                            marks: parseInt(o.marks) || 0,
-                            text: o.question,
-                            ctx: q.context || ''       // ← carry context down
-                        }));
-                    } else {
-                        all.push({
-                            pid: p.id,
-                            year: p.year,
-                            sem: p.semester,
-                            num: q.number,
-                            sub: q.sub_no,
-                            marks: parseInt(q.marks) || 0,
-                            text: q.question,
-                            ctx: q.context || ''       // ← plain question context
-                        });
-                    }
+                    if (q.options) { q.options.forEach(o => all.push({ pid: p.id, year: p.year, sem: p.semester, num: q.number, sub: o.sub_no, marks: parseInt(o.marks) || 0, text: o.question, ctx: q.context || '' })); }
+                    else { all.push({ pid: p.id, year: p.year, sem: p.semester, num: q.number, sub: q.sub_no, marks: parseInt(q.marks) || 0, text: q.question, ctx: q.context || '' }); }
                 }
             }
             return all;
         }
 
         function computeAuto() {
-            const papers = S.qp ? S.qp.papers : [];
-            const all = S.all;
+            const papers = S.qp ? S.qp.papers : []; const all = S.all;
             const years = [...new Set(papers.map(p => p.year))].sort();
             const freq = {}; all.forEach(q => { const k = q.text.trim().slice(0, 40).toLowerCase(); freq[k] = (freq[k] || 0) + 1; });
             const peak = all.length ? Math.max(...Object.values(freq)) : 0;
-            return {
-                'papers': papers.length,
-                'questions': all.length,
-                'chapters': S.syl ? S.syl.course_contents.length : 0,
-                'topics': S.syl ? S.syl.course_contents.reduce((a, u) => a + u.topics.length, 0) : 0,
-                'peak': peak + '×',
-                'yearspan': years.length > 1 ? `${years[0]}–${years[years.length - 1]}` : (years[0] || '—'),
-                'semesters': [...new Set(papers.map(p => p.semester))].join(' / ')
-            };
+            return { 'papers': papers.length, 'questions': all.length, 'chapters': S.syl ? S.syl.course_contents.length : 0, 'topics': S.syl ? S.syl.course_contents.reduce((a, u) => a + u.topics.length, 0) : 0, 'peak': peak + '×', 'yearspan': years.length > 1 ? `${years[0]}–${years[years.length - 1]}` : (years[0] || '—'), 'semesters': [...new Set(papers.map(p => p.semester))].join(' / ') };
         }
 
-        // ════════════════════════════════════════════════════
-        // STATS BAR
-        // ════════════════════════════════════════════════════
         function renderStats() {
-            const items = S.cfg.overview;
-            if (!items || !items.length) { el('stats-bar').style.display = 'none'; return; }
+            const items = S.cfg.overview; if (!items || !items.length) { el('stats-bar').style.display = 'none'; return; }
             const auto = computeAuto();
             el('stats-bar').style.gridTemplateColumns = `repeat(${items.length},1fr)`;
-            el('stats-bar').innerHTML = items.map(item => {
-                let val = item.value;
-                if (typeof val === 'string' && val.startsWith('auto:')) {
-                    const key = val.slice(5);
-                    val = auto[key] !== undefined ? auto[key] : '—';
-                }
-                return `<div class="stat-cell"><div class="stat-val">${val}</div><div class="stat-lbl">${item.label}</div></div>`;
-            }).join('');
+            el('stats-bar').innerHTML = items.map(item => { let val = item.value; if (typeof val === 'string' && val.startsWith('auto:')) { const key = val.slice(5); val = auto[key] !== undefined ? auto[key] : '—'; } return `<div class="stat-cell"><div class="stat-val">${val}</div><div class="stat-lbl">${item.label}</div></div>`; }).join('');
         }
 
-        // ════════════════════════════════════════════════════
-        // CONTEXT BLOCK HELPER
-        // Returns HTML string for a context block, or '' if no context.
-        // uid = unique string so each expand button works independently.
-        // ════════════════════════════════════════════════════
         function ctxHtml(text, uid) {
             if (!text || !text.trim()) return '';
             const escaped = text.replace(/</g, '&lt;').replace(/>/g, '&gt;');
-            return `<div class="ctx-block">
-                <div class="ctx-label">Case Study / Context</div>
-                <div class="ctx-text" id="ctx-t-${uid}">${escaped}</div>
-                <button class="ctx-toggle" id="ctx-b-${uid}" onclick="toggleCtx('${uid}')">Show more ▾</button>
-            </div>`;
+            return `<div class="ctx-block"><div class="ctx-label">Case Study / Context</div><div class="ctx-text" id="ctx-t-${uid}">${escaped}</div><button class="ctx-toggle" id="ctx-b-${uid}" onclick="toggleCtx('${uid}')">Show more ▾</button></div>`;
         }
+        function toggleCtx(uid) { const t = el('ctx-t-' + uid); const b = el('ctx-b-' + uid); if (!t) return; const expanded = t.classList.toggle('expanded'); b.textContent = expanded ? 'Show less ▴' : 'Show more ▾'; }
 
-        function toggleCtx(uid) {
-            const t = el('ctx-t-' + uid);
-            const b = el('ctx-b-' + uid);
-            if (!t) return;
-            const expanded = t.classList.toggle('expanded');
-            b.textContent = expanded ? 'Show less ▴' : 'Show more ▾';
-        }
-
-        // ════════════════════════════════════════════════════
-        // QUESTIONS TAB
-        // ════════════════════════════════════════════════════
         function initQTab() {
             renderStats();
             const years = [...new Set(S.qp.papers.map(p => p.year))].sort((a, b) => b - a);
@@ -871,225 +1734,76 @@
             populate('fd-qno', qnos, 'All Q'); populate('fd-sub', subs, 'All Types');
             renderQ();
         }
-        function populate(id, vals, label) {
-            el(id).innerHTML = `<option value="">${label}</option>` + vals.map(v => `<option value="${v}">${v}</option>`).join('');
-        }
+        function populate(id, vals, label) { el(id).innerHTML = `<option value="">${label}</option>` + vals.map(v => `<option value="${v}">${v}</option>`).join(''); }
         function onFilter() {
-            S.f.year = el('fd-year').value; S.f.sem = el('fd-sem').value;
-            S.f.qno = el('fd-qno').value; S.f.sub = el('fd-sub').value; S.f.marks = el('fd-marks').value;
+            S.f.year = el('fd-year').value; S.f.sem = el('fd-sem').value; S.f.qno = el('fd-qno').value; S.f.sub = el('fd-sub').value; S.f.marks = el('fd-marks').value;
             ['fd-year', 'fd-sem', 'fd-qno', 'fd-sub'].forEach(id => el(id).classList.toggle('active', !!el(id).value));
-            el('fd-marks').classList.toggle('active', !!el('fd-marks').value);
-            renderQ();
+            el('fd-marks').classList.toggle('active', !!el('fd-marks').value); renderQ();
         }
         function resetFilters() {
             ['fd-year', 'fd-sem', 'fd-qno', 'fd-sub'].forEach(id => { el(id).value = ''; el(id).classList.remove('active'); });
-            el('fd-marks').value = ''; el('fd-marks').classList.remove('active');
-            S.f = { year: '', sem: '', qno: '', sub: '', marks: '' }; renderQ();
+            el('fd-marks').value = ''; el('fd-marks').classList.remove('active'); S.f = { year: '', sem: '', qno: '', sub: '', marks: '' }; renderQ();
         }
         function renderQ() {
-            let list = S.all;
-            const { year, sem, qno, sub, marks } = S.f;
-            if (year) list = list.filter(q => q.year === year);
-            if (sem) list = list.filter(q => q.sem === sem);
-            if (qno) list = list.filter(q => q.num === qno);
-            if (sub) list = list.filter(q => q.sub === sub);
+            let list = S.all; const { year, sem, qno, sub, marks } = S.f;
+            if (year) list = list.filter(q => q.year === year); if (sem) list = list.filter(q => q.sem === sem);
+            if (qno) list = list.filter(q => q.num === qno); if (sub) list = list.filter(q => q.sub === sub);
             if (marks) list = list.filter(q => q.marks >= parseInt(marks));
             el('res-info').textContent = `${list.length} question${list.length !== 1 ? 's' : ''} found`;
-            el('q-list').innerHTML = list.length === 0
-                ? `<div class="no-results">No questions match the selected filters.</div>`
-                : list.map((q, i) => {
-                    // Only show context once per unique parent (same pid + num + ctx)
-                    // In the flat list, multiple options from the same parent share the same ctx.
-                    // Show context on the first option of that parent group.
-                    const uid = `q${i}`;
-                    const ctx = ctxHtml(q.ctx, uid);
-                    return `<div class="q-card">
-                        ${ctx}
-                        <div class="q-inner">
-                            <div class="q-meta">
-                                <span class="q-paper">${q.year} ${q.sem.slice(0, 2).toUpperCase()}</span>
-                                <span class="q-id">Q${q.num}(${q.sub})</span>
-                            </div>
-                            <div class="q-text">${q.text}</div>
-                            <div class="q-marks">${q.marks} mk</div>
-                        </div>
-                    </div>`;
-                }).join('');
+            el('q-list').innerHTML = list.length === 0 ? `<div class="no-results">No questions match the selected filters.</div>` : list.map((q, i) => { const uid = `q${i}`; const ctx = ctxHtml(q.ctx, uid); return `<div class="q-card">${ctx}<div class="q-inner"><div class="q-meta"><span class="q-paper">${q.year} ${q.sem.slice(0, 2).toUpperCase()}</span><span class="q-id">Q${q.num}(${q.sub})</span></div><div class="q-text">${q.text}</div><div class="q-marks">${q.marks} mk</div></div></div>`; }).join('');
         }
 
-        // ════════════════════════════════════════════════════
-        // REPEATED QUESTIONS TAB
-        // ════════════════════════════════════════════════════
         function tierClass(pct) { return pct >= 60 ? 'rq-hi' : pct >= 30 ? 'rq-mi' : 'rq-lo'; }
         function tierLabel(pct) { return pct >= 60 ? 'High' : pct >= 30 ? 'Mid' : 'Low'; }
-
         function renderRepeated() {
-            const sortBy = el('rq-sort').value;
-            const tierF = el('rq-tier').value;
-            const all = S.rq.repeated_questions;
-            const maxF = Math.max(...all.map(r => r.freq));
+            const sortBy = el('rq-sort').value; const tierF = el('rq-tier').value; const all = S.rq.repeated_questions; const maxF = Math.max(...all.map(r => r.freq));
             let list = [...all];
-            if (tierF) {
-                list = list.filter(r => {
-                    const pct = r.freq / maxF * 100;
-                    if (tierF === 'hi') return pct >= 60;
-                    if (tierF === 'mi') return pct >= 30 && pct < 60;
-                    if (tierF === 'lo') return pct < 30;
-                    return true;
-                });
-            }
-            if (sortBy === 'freq-desc') list.sort((a, b) => b.freq - a.freq);
-            else if (sortBy === 'freq-asc') list.sort((a, b) => a.freq - b.freq);
-            else if (sortBy === 'topic') list.sort((a, b) => a.topic.localeCompare(b.topic));
+            if (tierF) { list = list.filter(r => { const pct = r.freq / maxF * 100; if (tierF === 'hi') return pct >= 60; if (tierF === 'mi') return pct >= 30 && pct < 60; if (tierF === 'lo') return pct < 30; return true; }); }
+            if (sortBy === 'freq-desc') list.sort((a, b) => b.freq - a.freq); else if (sortBy === 'freq-asc') list.sort((a, b) => a.freq - b.freq); else if (sortBy === 'topic') list.sort((a, b) => a.topic.localeCompare(b.topic));
             el('rq-info').textContent = `${list.length} question${list.length !== 1 ? 's' : ''}`;
-            if (list.length === 0) {
-                el('rq-list').innerHTML = `<div class="no-results">No repeated questions match the selected filter.</div>`;
-                return;
-            }
-            el('rq-list').innerHTML = list.map((r, idx) => {
-                const pct = (r.freq / maxF * 100).toFixed(1);
-                const cls = tierClass(pct);
-                const lbl = tierLabel(pct);
-                const chips = (r.papers || []).map(pid => {
-                    const parts = pid.split('_');
-                    const yr = parts[0];
-                    const sem = (parts[1] || '').slice(0, 2).toUpperCase();
-                    return `<span class="rq-chip">${yr} ${sem}</span>`;
-                }).join('');
-                return `<div class="rq-card ${cls}" id="rqc-${idx}">
-            <div class="rq-main" onclick="toggleRqPapers(${idx})">
-                <div class="rq-text">${r.question}</div>
-                <div class="rq-topic">
-                    <span class="rq-topic-dot"></span>
-                    <span class="rq-topic-name">${r.topic}</span>
-                </div>
-                <div class="rq-freq-col">
-                    <span class="rq-freq-badge">${r.freq}×</span>
-                    <div class="rq-freq-track">
-                        <div class="rq-freq-fill" style="width:${pct}%"></div>
-                    </div>
-                    <span class="rq-freq-lbl">${lbl}</span>
-                </div>
-            </div>
-            <div class="rq-papers" id="rqp-${idx}">
-                <div class="rq-papers-label">Appeared in</div>
-                <div class="rq-paper-chips">${chips}</div>
-            </div>
-        </div>`;
-            }).join('');
+            if (list.length === 0) { el('rq-list').innerHTML = `<div class="no-results">No repeated questions match the selected filter.</div>`; return; }
+            el('rq-list').innerHTML = list.map((r, idx) => { const pct = (r.freq / maxF * 100).toFixed(1); const cls = tierClass(pct); const lbl = tierLabel(pct); const chips = (r.papers || []).map(pid => { const parts = pid.split('_'); return `<span class="rq-chip">${parts[0]} ${(parts[1] || '').slice(0, 2).toUpperCase()}</span>`; }).join(''); return `<div class="rq-card ${cls}" id="rqc-${idx}"><div class="rq-main" onclick="toggleRqPapers(${idx})"><div class="rq-text">${r.question}</div><div class="rq-topic"><span class="rq-topic-dot"></span><span class="rq-topic-name">${r.topic}</span></div><div class="rq-freq-col"><span class="rq-freq-badge">${r.freq}×</span><div class="rq-freq-track"><div class="rq-freq-fill" style="width:${pct}%"></div></div><span class="rq-freq-lbl">${lbl}</span></div></div><div class="rq-papers" id="rqp-${idx}"><div class="rq-papers-label">Appeared in</div><div class="rq-paper-chips">${chips}</div></div></div>`; }).join('');
         }
-
         function toggleRqPapers(idx) { el('rqp-' + idx).classList.toggle('open'); }
 
-        // ════════════════════════════════════════════════════
-        // PAPERS TAB
-        // ════════════════════════════════════════════════════
-        function initPapers() {
-            const years = [...new Set(S.qp.papers.map(p => p.year))].sort((a, b) => b - a);
-            el('pp-year').innerHTML = years.map(y => `<option value="${y}">${y}</option>`).join('');
-            S.p.year = years[0]; syncSemButtons();
-        }
+        function initPapers() { const years = [...new Set(S.qp.papers.map(p => p.year))].sort((a, b) => b - a); el('pp-year').innerHTML = years.map(y => `<option value="${y}">${y}</option>`).join(''); S.p.year = years[0]; syncSemButtons(); }
         function onPaperChange() { S.p.year = el('pp-year').value; syncSemButtons(); }
         function syncSemButtons() {
-            const avail = S.qp.papers.filter(p => p.year === S.p.year).map(p => p.semester);
-            let matched = false;
-            qsa('#pp-sem button').forEach(b => {
-                const has = avail.includes(b.dataset.s); b.style.display = has ? '' : 'none';
-                if (has && !matched) { b.classList.add('on'); S.p.sem = b.dataset.s; matched = true; }
-                else b.classList.remove('on');
-            });
+            const avail = S.qp.papers.filter(p => p.year === S.p.year).map(p => p.semester); let matched = false;
+            qsa('#pp-sem button').forEach(b => { const has = avail.includes(b.dataset.s); b.style.display = has ? '' : 'none'; if (has && !matched) { b.classList.add('on'); S.p.sem = b.dataset.s; matched = true; } else b.classList.remove('on'); });
             renderPaper();
         }
-        function setPaperSem(btn) {
-            S.p.sem = btn.dataset.s;
-            qsa('#pp-sem button').forEach(b => b.classList.remove('on'));
-            btn.classList.add('on');
-            renderPaper();
-        }
+        function setPaperSem(btn) { S.p.sem = btn.dataset.s; qsa('#pp-sem button').forEach(b => b.classList.remove('on')); btn.classList.add('on'); renderPaper(); }
         function renderPaper() {
-            const paper = S.qp.papers.find(p => p.year === S.p.year && p.semester === S.p.sem);
-            const out = el('paper-out');
+            const paper = S.qp.papers.find(p => p.year === S.p.year && p.semester === S.p.sem); const out = el('paper-out');
             if (!paper) { out.innerHTML = `<div class="no-results">No paper found.</div>`; return; }
             let rows = '';
             paper.questions.forEach((q, qi) => {
                 if (q.options) {
                     rows += `<div class="pq-section">Q.${q.number} — ${q.instruction || 'Short Notes (Any two)'}</div>`;
-                    // Show context once, right after the section header, only if it exists
-                    if (q.context && q.context.trim()) {
-                        const uid = `pp-${qi}`;
-                        rows += `<div class="pq-context">${ctxHtml(q.context, uid)}</div>`;
-                    }
-                    q.options.forEach(o => {
-                        rows += `<div class="pq-row">
-                            <div class="pq-num">${q.number}(${o.sub_no})</div>
-                            <div class="pq-text">${o.question}</div>
-                            <div class="pq-marks">${o.marks}</div>
-                        </div>`;
-                    });
+                    if (q.context && q.context.trim()) { rows += `<div class="pq-context">${ctxHtml(q.context, 'pp-' + qi)}</div>`; }
+                    q.options.forEach(o => { rows += `<div class="pq-row"><div class="pq-num">${q.number}(${o.sub_no})</div><div class="pq-text">${o.question}</div><div class="pq-marks">${o.marks}</div></div>`; });
                 } else {
-                    // Plain question — show context inline only if it exists
-                    // (rare: a non-options question with context, e.g. scenario + single Q)
-                    let ctxRow = '';
-                    if (q.context && q.context.trim()) {
-                        const uid = `pp-${qi}`;
-                        ctxRow = `<div class="pq-context">${ctxHtml(q.context, uid)}</div>`;
-                    }
-                    rows += ctxRow + `<div class="pq-row">
-                        <div class="pq-num">${q.number}(${q.sub_no})</div>
-                        <div class="pq-text">${q.question}</div>
-                        <div class="pq-marks">${q.marks}</div>
-                    </div>`;
+                    let ctxRow = ''; if (q.context && q.context.trim()) { ctxRow = `<div class="pq-context">${ctxHtml(q.context, 'pp-' + qi)}</div>`; }
+                    rows += ctxRow + `<div class="pq-row"><div class="pq-num">${q.number}(${q.sub_no})</div><div class="pq-text">${q.question}</div><div class="pq-marks">${q.marks}</div></div>`;
                 }
             });
-            out.innerHTML = `<div class="paper-wrap">
-                <div class="paper-hdr">
-                    <h2>Pokhara University &mdash; ${paper.year} ${paper.semester}</h2>
-                    <p>Full Marks: ${paper.full_marks || 100} &nbsp;&middot;&nbsp; Pass Marks: ${paper.pass_marks || 45} &nbsp;&middot;&nbsp; Time: 3 hrs.</p>
-                </div>
-                <div>${rows}</div>
-            </div>`;
+            out.innerHTML = `<div class="paper-wrap"><div class="paper-hdr"><h2>Pokhara University &mdash; ${paper.year} ${paper.semester}</h2><p>Full Marks: ${paper.full_marks || 100} &nbsp;&middot;&nbsp; Pass Marks: ${paper.pass_marks || 45} &nbsp;&middot;&nbsp; Time: 3 hrs.</p></div><div>${rows}</div></div>`;
         }
 
-        // ════════════════════════════════════════════════════
-        // SYLLABUS TAB
-        // ════════════════════════════════════════════════════
         function renderSyl() {
             const s = S.syl; const out = el('syl-out');
             const max = Math.max(...s.course_contents.flatMap(u => u.topics.map(t => t.frequency || 0)));
-            let html = `<div class="syl-info">
-        <div class="syl-info-item"><span class="sil">Course</span><span class="siv">${s.course_title || ''}</span></div>
-        <div class="syl-info-item"><span class="sil">Code</span><span class="siv" style="font-family:var(--font-mono)">${s.course_code || ''}</span></div>
-        <div class="syl-info-item"><span class="sil">Total Hours</span><span class="siv" style="font-family:var(--font-mono)">${s.total_hours || ''}</span></div>
-        <div class="freq-key">
-            <span style="font-size:11px;color:var(--text-3);margin-right:4px">Frequency (out of ${max} papers)</span>
-            <div class="fk-item"><span class="fk-dot hi"></span><span>High ≥60%</span></div>
-            <div class="fk-item"><span class="fk-dot mi"></span><span>Mid ≥30%</span></div>
-            <div class="fk-item"><span class="fk-dot lo"></span><span>Low</span></div>
-        </div>
-    </div>`;
+            let html = `<div class="syl-info"><div class="syl-info-item"><span class="sil">Course</span><span class="siv">${s.course_title || ''}</span></div><div class="syl-info-item"><span class="sil">Code</span><span class="siv" style="font-family:var(--font-mono)">${s.course_code || ''}</span></div><div class="syl-info-item"><span class="sil">Total Hours</span><span class="siv" style="font-family:var(--font-mono)">${s.total_hours || ''}</span></div><div class="freq-key"><span style="font-size:11px;color:var(--text-3);margin-right:4px">Frequency (out of ${max} papers)</span><div class="fk-item"><span class="fk-dot hi"></span><span>High ≥60%</span></div><div class="fk-item"><span class="fk-dot mi"></span><span>Mid ≥30%</span></div><div class="fk-item"><span class="fk-dot lo"></span><span>Low</span></div></div></div>`;
             s.course_contents.forEach(unit => {
-                html += `<div class="unit-block open" id="ub-${unit.unit}">
-            <div class="unit-hdr" onclick="togUnit(${unit.unit})">
-                <span class="u-num">Unit ${unit.unit}</span>
-                <span class="u-title">${unit.title}</span>
-                <span class="u-hours">${unit.hours} hrs</span>
-                <span class="u-chev">&#9654;</span>
-            </div>
-            <div class="unit-topics">
-                ${unit.topics.map(t => {
-                    const f = t.frequency || 0; const pct = max > 0 ? (f / max * 100).toFixed(1) : 0;
-                    const cls = pct >= 60 ? 'fhi' : pct >= 30 ? 'fmi' : 'flo';
-                    const lbl = pct >= 60 ? 'High' : pct >= 30 ? 'Mid' : 'Low';
-                    return `<div class="topic-row"><div class="t-name">${t.topic}</div>
-                        <div class="freq-grp ${cls}"><div class="freq-track"><div class="freq-fill" style="width:${pct}%"></div></div>
-                        <span class="freq-n">${f}</span><span class="freq-tag">${lbl}</span></div></div>`;
-                }).join('')}
-            </div>
-        </div>`;
+                html += `<div class="unit-block open" id="ub-${unit.unit}"><div class="unit-hdr" onclick="togUnit(${unit.unit})"><span class="u-num">Unit ${unit.unit}</span><span class="u-title">${unit.title}</span><span class="u-hours">${unit.hours} hrs</span><span class="u-chev">&#9654;</span></div><div class="unit-topics">${unit.topics.map(t => { const f = t.frequency || 0; const pct = max > 0 ? (f / max * 100).toFixed(1) : 0; const cls = pct >= 60 ? 'fhi' : pct >= 30 ? 'fmi' : 'flo'; const lbl = pct >= 60 ? 'High' : pct >= 30 ? 'Mid' : 'Low'; return `<div class="topic-row"><div class="t-name">${t.topic}</div><div class="freq-grp ${cls}"><div class="freq-track"><div class="freq-fill" style="width:${pct}%"></div></div><span class="freq-n">${f}</span><span class="freq-tag">${lbl}</span></div></div>`; }).join('')}</div></div>`;
             });
             out.innerHTML = html;
         }
         function togUnit(n) { el('ub-' + n).classList.toggle('open'); }
+
+        // Guide tab toggle
+        function togGuide(n) { el('gs-' + n).classList.toggle('open'); }
 
         init();
     </script>
