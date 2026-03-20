@@ -148,6 +148,21 @@
             line-height: 1
         }
 
+        /* Subject selector wrapper */
+        #subj-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        #subj-label {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            color: var(--text-3);
+            font-weight: 500;
+            white-space: nowrap;
+        }
+
         /* Subject selector — replaces old hdr-badge */
         #subj-select {
             appearance: none;
@@ -1326,8 +1341,11 @@
                 <div id="hdr-sub"></div>
             </div>
             <!-- Subject selector replaces the old static hdr-badge -->
-            <span id="subj-loading">Loading…</span>
-            <select id="subj-select" onchange="switchSubject(this.value)"></select>
+            <div id="subj-wrapper">
+                <span id="subj-label">Subject</span>
+                <select id="subj-select" onchange="switchSubject(this.value)"></select>
+                <span id="subj-loading">Loading…</span>
+            </div>
         </div>
         <div id="tabs"></div>
         <div id="main">
@@ -1750,9 +1768,9 @@
                 renderHeader(S.cfg);
                 buildSubjectSelector(S.cfg);
 
-                // Find and load the default subject
+                // Find and load the default subject, or first available
                 const selectable = (S.cfg.content || []).filter(isSelectable);
-                const defEntry = selectable.find(c => c.option === 'default') || selectable[0];
+                const defEntry = selectable.find(c => c.default === true) || selectable[0];
                 if (defEntry) {
                     await loadSubject(defEntry.subject);
                 }
@@ -1772,8 +1790,8 @@
         function show(id) { el(id).style.display = ''; }
         function hide(id) { el(id).style.display = 'none'; }
 
-        // A subject is shown in the selector only if option === 'default' or 'available'
-        function isSelectable(c) { return c.option === 'default' || c.option === 'available'; }
+        // A subject is shown in the selector only if option === 'available'
+        function isSelectable(c) { return c.option === 'available'; }
 
         // ════════════════════════════════════════════════════
         // SUBJECT SELECTOR
