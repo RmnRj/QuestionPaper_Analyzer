@@ -87,6 +87,27 @@
             "name": "Syllabus with Frequency",
             "type": "syllabus"
         }]
+    },
+    {
+        "subject": "Thermal",
+        "default": false,
+        "option": "available",
+        "files": [
+        {
+            "file": "BE_COMPUTER/Sem_II/Thermal/old_question_papers.json",
+            "name": "Old Question Papers",
+            "type": "questions"
+        },
+        {
+            "file": "BE_COMPUTER/Sem_II/Thermal/repeated_questions.json",
+            "name": "Repeated Questions",
+            "type": "repeated"
+        },
+        {
+            "file": "BE_COMPUTER/Sem_II/Thermal/syllabus.json",
+            "name": "Syllabus with Frequency",
+            "type": "syllabus"
+        }]
     }
     ]
 }

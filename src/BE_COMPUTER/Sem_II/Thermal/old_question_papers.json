@@ -1,0 +1,1826 @@
+{
+  "subject": "Thermal Science",
+  "university": "Pokhara University",
+  "level": "Bachelor",
+  "programme": "BE",
+  "full_marks": 100,
+  "pass_marks": 45,
+  "papers": [
+    {
+      "id": "2021-F",
+      "year": "2021",
+      "semester": "Fall",
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "What are the differences between the classical and the statistical approaches to thermodynamics?"
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "In a non-flow reversible process, the pressure and volume are related by P = v² + 10/v where P is in bar and v is in m³. During a process, the volume changes from 1.5 m³ to 4.5 m³. The heat added during the process is 800 kJ. Determine work done and change in internal energy."
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 6,
+          "question": "Define quality of steam, critical pressure, temperature and triple point."
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 9,
+          "question": "A 1.6 m³ rigid tank contains steam at 150°C. One-third of the volume is in the liquid phase and the rest is in the vapor form. Determine: (i) the pressure of the steam, (ii) the quality of the saturated mixture, (iii) the density of the mixture."
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 6,
+          "question": "How are specific heats at constant volume and constant pressure related to change in internal energy and enthalpy respectively?"
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 9,
+          "question": "Steam enters a nozzle at 500°C and 800 kPa with a velocity of 15 m/s, and leaves at 300°C and 200 kPa while losing heat at a rate of 30 kW. For an inlet area of 750 cm², determine the velocity and the volume flow rate of the steam at the nozzle exit."
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "State and prove the Clausius Theorem."
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Derive an expression of entropy change in an ideal gas for a polytropic process."
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 6,
+          "question": "Suggest on how to increase the thermal efficiency of Petrol, Diesel and Brayton Cycles. Give at least two ways for each cycle."
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 9,
+          "question": "A steam power plant operates on the Rankine cycle. The steam enters the turbine at 7 MPa and 550°C with a velocity of 30 m/s. It discharges to the condenser at 20 kPa with a velocity of 90 m/s. Calculate the thermal efficiency and the power produced for a flow rate of 37.8 kg/s. (Take pump work as 7.1 kJ/kg and heat supply as 3272.4 kJ/kg)"
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 6,
+          "question": "Briefly explain about several laws associated with conduction, convection and radiation heat transfer."
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 9,
+          "question": "A steam pipe 20 cm inside diameter and 25 cm outside diameter is covered with two layers of insulation. The thickness of the first and second layers are 3 cm and 6 cm respectively and their corresponding thermal conductivities are 0.15 and 0.08 W/mK respectively. The conductivity of the pipe material is 60 W/mK. The temperature of the inner surface of the steam pipe is 400°C and that of the outer surface insulation is 25°C. Find the quantity of heat lost per meter length of the pipe. Also find out the percentage decrease in the heat loss with two layers of insulation compared to only the first layer of insulation."
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on: (Any two) 2×5",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 5,
+              "question": "Irreversibility."
+            },
+            {
+              "sub_no": "b",
+              "marks": 5,
+              "question": "Refrigeration cycle."
+            },
+            {
+              "sub_no": "c",
+              "marks": 5,
+              "question": "Black Body and Gray Body."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2020-F",
+      "year": "2020",
+      "semester": "Fall",
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Define thermodynamic state and process. When is a system said to be in thermodynamic equilibrium? Explain."
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "A gas undergoes a polytropic process from an initial state of 450 kPa and 0.03 m³ to a final state of 150 kPa and 0.06 m³. Determine the work transfer."
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 9,
+          "question": "A closed rigid container with a volume of 0.2 m³ initially contains a mixture of saturated liquid water and saturated water vapor at a pressure of 100 kPa with a quality of 50%. Heat is added to the system until it reaches 200 kPa. Sketch the process on P-v and T-v diagrams and determine: (i) the temperature of each state, (ii) the mass of vapor present at each state, (iii) if the heating is continued, the pressure at which the container holds only saturated vapor."
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 6,
+          "question": "Explain whether a mixture of ice and water is a pure substance. Define critical pressure and triple point."
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "State the first law of thermodynamics. Starting from SFEE find equations for throttling device and compressor with necessary assumptions."
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "A system undergoes a cycle consisting of three processes. Compute the missing values. All quantities are in kJ.",
+          "table_data": {
+            "headers": [
+              "Process",
+              "Q (kJ)",
+              "W (kJ)",
+              "ΔE (kJ)"
+            ],
+            "rows": [
+              {
+                "process": "1→2",
+                "Q": "a",
+                "W": 100,
+                "delta_E": 100
+              },
+              {
+                "process": "2→3",
+                "Q": "b",
+                "W": -50,
+                "delta_E": "c"
+              },
+              {
+                "process": "3→1",
+                "Q": 100,
+                "W": "d",
+                "delta_E": -200
+              }
+            ]
+          }
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "State the statements about the second law of thermodynamics. Derive the relationship for COP between heat pump and refrigerator."
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Derive expressions for the entropy change of an ideal gas for isothermal and adiabatic processes."
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 6,
+          "question": "Differentiate between Carnot Cycle and Diesel Cycle."
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 9,
+          "question": "A CI engine is proposed to have a compression ratio of 15 while operating with a low temperature of 200°C and a low pressure of 200 kPa. If the work output is to be 1000 kJ/kg, calculate the maximum possible thermal efficiency. [Take Cp = 1.004 kJ/kgK, Cv = 0.717 kJ/kgK, R = 0.287 for air]"
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Derive an expression for rate of heat transfer through a composite hollow cylinder consisting of two different materials."
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "An exterior wall of a house consists of 10 cm of red brick (k = 0.9 W/mK) followed by a 3 cm layer of local plaster (k = 0.4 W/mK). What thickness of rock wool insulation (k = 0.07 W/mK) should be added to reduce the heat transfer through the wall by 85%?"
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on: (Any two) 2×5",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 5,
+              "question": "Reynolds Number and Nusselt's Number."
+            },
+            {
+              "sub_no": "b",
+              "marks": 5,
+              "question": "Refrigeration cycle."
+            },
+            {
+              "sub_no": "c",
+              "marks": 5,
+              "question": "Fourier's law of heat conduction."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2019-SP",
+      "year": "2019",
+      "semester": "Spring",
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 5,
+          "question": "Explain about the Zeroth Law of Thermodynamics."
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 5,
+          "question": "Give five similarities between heat and work."
+        },
+        {
+          "number": "1",
+          "sub_no": "c",
+          "marks": 5,
+          "question": "Define critical point, triple point, superheated vapour and quality."
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 9,
+          "question": "A rigid tank with a volume of 2.5 m³ contains 15 kg of saturated liquid-vapor mixture of water at 75°C. The water is slowly heated until the liquid in the tank is completely vaporized. Determine: (i) the final temperature, (ii) change in the internal energy during the process. Also show the process on a T-v diagram with respect to saturation lines."
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 6,
+          "question": "1 kg of a fluid is compressed reversibly according to a law Pv = 0.25 where P is in bar and v is in m³/kg. The final volume is 1/4 of the initial volume. Calculate the work done on the fluid and sketch the process on a p-v diagram."
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "State the first law of thermodynamics. By applying this law deduce the relation between the two specific heats of gas."
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Air flows at a rate of 1.2 kg/s through a compressor entering at 100 kPa, 25°C, with a velocity of 60 m/s and leaving at 500 kPa, 150°C, with a velocity of 120 m/s. Heat lost by the compressor to the surroundings is estimated to be 20 kJ/kg. Calculate the power required to drive the compressor and diameters of inlet and exhaust pipes. [Take R = 287 J/kgK and Cp = 1005 J/kgK]"
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Prove that the efficiency of a Carnot cycle is independent of the working substance and depends only on the temperature from the basis of absolute temperature scale."
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Derive an expression for entropy change of an ideal gas for an isothermal process."
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 6,
+          "question": "List three indicators for the improvement of efficiency on Rankine cycle. How is the compression in the Otto cycle different from that in the Brayton cycle?"
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 9,
+          "question": "A diesel engine has a compression ratio of 20:1 with an inlet of 95 kPa and 290 K, state 1, with volume 0.5 L. The maximum cycle temperature is 1800 K. Find the maximum pressure, the net specific work and the thermal efficiency. [Assume necessary air constants]"
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Derive the relation for overall heat transfer coefficient of a plane wall with fluids on both sides."
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "A steam pipe 20 cm inside diameter and 22 cm outside diameter is covered with two layers of insulation. The thickness of the first and second layers are 3 cm and 6 cm respectively and their corresponding thermal conductivities are 0.18 and 0.07 W/mK respectively. The conductivity of the pipe material is 55 W/mK. The temperature of the inner surface of the steam pipe is 400°C and that of the outer surface insulation is 25°C. Find the quantity of heat lost per meter length of the pipe. Also find out the percentage decrease in heat loss with two layers of insulation compared to only the first layer of insulation."
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on: (Any two) 2×5",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 5,
+              "question": "Kirchhoff's Law."
+            },
+            {
+              "sub_no": "b",
+              "marks": 5,
+              "question": "Lost work."
+            },
+            {
+              "sub_no": "c",
+              "marks": 5,
+              "question": "Forced convection."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2018-F",
+      "year": "2018",
+      "semester": "Fall",
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Differentiate between absolute and gauge pressure. What is a quasi-equilibrium process?"
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Determine the boundary work done by a gas during an expansion process if the pressure and volume values at various states are measured to be: 300 kPa, 1 L; 290 kPa, 1.1 L; 270 kPa, 1.2 L; 250 kPa, 1.4 L; 220 kPa, 1.7 L and 200 kPa, 2 L."
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "What is quality? Describe the properties of pure substances with examples."
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "A piston-cylinder device initially contains 50 L of liquid water at 40°C and 200 kPa. Heat is transferred to the water at constant pressure until the entire liquid is vaporized. Determine: (i) the mass of the water, (ii) the final temperature, (iii) the total enthalpy change. Also show the process on a T-v diagram with respect to saturation lines."
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 6,
+          "question": "State the first law of thermodynamics and prove that for a non-flow process it leads to Q = W + ΔU."
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 9,
+          "question": "Air flows through an open system at a steady mass flow rate of 5 kg/s. At inlet the air velocity is negligible, the pressure is 1 bar and the temperature is 15°C. The air flow is compressed isentropically and leaves the system at a pressure of 5 bar through a pipe with an internal diameter of 80 mm. (Assume for air: R = 287 J/kgK and γ = 1.4). Calculate: (i) the temperature of the air as it leaves the system, (ii) the velocity in the exit pipe, (iii) the power input to the air."
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Briefly explain the working principle of heat pump and refrigerator with schematic diagrams."
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Define available and unavailable energy. What are the factors affecting reversibility?"
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Give seven differences between SI and CI engines."
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "The turbine of a steam power plant operating on a simple Rankine cycle produces 1750 kW of power when the boiler is operated at 6 MPa, the condenser at 20 kPa and the temperature at the turbine entrance is 500°C. Given h₃ = 3423.1 kJ/kg and h₄ = 2267.5 kJ/kg, find the missing enthalpy values for the other two states. Determine: (i) rate of heat supply in the boiler, (ii) rate of heat rejection in the condenser, (iii) thermal efficiency.",
+          "fig_url": "img/2018-F-5b.png",
+          "fig_description": "T-s diagram of simple Rankine cycle with 4 labeled state points. Boiler at 6 MPa (top), condenser at 20 kPa (bottom). States 3 (turbine inlet) and 4 (turbine exit) enthalpies given; states 1 and 2 (pump) enthalpies unknown."
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "A hollow cylinder having inner and outer radii r₁ and r₂ respectively is subjected to a steady heat transfer resulting in constant surface temperatures T₁ and T₂ at r₁ and r₂. If the thermal conductivity can be expressed as k = k₀(1 + bθ), obtain an expression for the heat transfer per unit length of the cylinder."
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Discuss about the mechanism of forced and free convection."
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on: (Any two) 2×5",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 5,
+              "question": "Newton's Law."
+            },
+            {
+              "sub_no": "b",
+              "marks": 5,
+              "question": "Importance of dimensionless numbers."
+            },
+            {
+              "sub_no": "c",
+              "marks": 5,
+              "question": "Principle of increase of entropy."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2018-SP",
+      "year": "2018",
+      "semester": "Spring",
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "What is atmospheric pressure, absolute pressure, gauge pressure and negative pressure? Show relations between them."
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Air enters a compressor at 10⁵ Pa and 25°C having a specific volume of 1.8 m³/kg and is compressed to 5 × 10⁵ Pa isothermally. Determine: (i) work done, (ii) change in internal energy, (iii) heat transferred."
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Draw with neat labelling of the P-V diagram for water and describe it."
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Steam enters an engine at a pressure of 10 bar absolute and 400°C. It is exhausted at 0.2 bar. The steam at exhaust is 0.9 dry. Find: (i) drop in enthalpy, (ii) change in entropy."
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Show that the enthalpy of a fluid before throttling is equal to that after throttling."
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "A gas undergoes a thermodynamic cycle consisting of the following processes: (i) Process 1-2: Constant pressure, p = 1.4 bar, V₁ = 0.028 m³, W₁₂ = 10.5 kJ; (ii) Process 2-3: Compression with pV = constant, U₃ = U₂; (iii) Process 3-1: Constant volume, U₁ - U₃ = -26.4 kJ. There are no significant changes in KE and PE. (a) Calculate the net work for the cycle in kJ. (b) Calculate the heat transfer for the 1-2 process. (c) Show that ΣQ_cycle = ΣW_cycle."
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Draw a schematic diagram of a refrigerator and explain its working."
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Derive an expression of entropy change in an ideal gas for isothermal and constant volume processes."
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Derive an expression for air standard efficiency of Brayton cycle."
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "An engine works on air standard Diesel cycle whose compression ratio is 14. The pressure and temperature at the beginning of the cycle are 1 bar and 300 K respectively. The maximum temperature of the cycle is limited to 2500°C. Determine the thermal efficiency of the cycle. [For air γ = 1.4, R = 287 J/kgK, Cv = 718 J/kgK, Cp = 1005 J/kgK]"
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Derive an expression for the rate of conduction heat transfer through a hollow sphere using Fourier's law."
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Find the heat flow rate through the composite wall as shown in figure. Assume one-dimensional flow. kA = 150 W/m°C, kB = 30 W/m°C, kC = 65 W/m°C and kD = 50 W/m°C.",
+          "fig_url": "img/2018-S-6b.png",
+          "fig_description": "Composite wall cross-section with 4 layers A, B, C, D. Left side at 400°C, right side at 60°C. Layer dimensions: A is 10 cm deep, B and C are parallel middle layers (B: 8 cm tall, C: 3 cm tall), D is on right. Heights: B=8 cm, C=3 cm with 5 cm gap, D=7 cm. Widths: 3 cm (A), 8 cm (B+C middle), 5 cm (D)."
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on (Any Two): 2×5",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 5,
+              "question": "Refrigeration Cycle."
+            },
+            {
+              "sub_no": "b",
+              "marks": 5,
+              "question": "Entropy."
+            },
+            {
+              "sub_no": "c",
+              "marks": 5,
+              "question": "Reynolds and Prandtl number."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2017-F",
+      "year": "2017",
+      "semester": "Fall",
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 5,
+          "question": "What are the differences between the classical and the statistical approaches to thermodynamics?"
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 5,
+          "question": "What are point and path functions? Give some examples."
+        },
+        {
+          "number": "1",
+          "sub_no": "c",
+          "marks": 5,
+          "question": "What is the physical significance of hfg? Can it be obtained from knowledge of hf and hg? How?"
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "A piston-cylinder device contains 0.1 m³ of liquid water and 0.9 m³ of water vapor in equilibrium at 800 kPa. Heat is transferred at constant pressure until the temperature reaches 350°C. (i) What is the initial temperature of the water? (ii) Determine the total mass of the water. (iii) Calculate the final volume. (iv) Show the process on a P-v diagram with respect to saturation lines."
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "State the first law of thermodynamics and prove that for a non-flow process it leads to the energy equation Q = ΔU + W."
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 9,
+          "question": "Steam flows steadily through an adiabatic turbine. The inlet conditions of the steam are 10 MPa, 450°C and 80 m/s, and the exit conditions are 10 kPa, 92% quality and 50 m/s. The mass flow rate of the steam is 12 kg/s. Determine: (i) the change in kinetic energy, (ii) the power output, (iii) the turbine inlet area."
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 6,
+          "question": "Show that the Kelvin-Planck and the Clausius expressions of the second law are equivalent."
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Derive an expression for the change in entropy of the universe."
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "In a Brayton cycle based power plant, the air at the inlet is at 27°C, 0.1 MPa. The pressure ratio is 6.25 and the maximum temperature is 800°C. Find: (i) the compressor work per kg of air, (ii) the turbine work per kg of air, (iii) the heat supplied per kg of air, (iv) the cycle efficiency. Assume suitable constants for air."
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Distinguish between spark-ignition and compression-ignition engines."
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "For the composite shown in figure, construct the thermal circuit model. In addition, find the total thermal resistance of the composite. The thermal conductivities are: k₁ = k₃ = 80 W/mK, k₂ = 120 W/mK, k₄ = 100 W/mK and k₅ = 150 W/mK.",
+          "fig_url": "img/2017-F-5b.png",
+          "fig_description": "3D composite block with 5 material regions. Overall dimensions 24 cm long, 8 cm tall, with layers of widths 3 cm, 2 cm, 3 cm. Inner regions are 6 cm and 2 cm tall. Materials labeled 1-5 with given thermal conductivities."
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 5,
+          "question": "Explain the following terms: reflectivity, absorptivity, transmissibility, black and grey bodies."
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 5,
+          "question": "Demonstrate with schematic diagram on how the refrigeration cycle works."
+        },
+        {
+          "number": "6",
+          "sub_no": "c",
+          "marks": 5,
+          "question": "Why are these non-dimensional numbers (Reynolds, Prandtl and Nusselt) helpful in heat transfer applications?"
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on: (Any two) 2×5",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 5,
+              "question": "Coefficient of Performance."
+            },
+            {
+              "sub_no": "b",
+              "marks": 5,
+              "question": "Availability."
+            },
+            {
+              "sub_no": "c",
+              "marks": 5,
+              "question": "Fourier's law of heat conduction."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2017-SP",
+      "year": "2017",
+      "semester": "Spring",
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "What is a quasi-equilibrium process? What is its importance in engineering? Explain with suitable examples."
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "A piston-cylinder device contains 0.15 kg of air initially at 2 MPa and 350°C. The air is first expanded isothermally to 500 kPa, then compressed polytropically with a polytropic exponent of 1.2 to the initial pressure, and finally compressed at constant pressure to the initial state. Determine the boundary work for each process and the net work of the cycle."
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "What are the differences between the critical point and the triple point? Show those points in the p-v diagram of water."
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "A 1.6 m³ rigid tank contains steam at 200°C. One-third of the volume is in the liquid phase and the rest is in the vapor form. Determine: (i) the pressure of the steam, (ii) the quality of the saturated mixture, (iii) the density of the mixture."
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "How is a steady-flow system characterized? Derive SFEE for throttling."
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Steam enters a nozzle at 400°C and 800 kPa with a velocity of 10 m/s, and leaves at 300°C and 200 kPa while losing heat at a rate of 25 kW. For an inlet area of 800 cm², determine the velocity and the volume flow rate of the steam at the nozzle exit."
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "State and prove the Clausius Theorem."
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Derive an expression for entropy change of an ideal gas for an isothermal process.",
+          "or_alternative": {
+            "marks": 8,
+            "question": "Describe the concept of entropy as a property of a system and internal energy."
+          }
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "How can the efficiency of Rankine cycle be increased? Describe in terms of temperature and pressure in T-s diagrams."
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "An ideal Otto cycle has a compression ratio of 8. At the beginning of the compression process, air is at 95 kPa and 27°C, and 750 kJ/kg of heat is transferred to air during the constant-volume heat addition process. Taking into account the variation of specific heats with temperature, determine: (i) the pressure and temperature at the end of the heat addition process, (ii) the net work output, (iii) the thermal efficiency, (iv) the mean effective pressure for the cycle."
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Derive an expression for the rate of conduction heat transfer through a hollow cylinder using Fourier's law."
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "A steel pipe (k = 45 W/m.K) having a 5 cm o.d. is covered with a 4.2 cm thick layer of magnesia (k = 0.07 W/m.K) which is in turn covered with a 2.4 cm layer of fiberglass insulation (k = 0.048 W/m.K). The pipe wall outside temperature is 370 K and the outside surface temperature of the fiberglass is 305 K. What is the interfacial temperature between the magnesia and the fiberglass?"
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on: (Any two) 2×5",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 5,
+              "question": "Heat Exchangers."
+            },
+            {
+              "sub_no": "b",
+              "marks": 5,
+              "question": "COP."
+            },
+            {
+              "sub_no": "c",
+              "marks": 5,
+              "question": "Black Bodies."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2016-SP",
+      "year": "2016",
+      "semester": "Spring",
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Identify which of the following are extensive properties and which are intensive properties: (i) 10 m³ volume, (ii) 30 J of Kinetic Energy, (iii) pressure of 90 kPa, (iv) mass of 75 kg, (v) velocity of 60 m/s. Convert all extensive properties to intensive properties assuming m = 75 kg."
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Fill out the following table for substance water showing calculations.",
+          "table_data": {
+            "headers": [
+              "State",
+              "P (kPa)",
+              "T (°C)",
+              "V (m³/kg)",
+              "x"
+            ],
+            "rows": [
+              {
+                "state": "i",
+                "P": 500,
+                "T": 20,
+                "V": "?",
+                "x": "?"
+              },
+              {
+                "state": "ii",
+                "P": 500,
+                "T": "?",
+                "V": 0.2,
+                "x": "?"
+              },
+              {
+                "state": "iii",
+                "P": 1400,
+                "T": 200,
+                "V": "?",
+                "x": "?"
+              },
+              {
+                "state": "iv",
+                "P": "?",
+                "T": 300,
+                "V": "?",
+                "x": 0.8
+              }
+            ]
+          }
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Air undergoes a three-process cycle. Find the net work done for 2 kg of air if the processes are constant pressure expansion (1→2), constant volume (2→3) and constant temperature compression (3→1). The necessary information are T₁ = 100°C, T₂ = 600°C and P₁ = 200 kPa. Sketch the cycle on a P-v diagram."
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Distinguish between the following devices with applications and examples: (i) Compressor and Turbine, (ii) Evaporator and Condenser."
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Steam enters a nozzle at 400°C and 800 kPa with a velocity of 10 m/s and leaves at 300°C and 200 kPa while losing heat at a rate of 25 kW. For an inlet area of 800 cm², determine the velocity and volume flow rate of the steam at the nozzle exit."
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "An ordinary household refrigerator receives electrical work from its surroundings while discharging energy by heat transfer to its surroundings. Is this a violation of the Kelvin-Planck statement? Explain. Discuss about factors causing irreversibility."
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "A frictionless piston-cylinder device contains a saturated liquid-vapor mixture of water at 100°C. During a constant pressure process, 600 kJ of heat is transferred to surrounding air at 25°C. As a result, water vapor contained in the cylinder condenses. Determine: (i) entropy change of the water, (ii) total entropy generation during this heat transfer process."
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Derive an expression for entropy change of an ideal gas for an isothermal process."
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "An air standard Carnot cycle is executed in a closed system between the temperature limits of 350 and 1200 K. The pressures before and after the isothermal compression are 150 and 300 kPa, respectively. If the net work output per cycle is 0.5 kJ, determine: (i) the maximum pressure in the cycle, (ii) the heat transfer to air, (iii) the mass of air. Assume variable specific heats for air."
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Compare Otto and Diesel Cycles based on: (i) compression ratio and heat rejection, (ii) maximum pressure and temperature."
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Explain the mechanism for forced convection and natural convection. Define emissivity and absorptivity. What is Kirchhoff's law of radiation?"
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "How does the science of heat transfer differ from the science of thermodynamics? Give your answers with real-life practical examples."
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on: (Any two) 2×5",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 5,
+              "question": "Modes of heat transfer."
+            },
+            {
+              "sub_no": "b",
+              "marks": 5,
+              "question": "Overall heat transfer coefficient."
+            },
+            {
+              "sub_no": "c",
+              "marks": 5,
+              "question": "Operating principle of refrigeration cycle."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2015-F",
+      "year": "2015",
+      "semester": "Fall",
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Define thermodynamic system. Explain any three extensive thermodynamic properties."
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "A fluid at pressure of 3 bar, and with specific volume 0.18 m³/kg, is contained in a cylinder behind a piston that expands reversibly to a pressure of 0.6 bar according to a law p = C/v², where C is a constant. Show the expansion process on a p-V diagram and calculate the net work done by the fluid on the piston."
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Derive an expression for work done and heat transfer during an isothermal process."
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "A vessel having a volume of 0.8 m³ contains 4.0 kg of liquid water and water vapour mixture in equilibrium at a pressure of 7 bar. Calculate: (i) mass and volume of liquid, (ii) mass and volume of vapour."
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Describe the first law of thermodynamics for cyclic and non-cyclic processes."
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "0.3 kg of nitrogen gas at 100 kPa and 40°C is contained in a cylinder. The piston is moved, compressing nitrogen until the pressure becomes 2 MPa and temperature becomes 160°C. The work done during the process is 60 kJ. Calculate the heat transferred from the nitrogen to the surroundings. Take cv for nitrogen = 0.75 kJ/kgK."
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Derive an expression for the efficiency of an ideal Rankine cycle with p-V and T-s diagrams."
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "An ideal Brayton cycle has pressure ratio of 10. The temperatures of air at compressor and turbine inlets are 300 K and 1200 K respectively. Determine its thermal efficiency and mass flow rate of air required to produce net power output of 80 MW.",
+          "or_alternative": {
+            "marks": 8,
+            "question": "The compression ratio of an air standard Otto cycle is 8. At the beginning of the compression process, the pressure and temperature of air are 100 kPa and 20°C respectively. The heat added per kg of air during the cycle is 2200 kJ/kg. Determine: (i) the pressure and temperature at the end of each process of the cycle, (ii) the thermal efficiency, (iii) the mean effective pressure."
+          }
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Describe the concept of entropy as a property of a system and internal energy."
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "A reactor wall 320 mm thick is made up of an inner layer of fire brick (k = 0.84 W/m°C) covered with a layer of insulation (k = 0.16 W/m°C). The reactor operates at a temperature of 1325°C at the atmospheric temperature of 25°C. (i) Calculate the thickness of brick and insulation, (ii) heat loss per unit area presuming that the insulating material has a maximum temperature of 1200°C."
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Derive the expressions for overall heat transfer coefficient."
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "A centrifugal pump delivers water at the rate of 50 kg/s. The inlet and outlet pressures are 2 bar and 6.2 bar respectively. The suction is 2.2 m below the centre of the pump and delivery is 8.5 m above the centre of the pump. The suction and delivery pipe diameters are 200 mm and 100 mm respectively. Determine the capacity of the electric motor considering the efficiency of motor as 80% to run the pump."
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on: (Any two) 2×5",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 5,
+              "question": "Factors affecting thermal conductivity."
+            },
+            {
+              "sub_no": "b",
+              "marks": 5,
+              "question": "Prandtl Number and its relation with heat transfer."
+            },
+            {
+              "sub_no": "c",
+              "marks": 5,
+              "question": "Characteristics of entropy."
+            },
+            {
+              "sub_no": "d",
+              "marks": 5,
+              "question": "Vapor absorption refrigeration cycle."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2015-SP",
+      "year": "2015",
+      "semester": "Spring",
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "What is thermodynamic property? Explain its types. How can you say that a given variable is a thermodynamic property?"
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "A vessel contains one kg of steam which contains 1/3 liquid and 2/3 vapour by volume. The temperature of the steam is 151.87°C. Find the quality, specific volume and specific enthalpy of the mixture."
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Define heat and work. Also discuss their sign convention."
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "For the cycle shown in figure, determine the work output and the heat transfer.",
+          "fig_url": "img/2015-S-2b.png",
+          "fig_description": "P-V diagram with P (kPa) on y-axis (values 800 and 100 marked). Three processes connecting points 1, 2, 3: process 1→2 at constant high pressure, process 2→3 along T=Const isothermal curve, process 3→1 returns to start at lower pressure.",
+          "or_alternative": {
+            "marks": 8,
+            "question": "Steam enters a turbine operating at steady state with a mass flow rate of 4600 kg/h. The turbine develops a power output of 1000 kW. At the inlet, the pressure is 60 bar, the temperature is 400°C and velocity is 10 m/s. At the exit, the pressure is 0.1 bar, the quality is 0.9 and the velocity is 50 m/s. Calculate the rate of heat transfer between the turbine and surroundings in kW."
+          }
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Starting from steady flow energy equation, reduce it for Throttling and Heat exchanger. Also state assumptions for each case."
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Explain about heat pump and refrigerator with schematic diagram. Derive the relationship for COP between heat pump and refrigerator."
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Write a brief note on entropy. Explain about entropy change of an ideal gas for an isothermal process."
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Describe the working principle of Rankine Cycle with the help of P-v and T-s diagrams and derive the expression for its efficiency."
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Steam enters the turbine of a steam power plant that operates on a simple ideal Rankine Cycle at a pressure of 6 MPa, and it leaves as a saturated vapor at 7.5 kPa. Heat is transferred to the steam in the boiler at a rate of 40,000 kJ/s. Steam is cooled in the condenser by cooling water from a nearby river which enters the condenser at 15°C. Determine: (i) the turbine inlet temperature, (ii) the net power output, (iii) thermal efficiency, (iv) the minimum mass flow rate of the cooling water required."
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Derive an expression for the rate of conduction heat transfer through a hollow cylinder using Fourier's law."
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "An exterior wall of a house may be approximated by a 10 cm layer of common brick [k = 0.7 W/m°C] followed by a layer of a 3.8 cm layer of cement plaster [k = 0.48 W/m°C]. What thickness of loosely packed rock-wool insulation [k = 0.065 W/m°C] should be added to reduce the heat loss (or gain) through the wall by 80 percent?"
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Explain briefly the mechanism of forced and free convection with appropriate practical examples."
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on: (Any two) 2×5",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 5,
+              "question": "Refrigeration Cycle."
+            },
+            {
+              "sub_no": "b",
+              "marks": 5,
+              "question": "Thermodynamic Temperature Scale."
+            },
+            {
+              "sub_no": "c",
+              "marks": 5,
+              "question": "Triple point and Critical Point."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2014-F",
+      "year": "2014",
+      "semester": "Fall",
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "What is thermodynamic property? Also describe its various types along with relevant examples."
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "0.2 m³ of an ideal gas at a pressure of 2 MPa and 600 K is expanded isothermally to 5 times the initial volume. It is then cooled to 300 K at constant volume and then compressed back polytropically to its initial state. Show the process on a P-V diagram and determine the work done."
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Draw with neat labelling the P-V diagram of water and describe it."
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "A vessel having a volume of 0.5 m³ contains 3 kg of liquid water and water vapor mixture in equilibrium at a pressure of 0.6 MPa. Calculate: (i) the mass of liquid and vapor, (ii) the volume of liquid and vapor."
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Derive the equation for turbine and nozzle with the help of steady energy equation by stating their assumptions."
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "The properties of a system during a reversible constant pressure non-flow process at P = 1.6 bar change from V₁ = 0.3 m³/kg, t₁ = 20°C to V₂ = 0.55 m³/kg, t₂ = 260°C. The specific heat of the fluid is given by Cp = 1.5 + 75/(t + 45) kJ/kg°C where t is in °C. Determine: (i) heat added per kg, (ii) change in internal energy per kg, (iii) change in enthalpy per kg."
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Show that violation of the Clausius statement is a violation of the Kelvin-Plank statement of the 2nd Law of Thermodynamics."
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Show that an isolated system obeys the principle of increase of entropy."
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Describe the working principle of Rankine Cycle with corresponding T-S diagram."
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "The compression ratio in an air-standard Otto cycle is 8. At the beginning of the compression stroke the pressure is 0.2 MPa and the temperature is 18°C. The heat transfer to the air per cycle is 1900 kJ/kg of air. Determine: (i) the temperature and pressures at the end of each process of the cycle, (ii) thermal efficiency of the cycle. [For air take γ = 1.4, R = 287 J/kgK, Cv = 718 J/kgK, Cp = 1005 J/kgK]"
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Derive an expression for the overall heat transfer coefficient for a system composed of a plane slab separating two different fluid media."
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Find the heat transfer through the composite wall shown in figure.",
+          "fig_url": "img/2014-F-6b.png",
+          "fig_description": "Composite wall cross-section with 4 layers A, B, C, D where B and C are parallel middle sections. Left side at TA=370°C, right side at TD=70°C. kA=150 W/m°C, LA=2.5 cm; kB=30 W/m°C, LB=7.5 cm; kC=50 W/m°C, LC=5 cm; kD=70 W/m°C, LD=7.5 cm; AA=AD=2AB=2AC=0.2 m²."
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on any two: 2×5",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 5,
+              "question": "Refrigeration."
+            },
+            {
+              "sub_no": "b",
+              "marks": 5,
+              "question": "Zeroth law of Thermodynamics."
+            },
+            {
+              "sub_no": "c",
+              "marks": 5,
+              "question": "Natural and Forced convection."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2014-SP",
+      "year": "2014",
+      "semester": "Spring",
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Define thermodynamic system. Explain any three extensive thermodynamic properties."
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "A fluid at pressure of 3 bar, and with specific volume 0.18 m³/kg, is contained in a cylinder behind a piston that expands reversibly to a pressure of 0.6 bar according to a law p = C/v², where C is a constant. Show the expansion process on a p-V diagram and calculate the net work done by the fluid on the piston."
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Derive an expression for work done and heat transfer during an isothermal process."
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "A vessel having a volume of 0.8 m³ contains 4.0 kg of liquid water and water vapour mixture in equilibrium at a pressure of 7 bar. Calculate: (i) mass and volume of liquid, (ii) mass and volume of vapour."
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Describe the first law of thermodynamics for cyclic and non-cyclic processes."
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "0.3 kg of nitrogen gas at 100 kPa and 40°C is contained in a cylinder. The piston is moved, compressing nitrogen until the pressure becomes 2 MPa and temperature becomes 160°C. The work done during the process is 60 kJ. Calculate the heat transferred from the nitrogen to the surroundings. Take cv for nitrogen = 0.75 kJ/kgK."
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Derive an expression for the efficiency of an ideal Rankine cycle with p-V and T-s diagrams."
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "An ideal Brayton cycle has a pressure ratio of 10. The temperatures of air at compressor and turbine inlets are 300 K and 1200 K respectively. Determine its thermal efficiency and mass flow rate of air required to produce net power output of 80 MW.",
+          "or_alternative": {
+            "marks": 8,
+            "question": "The compression ratio of an air standard Otto cycle is 8. At the beginning of the compression process, the pressure and temperature of air are 100 kPa and 20°C respectively. The heat added per kg of air during the cycle is 2200 kJ/kg. Determine: (i) the pressure and temperature at the end of each process of the cycle, (ii) the thermal efficiency, (iii) the mean effective pressure."
+          }
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Describe the concept of entropy as a property of a system and internal energy."
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "A reactor wall 320 mm thick is made up of an inner layer of fire brick (k = 0.84 W/m°C) covered with a layer of insulation (k = 0.16 W/m°C). The reactor operates at a temperature of 1325°C at the atmospheric temperature of 25°C. (i) Calculate the thickness of brick and insulation, (ii) heat loss per unit area presuming that the insulating material has a maximum temperature of 1200°C."
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Derive the expressions for overall heat transfer coefficient."
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "A centrifugal pump delivers water at the rate of 50 kg/s. The inlet and outlet pressures are 2 bar and 6.2 bar respectively. The suction is 2.2 m below the centre of the pump and delivery is 8.5 m above the centre of the pump. The suction and delivery pipe diameters are 200 mm and 100 mm respectively. Determine the capacity of the electric motor considering the efficiency of motor as 80% to run the pump."
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on: (Any two) 2×5",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 5,
+              "question": "Factors affecting thermal conductivity."
+            },
+            {
+              "sub_no": "b",
+              "marks": 5,
+              "question": "Prandtl Number and its relation with heat transfer."
+            },
+            {
+              "sub_no": "c",
+              "marks": 5,
+              "question": "Characteristics of entropy."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2013-F",
+      "year": "2013",
+      "semester": "Fall",
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "What is thermodynamic property? Enumerate its salient features and explain its types with examples."
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "A mass of gas is compressed in a quasi-static process from 80 kPa, 0.1 m³ to 0.4 MPa, 0.03 m³. Assuming that the pressure and volume are related by pv^n = constant, find the work done by the gas system."
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Write the similarities and differences between heat and work."
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "A vessel having a volume of 0.4 m³ contains 2 kg of a liquid water and water vapor mixture in equilibrium at a pressure of 600 kPa. Calculate: (i) the volume and mass of liquid, (ii) the volume and mass of vapor."
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Derive a general energy equation of the 1st law of Thermodynamics for an open system using control volume approach."
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "A steam turbine receives steam from two boilers. One flow is 5 kg/s at 3 MPa, 700°C and the other flow is 15 kg/s at 800 kPa, 500°C. The exit state is 10 kPa with a quality of 96%. Find the total power output of the adiabatic turbine."
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Derive the expression for change in entropy of an ideal gas for an isothermal process."
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "State the statements of the Second Law of Thermodynamics."
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Derive an expression for the efficiency of an ideal Brayton Cycle."
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "An air-standard Diesel cycle has a compression ratio of 18 and the heat transfer to the working fluid per cycle is 1800 kJ/kg. At the beginning of the compression process the pressure is 100 kPa and temperature is 15°C. Determine the pressure and temperature at the end of each process of the cycle and the efficiency. Given Cp = 1.005 kJ/kgK.",
+          "or_alternative": {
+            "marks": 8,
+            "question": "An engine working on Otto cycle is supplied with air at 0.1 MPa, 35°C. The compression ratio is 8. Heat supplied is 2100 kJ/kg. Calculate the maximum pressure and temperature of the cycle, the cycle efficiency and the mean effective pressure."
+          }
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Deduce an expression for the conduction heat transfer rate along the radial outward direction in case of a hollow cylinder."
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "The temperatures of the inside and outside surfaces of the brickwork of a furnace have been noted to be 650°C and 250°C. Make calculations for the percentage decrease in heat loss if the thickness of the brickwork is increased by 100 percent. The ambient temperature is 30°C. Assume that the thermal conductivity of the brickwork and the convective heat transfer coefficient remain the same before and after the increase in thickness."
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on any two: 2×5",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 5,
+              "question": "Stefan-Boltzmann's law."
+            },
+            {
+              "sub_no": "b",
+              "marks": 5,
+              "question": "Zeroth law of thermodynamics."
+            },
+            {
+              "sub_no": "c",
+              "marks": 5,
+              "question": "Refrigeration Cycle."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2013-SP",
+      "year": "2013",
+      "semester": "Spring",
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "What do you mean by 'change of state', 'path' and 'process'? Explain with relevant examples."
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Consider a two-part process with an expansion from 0.1 m³ to 0.2 m³ at a constant pressure of 150 kPa followed by an expansion from 0.2 m³ to 0.4 m³ with a linearly rising pressure from 150 kPa ending at 300 kPa. Show the process on a P-V diagram and find the boundary work."
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Define the terms quality, moisture content, saturated region and liquid region with the help of P-V diagrams."
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "A piston cylinder arrangement (shown in figure) contains 2 kg of water initially at a pressure of 600 kPa and a temperature of 350°C. Heat is rejected from the system until it is completely converted to saturated liquid. It requires a pressure of 400 kPa to support the piston. Sketch the process on P-v and T-v diagrams and determine the temperature at which phase change just begins and the total work transfer.",
+          "fig_url": "img/2013-S-2b.png",
+          "fig_description": "Piston-cylinder device containing water (H₂O) with the piston supported by pressure."
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Starting from steady state energy equation, reduce it for turbine and nozzle. Also state assumptions for each case."
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Steam at 1000 kPa, a temperature of 300°C, and a velocity of 50 m/s enters a turbine. The steam leaves the turbine at a pressure of 150 kPa and a velocity of 200 m/s. Determine the work per kg of steam flowing through the turbine, assuming the process to be reversible and adiabatic."
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Explain with necessary derivation the concept of entropy generation during an irreversible process."
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Two blocks A (cp = 0.9 kJ/kg-K) and B (cp = 0.38 kJ/kg-K), which are initially at 95°C and 540°C respectively, are brought together into contact and isolated from the surroundings. They are allowed to reach a final state of thermal equilibrium. Determine the entropy change of each block and of the isolated system. Mass of block A and B are 0.45 kg and 0.9 kg respectively."
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Derive an expression for the efficiency of an air standard Brayton Cycle."
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "The compression ratio in an air standard Otto cycle is 7. At the beginning of the compression stroke, the pressure is 0.1 MPa and the temperature is 20°C. The heat transfer to the air per cycle is 1920 kJ/kg of air. Determine: (i) the pressure and temperature at the end of each process of the cycle, (ii) the thermal efficiency."
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Derive the expression for rate of heat transfer for a multi-layer slab in series."
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "An ideal gas turbine cycle produces 15 MW of power output. The properties of air at the compressor inlet are 100 kPa and 17°C. The pressure ratio for the cycle is 14 and the heat added per kg of air per cycle is 900 kJ/kg. Determine: (i) the efficiency of the cycle, (ii) the maximum temperature of the cycle, (iii) the mass flow rate of air."
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on: (Any two) 2×5",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 5,
+              "question": "Entropy."
+            },
+            {
+              "sub_no": "b",
+              "marks": 5,
+              "question": "Absorptivity, reflectivity and transmissivity."
+            },
+            {
+              "sub_no": "c",
+              "marks": 5,
+              "question": "Refrigeration cycle."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2012-F",
+      "year": "2012",
+      "semester": "Fall",
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Explain the terms: thermodynamic system, surrounding, intensive property and absolute pressure."
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Describe about the properties of a pure substance."
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "If during an expansion process the volume of a gas changes from 0.2 to 0.5 m³ and pressure changes according to equation P = 1500(V/100 + 1) where P is in Pa and V is in m³. What is the work done by gas in kJ?"
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "What is steady state flow process? Use the general equation for steady state flow for an adiabatic compressor and nozzle."
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "A system undergoes a cycle consisting of four processes. Complete the missing table entries.",
+          "table_data": {
+            "headers": [
+              "Process",
+              "ΔU (kJ)",
+              "W (kJ)",
+              "Q (kJ)"
+            ],
+            "rows": [
+              {
+                "process": "1-2",
+                "delta_U": -500,
+                "W": "?",
+                "Q": 0
+              },
+              {
+                "process": "2-3",
+                "delta_U": 0,
+                "W": -100,
+                "Q": "?"
+              },
+              {
+                "process": "3-4",
+                "delta_U": "?",
+                "W": "?",
+                "Q": 400
+              },
+              {
+                "process": "4-1",
+                "delta_U": "?",
+                "W": 300,
+                "Q": 500
+              }
+            ]
+          }
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "What are the drawbacks of first law of thermodynamics? How do the two classical statements of second law of thermodynamics address the drawbacks of the first law?",
+          "or_alternative": {
+            "marks": 8,
+            "question": "What is thermodynamic temperature scale? Derive a relation."
+          }
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Show that entropy is a function of the end states only."
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Discuss the significance of the principle of increase of entropy."
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "What are the differences between Otto cycle and Diesel cycle?"
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "An air standard Diesel cycle has a compression ratio of 22 and an expansion ratio of 11. Determine its cut-off ratio and the efficiency."
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Derive the expression for radial heat transfer through a hollow cylinder."
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "A furnace wall is made of 20 cm of magnesite brick and 20 cm of common brick. The magnesite brick is exposed to hot gases at 1200°C and the common brick outer surface is exposed to 35°C room air. The surface heat transfer coefficient of the inside wall is 40 W/m²K and that of the outer wall is 20 W/m²K. Thermal conductivities of magnesite and common brick are 4 and 0.5 W/mK respectively. Determine: (i) heat loss per m² of area of the furnace wall, (ii) maximum temperature to which common brick is subjected."
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on any two: 2×5",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 5,
+              "question": "Radiation heat transfer."
+            },
+            {
+              "sub_no": "b",
+              "marks": 5,
+              "question": "Refrigeration Cycle."
+            },
+            {
+              "sub_no": "c",
+              "marks": 5,
+              "question": "Nusselt's Number."
+            },
+            {
+              "sub_no": "d",
+              "marks": 5,
+              "question": "Heat engine."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2012-SP",
+      "year": "2012",
+      "semester": "Spring",
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Define System and Types of systems. Also define Thermodynamic property, its aspects and Types."
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "To a closed system 150 KJ of work is supplied. If the volume is 0.6 m³ and pressure of the system changes as P = 8 - 4V, where P is in bar and V is in m³, determine the final Volume and Pressure of the System."
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Derive an equation for entropy change of an ideal gas."
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "5 kg of H₂O are contained in a closed rigid tank at an initial pressure of 2000 kPa and quality of 50%. Heat transfer occurs until the tank contains only saturated vapour. Determine the volume of the tank in m³ and final pressure."
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Define specific heat. Why does a gas have two specific heats? Derive the relationship between these two specific heats."
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "A compressor in a plant receives air at 100 kPa, 280 K, with low velocity. At compressor discharge, air exits at 1100 kPa, 500 K with velocity 25 m/s and then flows into a constant pressure heat exchanger where it is cooled down to 350 K. The power required by the compressor is 50 kW. Determine the heat transfer rate in the heat exchanger."
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "What is thermodynamic irreversibility? Explain the factors causing irreversibility.",
+          "or_alternative": {
+            "marks": 7,
+            "question": "State both statements of the Second Law of Thermodynamics with schematic representation."
+          }
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "A reversible heat engine operates between two reservoirs at temperatures of 600°C and 40°C. The engine drives a reversible refrigerator which operates between reservoirs at temperatures of 40°C and -20°C. The heat transfer to the heat engine is 2000 kJ and the net work output of the combined engine-refrigerator plant is 260 kJ. Evaluate the heat transfer to the refrigerator and the net heat transfer at 40°C."
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "What are the differences between Otto cycle and Diesel cycle?"
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "In an air standard Diesel Cycle, the compression ratio is 16 and at the beginning of isentropic compression the temperature is 15°C and the pressure is 0.1 MPa. Heat is added until the temperature at the end of the constant pressure process is 1480°C. Calculate: (a) the Cut-Off ratio, (b) the heat supplied per kg of air, (c) the Cycle efficiency."
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "What is the mechanism of convective mode of heat transfer? Explain about free and forced convection."
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "A furnace wall is made up of three layers of thickness 250 mm, 100 mm and 150 mm with thermal conductivities of 1.65, k and 9.2 W/m°C respectively. The inside is exposed to gases at 1250°C with a convection coefficient of 25 W/m²°C and the inside surface is at 1100°C. The outside surface is exposed to air at 25°C with convection coefficient of 12 W/m²°C. Calculate: (i) the unknown thermal conductivity k, (ii) the overall heat transfer coefficient, (iii) all surface temperatures (t1, t2, t3, t4).",
+          "or_alternative": {
+            "marks": 8,
+            "question": "A thick walled tube of stainless steel (k = 10 W/m°C) with 2 cm inside diameter and 4 cm outer diameter is covered with a 3 cm layer of asbestos insulation (K = 0.2 W/m°C). If the inside wall temperature of the pipe is maintained at 600°C, calculate the heat loss per meter of length and the tube-insulation interface temperature. Ambient temperature is 2°C."
+          }
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on: (Any two) 2×5",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 5,
+              "question": "Vapour compression refrigeration cycle."
+            },
+            {
+              "sub_no": "b",
+              "marks": 5,
+              "question": "Radiation."
+            },
+            {
+              "sub_no": "c",
+              "marks": 5,
+              "question": "Reynolds Number."
+            },
+            {
+              "sub_no": "d",
+              "marks": 5,
+              "question": "Vapour power cycle."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images_required": [
+    {
+      "file": "img/2013-S-2b.png",
+      "paper": "2013 Spring",
+      "question": "Q2b",
+      "description": "Piston-cylinder device containing water (H₂O). Piston supported by pressure from below. Shows the system setup for a constant-pressure heat rejection problem."
+    },
+    {
+      "file": "img/2014-F-6b.png",
+      "paper": "2014 Fall",
+      "question": "Q6b",
+      "description": "Composite wall cross-section with 4 layers A, B, C, D. B and C are parallel middle sections. TA=370°C on left, TD=70°C on right. kA=150 W/m°C LA=2.5cm; kB=30 W/m°C LB=7.5cm; kC=50 W/m°C LC=5cm; kD=70 W/m°C LD=7.5cm; AA=AD=2AB=2AC=0.2m²."
+    },
+    {
+      "file": "img/2015-S-2b.png",
+      "paper": "2015 Spring",
+      "question": "Q2b",
+      "description": "P-V diagram showing a thermodynamic cycle. P-axis (kPa) shows 800 kPa and 100 kPa levels. Three state points 1, 2, 3 connected by: process 1→2 at high pressure, process 2→3 along T=Const isothermal curve, process 3→1 back to start."
+    },
+    {
+      "file": "img/2017-F-5b.png",
+      "paper": "2017 Fall",
+      "question": "Q5b",
+      "description": "3D composite block showing 5 material zones labeled 1-5. Overall: 24 cm long, cross-section 8 cm × (2+6) cm. Layer widths: 3 cm | 2 cm | 3 cm. Inner regions 6 cm and 2 cm tall. k1=k3=80, k2=120, k4=100, k5=150 W/mK."
+    },
+    {
+      "file": "img/2018-F-5b.png",
+      "paper": "2018 Fall",
+      "question": "Q5b",
+      "description": "T-s diagram of simple ideal Rankine cycle. Four state points labeled 1-4. Boiler pressure 6 MPa (top horizontal line), condenser pressure 20 kPa (bottom). Process 1-2: pump, 2-3: boiler, 3-4: turbine, 4-1: condenser. h3=3423.1 kJ/kg, h4=2267.5 kJ/kg given; h1 and h2 unknown."
+    },
+    {
+      "file": "img/2018-S-6b.png",
+      "paper": "2018 Spring",
+      "question": "Q6b",
+      "description": "Composite wall cross-section with 4 layers A, B, C, D. Left side at 400°C, right side at 60°C. A is a single left layer (10 cm), B and C are parallel middle layers (B: 8 cm tall, C: 3 cm+gap), D is the right layer (7 cm). kA=150, kB=30, kC=65, kD=50 W/m°C."
+    }
+  ]
+}
