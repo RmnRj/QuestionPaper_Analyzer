@@ -7,6 +7,308 @@
   "pass_marks": 45,
   "papers": [
     {
+      "id": "2025-SP",
+      "year": "2025",
+      "semester": "Spring",
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Define Quasi-Equilibrium. Define absolute pressure, atmospheric pressure and gauge pressure and show the relation among them."
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "How does work differ from heat? Derive the expression for work done during isothermal process."
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Define the following terms: Saturation Temperature, Saturation Pressure, Subcooled liquid, Saturated liquid, Saturated Vapor, Superheated vapor, Quality, Moisture content and critical point."
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Define steady state flow application. Write down the energy equation for a nozzle and diffuser starting from SFEE with necessary assumptions."
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Air flows steadily through an adiabatic compressor entering at 150 kPa, 150°C and with a velocity of 200 m/s and leaving at 1000 kPa, 500°C and with a velocity of 100 m/s. The exit area of the compressor is 100 cm². Determine the mass flow rate of air through the compressor and the power required to drive the compressor. [Take R = 287 J/kgK and Cp = 1005 J/kgK]"
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Explain about second law of thermodynamics."
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Define entropy and prove that entropy is the property of the system."
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "For the Brayton cycle, show that the thermal efficiency is the function of the pressure ratio."
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "In an air standard Otto cycle, the temperature and pressure of air at the beginning of compression are 27°C and 101 kPa respectively. The compression ratio is 10 and the maximum pressure in the cycle is 10 MPa. Determine the thermal efficiency and amount of heat transferred to the air during isochoric process. [Take: R = 0.287 kJ/Kg K, Cv = 0.718 kJ/Kg K]"
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Define the following terms: emissivity, reflectivity, absorptivity, transmissivity and black body."
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "A furnace wall is made of 35 cm of magnesite brick and 55 cm of common brick. The magnesite brick is exposed to hot gases at 1150°C and the common brick outer surface is exposed to 40°C room air. The surface heat transfer coefficient of the interior wall is 50 W/m²K and that of the outside wall is 25 W/m²K respectively. Thermal conductivities of magnesite and common brick are 3 and 0.4 W/mK respectively. Determine: (i) Heat loss per unit area of the furnace wall, (ii) Maximum temperature to which common brick is subjected."
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Describe in brief various modes of heat transfer."
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on: (Any two) 2×5",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 5,
+              "question": "Pure substance."
+            },
+            {
+              "sub_no": "b",
+              "marks": 5,
+              "question": "Refrigeration Cycle."
+            },
+            {
+              "sub_no": "c",
+              "marks": 5,
+              "question": "Lost work."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2023-SP",
+      "year": "2023",
+      "semester": "Spring",
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Define thermodynamic system and explain its types along with suitable examples."
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "In a non-flow reversible process, the pressure and volume are related by P = 4V + 7/V where P is in bar and V is in m³. During the process, the volume changes from 0.20 m³ to 0.40 m³. Determine: (i) Pressures at the beginning and the end of the process, in kPa; (ii) Work done during the process, in kJ."
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Draw and explain a neat and labelled P-v and T-s diagram of water."
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "A vessel contains one kg of steam which contains 1/3 liquid and 2/3 vapor by volume. The temperature of the steam is 151.87°C. Find the quality, specific volume, and specific enthalpy of the mixture."
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "How are specific heats at constant volume and constant pressure related to change in internal energy and change in enthalpy?"
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "What is Steady State Flow Process? State the conditions for Steady State Energy Equation for open flow process. Discuss the assumptions and flow equation of an ideal steady state compressor."
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Verify the 'violation of Kelvin-Planck statement leads to the violation of Clausius statement'."
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Derive an expression for change of entropy during polytropic process."
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Derive an expression for efficiency of Rankine cycle along with P-v and T-s diagrams. Also, explain how this efficiency can be increased."
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "An ideal Otto engine working on the air standard has a temperature and pressure at the beginning of 25°C and 100 kPa, respectively and a thermal efficiency of 48%. Determine the pressure and temperature at the end of the compression."
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Define Newton's law of cooling, Reynolds number, Kirchhoff's law and black body."
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Sketch the thermal circuit for the given composite wall and calculate its total thermal resistance. For a temperature difference of 200°C across the wall, calculate the rate of heat transfer through the wall.",
+          "fig_url": "img/2023-S-6b.png",
+          "fig_description": "Composite wall with 5 layers A, B, C, D, E. Layers B and C are parallel in the middle section; E is a separate bottom layer. kA=150 W/m°C LA=3cm; kB=30 W/m°C LB=8cm; kC=50 W/m°C LC=8cm; kD=70 W/m°C LD=5cm; kE=25 W/m°C LE=16cm. AA=AD=2AB=2AC=0.1m², AE=0.025m²."
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on: (Any two) 2×5",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 5,
+              "question": "Clausius Inequality."
+            },
+            {
+              "sub_no": "b",
+              "marks": 5,
+              "question": "Fourier laws of Conduction."
+            },
+            {
+              "sub_no": "c",
+              "marks": 5,
+              "question": "Refrigeration cycle."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2022-F",
+      "year": "2022",
+      "semester": "Fall",
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 9,
+          "question": "What do you mean by thermodynamic property? Define pressure and how it is measured."
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 6,
+          "question": "Determine the state of steam i.e. whether it is wet, dry or superheated in the following cases: (i) Pressure 10 bar and specific volume 0.175 m³/kg; (ii) Pressure 15 bar and temperature 220°C."
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "In a non-flow reversible process, the pressure and volume are related by P = 4V + 7 where P is in bar and V is in m³. During the process, the volume changes from 0.25 m³ to 0.50 m³. Determine: (i) Pressures at the beginning and the end of the process, in kPa; (ii) Work done during the process, in kJ."
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Define the following terms: saturated liquid, superheated vapour, saturation temperature, critical point, and quality. Also, draw a saturation curve on T-v diagram and locate important point, lines and regions."
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Stating steady flow energy equation, derive an expression for first law of thermodynamics for diffuser and throttling process."
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Air enters a nozzle at 350°C and 800 kPa with a velocity of 5 m/s, and leaves at 300°C and 200 kPa while losing heat at a rate of 20 kW. For an inlet area of 450 cm², determine the velocity of the air and cross-section area at the nozzle exit."
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Write about the emergence of the second law of thermodynamics on the basis of the limitations of the first law."
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Derive entropy change of an ideal gas. Explain entropy change for isothermal process."
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Explain the working principle of Rankine cycle with the help of P-v and T-s diagram."
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "An air standard diesel cycle has a compression ratio of 14. The pressure at the beginning of the compression stroke is 1 bar and the temperature is 27°C. The maximum temperature of the cycle is 2500°C. Determine the thermal efficiency of engine."
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Derive an expression for steady state heat transfer through a composite plane wall consisting of two layers of thickness X₁ and X₂ with the conductivities of K₁ and K₂ respectively."
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "A reactor's wall 320 mm thick, is made up of an inner layer of fire brick (k = 0.84 W/m°C) covered with a layer of insulation (k = 0.16 W/m°C). The reactor operates at a temperature of 1325°C at the atmospheric temperature of 25°C. (i) Calculate the thickness of brick and insulation; (ii) Heat loss per unit area presuming that the insulating material has a maximum temperature of 1200°C."
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on: (Any two) 2×5",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 5,
+              "question": "Refrigeration cycle."
+            },
+            {
+              "sub_no": "b",
+              "marks": 5,
+              "question": "Newton's law of cooling."
+            },
+            {
+              "sub_no": "c",
+              "marks": 5,
+              "question": "Reynold's Number."
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2021-F",
       "year": "2021",
       "semester": "Fall",
@@ -1821,6 +2123,12 @@
       "paper": "2018 Spring",
       "question": "Q6b",
       "description": "Composite wall cross-section with 4 layers A, B, C, D. Left side at 400°C, right side at 60°C. A is a single left layer (10 cm), B and C are parallel middle layers (B: 8 cm tall, C: 3 cm+gap), D is the right layer (7 cm). kA=150, kB=30, kC=65, kD=50 W/m°C."
+    },
+    {
+      "file": "img/2023-S-6b.png",
+      "paper": "2023 Spring",
+      "question": "Q6b",
+      "description": "Composite wall with 5 layers A, B, C, D, E. B and C are parallel middle sections; E is a separate bottom-row layer. kA=150 W/m°C LA=3cm; kB=30 W/m°C LB=8cm; kC=50 W/m°C LC=8cm; kD=70 W/m°C LD=5cm; kE=25 W/m°C LE=16cm. AA=AD=2AB=2AC=0.1m², AE=0.025m²."
     }
   ]
 }

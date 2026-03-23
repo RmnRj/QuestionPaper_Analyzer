@@ -1,0 +1,104 @@
+{
+  "course_title": "Thermal Science",
+  "course_code": "3-1-0",
+  "total_hours": 45,
+  "university": "Pokhara University",
+  "program": "BE",
+  "course_contents": [
+    {
+      "unit": 1,
+      "title": "Basic Concepts of Thermodynamics",
+      "hours": 6,
+      "topics": [
+        { "topic": "1.1 Thermodynamic system, surrounding, boundary and types of systems", "frequency": 10 },
+        { "topic": "1.2 Thermodynamic property — intensive, extensive, types", "frequency": 10 },
+        { "topic": "1.3 State, path, process and cycle", "frequency": 7 },
+        { "topic": "1.4 Quasi-static / quasi-equilibrium process", "frequency": 6 },
+        { "topic": "1.5 Reversible and irreversible processes; thermodynamic equilibrium", "frequency": 5 },
+        { "topic": "1.6 Pressure — absolute, gauge, atmospheric, vacuum; zeroth law", "frequency": 7 },
+        { "topic": "1.7 Specific heats Cp and Cv; relation between them", "frequency": 7 },
+        { "topic": "1.8 Boundary work — polytropic, isothermal, constant pressure processes", "frequency": 11 }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": "Pure Substance",
+      "hours": 5,
+      "topics": [
+        { "topic": "2.1 Pure substance concept; phases and phase change", "frequency": 8 },
+        { "topic": "2.2 P-v and T-v diagrams of water; saturation curve; critical point; triple point", "frequency": 10 },
+        { "topic": "2.3 Quality (dryness fraction), moisture content, saturated liquid/vapour, superheated vapour", "frequency": 9 },
+        { "topic": "2.4 Steam tables — reading and interpolation for wet, saturated, superheated steam", "frequency": 10 },
+        { "topic": "2.5 P-v-T surface of water; enthalpy of wet steam", "frequency": 4 }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": "First Law of Thermodynamics",
+      "hours": 8,
+      "topics": [
+        { "topic": "3.1 First law for cyclic and non-cyclic processes; internal energy", "frequency": 8 },
+        { "topic": "3.2 Heat and work — similarities, differences, sign convention", "frequency": 7 },
+        { "topic": "3.3 Steady Flow Energy Equation (SFEE) — derivation and applications", "frequency": 11 },
+        { "topic": "3.4 SFEE applications — turbine, nozzle, compressor, throttling, diffuser, heat exchanger", "frequency": 11 },
+        { "topic": "3.5 Nozzle and compressor numerical problems", "frequency": 8 },
+        { "topic": "3.6 Enthalpy; specific heat relations for open systems", "frequency": 5 }
+      ]
+    },
+    {
+      "unit": 4,
+      "title": "Second Law of Thermodynamics",
+      "hours": 6,
+      "topics": [
+        { "topic": "4.1 Limitations of first law; emergence of second law", "frequency": 8 },
+        { "topic": "4.2 Kelvin-Planck and Clausius statements of second law", "frequency": 8 },
+        { "topic": "4.3 Equivalence of KP and Clausius statements", "frequency": 6 },
+        { "topic": "4.4 Heat engine, refrigerator and heat pump; COP", "frequency": 9 },
+        { "topic": "4.5 Carnot cycle and Carnot theorem; thermodynamic temperature scale", "frequency": 7 },
+        { "topic": "4.6 Irreversibility and factors causing irreversibility", "frequency": 6 }
+      ]
+    },
+    {
+      "unit": 5,
+      "title": "Entropy",
+      "hours": 6,
+      "topics": [
+        { "topic": "5.1 Clausius inequality and Clausius theorem", "frequency": 9 },
+        { "topic": "5.2 Entropy as a property of a system; entropy change derivation", "frequency": 10 },
+        { "topic": "5.3 Entropy change of ideal gas — isothermal, constant volume, polytropic, adiabatic", "frequency": 14 },
+        { "topic": "5.4 Principle of increase of entropy; entropy generation; entropy of universe", "frequency": 8 },
+        { "topic": "5.5 Availability and lost work / irreversibility", "frequency": 5 }
+      ]
+    },
+    {
+      "unit": 6,
+      "title": "Thermodynamic Cycles",
+      "hours": 8,
+      "topics": [
+        { "topic": "6.1 Rankine cycle — working principle, P-v and T-s diagrams, efficiency, methods to improve", "frequency": 12 },
+        { "topic": "6.2 Rankine cycle numerical problems", "frequency": 8 },
+        { "topic": "6.3 Brayton cycle — efficiency derivation, pressure ratio, numerical problems", "frequency": 10 },
+        { "topic": "6.4 Otto cycle — efficiency, P-V diagram, numerical problems", "frequency": 10 },
+        { "topic": "6.5 Diesel cycle — efficiency, cut-off ratio, numerical problems", "frequency": 11 },
+        { "topic": "6.6 Comparison between Otto and Diesel cycles; SI vs CI engines", "frequency": 8 },
+        { "topic": "6.7 Carnot cycle numerical problems", "frequency": 4 },
+        { "topic": "6.8 Vapour compression refrigeration cycle; COP of refrigerator and heat pump", "frequency": 16 }
+      ]
+    },
+    {
+      "unit": 7,
+      "title": "Heat Transfer",
+      "hours": 6,
+      "topics": [
+        { "topic": "7.1 Modes of heat transfer — conduction, convection, radiation; Fourier's law", "frequency": 9 },
+        { "topic": "7.2 Conduction through plane slab — single and multi-layer (series and parallel)", "frequency": 10 },
+        { "topic": "7.3 Conduction through hollow cylinder — single layer and composite insulated pipe", "frequency": 10 },
+        { "topic": "7.4 Conduction through hollow sphere", "frequency": 4 },
+        { "topic": "7.5 Overall heat transfer coefficient; thermal resistance concept", "frequency": 9 },
+        { "topic": "7.6 Convection — natural and forced; Newton's law of cooling; dimensionless numbers (Re, Pr, Nu)", "frequency": 8 },
+        { "topic": "7.7 Thermal radiation — emissivity, absorptivity, reflectivity, transmissivity; black body and grey body", "frequency": 8 },
+        { "topic": "7.8 Stefan-Boltzmann law; Kirchhoff's law", "frequency": 6 }
+      ]
+    }
+  ]
+}

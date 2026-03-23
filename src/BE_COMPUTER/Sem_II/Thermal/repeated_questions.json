@@ -1,0 +1,184 @@
+{
+  "repeated_questions": [
+    {
+      "question": "Derive an expression for entropy change of an ideal gas. Explain entropy change for isothermal process.",
+      "topic": "Entropy — Ideal Gas Entropy Change",
+      "freq": 14,
+      "papers": ["2025-SP","2022-F","2021-F","2020-F","2019-SP","2018-SP","2018-F","2017-SP","2016-SP","2015-SP","2014-SP","2013-F","2013-SP","2012-SP"]
+    },
+    {
+      "question": "Write short notes on refrigeration cycle (vapour compression refrigeration cycle).",
+      "topic": "Refrigeration Cycle",
+      "freq": 16,
+      "papers": ["2025-SP","2023-SP","2022-F","2021-F","2020-F","2019-SP","2018-SP","2018-F","2017-F","2017-SP","2016-SP","2015-SP","2014-SP","2013-F","2013-SP","2012-SP"]
+    },
+    {
+      "question": "Derive an expression for the efficiency of an ideal Rankine cycle with P-v and T-s diagrams.",
+      "topic": "Rankine Cycle — Efficiency",
+      "freq": 12,
+      "papers": ["2023-SP","2022-F","2021-F","2019-SP","2018-F","2017-SP","2015-SP","2014-F","2014-SP","2013-SP","2012-F","2012-SP"]
+    },
+    {
+      "question": "Derive an expression for the efficiency of an ideal Brayton cycle.",
+      "topic": "Brayton Cycle — Efficiency",
+      "freq": 10,
+      "papers": ["2025-SP","2023-SP","2021-F","2018-SP","2017-F","2016-SP","2015-F","2015-SP","2014-SP","2013-F"]
+    },
+    {
+      "question": "Starting from steady flow energy equation (SFEE), derive equations for turbine and nozzle stating necessary assumptions.",
+      "topic": "First Law — SFEE Applications (Turbine/Nozzle)",
+      "freq": 11,
+      "papers": ["2025-SP","2023-SP","2022-F","2021-F","2018-SP","2017-SP","2016-SP","2015-SP","2014-F","2013-SP","2012-SP"]
+    },
+    {
+      "question": "Derive the expression for conduction heat transfer rate through a hollow cylinder using Fourier's law.",
+      "topic": "Heat Transfer — Hollow Cylinder Conduction",
+      "freq": 10,
+      "papers": ["2021-F","2019-SP","2018-F","2017-SP","2016-SP","2015-SP","2014-F","2013-F","2012-F","2012-SP"]
+    },
+    {
+      "question": "Find the heat transfer through the composite wall. (Problems involving multi-layer walls with parallel and series sections.)",
+      "topic": "Heat Transfer — Composite Wall",
+      "freq": 9,
+      "papers": ["2023-SP","2022-F","2021-F","2018-SP","2017-F","2016-SP","2015-SP","2014-F","2013-F"]
+    },
+    {
+      "question": "Determine the boundary work / work done during a polytropic or given process from a P-V relationship.",
+      "topic": "Basic Concepts — Work Calculation (Boundary Work)",
+      "freq": 11,
+      "papers": ["2025-SP","2023-SP","2022-F","2021-F","2020-F","2018-F","2017-SP","2015-F","2014-F","2013-F","2012-SP"]
+    },
+    {
+      "question": "State and prove the Clausius Theorem / Show that violation of Kelvin-Planck statement leads to violation of Clausius statement.",
+      "topic": "Second Law — Clausius Theorem / KP and Clausius Equivalence",
+      "freq": 9,
+      "papers": ["2025-SP","2023-SP","2021-F","2018-F","2017-SP","2016-SP","2015-SP","2014-SP","2012-F"]
+    },
+    {
+      "question": "Draw with neat labelling the P-V (or T-v) diagram of water and describe it.",
+      "topic": "Pure Substance — P-V / T-v Diagram of Water",
+      "freq": 10,
+      "papers": ["2023-SP","2022-F","2021-F","2019-SP","2018-SP","2017-SP","2016-SP","2015-SP","2014-F","2012-SP"]
+    },
+    {
+      "question": "A vessel contains liquid water and water vapor mixture in equilibrium. Calculate mass/volume of liquid and vapor.",
+      "topic": "Pure Substance — Liquid-Vapor Mixture (Steam Tables)",
+      "freq": 10,
+      "papers": ["2022-F","2021-F","2020-F","2019-SP","2018-F","2017-SP","2016-SP","2015-F","2014-SP","2013-F"]
+    },
+    {
+      "question": "Steam enters a nozzle and leaves at different conditions while losing heat. Determine the exit velocity and flow area.",
+      "topic": "First Law — Nozzle Problem (SFEE)",
+      "freq": 8,
+      "papers": ["2022-F","2021-F","2018-SP","2017-SP","2016-SP","2013-SP","2012-SP","2025-SP"]
+    },
+    {
+      "question": "An air standard Diesel cycle problem — determine efficiency, cut-off ratio, pressures and temperatures at each state.",
+      "topic": "Thermodynamic Cycles — Diesel Cycle",
+      "freq": 11,
+      "papers": ["2025-SP","2023-SP","2022-F","2021-F","2019-SP","2018-SP","2017-F","2016-SP","2015-SP","2013-F","2012-SP"]
+    },
+    {
+      "question": "An air standard Otto cycle problem — determine efficiency, pressures/temperatures at end of each process, mean effective pressure.",
+      "topic": "Thermodynamic Cycles — Otto Cycle",
+      "freq": 10,
+      "papers": ["2023-SP","2021-F","2020-F","2018-F","2017-SP","2016-SP","2015-F","2015-SP","2014-F","2014-SP"]
+    },
+    {
+      "question": "Explain the working principle of Rankine Cycle with P-v and T-s diagram / explain how its efficiency can be increased.",
+      "topic": "Thermodynamic Cycles — Rankine Cycle Working Principle",
+      "freq": 10,
+      "papers": ["2025-SP","2022-F","2021-F","2019-SP","2018-F","2017-F","2016-SP","2015-SP","2014-F","2023-SP"]
+    },
+    {
+      "question": "Derive an expression for the overall heat transfer coefficient for a plane wall / composite wall separating two fluid media.",
+      "topic": "Heat Transfer — Overall Heat Transfer Coefficient",
+      "freq": 9,
+      "papers": ["2023-SP","2022-F","2019-SP","2018-SP","2017-SP","2016-SP","2015-F","2015-SP","2014-SP"]
+    },
+    {
+      "question": "A furnace wall consists of multiple layers (brick, insulation, plaster). Calculate heat loss per unit area and interface temperatures.",
+      "topic": "Heat Transfer — Furnace Wall (Multi-layer Slab)",
+      "freq": 10,
+      "papers": ["2025-SP","2022-F","2021-F","2019-SP","2018-SP","2017-SP","2016-SP","2015-SP","2014-SP","2012-SP"]
+    },
+    {
+      "question": "Briefly explain the working principle of heat pump and refrigerator with schematic diagrams. Derive the relationship for COP between heat pump and refrigerator.",
+      "topic": "Second Law — Heat Pump and Refrigerator / COP",
+      "freq": 9,
+      "papers": ["2025-SP","2023-SP","2021-F","2020-F","2018-F","2017-SP","2016-SP","2015-SP","2014-SP"]
+    },
+    {
+      "question": "What are the differences between Otto cycle and Diesel cycle?",
+      "topic": "Thermodynamic Cycles — Otto vs Diesel Comparison",
+      "freq": 8,
+      "papers": ["2021-F","2018-F","2016-SP","2015-F","2015-SP","2014-F","2013-F","2012-F"]
+    },
+    {
+      "question": "Derive an expression for change in entropy of an ideal gas for a polytropic process.",
+      "topic": "Entropy — Polytropic Process",
+      "freq": 6,
+      "papers": ["2023-SP","2021-F","2020-F","2018-SP","2017-SP","2015-F"]
+    },
+    {
+      "question": "Define thermodynamic system and explain its types. Define thermodynamic property and its types.",
+      "topic": "Basic Concepts — System, Property, Types",
+      "freq": 10,
+      "papers": ["2022-F","2021-F","2020-F","2019-SP","2018-F","2017-F","2016-SP","2015-F","2014-F","2012-SP"]
+    },
+    {
+      "question": "What is steady state flow process? Derive SFEE / use general energy equation for adiabatic compressor / throttling device.",
+      "topic": "First Law — SFEE / Steady State Flow",
+      "freq": 9,
+      "papers": ["2025-SP","2023-SP","2021-F","2020-F","2018-F","2017-SP","2016-SP","2015-SP","2012-F"]
+    },
+    {
+      "question": "A steam pipe covered with two layers of insulation — find heat loss per meter length and percentage decrease compared to single layer.",
+      "topic": "Heat Transfer — Composite Hollow Cylinder (Insulated Pipe)",
+      "freq": 7,
+      "papers": ["2021-F","2020-F","2019-SP","2018-SP","2017-F","2016-SP","2012-F"]
+    },
+    {
+      "question": "Define specific heat. Why does a gas have two specific heats (Cp and Cv)? Derive the relationship between them.",
+      "topic": "Basic Concepts — Specific Heats, Cp and Cv Relation",
+      "freq": 7,
+      "papers": ["2025-SP","2023-SP","2021-F","2019-SP","2018-F","2015-F","2012-SP"]
+    },
+    {
+      "question": "State the second law of thermodynamics (Kelvin-Planck and Clausius statements). What are the limitations of the first law?",
+      "topic": "Second Law — Statements and Limitations of First Law",
+      "freq": 8,
+      "papers": ["2025-SP","2022-F","2021-F","2019-SP","2018-SP","2016-SP","2015-SP","2012-F"]
+    },
+    {
+      "question": "Explain reflectivity, absorptivity, transmissivity, emissivity, black body and grey body.",
+      "topic": "Heat Transfer — Radiation Terms and Definitions",
+      "freq": 8,
+      "papers": ["2025-SP","2022-F","2021-F","2019-SP","2018-F","2017-F","2016-SP","2015-SP"]
+    },
+    {
+      "question": "Explain the mechanism of forced and free (natural) convection with appropriate examples.",
+      "topic": "Heat Transfer — Convection (Forced and Natural)",
+      "freq": 8,
+      "papers": ["2023-SP","2022-F","2021-F","2018-F","2017-SP","2016-SP","2015-SP","2012-SP"]
+    },
+    {
+      "question": "Why are non-dimensional numbers (Reynolds, Prandtl, Nusselt) important in heat transfer applications?",
+      "topic": "Heat Transfer — Dimensionless Numbers",
+      "freq": 7,
+      "papers": ["2021-F","2020-F","2018-F","2017-F","2016-SP","2015-F","2012-F"]
+    },
+    {
+      "question": "Differentiate between spark-ignition (SI) and compression-ignition (CI) engines.",
+      "topic": "Thermodynamic Cycles — SI vs CI Engine",
+      "freq": 6,
+      "papers": ["2021-F","2018-F","2018-SP","2017-F","2016-SP","2015-SP"]
+    },
+    {
+      "question": "A system undergoes a cycle consisting of processes — complete the missing table entries (Q, W, ΔU/ΔE).",
+      "topic": "First Law — Cyclic Process Table (Missing Values)",
+      "freq": 5,
+      "papers": ["2020-F","2016-SP","2015-SP","2013-SP","2012-F"]
+    }
+  ]
+}
