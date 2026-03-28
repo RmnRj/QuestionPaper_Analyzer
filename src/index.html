@@ -1226,6 +1226,70 @@
             max-width: 720px
         }
 
+        /* DEFAULT CONTENT */
+        #default-content {
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 40px 20px
+        }
+
+        .default-title {
+            font-family: var(--font-serif);
+            font-size: 26px;
+            font-weight: 700;
+            color: var(--text-1);
+            margin-bottom: 16px;
+            text-align: center
+        }
+
+        .default-desc {
+            font-size: 15px;
+            color: var(--text-2);
+            line-height: 1.7;
+            text-align: center;
+            margin-bottom: 32px
+        }
+
+        .default-features {
+            background: var(--surface);
+            border: 1px solid var(--border-lt);
+            border-radius: var(--r);
+            padding: 24px 28px
+        }
+
+        .default-feature {
+            display: flex;
+            gap: 12px;
+            align-items: flex-start;
+            padding: 12px 0;
+            border-bottom: 1px solid var(--border-lt)
+        }
+
+        .default-feature:last-child {
+            border-bottom: none
+        }
+
+        .default-feature-icon {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: var(--accent-bg);
+            color: var(--accent);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            font-weight: 700;
+            flex-shrink: 0;
+            margin-top: 2px
+        }
+
+        .default-feature-text {
+            font-size: 14px;
+            color: var(--text-1);
+            line-height: 1.6
+        }
+
         .guide-intro {
             background: var(--surface);
             border: 1px solid var(--border-lt);
@@ -1529,15 +1593,14 @@
             </div>
             <div id="subj-wrapper">
                 <select id="prog-select" onchange="onProgChange()">
-                    <option value="">Program</option>
                 </select>
                 <span class="subj-sep">›</span>
                 <select id="sem-select" onchange="onSemChange()" disabled>
-                    <option value="">Semester</option>
+                    <option value="">Choose Semester</option>
                 </select>
                 <span class="subj-sep">›</span>
                 <select id="subj-select" onchange="switchSubject(this.value)" disabled>
-                    <option value="">Subject</option>
+                    <option value="">Choose Subject</option>
                 </select>
                 <span id="subj-loading">Loading…</span>
             </div>
@@ -1581,6 +1644,11 @@
                 </div>
                 <div class="res-info" id="res-info"></div>
                 <div class="q-list" id="q-list"></div>
+            </div>
+
+            <!-- DEFAULT CONTENT -->
+            <div class="tab-pane" id="pane-default">
+                <div id="default-content"></div>
             </div>
 
             <!-- PAPERS -->
@@ -1710,19 +1778,19 @@
                             <div class="guide-step">
                                 <div class="gs-dot">1</div>
                                 <div class="gs-content">
-                                    <div class="gs-label">Add subject folder path to app-info.json</div>
-                                    <div class="gs-code">{
-                                        "subject": "Thermal",
-                                        "default": false,
-                                        "option": "available",
-                                        "folder": "BE_COMPUTER/Sem_II/Thermal"
-                                        }</div>
-                                    <div class="gs-note">Just provide the folder path. The app will automatically load
-                                        <span class="gs-ic">old_question_papers.json</span>, <span
-                                            class="gs-ic">repeated_questions.json</span>, and <span
-                                            class="gs-ic">syllabus.json</span> from this folder. Set <span
-                                            class="gs-ic">"default": true</span> for the subject to load on startup.
-                                    </div>
+                                    <div class="gs-label">Add subject to nested structure in app-info.json</div>
+                                    <div class="gs-code">"content": {
+  "BE Computer": {
+    "Sem VIII": [
+      {
+        "subject": "Your Subject",
+        "folder": "BE_COMPUTER/Sem_VIII/YourSubject",
+        "default": false
+      }
+    ]
+  }
+}</div>
+                                    <div class="gs-note">Add your subject under the appropriate Program → Semester. The app will automatically load <span class="gs-ic">old_question_papers.json</span>, <span class="gs-ic">repeated_questions.json</span>, and <span class="gs-ic">syllabus.json</span> from the folder path. Keep subjects sorted alphabetically within each semester.</div>
                                 </div>
                             </div>
                         </div>
@@ -1740,90 +1808,140 @@
                                 <div class="gs-content">
                                     <div class="gs-label">File 1: old_question_papers.json</div>
                                     <div class="gs-code">{
-                                        "subject": "Thermal Engineering",
-                                        "university": "Pokhara University",
-                                        "programme": "BE — Mechanical Engineering",
-                                        "level": "Bachelor",
-                                        "full_marks": 100,
-                                        "pass_marks": 45,
-                                        "papers": [ ... ]
-                                        }</div>
-                                    <div class="gs-note">The <span class="gs-ic">subject</span>, <span
-                                            class="gs-ic">university</span>, and <span class="gs-ic">programme</span>
-                                        fields are displayed in the Subject Information Bar.</div>
+  "subject": "Thermal Engineering",
+  "university": "Pokhara University",
+  "programme": "BE — Mechanical Engineering",
+  "level": "Bachelor",
+  "full_marks": 100,
+  "pass_marks": 45,
+  "papers": [
+    {
+      "id": "2024_fall",
+      "year": "2024",
+      "semester": "Fall",
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Define thermodynamics...",
+          "context": "Optional case study",
+          "fig_url": "BE_COMPUTER/Sem_II/Thermal/img/2023-S-6b.png",
+          "table_data": {
+            "headers": ["Column 1", "Column 2"],
+            "rows": [
+              {"col1": "Value 1", "col2": "Value 2"}
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}</div>
+                                    <div class="gs-note">The <span class="gs-ic">subject</span>, <span class="gs-ic">university</span>, and <span class="gs-ic">programme</span> fields are displayed in the Subject Information Bar.</div>
                                 </div>
                             </div>
                             <div class="guide-step">
                                 <div class="gs-dot">2</div>
                                 <div class="gs-content">
-                                    <div class="gs-label">File 2: repeated_questions.json</div>
-                                    <div class="gs-code">{
-                                        "repeated_questions": [
-                                        {
-                                        "question": "Define management...",
-                                        "topic": "1.1 Meaning and concept",
-                                        "freq": 20,
-                                        "papers": ["2025_spring", "2024_fall"]
-                                        }
-                                        ]
-                                        }</div>
-                                    <div class="gs-note">Contains questions that appear frequently across multiple
-                                        papers with their frequency count.</div>
+                                    <div class="gs-label">Handling Images (Figures/Diagrams)</div>
+                                    <div class="gs-desc">Store images in <span class="gs-ic">img/</span> subfolder and reference them using relative paths:</div>
+                                    <div class="gs-code">"fig_url": "BE_COMPUTER/Sem_VIII/IS/img/2024-F-3a.png"</div>
+                                    <div class="gs-note"><strong>Rules:</strong> Use relative paths from <span class="gs-ic">src/</span> folder. Supported formats: PNG, JPG, GIF, SVG. Images display at fixed 220px height with auto width.</div>
                                 </div>
                             </div>
                             <div class="guide-step">
                                 <div class="gs-dot">3</div>
                                 <div class="gs-content">
-                                    <div class="gs-label">File 3: syllabus.json</div>
-                                    <div class="gs-code">{
-                                        "course_title": "Thermal Engineering",
-                                        "course_code": "ME 501",
-                                        "total_hours": 45,
-                                        "course_contents": [
-                                        {
-                                        "unit": 1,
-                                        "title": "Introduction",
-                                        "hours": 3,
-                                        "topics": [
-                                        { "topic": "1.1 Basic concepts", "frequency": 15 }
-                                        ]
-                                        }
-                                        ]
-                                        }</div>
-                                    <div class="gs-note">Contains syllabus with frequency count for each topic showing
-                                        how many times it appeared in papers.</div>
+                                    <div class="gs-label">Handling Tables</div>
+                                    <div class="gs-desc">Add tables using <span class="gs-ic">table_data</span> with headers and rows:</div>
+                                    <div class="gs-code">"table_data": {
+  "headers": ["Parameter", "Value", "Unit"],
+  "rows": [
+    {"col1": "Temperature", "col2": "100", "col3": "°C"},
+    {"col1": "Pressure", "col2": "1.5", "col3": "bar"}
+  ]
+}</div>
+                                    <div class="gs-note"><strong>Rules:</strong> Each row object keys (col1, col2, col3...) must match the number of headers. Tables are responsive with horizontal scroll on small screens.</div>
                                 </div>
                             </div>
                             <div class="guide-step">
                                 <div class="gs-dot">4</div>
                                 <div class="gs-content">
+                                    <div class="gs-label">Handling Equations/Mathematical Expressions</div>
+                                    <div class="gs-desc">For equations, use Unicode symbols or save as images:</div>
+                                    <div class="gs-code">"question": "Calculate using formula: E = mc²"
+
+OR
+
+"question": "Solve the equation shown below:",
+"fig_url": "BE_COMPUTER/Sem_VIII/Math/img/equation-1.png"</div>
+                                    <div class="gs-note"><strong>Tip:</strong> For complex equations, save them as PNG images using LaTeX editors or screenshot tools. Use Unicode for simple expressions: ∫, ∑, √, ², ³, α, β, π, ≤, ≥, ≠, ∞</div>
+                                </div>
+                            </div>
+                            <div class="guide-step">
+                                <div class="gs-dot">5</div>
+                                <div class="gs-content">
+                                    <div class="gs-label">File 2: repeated_questions.json</div>
+                                    <div class="gs-code">{
+  "repeated_questions": [
+    {
+      "question": "Define management...",
+      "topic": "1.1 Meaning and concept",
+      "freq": 20,
+      "papers": ["2025_spring", "2024_fall"]
+    }
+  ]
+}</div>
+                                    <div class="gs-note">Contains questions that appear frequently across multiple papers with their frequency count.</div>
+                                </div>
+                            </div>
+                            <div class="guide-step">
+                                <div class="gs-dot">6</div>
+                                <div class="gs-content">
+                                    <div class="gs-label">File 3: syllabus.json</div>
+                                    <div class="gs-code">{
+  "course_title": "Thermal Engineering",
+  "course_code": "ME 501",
+  "total_hours": 45,
+  "course_contents": [
+    {
+      "unit": 1,
+      "title": "Introduction",
+      "hours": 3,
+      "topics": [
+        { "topic": "1.1 Basic concepts", "frequency": 15 }
+      ]
+    }
+  ]
+}</div>
+                                    <div class="gs-note">Contains syllabus with frequency count for each topic showing how many times it appeared in papers.</div>
+                                </div>
+                            </div>
+                            <div class="guide-step">
+                                <div class="gs-dot">7</div>
+                                <div class="gs-content">
                                     <div class="gs-label">Use AI to generate JSON files</div>
-                                    <div class="gs-desc"><strong>Step 1:</strong> Copy the format example from above
-                                    </div>
-                                    <div class="gs-desc" style="margin-top:8px"><strong>Step 2:</strong> Open AI model
-                                        in new tab:</div>
+                                    <div class="gs-desc"><strong>Step 1:</strong> Copy the format example from above</div>
+                                    <div class="gs-desc" style="margin-top:8px"><strong>Step 2:</strong> Open AI model in new tab:</div>
                                     <div style="display:flex;gap:8px;margin-top:8px;flex-wrap:wrap">
-                                        <button onclick="window.open('https://claude.ai/','_blank')"
-                                            style="padding:8px 16px;background:var(--accent);color:#fff;border:none;border-radius:var(--r);font-size:13px;font-weight:600;cursor:pointer;transition:background .2s">Claude
-                                            Sonnet 4.6 (Extended Thinking) →</button>
-                                        <button onclick="window.open('https://grok.com/','_blank')"
-                                            style="padding:8px 16px;background:var(--accent);color:#fff;border:none;border-radius:var(--r);font-size:13px;font-weight:600;cursor:pointer;transition:background .2s">Grok
-                                            AI (Expert Mode) →</button>
+                                        <button onclick="window.open('https://claude.ai/','_blank')" style="padding:8px 16px;background:var(--accent);color:#fff;border:none;border-radius:var(--r);font-size:13px;font-weight:600;cursor:pointer;transition:background .2s">Claude Sonnet 4.6 (Extended Thinking) →</button>
+                                        <button onclick="window.open('https://grok.com/','_blank')" style="padding:8px 16px;background:var(--accent);color:#fff;border:none;border-radius:var(--r);font-size:13px;font-weight:600;cursor:pointer;transition:background .2s">Grok AI (Expert Mode) →</button>
                                     </div>
-                                    <div class="gs-desc" style="margin-top:8px"><strong>Step 3:</strong> Upload your
-                                        PDF/image and paste this prompt:</div>
-                                    <div class="gs-code" style="margin-top:8px">Convert this question paper to JSON
-                                        following this exact format:
+                                    <div class="gs-desc" style="margin-top:8px"><strong>Step 3:</strong> Upload your PDF/image and paste this prompt:</div>
+                                    <div class="gs-code" style="margin-top:8px">Convert this question paper to JSON following this exact format:
 
-                                        [Paste the format example here]
+[Paste the format example here]
 
-                                        Rules:
-                                        - Use "id": "YYYY_semester" (e.g. "2024_fall")
-                                        - Extract all questions with number, sub_no, marks, question text
-                                        - For OR questions use "sub_no": "or"
-                                        - Extract full question text accurately</div>
-                                    <div class="gs-desc" style="margin-top:8px"><strong>Step 4:</strong> Copy the
-                                        AI-generated JSON and save to your subject folder with the exact file name</div>
+Rules:
+- Use "id": "YYYY_semester" (e.g. "2024_fall")
+- Extract all questions with number, sub_no, marks, question text
+- For OR questions use "sub_no": "or"
+- For images/diagrams, note them as "fig_url": "path/to/image.png"
+- For tables, extract as "table_data" with headers and rows
+- For equations, use Unicode symbols or note as image
+- Extract full question text accurately</div>
+                                    <div class="gs-desc" style="margin-top:8px"><strong>Step 4:</strong> Copy the AI-generated JSON and save to your subject folder with the exact file name</div>
                                 </div>
                             </div>
                         </div>
@@ -1916,10 +2034,24 @@
                 applyTheme(S.cfg);
                 renderHeader(S.cfg);
                 buildSubjectSelector(S.cfg);
-                // Find and load the default subject
-                const selectable = (S.cfg.content || []).filter(isSelectable);
-                const defEntry = selectable.find(c => c.default === true) || null;
-                if (defEntry) await loadSubject(defEntry.subject);
+                const content = S.cfg.content || {};
+                let defEntry = null;
+                for (const prog in content) {
+                    for (const sem in content[prog]) {
+                        if (sem === 'default_content') continue;
+                        const found = content[prog][sem].find(c => c.default === true);
+                        if (found) {
+                            defEntry = { ...found, program: prog, semester: sem };
+                            break;
+                        }
+                    }
+                    if (defEntry) break;
+                }
+                if (defEntry) {
+                    await loadSubject(defEntry.subject);
+                } else {
+                    renderSubjectInfo();
+                }
                 buildTabs();
                 hide('loading');
                 show('app');
@@ -1934,32 +2066,28 @@
         const qsa = s => document.querySelectorAll(s);
         function show(id) { el(id).style.display = ''; }
         function hide(id) { el(id).style.display = 'none'; }
-        function isSelectable(c) { return c.option === 'available'; }
 
         // ════════════════════════════════════════════════════
         // SUBJECT SELECTOR  (Program → Semester → Subject cascade)
         // ════════════════════════════════════════════════════
         function buildSubjectSelector(cfg) {
-            // Build Program dropdown from unique programs in available content
-            const selectable = (cfg.content || []).filter(isSelectable);
-            const programs = [...new Set(selectable.map(c => c.program).filter(Boolean))].sort();
+            const content = cfg.content || {};
+            const programs = Object.keys(content).sort();
             const progSel = el('prog-select');
-            progSel.innerHTML = `<option value="">Program</option>` +
-                programs.map(p => `<option value="${p}">${p}</option>`).join('');
+            progSel.innerHTML = programs.map(p => `<option value="${p}">${p}</option>`).join('');
 
-            // Auto-select if only one program exists
             if (programs.length === 1) {
+                progSel.value = programs[0];
+                _refreshSemester(programs[0]);
+            } else if (programs.length > 0) {
                 progSel.value = programs[0];
                 _refreshSemester(programs[0]);
             }
         }
 
         function _refreshSemester(prog) {
-            const selectable = (S.cfg.content || []).filter(isSelectable);
-            const semesters = [...new Set(
-                selectable.filter(c => c.program === prog).map(c => c.semester).filter(Boolean)
-            )].sort((a, b) => {
-                // Natural sort: "Sem I" < "Sem II" etc.
+            const content = S.cfg.content || {};
+            const semesters = Object.keys(content[prog] || {}).filter(k => k !== 'default_content').sort((a, b) => {
                 const n = s => parseInt(s.replace(/\D+/g, '')) || 0;
                 return n(a) - n(b);
             });
@@ -1967,32 +2095,26 @@
             semSel.innerHTML = `<option value="">Choose Semester</option>` +
                 semesters.map(s => `<option value="${s}">${s}</option>`).join('');
             semSel.disabled = false;
-            // Reset subject
-            el('subj-select').innerHTML = `<option value="">Subject</option>`;
+            el('subj-select').innerHTML = `<option value="">Choose Subject</option>`;
             el('subj-select').disabled = true;
         }
 
         function _refreshSubject(prog, sem) {
-            const selectable = (S.cfg.content || []).filter(isSelectable);
-            const subjects = selectable.filter(c => c.program === prog && c.semester === sem);
+            const content = S.cfg.content || {};
+            const subjects = (content[prog] && content[prog][sem]) || [];
             const subjSel = el('subj-select');
             subjSel.innerHTML = `<option value="">Choose Subject</option>` +
                 subjects.map(c => `<option value="${c.subject}">${c.subject}</option>`).join('');
             subjSel.disabled = subjects.length === 0;
-            // Auto-select if only one subject
-            if (subjects.length === 1) {
-                subjSel.value = subjects[0].subject;
-                switchSubject(subjects[0].subject);
-            }
         }
 
         function onProgChange() {
             const prog = el('prog-select').value;
             if (!prog) {
                 const semSel = el('sem-select');
-                semSel.innerHTML = `<option value="">Semester</option>`;
+                semSel.innerHTML = `<option value="">Choose Semester</option>`;
                 semSel.disabled = true;
-                el('subj-select').innerHTML = `<option value="">Subject</option>`;
+                el('subj-select').innerHTML = `<option value="">Choose Subject</option>`;
                 el('subj-select').disabled = true;
                 return;
             }
@@ -2002,8 +2124,13 @@
         function onSemChange() {
             const sem = el('sem-select').value;
             if (!sem) {
-                el('subj-select').innerHTML = `<option value="">Subject</option>`;
+                el('subj-select').innerHTML = `<option value="">Choose Subject</option>`;
                 el('subj-select').disabled = true;
+                S.qp = null; S.rq = null; S.syl = null;
+                S.all = [];
+                S.activeSubject = null;
+                renderSubjectInfo();
+                buildTabs();
                 return;
             }
             const prog = el('prog-select').value;
@@ -2011,15 +2138,22 @@
         }
 
         async function switchSubject(name) {
-            if (!name || name === S.activeSubject) return;
+            if (name === S.activeSubject) return;
+            
+            if (!name) {
+                S.qp = null; S.rq = null; S.syl = null;
+                S.all = [];
+                S.activeSubject = null;
+                renderSubjectInfo();
+                buildTabs();
+                return;
+            }
 
-            // Clear old data immediately
             S.qp = null; S.rq = null; S.syl = null;
             S.all = [];
             S.activeSubject = name;
             renderSubjectInfo();
 
-            // Clear all content areas
             el('res-info').textContent = '';
             el('q-list').innerHTML = '';
             el('pp-year').innerHTML = '';
@@ -2028,7 +2162,6 @@
             el('syl-out').innerHTML = '';
             el('stats-bar').innerHTML = '';
 
-            // Show loading indicator
             el('subj-loading').style.display = '';
             el('prog-select').disabled = true;
             el('sem-select').disabled = true;
@@ -2042,14 +2175,25 @@
 
             el('subj-loading').style.display = 'none';
             el('prog-select').disabled = false;
-            // Re-enable sem/subj selects only if they have options
             if (el('sem-select').options.length > 1) el('sem-select').disabled = false;
             if (el('subj-select').options.length > 1) el('subj-select').disabled = false;
         }
 
         async function loadSubject(name) {
             if (S.cache[name]) { applyData(name, S.cache[name]); return; }
-            const entry = (S.cfg.content || []).find(c => c.subject === name);
+            const content = S.cfg.content || {};
+            let entry = null;
+            for (const prog in content) {
+                for (const sem in content[prog]) {
+                    if (sem === 'default_content') continue;
+                    entry = content[prog][sem].find(c => c.subject === name);
+                    if (entry) {
+                        entry = { ...entry, program: prog, semester: sem };
+                        break;
+                    }
+                }
+                if (entry) break;
+            }
             if (!entry || !entry.folder) return;
             const data = { qp: null, rq: null, syl: null };
             const files = [
@@ -2071,8 +2215,19 @@
             S.activeSubject = name;
             S.qp = data.qp; S.rq = data.rq; S.syl = data.syl;
             S.all = S.qp ? flatQ() : [];
-            // Sync cascade selectors to the loaded subject
-            const entry = (S.cfg.content || []).find(c => c.subject === name);
+            const content = S.cfg.content || {};
+            let entry = null;
+            for (const prog in content) {
+                for (const sem in content[prog]) {
+                    if (sem === 'default_content') continue;
+                    entry = content[prog][sem].find(c => c.subject === name);
+                    if (entry) {
+                        entry = { ...entry, program: prog, semester: sem };
+                        break;
+                    }
+                }
+                if (entry) break;
+            }
             if (entry && entry.program && entry.semester) {
                 const progSel = el('prog-select');
                 if (progSel.value !== entry.program) {
@@ -2091,7 +2246,7 @@
 
         function renderSubjectInfo() {
             const infoBar = el('subject-info');
-            if (!S.qp || S.activeSubject === 'Choose Subject') {
+            if (!S.qp) {
                 el('subj-info-name').textContent = 'Select Subject';
                 el('subj-info-uni').textContent = '—';
                 el('subj-info-prog').textContent = '—';
@@ -2132,6 +2287,11 @@
             if (S.rq) tabs.push({ id: 'repeated', label: lbl.repeated || 'Repeated' });
             if (S.syl) tabs.push({ id: 'syllabus', label: lbl.syllabus || 'Syllabus' });
             tabs.push({ id: 'guide', label: lbl.guide || 'Add Subject Guide' });
+            
+            if (tabs.length === 1) {
+                tabs.unshift({ id: 'default', label: 'Home' });
+            }
+            
             qs('#tabs').innerHTML = tabs.map(t =>
                 `<button class="tab-btn" data-t="${t.id}" onclick="goTab('${t.id}')">${t.label}</button>`
             ).join('');
@@ -2141,6 +2301,7 @@
         function goTab(id, force) {
             qsa('.tab-btn').forEach(b => b.classList.toggle('active', b.dataset.t === id));
             qsa('.tab-pane').forEach(p => p.classList.toggle('active', p.id === 'pane-' + id));
+            if (id === 'default') { renderDefaultContent(); }
             if (id === 'questions' && S.qp && (force || el('res-info').textContent === '')) { initQTab(); }
             if (id === 'papers' && S.qp && (force || !el('pp-year').options.length)) { initPapers(); }
             if (id === 'repeated' && S.rq && (force || !el('rq-list').children.length)) { renderRepeated(); }
@@ -2496,6 +2657,33 @@
             }).catch(err => {
                 console.error('Failed to copy:', err);
             });
+        }
+
+        // ════════════════════════════════════════════════════
+        // DEFAULT CONTENT
+        // ════════════════════════════════════════════════════
+        function renderDefaultContent() {
+            const prog = el('prog-select').value;
+            const content = S.cfg.content || {};
+            const defaultData = content[prog] && content[prog].default_content;
+            
+            if (!defaultData) {
+                el('default-content').innerHTML = `<div class="no-results">Please select a semester and subject.</div>`;
+                return;
+            }
+            
+            const featuresHtml = (defaultData.features || []).map((f, i) => 
+                `<div class="default-feature">
+                    <div class="default-feature-icon">✓</div>
+                    <div class="default-feature-text">${f}</div>
+                </div>`
+            ).join('');
+            
+            el('default-content').innerHTML = `
+                <div class="default-title">${defaultData.title || 'Welcome'}</div>
+                <div class="default-desc">${defaultData.description || ''}</div>
+                <div class="default-features">${featuresHtml}</div>
+            `;
         }
 
         // ════════════════════════════════════════════════════

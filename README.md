@@ -14,10 +14,11 @@ A static, JSON-driven web app for browsing university exam question papers, filt
    - [old_question_papers.json](#42-old_question_papersjson--question-bank)
    - [repeated_questions.json](#43-repeated_questionsjson--repeated-questions)
    - [syllabus.json](#44-syllabusjson--syllabus-with-frequency)
-5. [Overview Stats Configuration](#5-overview-stats-configuration)
-6. [Converting Question Papers to JSON Using AI](#6-converting-question-papers-to-json-using-ai)
-7. [Tips & Notes](#7-tips--notes)
-8. [Troubleshooting](#8-troubleshooting)
+5. [Handling Special Content](#5-handling-special-content)
+6. [Overview Stats Configuration](#6-overview-stats-configuration)
+7. [Converting Question Papers to JSON Using AI](#7-converting-question-papers-to-json-using-ai)
+8. [Tips & Notes](#8-tips--notes)
+9. [Troubleshooting](#9-troubleshooting)
 
 ---
 
@@ -28,14 +29,14 @@ A static, JSON-driven web app for browsing university exam question papers, filt
 Just double-click `App.bat`. It will:
 - Check if Python is installed (and install it silently if not)
 - Start a local server on port 8000
-- Open `http://localhost:8000/app-page.html` in your browser automatically
+- Open `http://localhost:8000/index.html` in your browser automatically
 
 ### Option B — Python (manual)
 
 ```bash
 cd path/to/PU-QuestionPaper_Analyzer/src
 python -m http.server 8000
-# Then open: http://localhost:8000/app-page.html
+# Then open: http://localhost:8000/index.html
 ```
 
 ### Option C — Node.js (manual)
@@ -43,15 +44,15 @@ python -m http.server 8000
 ```bash
 cd path/to/PU-QuestionPaper_Analyzer/src
 npx http-server -p 8000
-# Then open: http://localhost:8000/app-page.html
+# Then open: http://localhost:8000/index.html
 ```
 
 ### Option D — VS Code Live Server
 
 1. Install the **Live Server** extension in VS Code
-2. Right-click `app-page.html` → **Open with Live Server**
+2. Right-click `index.html` → **Open with Live Server**
 
-> **Note:** The app uses `fetch()` to load JSON files, so it **cannot be opened by double-clicking** `app-page.html` directly.
+> **Note:** The app uses `fetch()` to load JSON files, so it **cannot be opened by double-clicking** `index.html` directly.
 
 ---
 
@@ -65,31 +66,26 @@ PU-QuestionPaper_Analyzer/
 ├── README.md                   ← Documentation
 │
 └── src/
-    ├── app-page.html               ← The app (do not rename)
-    ├── app-info.json               ← App settings, overview config
+    ├── index.html                  ← The app (do not rename)
+    ├── app-info.json               ← App settings, nested structure
     ├── pu-logo.png                 ← Optional logo
     │
     └── BE_COMPUTER/
-        ├── Sem_VIII/
-        │   ├── IS/
-        │   │   ├── old_question_papers.json
-        │   │   ├── repeated_questions.json
-        │   │   ├── syllabus.json
-        │   │   └── img/
-        │   │       ├── 2023-S-6b.png
-        │   │       └── ...
-        │   ├── DSAP/
-        │   ├── O&M/
-        │   └── SPIT/
-        │
-        └── Sem_II/
-            └── Thermal/
-                ├── old_question_papers.json
-                ├── repeated_questions.json
-                ├── syllabus.json
-                └── img/
-                    ├── 2023-S-6b.png
-                    └── ...
+        ├── Sem_II/
+        │   └── Thermal/
+        │       ├── old_question_papers.json
+        │       ├── repeated_questions.json
+        │       ├── syllabus.json
+        │       └── img/
+        │           ├── 2023-S-6b.png
+        │           └── ...
+        ├── Sem_IV/
+        │   └── Math_IV/
+        └── Sem_VIII/
+            ├── IS/
+            ├── DSAP/
+            ├── O&M/
+            └── SPIT/
 ```
 
 ---
@@ -114,13 +110,13 @@ Create folders following this pattern:
 ```
 src/
 └── BE_COMPUTER/
-    └── Sem_II/
-        └── Thermal/
+    └── Sem_VIII/
+        └── YourSubject/
             ├── old_question_papers.json
             ├── repeated_questions.json
             ├── syllabus.json
             └── img/
-                ├── 2023-S-6b.png
+                ├── 2024-F-1a.png
                 └── ...
 ```
 
@@ -131,18 +127,26 @@ src/
 
 ### Step 3 — Register in app-info.json
 
-Add your subject to the `content` array:
+Add your subject to the nested structure under the appropriate Program → Semester:
 
 ```json
-{
-  "subject": "Thermal",
-  "default": false,
-  "option": "available",
-  "folder": "BE_COMPUTER/Sem_II/Thermal"
+"content": {
+  "BE Computer": {
+    "Sem VIII": [
+      {
+        "subject": "Your Subject",
+        "folder": "BE_COMPUTER/Sem_VIII/YourSubject",
+        "default": false
+      }
+    ]
+  }
 }
 ```
 
-**Note:** Just provide the folder path. The app will automatically load `old_question_papers.json`, `repeated_questions.json`, and `syllabus.json` from this folder.
+**Important:**
+- Keep subjects sorted alphabetically within each semester
+- Semesters are automatically sorted in ascending order (Sem I, Sem II, ... Sem VIII)
+- The app uses cascading filters: Program → Semester → Subject
 
 ### Step 4 — Create Required JSON Files
 
@@ -180,20 +184,17 @@ You need **Python** or **Node.js** installed to run a local server.
 
 ```json
 {
-    "app_name":     "Question Analyzer",
-    "app_ic":       "pu-logo.png",
-    "university":   "PU",
-    "program":      "BE_Computer",
-    "course":       "SPIT",
-    "course_code":  "2-0-0",
-    "theme":        "light",
+    "app_name": "Question Analyzer",
+    "app_ic": "pu-logo.png",
+    "university": "PU",
+    "program": "BE_Computer",
     "accent_color": "#2B5EA7",
 
     "tab_labels": {
         "questions": "Questions",
-        "papers":    "Papers",
-        "repeated":  "Repeated",
-        "syllabus":  "Syllabus"
+        "papers": "Papers",
+        "repeated": "Repeated",
+        "syllabus": "Syllabus"
     },
 
     "overview": [
@@ -204,15 +205,35 @@ You need **Python** or **Node.js** installed to run a local server.
         { "label": "Peak Repeats",    "value": "auto:peak"      },
         { "label": "Year Span",       "value": "auto:yearspan"  }
     ],
-    
-    "content": [
-        {
-            "subject": "IS",
-            "default": true,
-            "option": "available",
-            "folder": "BE_COMPUTER/Sem_VIII/IS"
+
+    "content": {
+        "BE Computer": {
+            "default_content": {
+                "title": "Welcome to Question Analyzer",
+                "description": "Select a semester and subject from the dropdowns above to view question papers, repeated questions, and syllabus.",
+                "features": [
+                    "Browse past question papers by year and semester",
+                    "View frequently repeated questions with frequency analysis",
+                    "Explore syllabus with topic-wise question frequency",
+                    "Filter questions by year, semester, marks, and type"
+                ]
+            },
+            "Sem II": [
+                {
+                    "subject": "Thermal",
+                    "folder": "BE_COMPUTER/Sem_II/Thermal",
+                    "default": false
+                }
+            ],
+            "Sem VIII": [
+                {
+                    "subject": "IS",
+                    "folder": "BE_COMPUTER/Sem_VIII/IS",
+                    "default": true
+                }
+            ]
         }
-    ]
+    }
 }
 ```
 
@@ -224,12 +245,11 @@ You need **Python** or **Node.js** installed to run a local server.
 | `app_ic` | string | Path to logo image (optional) |
 | `university` | string | Shown in header subtitle |
 | `program` | string | Shown in header subtitle |
-| `course` | string | Shown in header badge |
-| `course_code` | string | Shown in header badge |
 | `accent_color` | hex string | Changes highlight color across the app |
 | `tab_labels` | object | Rename any of the four tabs |
-| `overview` | array | Stats bar configuration (see Section 5) |
-| `content` | array | List of subjects with folder paths |
+| `overview` | array | Stats bar configuration (see Section 6) |
+| `content` | nested object | Three-layer structure: Program → Semester → [Subjects] |
+| `default_content` | object | Welcome message shown when no subject selected |
 
 ---
 
@@ -253,13 +273,14 @@ You need **Python** or **Node.js** installed to run a local server.
           "number": "1",
           "sub_no": "a",
           "marks": 7,
-          "question": "Define thermodynamics...",
-          "context": "Optional case study",
-          "fig_url": "BE_COMPUTER/Sem_II/Thermal/img/2023-S-6b.png",
+          "question": "Define thermodynamics and explain its applications.",
+          "context": "Optional case study or additional context",
+          "fig_url": "BE_COMPUTER/Sem_II/Thermal/img/2024-F-1a.png",
           "table_data": {
-            "headers": ["Column 1", "Column 2"],
+            "headers": ["Parameter", "Value", "Unit"],
             "rows": [
-              {"col1": "Value 1", "col2": "Value 2"}
+              {"col1": "Temperature", "col2": "100", "col3": "°C"},
+              {"col2": "Pressure", "col2": "1.5", "col3": "bar"}
             ]
           }
         }
@@ -280,25 +301,6 @@ You need **Python** or **Node.js** installed to run a local server.
 | `context` | string | No | Case study or additional context |
 | `fig_url` | string | No | Relative path to image from `src/` folder |
 | `table_data` | object | No | Table with `headers` and `rows` arrays |
-
-#### Image Rules
-
-- Store images in `img/` subfolder within subject folder
-- Use relative paths from `src/` folder
-- Example: `BE_COMPUTER/Sem_II/Thermal/img/2023-S-6b.png`
-- Supported formats: PNG, JPG, GIF, SVG
-
-#### Table Rules
-
-```json
-"table_data": {
-  "headers": ["Header 1", "Header 2", "Header 3"],
-  "rows": [
-    {"col1": "Value 1", "col2": "Value 2", "col3": "Value 3"},
-    {"col1": "Value 4", "col2": "Value 5", "col3": "Value 6"}
-  ]
-}
-```
 
 ---
 
@@ -360,7 +362,116 @@ You need **Python** or **Node.js** installed to run a local server.
 
 ---
 
-## 5. Overview Stats Configuration
+## 5. Handling Special Content
+
+### 5.1 Images (Figures/Diagrams)
+
+**Storage:**
+- Store all images in `img/` subfolder within your subject folder
+- Use PNG, JPG, GIF, or SVG formats
+
+**Referencing:**
+```json
+"fig_url": "BE_COMPUTER/Sem_VIII/IS/img/2024-F-3a.png"
+```
+
+**Rules:**
+- Use relative paths from `src/` folder
+- Use forward slashes `/` (not backslashes)
+- Images display at fixed 220px height with auto width
+- Images are responsive and scale on mobile devices
+
+**Example:**
+```json
+{
+  "number": "3",
+  "sub_no": "a",
+  "marks": 5,
+  "question": "Analyze the circuit diagram shown below:",
+  "fig_url": "BE_COMPUTER/Sem_VIII/IS/img/circuit-diagram.png"
+}
+```
+
+---
+
+### 5.2 Tables
+
+**Format:**
+```json
+"table_data": {
+  "headers": ["Column 1", "Column 2", "Column 3"],
+  "rows": [
+    {"col1": "Value 1", "col2": "Value 2", "col3": "Value 3"},
+    {"col1": "Value 4", "col2": "Value 5", "col3": "Value 6"}
+  ]
+}
+```
+
+**Rules:**
+- Each row object must have keys matching the number of headers (col1, col2, col3...)
+- Tables are responsive with horizontal scroll on small screens
+- Headers are styled with background color
+
+**Example:**
+```json
+{
+  "number": "2",
+  "sub_no": "b",
+  "marks": 8,
+  "question": "Based on the data in the table below, calculate the efficiency:",
+  "table_data": {
+    "headers": ["Process", "Input (kW)", "Output (kW)", "Efficiency (%)"],
+    "rows": [
+      {"col1": "Process A", "col2": "100", "col3": "85", "col4": "85"},
+      {"col1": "Process B", "col2": "150", "col3": "120", "col4": "80"}
+    ]
+  }
+}
+```
+
+---
+
+### 5.3 Equations/Mathematical Expressions
+
+**Option 1: Unicode Symbols (Simple Equations)**
+
+Use Unicode characters for simple mathematical expressions:
+
+```json
+"question": "Calculate using formula: E = mc²"
+"question": "Find the integral: ∫ x² dx"
+"question": "Solve: √(a² + b²) ≤ c"
+```
+
+**Common Unicode Math Symbols:**
+- Superscripts: ², ³, ⁴, ⁵
+- Greek letters: α, β, γ, δ, θ, π, σ, ω
+- Operators: ∫, ∑, √, ∂, ∞
+- Relations: ≤, ≥, ≠, ≈, ±
+
+**Option 2: Images (Complex Equations)**
+
+For complex equations, save them as PNG images:
+
+```json
+{
+  "number": "4",
+  "sub_no": "a",
+  "marks": 10,
+  "question": "Solve the differential equation shown below:",
+  "fig_url": "BE_COMPUTER/Sem_VIII/Math/img/equation-4a.png"
+}
+```
+
+**Creating Equation Images:**
+1. Use LaTeX editors (Overleaf, MathType)
+2. Use online equation editors (CodeCogs, LaTeX Equation Editor)
+3. Screenshot from textbooks or papers
+4. Save as PNG with transparent background (recommended)
+
+---
+
+## 6. Overview Stats Configuration
 
 The stats bar is configured in `app-info.json` under `"overview"`. Each item: `{ "label": "...", "value": "..." }`
 
@@ -387,7 +498,7 @@ Remove the `"overview"` key entirely to hide the stats bar.
 
 ---
 
-## 6. Converting Question Papers to JSON Using AI
+## 7. Converting Question Papers to JSON Using AI
 
 Use **Claude Sonnet 4.6 (Extended Thinking)** or **Grok AI (Expert Mode)** to automatically convert question papers to JSON format.
 
@@ -420,14 +531,18 @@ Rules:
 - Use "id": "YYYY_semester" (e.g. "2024_fall")
 - Extract all questions with number, sub_no, marks, question text
 - For OR questions use "sub_no": "or"
-- For short notes (Q7) use "options" array
+- For images/diagrams, note them as "fig_url": "path/to/image.png"
+- For tables, extract as "table_data" with headers and rows
+- For equations, use Unicode symbols or note as image
 - Extract full question text accurately
 ```
 
-#### Step 4 — Validate and save
+#### Step 4 — Save and add images
 
 1. Copy the AI-generated JSON
 2. Save as `old_question_papers.json` in your subject folder
+3. Extract images from PDF and save to `img/` subfolder
+4. Update `fig_url` paths in JSON to match saved images
 
 #### Step 5 — Create other files
 
@@ -437,7 +552,7 @@ Repeat the process for:
 
 ---
 
-## 7. Tips & Notes
+## 8. Tips & Notes
 
 ### Adding a new year's paper
 
@@ -483,11 +598,11 @@ Works in all modern browsers (Chrome, Firefox, Edge, Safari). No build step, no 
 
 ---
 
-## 8. Troubleshooting
+## 9. Troubleshooting
 
 ### App won't load / blank page
 
-- Make sure you're using a local server (not opening `app-page.html` directly)
+- Make sure you're using a local server (not opening `index.html` directly)
 - Check browser console (F12) for errors
 - Verify all JSON files are in the correct folders
 
@@ -495,17 +610,31 @@ Works in all modern browsers (Chrome, Firefox, Edge, Safari). No build step, no 
 
 - Common issues: missing commas, trailing commas, unescaped quotes
 - Check browser console (F12) for specific error messages
+- Use online JSON validators
 
 ### Images not loading
 
 - Verify image paths are relative from `src/` folder
 - Check that images exist in the `img/` subfolder
 - Use forward slashes `/` in paths, not backslashes
+- Check image file extensions match (case-sensitive on some systems)
+
+### Tables not displaying
+
+- Verify `headers` array length matches number of columns in each row
+- Check that row objects use col1, col2, col3... keys
+- Ensure no missing commas in JSON
 
 ### Port 8000 already in use
 
 - Close any other servers running on port 8000
 - Or use a different port: `python -m http.server 8001`
+
+### Cascading filters not working
+
+- Verify nested structure in `app-info.json` is correct
+- Check that Program → Semester → Subject hierarchy is maintained
+- Ensure no `default_content` key is mixed with semester keys
 
 ---
 
@@ -516,7 +645,7 @@ To add a new subject:
 1. Fork the repository
 2. Create a new folder following the structure
 3. Add your JSON files (old_question_papers.json, repeated_questions.json, syllabus.json)
-4. Register in `app-info.json`
+4. Register in `app-info.json` under appropriate Program → Semester
 5. Test locally to ensure everything works
 6. Submit a pull request to https://github.com/RmnRj/PU-QuestionPaper_Analyzer/pulls
 

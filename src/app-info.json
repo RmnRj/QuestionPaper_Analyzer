@@ -3,9 +3,6 @@
     "app_ic": "pu-logo.png",
     "university": "PU",
     "program": "BE_Computer",
-    "course": "SPIT",
-    "course_code": "2-0-0",
-    "theme": "light",
     "accent_color": "#2B5EA7",
 
     "tab_labels": {
@@ -24,62 +21,54 @@
         { "label": "Year Span",       "value": "auto:yearspan"  }
     ],
 
-    "content": [
-        {
-            "subject": "Choose Subject",
-            "program": null,
-            "semester": null,
-            "default": true,
-            "option": "available",
-            "folder": "None"
-        },
-        {
-            "subject": "IS",
-            "program": "BE Computer",
-            "semester": "Sem VIII",
-            "default": false,
-            "option": "available",
-            "folder": "BE_COMPUTER/Sem_VIII/IS"
-        },
-        {
-            "subject": "DSAP",
-            "program": "BE Computer",
-            "semester": "Sem VIII",
-            "default": false,
-            "option": "available",
-            "folder": "BE_COMPUTER/Sem_VIII/DSAP"
-        },
-        {
-            "subject": "O&M",
-            "program": "BE Computer",
-            "semester": "Sem VIII",
-            "default": false,
-            "option": "available",
-            "folder": "BE_COMPUTER/Sem_VIII/OM"
-        },
-        {
-            "subject": "SPIT",
-            "program": "BE Computer",
-            "semester": "Sem VIII",
-            "default": false,
-            "option": "available",
-            "folder": "BE_COMPUTER/Sem_VIII/SPIT"
-        },
-        {
-            "subject": "Thermal",
-            "program": "BE Computer",
-            "semester": "Sem II",
-            "default": false,
-            "option": "available",
-            "folder": "BE_COMPUTER/Sem_II/Thermal"
-        },
-        {
-            "subject": "Math IV",
-            "program": "BE Computer",
-            "semester": "Sem IV",
-            "default": false,
-            "option": "available",
-            "folder": "BE_COMPUTER/Sem_IV/Eng_Mathematics_IV"
+    "content": {
+        "BE Computer": {
+            "default_content": {
+                "title": "Welcome to Question Analyzer",
+                "description": "Select a semester and subject from the dropdowns above to view question papers, repeated questions, and syllabus.",
+                "features": [
+                    "Browse past question papers by year and semester",
+                    "View frequently repeated questions with frequency analysis",
+                    "Explore syllabus with topic-wise question frequency",
+                    "Filter questions by year, semester, marks, and type"
+                ]
+            },
+            "Sem II": [
+                {
+                    "subject": "Thermal",
+                    "folder": "BE_COMPUTER/Sem_II/Thermal",
+                    "default": false
+                }
+            ],
+            "Sem IV": [
+                {
+                    "subject": "Math IV",
+                    "folder": "BE_COMPUTER/Sem_IV/Eng_Mathematics_IV",
+                    "default": false
+                }
+            ],
+            "Sem VIII": [
+                {
+                    "subject": "DSAP",
+                    "folder": "BE_COMPUTER/Sem_VIII/DSAP",
+                    "default": false
+                },
+                {
+                    "subject": "IS",
+                    "folder": "BE_COMPUTER/Sem_VIII/IS",
+                    "default": false
+                },
+                {
+                    "subject": "O&M",
+                    "folder": "BE_COMPUTER/Sem_VIII/OM",
+                    "default": false
+                },
+                {
+                    "subject": "SPIT",
+                    "folder": "BE_COMPUTER/Sem_VIII/SPIT",
+                    "default": false
+                }
+            ]
         }
-    ]
+    }
 }
