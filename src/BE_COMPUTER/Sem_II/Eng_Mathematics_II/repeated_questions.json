@@ -1,0 +1,186 @@
+{
+  "repeated_questions": [
+    {
+      "question": "State and prove Euler's theorem on homogeneous function of two independent variables of degree n. If u = cos⁻¹((x+y)/(√x+√y)) [or sin⁻¹], show that x∂u/∂x + y∂u/∂y + (1/2)cot u = 0 [or tan u].",
+      "topic": "2.2 Euler's Theorem on Homogeneous Functions",
+      "freq": 15,
+      "papers": ["2022_fall","2021_fall","2020_fall","2019_fall","2019_spring","2018_fall","2018_spring","2017_fall","2017_spring","2016_fall","2016_spring","2015_fall","2015_spring","2014_fall","2013_fall"],
+      "eq": "u=\\cos^{-1}\\!\\left(\\frac{x+y}{\\sqrt{x}+\\sqrt{y}}\\right),\\quad x\\frac{\\partial u}{\\partial x}+y\\frac{\\partial u}{\\partial y}+\\frac{1}{2}\\cot u=0"
+    },
+    {
+      "question": "Find the equation of the sphere through the circle x²+y²+z²=1, 2x+4y+5z=6 and touching the plane z=0.",
+      "topic": "1.3 Sphere — touching a plane",
+      "freq": 12,
+      "papers": ["2022_fall","2021_fall","2020_fall","2019_fall","2019_spring","2018_fall","2018_spring","2017_spring","2016_fall","2016_spring","2015_spring","2014_spring"],
+      "eq": "x^2+y^2+z^2=1,\\quad 2x+4y+5z=6,\\quad z=0"
+    },
+    {
+      "question": "Solve y'' − 2y' + y = 12eˣ/x³ using variation of parameters.",
+      "topic": "5.3 Variation of Parameters",
+      "freq": 8,
+      "papers": ["2020_fall","2019_spring","2018_fall","2017_spring","2015_fall","2015_spring","2014_fall","2014_spring"],
+      "eq": "y''-2y'+y=\\frac{12e^x}{x^3}"
+    },
+    {
+      "question": "Solve by power series method: y'' − 4y = 0 OR y'' + 4y = 0.",
+      "topic": "6.1 Power Series Method for ODEs",
+      "freq": 12,
+      "papers": ["2022_fall","2021_fall","2020_fall","2019_fall","2016_fall","2016_spring","2015_fall","2015_spring","2014_fall","2014_spring","2013_fall","2012_fall"],
+      "eq": "y''-4y=0"
+    },
+    {
+      "question": "Define Laplace transform. Evaluate L{t²sin wt} and L⁻¹{1/[s²(s²+w²)]}.",
+      "topic": "7.1 Laplace Transform — Standard Results / 7.3 Inverse Laplace Transform",
+      "freq": 10,
+      "papers": ["2021_fall","2019_spring","2018_spring","2017_spring","2016_spring","2015_spring","2014_spring","2013_fall","2012_fall","2011_fall"],
+      "eq": "L\\{t^2\\sin wt\\},\\quad L^{-1}\\!\\left\\{\\frac{1}{s^2(s^2+w^2)}\\right\\}"
+    },
+    {
+      "question": "Using Laplace Transform solve the IVP: y'' + 4y' + 3y = e^{−t}, y(0) = 0, y'(0) = 1.",
+      "topic": "7.5 Solution of IVP Using Laplace Transform",
+      "freq": 9,
+      "papers": ["2022_fall","2019_spring","2018_spring","2017_spring","2016_fall","2016_spring","2015_spring","2014_fall","2013_fall"],
+      "eq": "y''+4y'+3y=e^{-t},\\quad y(0)=0,\\;y'(0)=1"
+    },
+    {
+      "question": "Evaluate the integral ∫₀^{4a}∫_{y²/4a}^y (x²−y²)/(x²+y²) dx dy by changing into polar co-ordinates.",
+      "topic": "3.3 Change of Variables — polar coordinates",
+      "freq": 8,
+      "papers": ["2019_fall","2019_spring","2015_fall","2015_spring","2014_fall","2014_spring","2013_fall","2012_fall"],
+      "eq": "\\int_0^{4a}\\int_{y^2/4a}^{y}\\frac{x^2-y^2}{x^2+y^2}\\,dx\\,dy"
+    },
+    {
+      "question": "Find the volume in the first octant bounded by co-ordinate planes, the cylinder x²+y²=4 and the plane z+y=3.",
+      "topic": "3.2 Triple Integrals and Volume Calculation",
+      "freq": 10,
+      "papers": ["2021_fall","2020_fall","2019_fall","2019_spring","2018_fall","2017_fall","2017_spring","2016_spring","2015_fall","2015_spring"],
+      "eq": "x^2+y^2=4,\\quad z+y=3"
+    },
+    {
+      "question": "Solve dy/dx + (1/x) sin 2y = x³ cos² y (Bernoulli equation).",
+      "topic": "4.2 Bernoulli's Equation",
+      "freq": 9,
+      "papers": ["2022_fall","2020_fall","2019_spring","2018_fall","2017_spring","2016_fall","2016_spring","2015_spring","2014_spring"],
+      "eq": "\\frac{dy}{dx}+\\frac{1}{x}\\sin 2y=x^3\\cos^2 y"
+    },
+    {
+      "question": "Solve dy/dx − tany/(1+x) = (1+x)eˣ secy.",
+      "topic": "4.4 Bernoulli's and Special Equations",
+      "freq": 6,
+      "papers": ["2021_fall","2019_fall","2018_fall","2017_fall","2017_spring","2016_spring"],
+      "eq": "\\frac{dy}{dx}-\\frac{\\tan y}{1+x}=(1+x)e^x\\sec y"
+    },
+    {
+      "question": "Write Bessel function of first kind of order n. Prove that d/dx[xⁿJₙ(x)] = xⁿJₙ₋₁(x).",
+      "topic": "6.2 Bessel's Equation and Bessel Functions",
+      "freq": 10,
+      "papers": ["2021_fall","2020_fall","2019_fall","2019_spring","2018_fall","2017_spring","2016_spring","2015_fall","2015_spring","2014_fall"],
+      "eq": "\\frac{d}{dx}\\left[x^n J_n(x)\\right]=x^n J_{n-1}(x)"
+    },
+    {
+      "question": "Find the minimum value of x²+y²+z² such that x+y+z = 3a (or with other constraints), using Lagrange multipliers.",
+      "topic": "2.3 Maxima and Minima of Functions",
+      "freq": 9,
+      "papers": ["2022_fall","2020_fall","2019_spring","2018_fall","2017_spring","2016_fall","2016_spring","2015_fall","2015_spring"],
+      "eq": "\\min(x^2+y^2+z^2)\\;\\text{s.t.}\\;x+y+z=3a"
+    },
+    {
+      "question": "Sketch the region of integration of ∫₀^∞∫ₓ^∞ e^{−y}/y dy dx and evaluate by interchanging the order of integration.",
+      "topic": "3.1 Double Integrals — change of order",
+      "freq": 7,
+      "papers": ["2020_fall","2017_fall","2016_fall","2015_fall","2014_fall","2013_fall","2012_fall"],
+      "eq": "\\int_0^\\infty\\int_x^\\infty\\frac{e^{-y}}{y}\\,dy\\,dx"
+    },
+    {
+      "question": "Find the volume of the solid whose base is the region bounded by the parabola y=4−x² and line y=3x while the top is bounded by the plane z=x+4.",
+      "topic": "3.2 Triple Integrals and Volume Calculation",
+      "freq": 6,
+      "papers": ["2022_fall","2021_fall","2018_fall","2017_fall","2014_fall","2013_fall"],
+      "eq": "y=4-x^2,\\quad y=3x,\\quad z=x+4"
+    },
+    {
+      "question": "Find the shortest distance between the two skew lines (with various specific line equations across papers).",
+      "topic": "1.2 Straight Lines — shortest distance between skew lines",
+      "freq": 12,
+      "papers": ["2022_fall","2021_fall","2020_fall","2019_fall","2019_spring","2018_fall","2018_spring","2017_fall","2016_fall","2015_fall","2015_spring","2014_fall"],
+      "eq": "d=\\frac{|(\\vec{a_2}-\\vec{a_1})\\cdot(\\vec{b_1}\\times\\vec{b_2})|}{|\\vec{b_1}\\times\\vec{b_2}|}"
+    },
+    {
+      "question": "Find the image of the point (1,2,3) in the plane 2x−y+z+3=0.",
+      "topic": "1.1 Plane — image of a point",
+      "freq": 6,
+      "papers": ["2020_fall","2018_fall","2017_spring","2015_fall","2014_spring","2013_fall"],
+      "eq": "2x-y+z+3=0"
+    },
+    {
+      "question": "Find the centre and radius of a sphere x²+y²+z²+4x−6y+8z=10.",
+      "topic": "1.3 Sphere — centre and radius",
+      "freq": 7,
+      "papers": ["2022_fall","2021_fall","2016_spring","2016_fall","2015_fall","2015_spring","2014_fall"],
+      "eq": "x^2+y^2+z^2+4x-6y+8z=10"
+    },
+    {
+      "question": "If f(x,y,z) = x/y + y/z + z/x, then show that x∂f/∂x + y∂f/∂y + z∂f/∂z = 0.",
+      "topic": "2.2 Euler's Theorem — application",
+      "freq": 7,
+      "papers": ["2022_fall","2021_fall","2020_fall","2019_spring","2018_fall","2017_spring","2016_spring"],
+      "eq": "f(x,y,z)=\\frac{x}{y}+\\frac{y}{z}+\\frac{z}{x},\\quad x\\frac{\\partial f}{\\partial x}+y\\frac{\\partial f}{\\partial y}+z\\frac{\\partial f}{\\partial z}=0"
+    },
+    {
+      "question": "Evaluate L{t²cos wt} and L{cot⁻¹(s/w)}.",
+      "topic": "7.1 Laplace Transform — Standard Results",
+      "freq": 7,
+      "papers": ["2019_fall","2019_spring","2016_spring","2015_spring","2014_fall","2013_fall","2012_fall"],
+      "eq": "L\\{t^2\\cos wt\\},\\quad L\\left\\{\\cot^{-1}\\frac{s}{w}\\right\\}"
+    },
+    {
+      "question": "Solve y'' + 9y = 6cos3x (undetermined coefficients).",
+      "topic": "5.2 Method of Undetermined Coefficients",
+      "freq": 6,
+      "papers": ["2017_fall","2016_fall","2015_fall","2014_fall","2013_fall","2012_fall"],
+      "eq": "y''+9y=6\\cos 3x"
+    },
+    {
+      "question": "Use variation of parameter to solve y''+2y'+y = e^{−x}cos x.",
+      "topic": "5.3 Variation of Parameters",
+      "freq": 6,
+      "papers": ["2022_fall","2021_fall","2017_fall","2016_spring","2015_fall","2013_spring"],
+      "eq": "y''+2y'+y=e^{-x}\\cos x"
+    },
+    {
+      "question": "Find the Laplace transform of f(t) = t cosh t (or t cosht).",
+      "topic": "7.1 Laplace Transform — Standard Results",
+      "freq": 6,
+      "papers": ["2020_fall","2018_spring","2016_spring","2015_fall","2015_spring","2014_fall"],
+      "eq": "L\\{t\\cosh t\\}"
+    },
+    {
+      "question": "A rectangular box, open at the top, is to have a volume of 32 cc. Find the dimensions of the box requiring least material for its construction.",
+      "topic": "2.3 Maxima and Minima — Optimization",
+      "freq": 6,
+      "papers": ["2021_fall","2019_spring","2017_spring","2016_spring","2015_fall","2014_fall"],
+      "eq": "V=xyz=32,\\quad\\text{minimize surface area}"
+    },
+    {
+      "question": "Solve the initial value problem y''+2y'+y=e^{−x}, y(0)=−1, y'(0)=1.",
+      "topic": "5.1 Homogeneous Linear ODE / 5.3 Variation of Parameters",
+      "freq": 6,
+      "papers": ["2022_fall","2021_fall","2018_spring","2017_spring","2015_fall","2015_spring"],
+      "eq": "y''+2y'+y=e^{-x},\\quad y(0)=-1,\\;y'(0)=1"
+    },
+    {
+      "question": "Evaluate ∫₀²∫₀^{√(4−y²)} cos(x²+y²) dx dy by changing the order or converting to polar.",
+      "topic": "3.1 Double Integrals — polar coordinates",
+      "freq": 6,
+      "papers": ["2021_fall","2019_spring","2018_spring","2017_spring","2016_spring","2015_spring"],
+      "eq": "\\int_0^2\\int_0^{\\sqrt{4-y^2}}\\cos(x^2+y^2)\\,dx\\,dy"
+    },
+    {
+      "question": "State and prove the convolution theorem for Laplace transform.",
+      "topic": "7.4 Convolution Theorem",
+      "freq": 7,
+      "papers": ["2018_spring","2017_fall","2016_fall","2016_spring","2015_spring","2014_spring","2013_fall"],
+      "eq": "L^{-1}\\{F(s)G(s)\\}=(f*g)(t)=\\int_0^t f(\\tau)g(t-\\tau)\\,d\\tau"
+    }
+  ]
+}

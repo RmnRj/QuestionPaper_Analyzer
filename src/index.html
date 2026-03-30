@@ -10,6 +10,20 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
         rel="stylesheet">
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['\\(', '\\)'], ['$', '$']],
+                displayMath: [['\\[', '\\]'], ['$$', '$$']],
+                processEscapes: true,
+                processEnvironments: true
+            },
+            options: {
+                skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+            }
+        };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
     <style>
         *,
         *::before,
@@ -2315,6 +2329,13 @@ Rules:
         // ════════════════════════════════════════════════════
         // FLATTEN
         // ════════════════════════════════════════════════════
+        function wrapMath(text) {
+            if (!text) return text;
+            return text.replace(/\\frac|\\int|\\sum|\\partial|\\log|\\sin|\\cos|\\tan|\\sqrt|\\lim|_\{|\^\{/g, match => {
+                return text.includes('\\(') || text.includes('$$') ? match : match;
+            });
+        }
+
         function flatQ() {
             const all = [];
             for (const p of S.qp.papers) {
@@ -2325,7 +2346,8 @@ Rules:
                             num: q.number, sub: o.sub_no,
                             marks: parseInt(o.marks) || 0,
                             text: o.question, ctx: q.context || '',
-                            fig: '', tbl: null
+                            fig: '', tbl: null,
+                            eq: o.eq || ''
                         }));
                     } else {
                         all.push({
@@ -2334,7 +2356,8 @@ Rules:
                             marks: parseInt(q.marks) || 0,
                             text: q.question, ctx: q.context || '',
                             fig: q.fig_url || '',
-                            tbl: q.table_data || null
+                            tbl: q.table_data || null,
+                            eq: q.eq || ''
                         });
                     }
                 }
@@ -2467,6 +2490,7 @@ Rules:
                 : list.map((q, i) => {
                     const uid = `q${i}`;
                     const media = mediaHtml(q.fig, q.tbl, 'q-media');
+                    const eqBlock = q.eq ? `<div style="margin-top:8px;padding:10px;background:var(--surface-2);border-radius:var(--r);font-size:14px;text-align:center">\\[${q.eq}\\]</div>` : '';
                     return `<div class="q-card">
                         ${ctxHtml(q.ctx, uid)}
                         <div class="q-inner">
@@ -2477,9 +2501,11 @@ Rules:
                             <div class="q-text">${q.text}</div>
                             <div class="q-marks">${q.marks} mk</div>
                         </div>
+                        ${eqBlock}
                         ${media}
                     </div>`;
                 }).join('');
+            if (window.MathJax) MathJax.typesetPromise([el('q-list')]).catch(err => console.log('MathJax error:', err));
         }
 
         // ════════════════════════════════════════════════════
@@ -2528,6 +2554,7 @@ Rules:
                     </div>
                 </div>`;
             }).join('');
+            if (window.MathJax) MathJax.typesetPromise([el('rq-list')]).catch(err => console.log('MathJax error:', err));
         }
         function toggleRqPapers(idx) { el('rqp-' + idx).classList.toggle('open'); }
 
@@ -2569,22 +2596,24 @@ Rules:
                     rows += `<div class="pq-section">Q.${q.number} — ${q.instruction || 'Short Notes (Any two)'}</div>`;
                     if (q.context && q.context.trim()) rows += `<div class="pq-context">${ctxHtml(q.context, 'pp-' + qi)}</div>`;
                     q.options.forEach(o => {
+                        const eqBlock = o.eq ? `<div style="margin:8px 22px;padding:10px;background:var(--surface-2);border-radius:var(--r);font-size:14px;text-align:center">\\[${o.eq}\\]</div>` : '';
                         rows += `<div class="pq-row">
                             <div class="pq-num">${q.number}(${o.sub_no})</div>
                             <div class="pq-text">${o.question}</div>
                             <div class="pq-marks">${o.marks}</div>
-                        </div>`;
+                        </div>${eqBlock}`;
                     });
                 } else {
                     const ctxRow = (q.context && q.context.trim())
                         ? `<div class="pq-context">${ctxHtml(q.context, 'pp-' + qi)}</div>` : '';
+                    const eqBlock = q.eq ? `<div style="margin:8px 22px;padding:10px;background:var(--surface-2);border-radius:var(--r);font-size:14px;text-align:center">\\[${q.eq}\\]</div>` : '';
                     // figure / table for paper view
                     const pm = mediaHtml(q.fig_url || '', q.table_data || null, 'pq-media');
                     rows += ctxRow + `<div class="pq-row">
                         <div class="pq-num">${q.number}(${q.sub_no})</div>
                         <div class="pq-text">${q.question}</div>
                         <div class="pq-marks">${q.marks}</div>
-                    </div>${pm}`;
+                    </div>${eqBlock}${pm}`;
                 }
             });
             out.innerHTML = `<div class="paper-wrap">
@@ -2594,6 +2623,7 @@ Rules:
                 </div>
                 <div>${rows}</div>
             </div>`;
+            if (window.MathJax) MathJax.typesetPromise([out]).catch(err => console.log('MathJax error:', err));
         }
 
         // ════════════════════════════════════════════════════

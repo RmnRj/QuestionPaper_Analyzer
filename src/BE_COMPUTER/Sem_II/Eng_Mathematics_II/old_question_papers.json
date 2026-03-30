@@ -1,0 +1,1833 @@
+{
+  "subject": "Engineering Mathematics II",
+  "university": "Pokhara University",
+  "level": "Bachelor",
+  "programme": "BE",
+  "full_marks": 100,
+  "pass_marks": 45,
+  "papers": [
+    {
+      "id": "2024-FA",
+      "year": "2024",
+      "semester": "Fall",
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Find the point of intersection of the lines \\frac{x-4}{1} = \\frac{y+3}{-4} = \\frac{z+1}{7} and \\frac{x-1}{2} = \\frac{y+1}{-3} = \\frac{z+10}{8}. Also find the plane containing them.",
+          "eq": "\\frac{x-4}{1} = \\frac{y+3}{-4} = \\frac{z+1}{7}, \\quad \\frac{x-1}{2} = \\frac{y+1}{-3} = \\frac{z+10}{8}"
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Find the equation of the sphere which passes through the circle x² + y² + z² = 5, x + 2y + 3z = 3 and touch the plane 4x + 3y = 15.",
+          "eq": "x^2 + y^2 + z^2 = 5, \\quad x + 2y + 3z = 3"
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "State and prove Euler's theorem for a homogeneous function of two variable of degree n and hence if v = log \\frac{x² + y²}{x+y}, show that x \\frac{\\partial v}{\\partial x} + y \\frac{\\partial v}{\\partial y} = 1.",
+          "eq": "v = \\log \\frac{x^2 + y^2}{x+y}, \\quad x \\frac{\\partial v}{\\partial x} + y \\frac{\\partial v}{\\partial y} = 1"
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Find the minimum value of f = x² + y² + z² such that x + y + z = 1 and xyz = -1.",
+          "eq": "f = x^2 + y^2 + z^2, \\quad x + y + z = 1, \\quad xyz = -1"
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Evaluate \\iint \\frac{x\\,dx\\,dy}{x^2 + y^2} by changing the order of integration.",
+          "eq": "\\iint \\frac{x\\,dx\\,dy}{x^2 + y^2}"
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Find the volume of the solid whose base is the region in xy-plane that is bounded by the parabola y = 3 - x², y = 2x while the top is bounded by the plane z = x + 1.",
+          "eq": "y = 3 - x^2, \\quad y = 2x, \\quad z = x + 1"
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Define Bernoulli's equation. Solve \\frac{dy}{dx} + \\frac{1}{x} \\sin 2y = x^2 \\cos^2 y.",
+          "eq": "\\frac{dy}{dx} + \\frac{1}{x} \\sin 2y = x^2 \\cos^2 y"
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Solve by method of variation of parameter: y'' + 9y = \\cos 3x.",
+          "eq": "y'' + 9y = \\cos 3x"
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Applying the power series method, solve the following differential equation y'' - 4xy' + (4x² - 2)y = 0.",
+          "eq": "y'' - 4xy' + (4x^2 - 2)y = 0"
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Solve the initial value problem: y'' - 4y' + 3y = 10e^{-2x} where y(0) = 1 and y'(0) = 3.",
+          "eq": "y'' - 4y' + 3y = 10e^{-2x}, \\quad y(0) = 1, \\; y'(0) = 3"
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "i) Find Laplace transform of f(t) = e^{-3t} \\sin 2t. ii) Find f(t) if F(s) = \\log \\frac{s(s+1)}{s^2+4}.",
+          "eq": "f(t) = e^{-3t} \\sin 2t, \\quad F(s) = \\log \\frac{s(s+1)}{s^2+4}"
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Using Laplace Transform solve the initial value problem y'' + 4y' + 3y = e^{-t} y(0)=y'(0)=1.",
+          "eq": "y'' + 4y' + 3y = e^{-t}, \\quad y(0)=y'(0)=1"
+        },
+        {
+          "number": "7",
+          "instruction": "Attempt all questions (4×2.5)",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 2.5,
+              "question": "Find the angle between 2x - y + 2z + 3 = 0 and 3x + 4y + z + 3 = 0.",
+              "eq": "2x - y + 2z + 3 = 0 \\quad \\text{and} \\quad 3x + 4y + z + 3 = 0"
+            },
+            {
+              "sub_no": "b",
+              "marks": 2.5,
+              "question": "Solve: e^{x-y}dx + e^{y-x}dy = 0.",
+              "eq": "e^{x-y}\\,dx + e^{y-x}\\,dy = 0"
+            },
+            {
+              "sub_no": "c",
+              "marks": 2.5,
+              "question": "If f(x,y,z) = x/y + y/z + z/x, then show that x ∂f/∂x + y ∂f/∂y + z ∂f/∂z = 0.",
+              "eq": "f(x,y,z)=\\frac{x}{y}+\\frac{y}{z}+\\frac{z}{x}, \\quad x \\frac{\\partial f}{\\partial x} + y \\frac{\\partial f}{\\partial y} + z \\frac{\\partial f}{\\partial z} = 0"
+            },
+            {
+              "sub_no": "d",
+              "marks": 2.5,
+              "question": "Find Laplace transform of Sin(wt + θ).",
+              "eq": "L\\{\\sin(wt + \\theta)\\}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2023-FA",
+      "year": "2023",
+      "semester": "Fall",
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Find the point of intersection of the lines \\frac{x-4}{1} = \\frac{y+3}{-4} = \\frac{z+1}{7} and \\frac{x-1}{2} = \\frac{y+1}{-3} = \\frac{z+10}{8}. Also find the plane containing them.",
+          "eq": "\\frac{x-4}{1} = \\frac{y+3}{-4} = \\frac{z+1}{7}, \\quad \\frac{x-1}{2} = \\frac{y+1}{-3} = \\frac{z+10}{8}"
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Find the equation of the sphere which passes through the circle x² + y² + z² = 5, x + 2y + 3z = 3 and touch the plane 4x + 3y = 15.",
+          "eq": "x^2 + y^2 + z^2 = 5, \\quad x + 2y + 3z = 3"
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "State and prove Euler's theorem for a homogeneous function of two variable of degree n and hence if v = log \\frac{x² + y²}{x+y}, show that x \\frac{\\partial v}{\\partial x} + y \\frac{\\partial v}{\\partial y} = 1.",
+          "eq": "v = \\log \\frac{x^2 + y^2}{x+y}, \\quad x \\frac{\\partial v}{\\partial x} + y \\frac{\\partial v}{\\partial y} = 1"
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Find the minimum value of f = x² + y² + z² such that x + y + z = 1 and xyz = -1.",
+          "eq": "f = x^2 + y^2 + z^2, \\quad x + y + z = 1, \\quad xyz = -1"
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Evaluate \\iint \\frac{x\\,dx\\,dy}{x^2 + y^2} by changing the order of integration.",
+          "eq": "\\iint \\frac{x\\,dx\\,dy}{x^2 + y^2}"
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Find the volume of the solid whose base is the region in xy-plane that is bounded by the parabola y = 3 - x², y = 2x while the top is bounded by the plane z = x + 1.",
+          "eq": "y = 3 - x^2, \\quad y = 2x, \\quad z = x + 1"
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Define Bernoulli's equation. Solve \\frac{dy}{dx} + \\frac{1}{x} \\sin 2y = x^2 \\cos^2 y.",
+          "eq": "\\frac{dy}{dx} + \\frac{1}{x} \\sin 2y = x^2 \\cos^2 y"
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Solve by method of variation of parameter: y'' + 9y = \\cos 3x.",
+          "eq": "y'' + 9y = \\cos 3x"
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Applying the power series method, solve the following differential equation y'' - 4xy' + (4x² - 2)y = 0.",
+          "eq": "y'' - 4xy' + (4x^2 - 2)y = 0"
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Solve the initial value problem y'' - 4y' + 3y = 10e^{-2x} where y(0) = 1 and y'(0) = 3.",
+          "eq": "y'' - 4y' + 3y = 10e^{-2x}, \\quad y(0) = 1, \\; y'(0) = 3"
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "i) Find Laplace transform of f(t) = e^{-3t} \\sin 2t. ii) Find f(t) if F(s) = \\log \\frac{s(s+1)}{s^2+4}.",
+          "eq": "f(t) = e^{-3t} \\sin 2t, \\quad F(s) = \\log \\frac{s(s+1)}{s^2+4}"
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Using Laplace Transform solve the initial value problem y'' + 4y' + 3y = e^{-t} y(0)=y'(0)=1.",
+          "eq": "y'' + 4y' + 3y = e^{-t}, \\quad y(0)=y'(0)=1"
+        },
+        {
+          "number": "7",
+          "instruction": "Attempt all questions (4×2.5)",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 2.5,
+              "question": "Find the angle between 2x - y + 2z + 3 = 0 and 3x + 4y + z + 3 = 0.",
+              "eq": "2x - y + 2z + 3 = 0 \\quad \\text{and} \\quad 3x + 4y + z + 3 = 0"
+            },
+            {
+              "sub_no": "b",
+              "marks": 2.5,
+              "question": "Solve: e^{x-y}dx + e^{y-x}dy = 0.",
+              "eq": "e^{x-y}\\,dx + e^{y-x}\\,dy = 0"
+            },
+            {
+              "sub_no": "c",
+              "marks": 2.5,
+              "question": "If f(x,y,z) = x/y + y/z + z/x, then show that x ∂f/∂x + y ∂f/∂y + z ∂f/∂z = 0.",
+              "eq": "f(x,y,z)=\\frac{x}{y}+\\frac{y}{z}+\\frac{z}{x}, \\quad x \\frac{\\partial f}{\\partial x} + y \\frac{\\partial f}{\\partial y} + z \\frac{\\partial f}{\\partial z} = 0"
+            },
+            {
+              "sub_no": "d",
+              "marks": 2.5,
+              "question": "Find Laplace transform of Sin(wt + θ).",
+              "eq": "L\\{\\sin(wt + \\theta)\\}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2022-FA",
+      "year": "2022",
+      "semester": "Fall",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Prove that the lines (x−1)/2 = (y−2)/3 = (z−3)/4 and 4x−3y+1=0=5x−3z+2 are coplanar. Find also the point of their intersection and the plane through them.",
+          "eq": "\\frac{x-1}{2}=\\frac{y-2}{3}=\\frac{z-3}{4} \\quad\\text{and}\\quad 4x-3y+1=0=5x-3z+2"
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Find the equation of the sphere through the circle x²+y²+z²=1, 2x+4y+5z=6 and touching the plane z=0.",
+          "eq": "x^2+y^2+z^2=1,\\quad 2x+4y+5z=6"
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "State and prove Euler's theorem on homogeneous function of two independent variables of degree n and if u = cos⁻¹((x+y)/(√x+√y)), show that x∂u/∂x + y∂u/∂y + (1/2)cot u = 0.",
+          "eq": "u=\\cos^{-1}\\!\\left(\\frac{x+y}{\\sqrt{x}+\\sqrt{y}}\\right),\\quad x\\frac{\\partial u}{\\partial x}+y\\frac{\\partial u}{\\partial y}+\\frac{1}{2}\\cot u=0"
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Write down the criteria for a function f(x,y) of two variables x and y to have maximum or minimum values at a point. Find the minimum value of x²+y²+z² such that x+y+z = 3a.",
+          "eq": "\\text{minimize}\\; x^2+y^2+z^2 \\;\\text{subject to}\\; x+y+z=3a"
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Sketch the region of integration and evaluate the following by interchanging the order of integration: ∫₀²∫_{y²}^4 y cos(x²) dx dy.",
+          "eq": "\\int_0^2\\int_{y^2}^{4} y\\cos(x^2)\\,dx\\,dy"
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Find the volume of the solid whose base is the region in the xy-plane that is bounded by the parabola y=4−x² and line y=3x while the top of the solid is bounded by the plane z=x+4.",
+          "eq": "y=4-x^2,\\quad y=3x,\\quad z=x+4"
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Solve the differential equation: xy' + y = y² log x.",
+          "eq": "xy'+y=y^2\\log x"
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Solve by method of variation of parameter: y'' + 2y' + y = e⁻ˣ cos x.",
+          "eq": "y''+2y'+y=e^{-x}\\cos x"
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Find the power series solution of the differential equation: y'' − 4y = 0.",
+          "eq": "y''-4y=0"
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Solve the following initial value problem: y'' + 2y' + y = e⁻ˣ; y(0) = −1, y'(0) = −1.",
+          "eq": "y''+2y'+y=e^{-x},\\quad y(0)=-1,\\;y'(0)=-1"
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Define Laplace transform of a function and find: (i) L{sin at cos at} (ii) L⁻¹{w / [s²(s²+w²)]}.",
+          "eq": "L\\{\\sin at\\cos at\\},\\quad L^{-1}\\!\\left\\{\\frac{w}{s^2(s^2+w^2)}\\right\\}"
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Using Laplace Transform solve the following initial value problem: x'' − x' − 2x = 20 sin 2t, x(0) = −1, x'(0) = 2.",
+          "eq": "x''-x'-2x=20\\sin 2t,\\quad x(0)=-1,\\;x'(0)=2"
+        },
+        {
+          "number": "7",
+          "instruction": "Attempt all questions (2.5×4)",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 2.5,
+              "question": "Find radius and center of a sphere x²+y²+z²+4x−6y+8z = 10.",
+              "eq": "x^2+y^2+z^2+4x-6y+8z=10"
+            },
+            {
+              "sub_no": "b",
+              "marks": 2.5,
+              "question": "Find the Laplace transform of sin²t.",
+              "eq": "L\\{\\sin^2 t\\}"
+            },
+            {
+              "sub_no": "c",
+              "marks": 2.5,
+              "question": "Find the integrating factor of dy/dx + cot x · y = sin x.",
+              "eq": "\\frac{dy}{dx}+\\cot x\\cdot y=\\sin x"
+            },
+            {
+              "sub_no": "d",
+              "marks": 2.5,
+              "question": "If f(x,y,z) = x/y + y/z + z/x, then show that x∂f/∂x + y∂f/∂y + z∂f/∂z = 0.",
+              "eq": "f(x,y,z)=\\frac{x}{y}+\\frac{y}{z}+\\frac{z}{x}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2021-FA",
+      "year": "2021",
+      "semester": "Fall",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Find the length of perpendicular from the point (3, −1, 11) to line x/2 = (y−2)/3 = (z−3)/4. Also find the equation of perpendicular.",
+          "eq": "\\frac{x}{2}=\\frac{y-2}{3}=\\frac{z-3}{4}"
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Find the equation of the sphere through the circle x²+y²+z²=1, 2x+4y+5z=6 and touching the plane z=0.",
+          "eq": "x^2+y^2+z^2=1,\\quad 2x+4y+5z=6"
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "State Euler's theorem for a homogeneous function of two variables and if u = cos⁻¹((x+y)/(√x+√y)), then show that x∂u/∂x + y∂u/∂y + cot u/2 = 0.",
+          "eq": "u=\\cos^{-1}\\!\\left(\\frac{x+y}{\\sqrt{x}+\\sqrt{y}}\\right),\\quad x\\frac{\\partial u}{\\partial x}+y\\frac{\\partial u}{\\partial y}+\\frac{\\cot u}{2}=0"
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "What are the criteria for a function of two independent variables to have extreme values? Find the extreme value of u = y²+x²y+x⁴ and show it has a minimum at (0, 0).",
+          "eq": "u = y^2 + x^2 y + x^4"
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Evaluate ∫₀²∫₀^√(4−y²) cos(x²+y²) dx dy by changing the order of integration.",
+          "eq": "\\int_0^2\\int_0^{\\sqrt{4-y^2}}\\cos(x^2+y^2)\\,dx\\,dy"
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Find the volume of the solid whose base is the region in xy-plane that is bounded by the Parabola y = 3−x², y = 2x while the top is bounded by the plane z = x+1.",
+          "eq": "y=3-x^2,\\quad y=2x,\\quad z=x+1"
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Define Bernoulli's differential equation and solve dy/dx − tan y/(1+x) = (1+x)eˣ sec y.",
+          "eq": "\\frac{dy}{dx}-\\frac{\\tan y}{1+x}=(1+x)e^x\\sec y"
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Solve the initial value problem: y'' − 4y' + 3y = 10e^{−2x}, where y(0) = 1 and y'(0) = 3.",
+          "eq": "y''-4y'+3y=10e^{-2x},\\quad y(0)=1,\\;y'(0)=3"
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Solve by power series method (1−x)y' = y.\n\nOR\n\nWrite Bessel's function of first kind of order n. Prove that d/dx[xⁿJₙ(x)] = xⁿJₙ₋₁(x).",
+          "eq": "(1-x)y'=y \\qquad\\text{OR}\\qquad \\frac{d}{dx}[x^n J_n(x)]=x^n J_{n-1}(x)"
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Use method of variation of parameter to solve y'' + 4y' + 5y = 10e^{2x}.",
+          "eq": "y''+4y'+5y=10e^{2x}"
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Define Laplace transform. Evaluate: (i) L{t²sin wt} (ii) L⁻¹{1/[s²(s²+w²)]}.",
+          "eq": "L\\{t^2\\sin wt\\},\\quad L^{-1}\\!\\left\\{\\frac{1}{s^2(s^2+w^2)}\\right\\}"
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Solve the following initial value problem by using Laplace transform: x'' + 2x' + 5x = eᵗ sin t, x(0) = 0, x'(0) = 1.",
+          "eq": "x''+2x'+5x=e^t\\sin t,\\quad x(0)=0,\\;x'(0)=1"
+        },
+        {
+          "number": "7",
+          "instruction": "Attempt all questions",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 2.5,
+              "question": "Find the equation of sphere described on the join of (4,5,6) and (2,3,4) as a diameter."
+            },
+            {
+              "sub_no": "b",
+              "marks": 2.5,
+              "question": "If f(x,y,z) = x/y + y/z + z/x, show that x∂f/∂x + y∂f/∂y + z∂f/∂z = 0.",
+              "eq": "f(x,y,z)=\\frac{x}{y}+\\frac{y}{z}+\\frac{z}{x}"
+            },
+            {
+              "sub_no": "c",
+              "marks": 2.5,
+              "question": "Solve: (x²+xy²)dx + (x²y+y²)dy = 0.",
+              "eq": "(x^2+xy^2)\\,dx+(x^2y+y^2)\\,dy=0"
+            },
+            {
+              "sub_no": "d",
+              "marks": 2.5,
+              "question": "Find Laplace transform of e^{−2t} cos t.",
+              "eq": "L\\{e^{-2t}\\cos t\\}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2020-FA",
+      "year": "2020",
+      "semester": "Fall",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Find the image of the point (1, 2, 3) in the plane 2x−y+z+3 = 0.\n\nOR\n\nDefine shortest distance between two skew lines in space. Find the length and equation of shortest distance between the lines x/2 = y/−3 = z/1 and (x−2)/3 = (y−1)/−5 = (z+3)/2.",
+          "eq": "\\frac{x}{2}=\\frac{y}{-3}=\\frac{z}{1}\\quad\\text{and}\\quad\\frac{x-2}{3}=\\frac{y-1}{-5}=\\frac{z+3}{2}"
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Find the equation of the sphere through the circle x²+y²+z²=1, 2x+4y+5z=6 and touching the plane z=0.",
+          "eq": "x^2+y^2+z^2=1,\\quad 2x+4y+5z=6"
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "State and prove Euler's theorem for homogeneous function of two variables. If u = tan⁻¹((x²+y²)/(x+y)), x≠y, show that x∂u/∂x + y∂u/∂y = sin 2u.",
+          "eq": "u=\\tan^{-1}\\!\\left(\\frac{x^2+y^2}{x+y}\\right),\\quad x\\frac{\\partial u}{\\partial x}+y\\frac{\\partial u}{\\partial y}=\\sin 2u"
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "What are the criteria for a function of two independent variables to have extreme values? Find the extreme value of f = xyz subject to x + y + z = 24.",
+          "eq": "f=xyz\\text{ subject to }x+y+z=24"
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Evaluate ∫₀²∫ₓ² y² sin xy dy dx by reversing the order of integrations.",
+          "eq": "\\int_0^2\\int_x^2 y^2\\sin xy\\,dy\\,dx"
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Find the volume in the first octant bounded by coordinate planes, the cylinder x²+y²=4 and the plane z+y=3.",
+          "eq": "x^2+y^2=4,\\quad z+y=3"
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Solve: dy/dx + (1/x) sin 2y = x³ cos² y.",
+          "eq": "\\frac{dy}{dx}+\\frac{1}{x}\\sin 2y=x^3\\cos^2 y"
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Solve d²y/dx² − 2dy/dx + y = 12eˣ/x³.",
+          "eq": "\\frac{d^2y}{dx^2}-2\\frac{dy}{dx}+y=\\frac{12e^x}{x^3}"
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Find the solution of the differential equation y'' + 4y = 0, by using power series method.",
+          "eq": "y''+4y=0"
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Solve y'' + 2y + y = e⁻ˣ, y(0) = −1, y'(0) = 1.",
+          "eq": "y''+2y'+y=e^{-x},\\quad y(0)=-1,\\;y'(0)=1"
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Find Laplace transform of: (i) cosh t/t (ii) (t−1)u(t−1).",
+          "eq": "L\\!\\left\\{\\frac{\\cosh t}{t}\\right\\},\\quad L\\{(t-1)u(t-1)\\}"
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Solve the initial value problem: y'' − 2y' + y = eᵗ, y(0) = 2, y'(0) = −1, by using Laplace transform.",
+          "eq": "y''-2y'+y=e^t,\\quad y(0)=2,\\;y'(0)=-1"
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 2.5,
+              "question": "Find the equation of the line passing through the (1, 5, 3) and perpendicular to the plane 2x+3y+7z=0."
+            },
+            {
+              "sub_no": "b",
+              "marks": 2.5,
+              "question": "Find the partial derivatives of f(x,y) = x cos(x/y).",
+              "eq": "f(x,y)=x\\cos\\!\\left(\\frac{x}{y}\\right)"
+            },
+            {
+              "sub_no": "c",
+              "marks": 2.5,
+              "question": "Evaluate ∫₀¹∫₀² xy dy dx.",
+              "eq": "\\int_0^1\\int_0^2 xy\\,dy\\,dx"
+            },
+            {
+              "sub_no": "d",
+              "marks": 2.5,
+              "question": "Find Laplace transform of tⁿ.",
+              "eq": "L\\{t^n\\}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2019-FA",
+      "year": "2019",
+      "semester": "Fall",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Define shortest distance between two skew lines in space. Find the length and equation of shortest distance between the lines (x−3)/3 = (y−8)/−1 = (z−3)/1 and (x+3)/−3 = (y+7)/2 = (z−6)/4. Also verify it is 3√30.",
+          "eq": "\\frac{x-3}{3}=\\frac{y-8}{-1}=\\frac{z-3}{1}\\quad\\text{and}\\quad\\frac{x+3}{-3}=\\frac{y+7}{2}=\\frac{z-6}{4}"
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Find the equation of the sphere through the circle x²+y²+z²=1, 2x+4y+5z=6 and touching the plane z=0.",
+          "eq": "x^2+y^2+z^2=1,\\quad 2x+4y+5z=6"
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "State and prove Euler's theorem for function of two variables with degree n. If u(x,y) = sin⁻¹((x+y)/(√x+√y)), show that x∂u/∂x + y∂u/∂y = (1/2)tan u.",
+          "eq": "u=\\sin^{-1}\\!\\left(\\frac{x+y}{\\sqrt{x}+\\sqrt{y}}\\right),\\quad x\\frac{\\partial u}{\\partial x}+y\\frac{\\partial u}{\\partial y}=\\frac{1}{2}\\tan u"
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "If f(x,y) = xy·(x²−y²)/(x²+y²) when x and y are not simultaneously zero, and f(0,0)=0, show that at (0,0) f_{xy} ≠ f_{yx}.\n\nOR\n\nFind the minimum value of f = x²+xy+y²+3z² such that x+2y+4z = 60.",
+          "eq": "f(x,y)=xy\\cdot\\frac{x^2-y^2}{x^2+y^2}"
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Evaluate the integral ∫₀^{4a}∫_{y²/4a}^y (x²−y²)/(x²+y²) dx dy by changing into polar co-ordinates.",
+          "eq": "\\int_0^{4a}\\int_{y^2/4a}^{y}\\frac{x^2-y^2}{x^2+y^2}\\,dx\\,dy"
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Find the volume in the first octant bounded by coordinate planes, the cylinder x²+y²=4 and the plane z+y=3.",
+          "eq": "x^2+y^2=4,\\quad z+y=3"
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Define order of differential equations with suitable examples. Solve: dy/dx − tan y/(1+x) = eˣ(1+x) sec y.",
+          "eq": "\\frac{dy}{dx}-\\frac{\\tan y}{1+x}=e^x(1+x)\\sec y"
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Solve: d²y/dx² + 10 dy/dx + 25y = e^{−5x}.",
+          "eq": "\\frac{d^2y}{dx^2}+10\\frac{dy}{dx}+25y=e^{-5x}"
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Solve by power series method y'' − 4y = 0.\n\nOR\n\nWrite Bessel function of the first kind of order n. Show that d/dx[xⁿjₙ(x)] = xⁿjₙ₋₁(x).",
+          "eq": "y''-4y=0\\qquad\\text{OR}\\qquad\\frac{d}{dx}[x^n j_n(x)]=x^n j_{n-1}(x)"
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Solve the following initial value problem: y'' − 4y' + 3y = 0, y(0) = −1, y'(0) = −5.",
+          "eq": "y''-4y'+3y=0,\\quad y(0)=-1,\\;y'(0)=-5"
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Define Laplace transform. State and prove Second shifting theorem of Laplace transform. Find the Laplace transform of: (i) L{t²cos ωt} (ii) L{cot⁻¹(s/w)}.",
+          "eq": "L\\{t^2\\cos\\omega t\\},\\quad L\\left\\{\\cot^{-1}\\frac{s}{w}\\right\\}"
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Using the method of Laplace transform, solve the initial value problem: 9y'' − 6y' + y = 0, y(0) = 3, y'(0) = 1.",
+          "eq": "9y''-6y'+y=0,\\quad y(0)=3,\\;y'(0)=1"
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 2.5,
+              "question": "Find the direction cosine of line perpendicular to plane 3x − 4y + 5z = 7."
+            },
+            {
+              "sub_no": "b",
+              "marks": 2.5,
+              "question": "Write the general equation of a cone with its vertex at the origin."
+            },
+            {
+              "sub_no": "c",
+              "marks": 2.5,
+              "question": "Define unit step function and find its Laplace transform.",
+              "eq": "L\\{u(t-a)\\}=\\frac{e^{-as}}{s}"
+            },
+            {
+              "sub_no": "d",
+              "marks": 2.5,
+              "question": "Find Laplace transform of (1−cos 2t)/4.",
+              "eq": "L\\!\\left\\{\\frac{1-\\cos 2t}{4}\\right\\}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2019-SP",
+      "year": "2019",
+      "semester": "Spring",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Find the equation to the plane through the line 2x+3y−5z−4=0=3x−4y+5z−6, parallel to the z-axis.",
+          "eq": "2x+3y-5z-4=0=3x-4y+5z-6"
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Find the equation of the sphere through the circle x²+y²+z²=4, z=0 and is cut by the plane x+2y+2z=0 in a circle of radius 3.",
+          "eq": "x^2+y^2+z^2=4,\\; z=0"
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "State and prove Euler's Theorem on homogeneous function of two independent variable of degree n. If u = sin⁻¹((x³+y³+z³)/(ax+by+cz)), prove that x∂u/∂x + y∂u/∂y + z∂u/∂z = 2 tan u.",
+          "eq": "u=\\sin^{-1}\\!\\left(\\frac{x^3+y^3+z^3}{ax+by+cz}\\right),\\quad x\\frac{\\partial u}{\\partial x}+y\\frac{\\partial u}{\\partial y}+z\\frac{\\partial u}{\\partial z}=2\\tan u"
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "A rectangular box open at the top, is to have a volume of 32 c.c. Find the dimensions of the box requiring least material for its construction."
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Evaluate the integral ∫₀^{4a}∫_{y²/4a}^y (x²−y²)/(x²+y²) dx dy changing into polar co-ordinates.",
+          "eq": "\\int_0^{4a}\\int_{y^2/4a}^{y}\\frac{x^2-y^2}{x^2+y^2}\\,dx\\,dy"
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Find the volume of the solid cut from the first octant by the surface Z = 4−x²−y.",
+          "eq": "Z=4-x^2-y"
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Solve the equation dy/dx + (y log y)/x = y(log y)²/x².",
+          "eq": "\\frac{dy}{dx}+\\frac{y\\log y}{x}=\\frac{y(\\log y)^2}{x^2}"
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Solve the initial value problem: y'' + y' − 2y = 14 + 2x − 2x², y(0) = 0, y'(0) = 0.",
+          "eq": "y''+y'-2y=14+2x-2x^2,\\quad y(0)=0,\\;y'(0)=0"
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Solve y'' − 4xy' + (4x²−2)y = 0 by using power series method.\n\nOR\n\nDefine Bessel equation and Bessel function of order n. Also show that d/dx[x⁻ⁿjₙ(x)] = −x⁻ⁿjₙ₊₁(x).",
+          "eq": "y''-4xy'+(4x^2-2)y=0"
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Find the general solution of y'' − 4y' + 5y = e^{2x} cosec x by using method of variation of parameter.",
+          "eq": "y''-4y'+5y=e^{2x}\\csc x"
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Define Laplace transform. Evaluate: (i) L{t²sin wt} (ii) L⁻¹{1/[s²(s²+w²)]}.",
+          "eq": "L\\{t^2\\sin wt\\},\\quad L^{-1}\\!\\left\\{\\frac{1}{s^2(s^2+w^2)}\\right\\}"
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Using Laplace Transform solve the initial value problem: y'' − 3y' + 2y = 4t + e^{3t}, y(0) = y'(0) = −1.",
+          "eq": "y''-3y'+2y=4t+e^{3t},\\quad y(0)=y'(0)=-1"
+        },
+        {
+          "number": "7",
+          "instruction": "Attempt all the questions",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 2.5,
+              "question": "Find the equation of plane which through (1,1,1) and parallel to the plane 3x−4y+5z=0."
+            },
+            {
+              "sub_no": "b",
+              "marks": 2.5,
+              "question": "Find Laplace transform of e^{−2t} cos t.",
+              "eq": "L\\{e^{-2t}\\cos t\\}"
+            },
+            {
+              "sub_no": "c",
+              "marks": 2.5,
+              "question": "Solve: dy/dx + y cot x = e^{cos x}.",
+              "eq": "\\frac{dy}{dx}+y\\cot x=e^{\\cos x}"
+            },
+            {
+              "sub_no": "d",
+              "marks": 2.5,
+              "question": "If V = √(x²+y²+z²), show that V_{xx}+V_{yy}+V_{zz} = 2/V.",
+              "eq": "V=\\sqrt{x^2+y^2+z^2},\\quad V_{xx}+V_{yy}+V_{zz}=\\frac{2}{V}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2018-FA",
+      "year": "2018",
+      "semester": "Fall",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Find the image of the point (1, 2, 3) in the plane 2x−y+z+3 = 0.\n\nOR\n\nFind the shortest distance between the lines ax+by+cz+d=0=a₁x+b₁y+c₁z+d₁ and z-axis.",
+          "eq": "2x-y+z+3=0"
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Find the equation of sphere, its centre and radius which has the circle x²+y²+z²=9, x−2y+2z=5 as a great circle.",
+          "eq": "x^2+y^2+z^2=9,\\quad x-2y+2z=5"
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Write down the criteria for a function f(x,y) of two variables x and y to have maximum or minimum values at a point. If the sum of the dimension of a rectangular swimming pool is given, prove that the amount of water in the pool is maximum when it is cube.",
+          "eq": "\\frac{\\partial^2 f}{\\partial x^2}\\cdot\\frac{\\partial^2 f}{\\partial y^2}-\\left(\\frac{\\partial^2 f}{\\partial x\\partial y}\\right)^2>0"
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "State and prove Euler's theorem for homogeneous function of two variables. If v = log((x²+y²)/(x+y)), prove that x∂v/∂x + y∂v/∂y = 1.",
+          "eq": "v=\\log\\frac{x^2+y^2}{x+y},\\quad x\\frac{\\partial v}{\\partial x}+y\\frac{\\partial v}{\\partial y}=1"
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Evaluate ∫₀⁴∫₀⁴ xdxdy/(x²+y²) by changing the order of integration.",
+          "eq": "\\int_0^4\\int_0^4 \\frac{x\\,dx\\,dy}{x^2+y^2}"
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Find the volume of the solid whose base is the region in the xy-plane that is bounded by the parabola y = 4−x² and line y = 3x while the top of the solid is bounded by the plane z = x+4.",
+          "eq": "y=4-x^2,\\quad y=3x,\\quad z=x+4"
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Solve: dy/dx + (1/x) sin 2y = x³ cos² y.",
+          "eq": "\\frac{dy}{dx}+\\frac{1}{x}\\sin 2y=x^3\\cos^2 y"
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Solve y'' + 9y = sec 3x by method of variation of parameter.",
+          "eq": "y''+9y=\\sec 3x"
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Solve the differential equation (1+x²)y'' + xy' − y = 0, by using power series methods.\n\nOR\n\nDefine Bessel Equation and Bessel function of order n. Also show that d/dx[x⁻ⁿJₙ(x)] = −x⁻ⁿJₙ₊₁(x).",
+          "eq": "(1+x^2)y''+xy'-y=0"
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Solve the initial value problem: y'' − 4y' + 3y = 10e^{−2x} where y(0) = 1 and y'(0) = 3.",
+          "eq": "y''-4y'+3y=10e^{-2x},\\quad y(0)=1,\\;y'(0)=3"
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Define convolution theorem for inverse Laplace Transform and use it to find L⁻¹{s/(s²+w²)²}.",
+          "eq": "L^{-1}\\!\\left\\{\\frac{s}{(s^2+w^2)^2}\\right\\}"
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Using Laplace Transform solve the initial value problem: y'' − 4y' + 3y = e⁻ᵗ, y(0) = y'(0) = 1.",
+          "eq": "y''-4y'+3y=e^{-t},\\quad y(0)=y'(0)=1"
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 2.5,
+              "question": "Find the equation of the plane through (−1,1,−1) and (6,2,1) and normal to the plane 2x+y+z=5."
+            },
+            {
+              "sub_no": "b",
+              "marks": 2.5,
+              "question": "Solve e^{x−y}dx + e^{y−x}dy = 0.",
+              "eq": "e^{x-y}\\,dx+e^{y-x}\\,dy=0"
+            },
+            {
+              "sub_no": "c",
+              "marks": 2.5,
+              "question": "If f(x,y,z) = x/y + y/z + z/x, then show that x∂f/∂x + y∂f/∂y + z∂f/∂z = 0.",
+              "eq": "f(x,y,z)=\\frac{x}{y}+\\frac{y}{z}+\\frac{z}{x}"
+            },
+            {
+              "sub_no": "d",
+              "marks": 2.5,
+              "question": "Find f(t) if F(s) = 1/(s²+36).",
+              "eq": "F(s)=\\frac{1}{s^2+36}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2018-SP",
+      "year": "2018",
+      "semester": "Spring",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Find the length of perpendicular from the point (3, −1, 11) to the line x/2 = (y−2)/3 = (z−3)/4. Also find the equation of perpendicular.\n\nOR\n\nFind the shortest distance between the lines: ax+by+cz+d=0=a₁x+b₁y+c₁z+d₁ and z-axis.",
+          "eq": "\\frac{x}{2}=\\frac{y-2}{3}=\\frac{z-3}{4}"
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Find the equation of the sphere through the circle x²+y²+z²=1, 2x+4y+5z=6 and touching the plane z=0.",
+          "eq": "x^2+y^2+z^2=1,\\quad 2x+4y+5z=6"
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "If u = sin⁻¹((x+y)/(√x+√y)), show that: x²∂²u/∂x² + 2xy∂²u/∂x∂y + y²∂²u/∂y² = −sin u cos 2u / 4cos³u.",
+          "eq": "u=\\sin^{-1}\\!\\left(\\frac{x+y}{\\sqrt{x}+\\sqrt{y}}\\right),\\quad x^2\\frac{\\partial^2 u}{\\partial x^2}+2xy\\frac{\\partial^2 u}{\\partial x\\partial y}+y^2\\frac{\\partial^2 u}{\\partial y^2}=-\\frac{\\sin u\\cos 2u}{4\\cos^3 u}"
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "If the sum of the dimension of a rectangular swimming pool is given, show that the amount of water in the pool is maximum when it is a cube."
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Evaluate ∫₀²∫₀^√(4−x²) xy/(√(x²+y²)) dy dx by changing to polar integral.",
+          "eq": "\\int_0^2\\int_0^{\\sqrt{4-x^2}}\\frac{xy}{\\sqrt{x^2+y^2}}\\,dy\\,dx"
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Find the volume of the solid whose base is the region in xy-plane that is bounded by the parabola y = 3−x², y = 2x while the top is bounded by the plane z = x+1.",
+          "eq": "y=3-x^2,\\quad y=2x,\\quad z=x+1"
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Define order and degree of differential equations with suitable examples. Solve: dy/dx − y tan x = 3e^{−sin x} where y(0) = 4.",
+          "eq": "\\frac{dy}{dx}-y\\tan x=3e^{-\\sin x},\\quad y(0)=4"
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Find the general solution of the differential equation y'' − y = 2eˣ + 6e^{2x}.",
+          "eq": "y''-y=2e^x+6e^{2x}"
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Solve by power series method: (1+x)y' = y.\n\nOR\n\nIf Jᵥ(x) is the Bessel's function of order v, prove that J_{v−1}(x) − J_{v+1}(x) = 2J'ᵥ(x).",
+          "eq": "(1+x)y'=y\\qquad\\text{OR}\\qquad J_{v-1}(x)-J_{v+1}(x)=2J'_v(x)"
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Use method of variation of parameter to solve y'' + 4y' + 5y = 10e^{2x}.",
+          "eq": "y''+4y'+5y=10e^{2x}"
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Find the Laplace transform of: (i) t cosh 2t (ii) t²e^{−3t}.",
+          "eq": "L\\{t\\cosh 2t\\},\\quad L\\{t^2 e^{-3t}\\}"
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Solve by using Laplace transform: x'' + 2x' + 5x = e⁻ᵗ sin t, x(0) = 0, x'(0) = 1.",
+          "eq": "x''+2x'+5x=e^{-t}\\sin t,\\quad x(0)=0,\\;x'(0)=1"
+        },
+        {
+          "number": "7",
+          "instruction": "Attempt all the questions",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 2.5,
+              "question": "Find the equation of the line passing through (1,5,3) and normal to the plane 2x+3y+7z=0."
+            },
+            {
+              "sub_no": "b",
+              "marks": 2.5,
+              "question": "Find the general solution of y'' − a²y = 0.",
+              "eq": "y''-a^2y=0"
+            },
+            {
+              "sub_no": "c",
+              "marks": 2.5,
+              "question": "If f(x,y,z) = x/y + y/z + z/x, show that x∂f/∂x + y∂f/∂y + z∂f/∂z = 0.",
+              "eq": "f(x,y,z)=\\frac{x}{y}+\\frac{y}{z}+\\frac{z}{x}"
+            },
+            {
+              "sub_no": "d",
+              "marks": 2.5,
+              "question": "Define Laplace transformation of f(t) and evaluate Laplace transform of sin(wt+θ).",
+              "eq": "L\\{\\sin(wt+\\theta)\\}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2017-FA",
+      "year": "2017",
+      "semester": "Fall",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Reduce the equation of a line x+y+z+1=0, 4x+y−2z+2=0 in symmetrical form.\n\nOR\n\nFind the equation of the line through the point (1,6,3) perpendicular to the line x/1 = (y−1)/2 = (z−2)/3.",
+          "eq": "\\frac{x}{1}=\\frac{y-1}{2}=\\frac{z-2}{3}"
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Find the equation of the sphere which passes through the circle x²+y²+z²=5, x+2y+3z=3 and touch the plane 4x+3y=15.",
+          "eq": "x^2+y^2+z^2=5,\\quad x+2y+3z=3"
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "State and prove Euler's theorem for a homogeneous function of two variable of degree n and hence if v = log((x²+y²)/(x+y)), show that x∂v/∂x + y∂v/∂y = 1.",
+          "eq": "v=\\log\\frac{x^2+y^2}{x+y},\\quad x\\frac{\\partial v}{\\partial x}+y\\frac{\\partial v}{\\partial y}=1"
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Write down the necessary condition that f(x,y,z) to have maximum or minimum value. Show that the function u = y²+x²y+x⁴ has a minimum value at (0,0).",
+          "eq": "u=y^2+x^2y+x^4"
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Sketch the region of integration of ∫₀^∞∫ₓ^∞ e^{−y}/y dy dx, and evaluate by interchanging the order of integration.",
+          "eq": "\\int_0^\\infty\\int_x^\\infty \\frac{e^{-y}}{y}\\,dy\\,dx"
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Find the volume of the solid whose base is the region in xy-plane that is bounded by the parabola y = 3−x², y = 2x while the top is bounded by the plane z = x+1.",
+          "eq": "y=3-x^2,\\quad y=2x,\\quad z=x+1"
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Solve dy/dx − tany/(1−x) = (1+x)eˣ secy.",
+          "eq": "\\frac{dy}{dx}-\\frac{\\tan y}{1-x}=(1+x)e^x\\sec y"
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Solve y'' + 9y = 6 cos 3x, y(0) = 1, y'(0) = 0.",
+          "eq": "y''+9y=6\\cos 3x,\\quad y(0)=1,\\;y'(0)=0"
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Solve by power series method y' = 2xy.",
+          "eq": "y'=2xy"
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Use method of variation of parameter to solve y'' + 2y' + y = e^{−x} cos x.",
+          "eq": "y''+2y'+y=e^{-x}\\cos x"
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Find Laplace transform of: (i) f(t) = e^{−3t}sin 2t (ii) Find f(t) if F(s) = log(s(s+1)/(s²+4)).",
+          "eq": "L\\{e^{-3t}\\sin 2t\\},\\quad F(s)=\\log\\frac{s(s+1)}{s^2+4}"
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Solve the following initial value problem by using Laplace transform: y'' + 2y' + 17y = 0, y(0) = 0, y'(0) = 12.\n\nOR\n\nState and prove convolution theorem for Laplace transform. Use it to find f(t) where F(s) = 1/(s²+1)².",
+          "eq": "y''+2y'+17y=0,\\quad y(0)=0,\\;y'(0)=12"
+        },
+        {
+          "number": "7",
+          "instruction": "Attempt all questions",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 2.5,
+              "question": "Find the equations of the plane which passes through (−1,3,2) and is normal to the planes x+2y+2z=5 and 3x+3y+2z=8."
+            },
+            {
+              "sub_no": "b",
+              "marks": 2.5,
+              "question": "Express the equation of cone having three mutually perpendicular generators if a+b+c=0.",
+              "eq": "a+b+c=0"
+            },
+            {
+              "sub_no": "c",
+              "marks": 2.5,
+              "question": "Prove that l²+m²+n²=1.",
+              "eq": "l^2+m^2+n^2=1"
+            },
+            {
+              "sub_no": "d",
+              "marks": 2.5,
+              "question": "Find Laplace transform of sin(wt+θ).",
+              "eq": "L\\{\\sin(wt+\\theta)\\}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2017-SP",
+      "year": "2017",
+      "semester": "Spring",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Prove that the lines (x+1)/1 = (y+1)/2 = (z+1)/3; x+2y+3z−8=0=2x+3y+4z−11 are coplanar and find the point of contact and equation of plane containing them.",
+          "eq": "\\frac{x+1}{1}=\\frac{y+1}{2}=\\frac{z+1}{3}"
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Prove that the circles x²+y²+z²−2x+3y+4z−5=0, 5y+6z+1=0 and x²+y²+z²−3x−4y+5z−6=0, x+2y−7z=0 lie on the same sphere and find its equation.",
+          "eq": "x^2+y^2+z^2-2x+3y+4z-5=0,\\;5y+6z+1=0"
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "State and prove Euler's theorem for homogeneous function of two variables in x and y of degree n. If u = sin⁻¹((x+y)/(√x+√y)), show that x∂u/∂x + y∂u/∂y = (1/2)tan u.",
+          "eq": "u=\\sin^{-1}\\!\\left(\\frac{x+y}{\\sqrt{x}+\\sqrt{y}}\\right),\\quad x\\frac{\\partial u}{\\partial x}+y\\frac{\\partial u}{\\partial y}=\\frac{1}{2}\\tan u"
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "What are the criteria for a function of two independent variables to have extreme values? Find the minimum value of f = x²+y²+z² such that x+y+z=1 and xyz=1.",
+          "eq": "\\text{min}\\;f=x^2+y^2+z^2\\;\\text{s.t.}\\;x+y+z=1,\\;xyz=1"
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Draw the region of integration of ∫₀^π∫ₓ^π (sin y)/y dy dx, and find its value by interchanging the order of integration.",
+          "eq": "\\int_0^\\pi\\int_x^\\pi\\frac{\\sin y}{y}\\,dy\\,dx"
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Evaluate ∫₀^{a/√2}∫ᵧ^{√(a²−y²)} log(x²+y²) dx dy (a>0) by changing into polar integral.",
+          "eq": "\\int_0^{a/\\sqrt{2}}\\int_y^{\\sqrt{a^2-y^2}}\\log(x^2+y^2)\\,dx\\,dy"
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Define Bernoulli's differential equation and solve dy/dx − tan y/(1+x) = (1+x)eˣ sec y.",
+          "eq": "\\frac{dy}{dx}-\\frac{\\tan y}{1+x}=(1+x)e^x\\sec y"
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Solve d²y/dx² − dy/dx + 4y = eˣ/x by method of variation of parameter.",
+          "eq": "\\frac{d^2y}{dx^2}-\\frac{dy}{dx}+4y=\\frac{e^x}{x}"
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Solve by power series method (1−x)y' = y.\n\nOR\n\nDefine Bessel's differential equation and find the Bessel function of first kind.",
+          "eq": "(1-x)y'=y"
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Solve the following initial value problem: y'' + 2y' + y = e^{−x}, y(0) = −1, y'(0) = 1.",
+          "eq": "y''+2y'+y=e^{-x},\\quad y(0)=-1,\\;y'(0)=1"
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Define Laplace transform of a function. Using Laplace transform prove: (i) L{sin at cos at} = a(s²−2a²)/(s⁴+4a⁴) (ii) L⁻¹{1/[s²(s²+w²)]} = (1/w²)(t − sin wt/w).",
+          "eq": "L\\{\\sin at\\cos at\\}=\\frac{a(s^2-2a^2)}{s^4+4a^4},\\quad L^{-1}\\!\\left\\{\\frac{1}{s^2(s^2+w^2)}\\right\\}=\\frac{1}{w^2}\\!\\left(t-\\frac{\\sin wt}{w}\\right)"
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Using Laplace Transform solve the initial value problem: y'' + 4y' + 3y = e^{−t}, y(0) = y'(0) = 1.",
+          "eq": "y''+4y'+3y=e^{-t},\\quad y(0)=y'(0)=1"
+        },
+        {
+          "number": "7",
+          "instruction": "Attempt all questions",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 2.5,
+              "question": "Find the equation of the line through (1,3,5) and (2,3,4) perpendicular to the plane 3x−4y+5z=0."
+            },
+            {
+              "sub_no": "b",
+              "marks": 2.5,
+              "question": "Verify Euler's theorem for f(x,y) = x³+y³+z³.",
+              "eq": "f(x,y)=x^3+y^3+z^3"
+            },
+            {
+              "sub_no": "c",
+              "marks": 2.5,
+              "question": "Solve the differential equation (1+x)y dx + (1+y)x dy = 0.",
+              "eq": "(1+x)y\\,dx+(1+y)x\\,dy=0"
+            },
+            {
+              "sub_no": "d",
+              "marks": 2.5,
+              "question": "Find the Laplace transform of te^{2t}.",
+              "eq": "L\\{te^{2t}\\}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2016-FA",
+      "year": "2016",
+      "semester": "Fall",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Find the distance of the point (1,−3,5) from the plane 3x−2y+6z=15 along a line with direction cosines proportional to (2,1,−2).\n\nOR\n\nFind the shortest distance between the lines (x−5)/3=(7−y)/16=(z−3)/3 and (x−9)/3=(y−13)/8=(15−z)/5; also find the equation of the line of shortest distance.",
+          "eq": "\\frac{x-5}{3}=\\frac{7-y}{16}=\\frac{z-3}{3}\\quad\\text{and}\\quad\\frac{x-9}{3}=\\frac{y-13}{8}=\\frac{15-z}{5}"
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Find the equation of the sphere having the circle x²+y²+z²=9, x−2y+2z=5 as a great circle.",
+          "eq": "x^2+y^2+z^2=9,\\quad x-2y+2z=5"
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "State and prove Euler's theorem on homogeneous function of x and y with degree n. If u = tan⁻¹((y³+x³)/(x−y)), x≠y, then find the value of x∂u/∂x + y∂u/∂y.",
+          "eq": "u=\\tan^{-1}\\!\\left(\\frac{y^3+x^3}{x-y}\\right),\\quad x\\frac{\\partial u}{\\partial x}+y\\frac{\\partial u}{\\partial y}"
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Find the minimum value of f = x²+y²+z², such that xy+yz+zx = 3a².",
+          "eq": "\\min\\;f=x^2+y^2+z^2\\;\\text{s.t.}\\;xy+yz+zx=3a^2"
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Sketch the region of integration of ∫₀^∞∫ₓ^∞ e^{−y}/y dy dx, and evaluate by interchanging the order of integration.",
+          "eq": "\\int_0^\\infty\\int_x^\\infty\\frac{e^{-y}}{y}\\,dy\\,dx"
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Find the volume enclosed between the cylinders x²+y²−2ax=0 and z²=2ax.",
+          "eq": "x^2+y^2-2ax=0,\\quad z^2=2ax"
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Solve the equation x²d²y/dx² − 4x dy/dx + 6y = 21x⁻⁴.",
+          "eq": "x^2\\frac{d^2y}{dx^2}-4x\\frac{dy}{dx}+6y=21x^{-4}"
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Solve: y'' + 9y = 6 cos 3x.",
+          "eq": "y''+9y=6\\cos 3x"
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Find power series solution of the equation y'' + 4y = 0.",
+          "eq": "y''+4y=0"
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Solve the initial value problem: y'' − y' − y = 0, y(0) = −4, y'(0) = −17.",
+          "eq": "y''-y'-y=0,\\quad y(0)=-4,\\;y'(0)=-17"
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "(i) Find Laplace transform of f(t) = sin 2t · u_π(t). (ii) Find f(t) if F(s) = log(s(s+1)/(s²+4)).",
+          "eq": "L\\{\\sin 2t\\cdot u_\\pi(t)\\},\\quad F(s)=\\log\\frac{s(s+1)}{s^2+4}"
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Solve the initial value problem by Laplace transform method: y''+4y'+3y=e^{−t}, y(0)=0, y'(0)=1.\n\nOR\n\nState and prove convolution theorem of Laplace transform.",
+          "eq": "y''+4y'+3y=e^{-t},\\quad y(0)=0,\\;y'(0)=1"
+        },
+        {
+          "number": "7",
+          "instruction": "Attempt all questions",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 2.5,
+              "question": "Find the cosine angle between planes x+2y+3z=4 and 3x+4y+5z=10.",
+              "eq": "x+2y+3z=4\\quad\\text{and}\\quad 3x+4y+5z=10"
+            },
+            {
+              "sub_no": "b",
+              "marks": 2.5,
+              "question": "Find the equations of the plane which passes through (2,−3,1) and is normal to line joining the points (3,4,−1) and (2,−1,5)."
+            },
+            {
+              "sub_no": "c",
+              "marks": 2.5,
+              "question": "Find the equation of tangent plane on x²+y²+z²+4x+7y+9=0 at (1,3.5).",
+              "eq": "x^2+y^2+z^2+4x+7y+9=0"
+            },
+            {
+              "sub_no": "d",
+              "marks": 2.5,
+              "question": "Find Laplace transform of f(t) = cos wt.",
+              "eq": "L\\{\\cos wt\\}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2016-SP",
+      "year": "2016",
+      "semester": "Spring",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Find the equation of the plane through (2,2,1), (1,−2,3) and parallel to the line joining the points (2,1,−3) and (−1,5,−8).\n\nOR\n\nFind the condition that the lines (x−x₁)/L₁ = (y−y₁)/m₁ = (z−z₁)/n₁ and (x−x₂)/L₂ = (y−y₂)/m₂ = (z−z₂)/n₂ are coplanar.",
+          "eq": "\\frac{x-x_1}{L_1}=\\frac{y-y_1}{m_1}=\\frac{z-z_1}{n_1}\\quad\\text{and}\\quad\\frac{x-x_2}{L_2}=\\frac{y-y_2}{m_2}=\\frac{z-z_2}{n_2}"
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Find the equation of the sphere having the circle x²+y²+z²=9, x−2y+2z=5 as a great circle. Also determine its center and radius.",
+          "eq": "x^2+y^2+z^2=9,\\quad x-2y+2z=5"
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "State and prove Euler's theorem on homogeneous function of two independent variable of degree n. If u = sin⁻¹((x³+y³+z³)/(ax+by+cz)) prove that x∂u/∂x + y∂u/∂y + z∂u/∂z = 2 tan u.",
+          "eq": "u=\\sin^{-1}\\!\\left(\\frac{x^3+y^3+z^3}{ax+by+cz}\\right),\\quad x\\frac{\\partial u}{\\partial x}+y\\frac{\\partial u}{\\partial y}+z\\frac{\\partial u}{\\partial z}=2\\tan u"
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Find the extreme values of a function f(x,y,z) = x²+y²+z² such that 1/x + 1/y + 1/z = 1.",
+          "eq": "f(x,y,z)=x^2+y^2+z^2,\\quad \\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}=1"
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Change the Cartesian Integral ∫₀²∫₀^{√(4−y²)} cos(x²+y²) dx dy into an equivalent polar Integral and evaluate it.",
+          "eq": "\\int_0^2\\int_0^{\\sqrt{4-y^2}}\\cos(x^2+y^2)\\,dx\\,dy"
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Find the volume in the first octant bounded by the coordinate planes, the cylinder x²+y²=4 and the plane z+y=3.",
+          "eq": "x^2+y^2=4,\\quad z+y=3"
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Solve dy/dx + (1/x) sin 2y = x³ cos² y.",
+          "eq": "\\frac{dy}{dx}+\\frac{1}{x}\\sin 2y=x^3\\cos^2 y"
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Find the general solution of d²y/dx² + 2dy/dx + 2y = 4e^{−x} sec³ x.",
+          "eq": "\\frac{d^2y}{dx^2}+2\\frac{dy}{dx}+2y=4e^{-x}\\sec^3 x"
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Find a power series solution of a differential equation: y'' − 4y = 0.",
+          "eq": "y''-4y=0"
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Solve the following initial value problem: y'' + 2y' + y = e^{−x}, y(0) = −1, y'(0) = 1.",
+          "eq": "y''+2y'+y=e^{-x},\\quad y(0)=-1,\\;y'(0)=1"
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Evaluate the following: (i) L{t²cos wt} (ii) L⁻¹{1/[s²(s²+w²)]}.",
+          "eq": "L\\{t^2\\cos wt\\},\\quad L^{-1}\\!\\left\\{\\frac{1}{s^2(s^2+w^2)}\\right\\}"
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Solve the differential equation by using Laplace transform: y'' − y' − 2y = 3e^{2t}, y(0) = 0, y'(0) = −2.",
+          "eq": "y''-y'-2y=3e^{2t},\\quad y(0)=0,\\;y'(0)=-2"
+        },
+        {
+          "number": "7",
+          "instruction": "Attempt all questions",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 2.5,
+              "question": "If z = u+iv is an analytic function then prove that u and v both satisfy Laplace equation."
+            },
+            {
+              "sub_no": "b",
+              "marks": 2.5,
+              "question": "Represent the curve y²−(z−3)²=9, x=2 parametrically."
+            },
+            {
+              "sub_no": "c",
+              "marks": 2.5,
+              "question": "Evaluate ∫₀²∫₀^4 ex² dx dy by interchanging the order of integration.",
+              "eq": "\\int_0^2\\int_0^4 e^{x^2}\\,dx\\,dy"
+            },
+            {
+              "sub_no": "d",
+              "marks": 2.5,
+              "question": "Find Laplace transform of sin(wt+θ).",
+              "eq": "L\\{\\sin(wt+\\theta)\\}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2015-FA",
+      "year": "2015",
+      "semester": "Fall",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Find the equation of plane through (α,β,γ) and the line x = py+q = rz+s."
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Find the image of the point (1,2,3) in the plane 2x−y+z+3 = 0.",
+          "eq": "2x-y+z+3=0"
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "State the Euler's theorem for a homogeneous function of two variables and evaluate, if u = cos⁻¹((x+y)/(√x+√y)), then show that x∂u/∂x + y∂u/∂y + cot u/2 = 0.",
+          "eq": "u=\\cos^{-1}\\!\\left(\\frac{x+y}{\\sqrt{x}+\\sqrt{y}}\\right),\\quad x\\frac{\\partial u}{\\partial x}+y\\frac{\\partial u}{\\partial y}+\\frac{\\cot u}{2}=0"
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "A rectangular box, open at the top, is to have a volume of 32 cc. Find the dimension of the box requiring least material for its construction."
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Evaluate the integral ∫₀^{4a}∫_{y²/4a}^y (x²−y²)/(x²+y²) dx dy changing into polar co-ordinates.",
+          "eq": "\\int_0^{4a}\\int_{y^2/4a}^{y}\\frac{x^2-y^2}{x^2+y^2}\\,dx\\,dy"
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Find the volume in the first octant bounded by co-ordinate planes, the cylinder x²+y²=4 and plane z+y=3.",
+          "eq": "x^2+y^2=4,\\quad z+y=3"
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "State the condition for the exactness of differential equation. Hence solve x²y dx−(x³+y³)dy = 0.",
+          "eq": "x^2y\\,dx-(x^3+y^3)\\,dy=0"
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Find the general solution of the differential equation y'' − 2y' + y = 12eˣ/x³.",
+          "eq": "y''-2y'+y=\\frac{12e^x}{x^3}"
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Solve the differential equation y'' − 4y = 0, by using power series methods.\n\nOR\n\nDefine Legendre's equation. Also derive the solution of Legendre's equation.",
+          "eq": "y''-4y=0"
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Solve the following initial value problem: y'' + 2y' + y = eˣ, y(0) = −1, y'(0) = 1.",
+          "eq": "y''+2y'+y=e^x,\\quad y(0)=-1,\\;y'(0)=1"
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "State and prove second shifting theorem on Laplace transform. Using it evaluate L{e^{−3t}u₂(t)}.",
+          "eq": "L\\{e^{-3t}u_2(t)\\}"
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "State and prove existence theorem on Laplace transform.\n\nOR\n\nSolve the differential equation: y'' − 3y' + 2y = 4t + e^{3t}, when y(0) = 1 and y'(0) = −1, by using Laplace transform.",
+          "eq": "y''-3y'+2y=4t+e^{3t},\\quad y(0)=1,\\;y'(0)=-1"
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 2.5,
+              "question": "Find the centre and radius of a sphere x²+y²+z²+4x−6y+8z = 10.",
+              "eq": "x^2+y^2+z^2+4x-6y+8z=10"
+            },
+            {
+              "sub_no": "b",
+              "marks": 2.5,
+              "question": "Solve: (x log x)y' = y.",
+              "eq": "(x\\log x)y'=y"
+            },
+            {
+              "sub_no": "c",
+              "marks": 2.5,
+              "question": "Find the Laplace transform of f(t) = t cosh t.",
+              "eq": "L\\{t\\cosh t\\}"
+            },
+            {
+              "sub_no": "d",
+              "marks": 2.5,
+              "question": "Find the integrating factor of the differential equation: 2dx − e^{y−x}dx = 0.",
+              "eq": "2\\,dx-e^{y-x}\\,dx=0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2015-SP",
+      "year": "2015",
+      "semester": "Spring",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Find the co-ordinate of the foot of the perpendicular from the origin in the straight line x+2y+3z+4=0, x+y+z+1=0.\n\nOR\n\nFind the magnitude and equation of the shortest distance between the lines (x−5)/3=(7−y)/16=(z−9)/7 and (x−9)/3=(y−13)/8=(15−7)/5.",
+          "eq": "\\frac{x-5}{3}=\\frac{7-y}{16}=\\frac{z-9}{7}\\quad\\text{and}\\quad\\frac{x-9}{3}=\\frac{y-13}{8}=\\frac{15-7}{5}"
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Find the equation of sphere passing through (1,0,0), (0,1,0) and (0,0,1) and their radius as small as possible."
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "State Euler's Theorem for partial derivatives of homogeneous function of two variables. If u(x,y) = sin⁻¹((x+y)/(√x+√y)), show that x∂u/∂x + y∂u/∂y = (1/2)tan u.",
+          "eq": "u=\\sin^{-1}\\!\\left(\\frac{x+y}{\\sqrt{x}+\\sqrt{y}}\\right),\\quad x\\frac{\\partial u}{\\partial x}+y\\frac{\\partial u}{\\partial y}=\\frac{1}{2}\\tan u"
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Find the dimension of the rectangular box, open at the top of maximum capacity whose surface is 432 sq unit."
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Find the volume of the tetrahedron bounded by the coordinate planes and the plane x+y+z=1.",
+          "eq": "x+y+z=1"
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Evaluate ∫₀¹∫_{4y}^4 eˣ² dx dy, by changing the order of integration.",
+          "eq": "\\int_0^1\\int_{4y}^4 e^{x^2}\\,dx\\,dy"
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Solve dy/dx + (1/x) sin 2y = x³ cos² y.",
+          "eq": "\\frac{dy}{dx}+\\frac{1}{x}\\sin 2y=x^3\\cos^2 y"
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Solve d²y/dx² − 2dy/dx + y = 12eˣ/x³.",
+          "eq": "\\frac{d^2y}{dx^2}-2\\frac{dy}{dx}+y=\\frac{12e^x}{x^3}"
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Solve by power series method y'' − 4y = 0.\n\nOR\n\nWrite the Bessel's function of first kind of order n. Prove that d/dx[xⁿJₙ(x)] = xⁿJₙ₋₁(x).",
+          "eq": "y''-4y=0\\qquad\\text{OR}\\qquad\\frac{d}{dx}[x^n J_n(x)]=x^n J_{n-1}(x)"
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Solve the following initial value problem: y'' − y' − 2y = 3e^{2x}, y(0) = 0, y'(0) = 2.",
+          "eq": "y''-y'-2y=3e^{2x},\\quad y(0)=0,\\;y'(0)=2"
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Evaluate the following: (i) L{t²cos wt} (ii) L{cot⁻¹(s/w)}.",
+          "eq": "L\\{t^2\\cos wt\\},\\quad L\\left\\{\\cot^{-1}\\frac{s}{w}\\right\\}"
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Using Laplace Transform solve the initial value problem: y'' + 4y' + 3y = e^{−t}, y(0) = 0, y'(0) = 1.",
+          "eq": "y''+4y'+3y=e^{-t},\\quad y(0)=0,\\;y'(0)=1"
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on (Any two)",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 5,
+              "question": "Find the equation of tangent plane on the sphere x²+y²+z²+4x+7y+9=0 at (1,3,7).",
+              "eq": "x^2+y^2+z^2+4x+7y+9=0"
+            },
+            {
+              "sub_no": "b",
+              "marks": 5,
+              "question": "Find the cosine angle between planes x+2y+3z=4 and 3x+4y+5z=10.",
+              "eq": "x+2y+3z=4\\quad\\text{and}\\quad 3x+4y+5z=10"
+            },
+            {
+              "sub_no": "c",
+              "marks": 5,
+              "question": "Find the Laplace transform of f(t) = t cosht.",
+              "eq": "L\\{t\\cosh t\\}"
+            },
+            {
+              "sub_no": "d",
+              "marks": 5,
+              "question": "Find the centre and radius of a sphere x²+y²+z²+4x−6y+8z = 10.",
+              "eq": "x^2+y^2+z^2+4x-6y+8z=10"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

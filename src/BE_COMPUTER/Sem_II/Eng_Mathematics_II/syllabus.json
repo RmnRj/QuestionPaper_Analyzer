@@ -1,0 +1,223 @@
+{
+  "course_title": "Engineering Mathematics II",
+  "course_code": "3-1-0",
+  "total_hours": 45,
+  "evaluation": {
+    "theory": { "sessional": 50, "final": 50, "total": 100 },
+    "practical": { "sessional": 0, "final": 0, "total": 0 },
+    "grand_total": 100
+  },
+  "course_objectives": "To provide knowledge of analytical geometry, multivariable calculus, ordinary differential equations, and integral transforms applicable to engineering problems.",
+  "course_contents": [
+    {
+      "unit": 1,
+      "title": "Analytical Solid Geometry",
+      "hours": 5,
+      "topics": [
+        {
+          "topic": "1.1 Plane — equation through a point, angle between planes, distance from a point",
+          "frequency": 10,
+          "note": "Plane through a given line, image of a point in a plane, angle between planes. Asked in almost every paper.",
+          "papers": ["2022F","2021F","2020F","2019F","2019Sp","2018F","2018Sp","2017F","2016F","2016Sp","2015F","2015Sp"]
+        },
+        {
+          "topic": "1.2 Straight Lines — symmetrical form, shortest distance between skew lines",
+          "frequency": 12,
+          "note": "Shortest distance between skew lines is the most frequently asked geometry topic. The same pair of lines repeat across multiple papers.",
+          "papers": ["2022F","2021F","2020F","2019F","2019Sp","2018F","2018Sp","2017F","2017Sp","2016F","2015F","2015Sp"]
+        },
+        {
+          "topic": "1.3 Sphere — standard and general equation, great circle, touching a plane",
+          "frequency": 14,
+          "note": "Sphere through a circle touching a given plane: Asked in EVERY paper. x²+y²+z²=1, 2x+4y+5z=6 touching z=0 is a recurring problem.",
+          "papers": ["2022F","2021F","2020F","2019F","2019Sp","2018F","2018Sp","2017F","2017Sp","2016F","2016Sp","2015F","2015Sp","2013F"]
+        },
+        {
+          "topic": "1.4 Cone and Cylinder — general equation, right circular cylinder",
+          "frequency": 5,
+          "note": "Cone and cylinder appear mainly as short notes in Q7.",
+          "papers": ["2017F","2017Sp","2016F","2015F","2014Sp"]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": "Functions of Several Variables",
+      "hours": 7,
+      "topics": [
+        {
+          "topic": "2.1 Partial Derivatives — first and second order, mixed partial derivatives",
+          "frequency": 8,
+          "note": "Mixed partials (showing f_xy = f_yx or ≠ f_yx) asked in multiple papers.",
+          "papers": ["2019F","2018Sp","2017Sp","2016Sp","2015F","2015Sp","2014F","2013F"]
+        },
+        {
+          "topic": "2.2 Euler's Theorem on Homogeneous Functions",
+          "frequency": 15,
+          "note": "Asked in EVERY paper without exception. Most common: u=sin⁻¹((x+y)/(√x+√y)) or u=cos⁻¹((x+y)/(√x+√y)) applications.",
+          "papers": ["2022F","2021F","2020F","2019F","2019Sp","2018F","2018Sp","2017F","2017Sp","2016F","2016Sp","2015F","2015Sp","2014F","2013F"]
+        },
+        {
+          "topic": "2.3 Maxima and Minima of Functions of Two/Three Variables",
+          "frequency": 13,
+          "note": "Lagrange multipliers method. Common: optimize x²+y²+z² subject to constraint. Box optimization also frequent.",
+          "papers": ["2022F","2021F","2020F","2019F","2018F","2018Sp","2017F","2017Sp","2016F","2016Sp","2015F","2015Sp","2014F"]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": "Multiple Integration",
+      "hours": 7,
+      "topics": [
+        {
+          "topic": "3.1 Double Integrals — Cartesian and polar, change of order",
+          "frequency": 14,
+          "note": "Change of order of integration appears in EVERY paper. Very high frequency topic.",
+          "papers": ["2022F","2021F","2020F","2019F","2019Sp","2018F","2018Sp","2017F","2017Sp","2016F","2016Sp","2015F","2015Sp","2014F"]
+        },
+        {
+          "topic": "3.2 Triple Integrals and Volume Calculation",
+          "frequency": 13,
+          "note": "Volume in first octant bounded by cylinder and plane is extremely frequent.",
+          "papers": ["2022F","2021F","2020F","2019F","2019Sp","2018F","2018Sp","2017F","2017Sp","2016F","2016Sp","2015F","2015Sp"]
+        },
+        {
+          "topic": "3.3 Change of Variables — polar, cylindrical, spherical coordinates",
+          "frequency": 10,
+          "note": "∫∫(x²−y²)/(x²+y²) over a region changing to polar is a frequently repeated problem.",
+          "papers": ["2019F","2019Sp","2018F","2017Sp","2016Sp","2015F","2015Sp","2014F","2013F","2012F"]
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "title": "Ordinary Differential Equations (First Order)",
+      "hours": 6,
+      "topics": [
+        {
+          "topic": "4.1 Exact Differential Equations and Integrating Factors",
+          "frequency": 8,
+          "note": "State condition for exactness and solve. x²ydx−(x³+y³)dy=0 type appears repeatedly.",
+          "papers": ["2022F","2020F","2017F","2016F","2015F","2014F","2013Sp","2012F"]
+        },
+        {
+          "topic": "4.2 Bernoulli's Equation",
+          "frequency": 10,
+          "note": "Very frequently asked. dy/dx + (1/x)sin2y = x³cos²y is the most repeated Bernoulli problem.",
+          "papers": ["2022F","2021F","2020F","2019F","2018F","2018Sp","2017F","2016F","2016Sp","2015Sp"]
+        },
+        {
+          "topic": "4.3 Linear First-Order Equations",
+          "frequency": 8,
+          "note": "Integrating factor method, solutions with initial conditions.",
+          "papers": ["2021F","2019Sp","2018Sp","2017Sp","2016Sp","2015F","2015Sp","2013Sp"]
+        },
+        {
+          "topic": "4.4 Bernoulli's and Special Equations",
+          "frequency": 6,
+          "note": "dy/dx − tany/(1+x) = (1+x)eˣsecy type: appears in 2021F, 2019F, 2018F, 2017F, 2017Sp.",
+          "papers": ["2021F","2019F","2018F","2017F","2017Sp","2016Sp"]
+        }
+      ]
+    },
+    {
+      "unit": 5,
+      "title": "Ordinary Differential Equations (Higher Order)",
+      "hours": 6,
+      "topics": [
+        {
+          "topic": "5.1 Homogeneous Linear ODE with Constant Coefficients",
+          "frequency": 10,
+          "note": "Complementary function problems with initial conditions.",
+          "papers": ["2022F","2021F","2020F","2019F","2018F","2018Sp","2017F","2016F","2015F","2014F"]
+        },
+        {
+          "topic": "5.2 Method of Undetermined Coefficients",
+          "frequency": 8,
+          "note": "y''+9y=6cos3x and similar problems appear frequently.",
+          "papers": ["2022F","2021F","2017F","2016F","2015F","2015Sp","2014F","2013F"]
+        },
+        {
+          "topic": "5.3 Variation of Parameters",
+          "frequency": 12,
+          "note": "y''−2y'+y=12eˣ/x³ is the most repeated variation of parameters problem. Appears in at least 6 papers.",
+          "papers": ["2022F","2021F","2020F","2018F","2017F","2017Sp","2016F","2016Sp","2015F","2015Sp","2014F","2013F"]
+        },
+        {
+          "topic": "5.4 Cauchy-Euler Equation",
+          "frequency": 5,
+          "note": "x²y''−4xy'+6y=21x⁻⁴ type equations.",
+          "papers": ["2016F","2015F","2014F","2013F","2012F"]
+        }
+      ]
+    },
+    {
+      "unit": 6,
+      "title": "Power Series Solutions and Special Functions",
+      "hours": 7,
+      "topics": [
+        {
+          "topic": "6.1 Power Series Method for ODEs",
+          "frequency": 14,
+          "note": "Asked in EVERY paper. y''+4y=0, y''-4y=0 are the most commonly asked power series problems.",
+          "papers": ["2022F","2021F","2020F","2019F","2019Sp","2018F","2018Sp","2017F","2017Sp","2016F","2016Sp","2015F","2015Sp","2014F"]
+        },
+        {
+          "topic": "6.2 Bessel's Equation and Bessel Functions",
+          "frequency": 12,
+          "note": "d/dx[xⁿJₙ(x)] = xⁿJₙ₋₁(x) proof appears as OR alternative to power series in every paper.",
+          "papers": ["2021F","2020F","2019F","2019Sp","2018F","2018Sp","2017Sp","2016Sp","2015F","2015Sp","2014F","2013F"]
+        },
+        {
+          "topic": "6.3 Legendre's Equation and Polynomials",
+          "frequency": 4,
+          "note": "Less frequent — mainly in 2015F as OR alternative.",
+          "papers": ["2015F","2014Sp","2013F","2012F"]
+        }
+      ]
+    },
+    {
+      "unit": 7,
+      "title": "Laplace Transform",
+      "hours": 7,
+      "topics": [
+        {
+          "topic": "7.1 Definition, Properties and Standard Results",
+          "frequency": 14,
+          "note": "L{sin at cos at}, L{t²cos wt}, L{t²sin wt} appear very frequently.",
+          "papers": ["2022F","2021F","2020F","2019F","2019Sp","2018F","2018Sp","2017F","2017Sp","2016F","2016Sp","2015F","2015Sp","2014F"]
+        },
+        {
+          "topic": "7.2 First and Second Shifting Theorems",
+          "frequency": 10,
+          "note": "Second shifting theorem and unit step function problems appear often.",
+          "papers": ["2019F","2018Sp","2017F","2016F","2015F","2015Sp","2014F","2013F","2012F","2011F"]
+        },
+        {
+          "topic": "7.3 Inverse Laplace Transform",
+          "frequency": 12,
+          "note": "L⁻¹{w/[s²(s²+w²)]} and L⁻¹{1/[s²(s²+w²)]} appear very frequently.",
+          "papers": ["2022F","2021F","2020F","2019F","2019Sp","2018F","2018Sp","2017F","2017Sp","2016F","2015F","2015Sp"]
+        },
+        {
+          "topic": "7.4 Convolution Theorem",
+          "frequency": 8,
+          "note": "Prove convolution theorem and apply it to find inverse transforms.",
+          "papers": ["2018Sp","2017F","2016F","2016Sp","2015Sp","2014Sp","2013F","2012F"]
+        },
+        {
+          "topic": "7.5 Solution of IVP Using Laplace Transform",
+          "frequency": 14,
+          "note": "Solving 2nd order ODE IVPs with Laplace transform appears in EVERY paper as Q6b.",
+          "papers": ["2022F","2021F","2020F","2019F","2019Sp","2018F","2018Sp","2017F","2017Sp","2016F","2016Sp","2015F","2015Sp","2014F"]
+        }
+      ]
+    }
+  ],
+  "references": [
+    "1. Erwin Kreyszig, Advanced Engineering Mathematics, John Wiley & Sons, 10th Edition.",
+    "2. B.S. Grewal, Higher Engineering Mathematics, Khanna Publishers.",
+    "3. E.D. Rainville and P.E. Bedient, Elementary Differential Equations, Macmillan."
+  ]
+}

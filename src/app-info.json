@@ -38,11 +38,16 @@
                     "subject": "Thermal",
                     "folder": "BE_COMPUTER/Sem_II/Thermal",
                     "default": false
+                },
+                {
+                    "subject": "Eng Mathematics II",
+                    "folder": "BE_COMPUTER/Sem_II/Eng_Mathematics_II",
+                    "default": false
                 }
             ],
             "Sem IV": [
                 {
-                    "subject": "Math IV",
+                    "subject": "Eng Mathematics IV",
                     "folder": "BE_COMPUTER/Sem_IV/Eng_Mathematics_IV",
                     "default": false
                 }
