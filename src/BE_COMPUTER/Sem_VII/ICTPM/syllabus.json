@@ -1,0 +1,197 @@
+{
+  "course_title": "ICT Project Management",
+  "course_code": "3-1-0",
+  "evaluation": {
+    "sessional": { "theory": 50, "practical": 0, "total": 50 },
+    "final": { "theory": 50, "practical": 0, "total": 50 },
+    "total": { "theory": 100, "practical": 0, "total": 100 }
+  },
+  "course_contents": [
+    {
+      "unit": 1,
+      "title": "Introduction",
+      "hours": 3,
+      "topics": [
+        { "topic": "1.1 Project, Program, Portfolio and System" },
+        { "topic": "1.2 Project Objectives and Goals — SMART Goals" },
+        { "topic": "1.3 Classification of Projects" },
+        { "topic": "1.4 Project Constraints" },
+        { "topic": "1.5 Project Management and Its Advantages" },
+        { "topic": "1.6 Project Management Body of Knowledge" },
+        { "topic": "1.7 Project Environment — Internal, Task and External Environment" },
+        { "topic": "1.8 Skill Requirements of Project Manager" },
+        { "topic": "1.9 Roles and Responsibilities of Project Manager" },
+        { "topic": "1.10 Project Management Institute's Framework and International Certification" }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": "Project Organization and Project Life Cycle",
+      "hours": 2,
+      "topics": [
+        { "topic": "2.1 Organizational Structure" },
+        { "topic": "2.2 Matrix Organization and Its Types" },
+        { "topic": "2.3 Organizational Structure Influences on Project" },
+        { "topic": "2.4 Project Team" },
+        { "topic": "2.5 Project Life Cycle and Phases" }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": "Project Management Process Groups",
+      "hours": 2,
+      "topics": [
+        { "topic": "3.1 Project Management Processes" },
+        { "topic": "3.2 Roles of Major Knowledge Areas on Processes" },
+        { "topic": "3.3 Understanding Organizational Process Assets" },
+        { "topic": "3.4 Understanding Enterprise Environment Factor" }
+      ]
+    },
+    {
+      "unit": 4,
+      "title": "Project Integration Management",
+      "hours": 6,
+      "topics": [
+        { "topic": "4.1 Project Integration Management Process" },
+        { "topic": "4.2 Developing Project Charter" },
+        { "topic": "4.3 Developing Project Management Plan" },
+        { "topic": "4.4 Direct and Manage Project Execution" },
+        { "topic": "4.5 Monitoring and Controlling Project Work" },
+        { "topic": "4.6 Perform Integrated Change Control" },
+        { "topic": "4.7 Closing Project or Phase" }
+      ]
+    },
+    {
+      "unit": 5,
+      "title": "Project Scope Management",
+      "hours": 3,
+      "topics": [
+        { "topic": "5.1 Project and Product Scope" },
+        { "topic": "5.2 Project Scope Management Process" },
+        { "topic": "5.3 Planning Project Scope Management" },
+        { "topic": "5.4 Collect Requirements" },
+        { "topic": "5.5 Define Scope" },
+        { "topic": "5.6 Creating Work Breakdown Structure" },
+        { "topic": "5.7 Scope Validation" },
+        { "topic": "5.8 Scope Control" }
+      ]
+    },
+    {
+      "unit": 6,
+      "title": "Project Time Management",
+      "hours": 6,
+      "topics": [
+        { "topic": "6.1 Project Time Management Process" },
+        { "topic": "6.2 Planning Project Time Management" },
+        { "topic": "6.3 Defining Event, Activity and Activity Attributes" },
+        { "topic": "6.4 Activity Sequencing" },
+        { "topic": "6.5 Network Analysis and Network Diagram" },
+        { "topic": "6.6 Activity Resource and Activity Duration Estimating" },
+        { "topic": "6.7 Schedule Development" },
+        { "topic": "6.8 Milestones and Gantt Charts" },
+        { "topic": "6.9 Forward and Backward Pass" },
+        { "topic": "6.10 CPM" },
+        { "topic": "6.11 PERT" },
+        { "topic": "6.12 Schedule Control" }
+      ]
+    },
+    {
+      "unit": 7,
+      "title": "Project Cost Management",
+      "hours": 5,
+      "topics": [
+        { "topic": "7.1 Fundamentals of Project Cost" },
+        { "topic": "7.2 Project Cost Estimation Process" },
+        { "topic": "7.3 Review of Cost Estimation and Its Types" },
+        { "topic": "7.4 Planning Cost Management" },
+        { "topic": "7.5 Estimating Cost" },
+        { "topic": "7.6 Determining Budget" },
+        { "topic": "7.7 Cost Control and Its Measures" },
+        { "topic": "7.8 Earned Value Analysis — Cost Variance, Schedule Variance, Cost Performance Index, Schedule Performance Index, Earned Value Management" }
+      ]
+    },
+    {
+      "unit": 8,
+      "title": "Project Quality Management",
+      "hours": 2,
+      "topics": [
+        { "topic": "8.1 Project Quality Management Process" },
+        { "topic": "8.2 Planning Project Quality Management" },
+        { "topic": "8.3 Review of Quality Assurance and Quality Control" }
+      ]
+    },
+    {
+      "unit": 9,
+      "title": "Project Human Resource Management",
+      "hours": 4,
+      "topics": [
+        { "topic": "9.1 Project Human Resource Management Process" },
+        { "topic": "9.2 Planning Project Human Resource Management" },
+        { "topic": "9.3 Acquire Project Team" },
+        { "topic": "9.4 Develop Project Team" },
+        { "topic": "9.5 Manage Project Team" }
+      ]
+    },
+    {
+      "unit": 10,
+      "title": "Project Communication Management",
+      "hours": 3,
+      "topics": [
+        { "topic": "10.1 Basics of Communication" },
+        { "topic": "10.2 Project Communication Management Processes" },
+        { "topic": "10.3 Importance of Communication Management" },
+        { "topic": "10.4 Planning Project Communication Management" },
+        { "topic": "10.5 Manage Communication" },
+        { "topic": "10.6 Control Communication" }
+      ]
+    },
+    {
+      "unit": 11,
+      "title": "Project Risk Management",
+      "hours": 3,
+      "topics": [
+        { "topic": "11.1 Reviewing Risks and Its Types" },
+        { "topic": "11.2 Risk Management Process" },
+        { "topic": "11.3 Planning Risk Management" },
+        { "topic": "11.4 Reviewing Risk Identification" },
+        { "topic": "11.5 Reviewing Risk Analysis" },
+        { "topic": "11.6 Quantitative and Qualitative Risk Assessment Processes" },
+        { "topic": "11.7 Risk Response Planning" },
+        { "topic": "11.8 Controlling Risk" }
+      ]
+    },
+    {
+      "unit": 12,
+      "title": "Project Procurement Management",
+      "hours": 3,
+      "topics": [
+        { "topic": "12.1 Project Procurement Management Process" },
+        { "topic": "12.2 Plan Project Procurement Management" },
+        { "topic": "12.3 Conduct Procurement" },
+        { "topic": "12.4 Control Procurement" },
+        { "topic": "12.5 Close Procurement" },
+        { "topic": "12.6 Public Procurement Act in Nepal" }
+      ]
+    },
+    {
+      "unit": 13,
+      "title": "Project Stakeholders Management",
+      "hours": 3,
+      "topics": [
+        { "topic": "13.1 Project Stakeholders Management Process" },
+        { "topic": "13.2 Identify Stakeholder" },
+        { "topic": "13.3 Plan Stakeholder Management" },
+        { "topic": "13.4 Manage Stakeholder Engagement" },
+        { "topic": "13.5 Control Stakeholder Management" }
+      ]
+    }
+  ],
+  "text_book": "A Guide to the Project Management Body of Knowledge, Fifth Edition, Project Management Institute Inc., USA, 2013.",
+  "references": [
+    "Maylor, H. 'Project Management', Pearson India, 2003.",
+    "Agrawal, G. R., 'Project Management in Nepal', M.K. Publishers, Nepal, 2005.",
+    "Kerzner, H., 'Project Management: A Systems Approach to Planning, Scheduling and Controlling', CBS Publishers, New Delhi, 1987.",
+    "Orr, A.D., 'Advanced Project Management', First Edition, Kogan Page, 2008.",
+    "Shenhar, A.J., Dvir, D., 'Reinventing Project Management', Fifth Edition, Harvard Business School Press, 2007."
+  ]
+}

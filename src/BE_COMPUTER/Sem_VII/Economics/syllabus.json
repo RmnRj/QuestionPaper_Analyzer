@@ -1,0 +1,122 @@
+{
+  "course_title": "Engineering Economics",
+  "course_code": "3-2-0",
+  "evaluation": {
+    "sessional": { "theory": 50, "practical": 0, "total": 50 },
+    "final": { "theory": 50, "practical": 0, "total": 50 },
+    "total": { "theory": 100, "practical": 0, "total": 100 }
+  },
+  "course_contents": [
+    {
+      "unit": 1,
+      "title": "Basics of Engineering Economics",
+      "hours": 3,
+      "topics": [
+        { "topic": "1.1 Definition of Economics, Demand, the Law of Demand, Law of Diminishing Utility, Marginal Utility, Supply, Law of Supply, Law of Supply and Demand" },
+        { "topic": "1.2 Engineering Economics, Principles of Engineering Economy and its application" }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": "Cost Concept and Fundamentals of Cost Accounting",
+      "hours": 3,
+      "topics": [
+        { "topic": "2.1 Cost Terminology: Manufacturing Cost and Non-Manufacturing Cost" },
+        { "topic": "2.2 Cost for Business Decision: Differential Cost and Revenue; Opportunity Cost, Sunk Cost and Marginal Cost" }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": "Time Value of Money",
+      "hours": 4,
+      "topics": [
+        { "topic": "3.1 Interest, Simple Interest, Compound Interest, Nominal Rate of Interest, Effective Rate of Interest" },
+        { "topic": "3.2 Economic Equivalence: Present Worth, Future Worth and Annual Worth" },
+        { "topic": "3.3 Development of Formulas for Equivalence Calculation" }
+      ]
+    },
+    {
+      "unit": 4,
+      "title": "Basic Methods of Engineering Economic Studies",
+      "hours": 7,
+      "topics": [
+        { "topic": "4.1 Minimum Attractive Rate of Return — MARR" },
+        { "topic": "4.2 Payback Period Method — Simple and Discounted" },
+        { "topic": "4.3 Equivalent Worth Methods: Present Worth Method, Future Worth Method and Annual Worth Method" },
+        { "topic": "4.4 Rate of Return Methods: Internal Rate of Return (IRR) Method and External/Modified Rate of Return (ERR/MIRR) Method" },
+        { "topic": "4.5 Benefit Cost Ratio Method" }
+      ]
+    },
+    {
+      "unit": 5,
+      "title": "Comparative Analysis of Alternatives",
+      "hours": 6,
+      "topics": [
+        { "topic": "5.1 Comparing Mutually Exclusive Alternatives having Same useful life by Payback Period Method, Equivalent Worth Method; Rate of Return Methods and Benefit Cost Ratio Method" },
+        { "topic": "5.2 Comparing Mutually Exclusive Alternatives having different useful lives by Repeatability Assumption, Co-terminated Assumption, Capitalized Worth Method" },
+        { "topic": "5.3 Comparing Mutually Exclusive, Contingent and Independent Projects in Combination" }
+      ]
+    },
+    {
+      "unit": 6,
+      "title": "Risk Analysis",
+      "hours": 4,
+      "topics": [
+        { "topic": "6.1 Origin/Sources of Project Risks" },
+        { "topic": "6.2 Methods of Describing Project Risks: Sensitivity Analysis, Breakeven Analysis, Scenario Analysis" }
+      ]
+    },
+    {
+      "unit": 7,
+      "title": "Ecological Limits and Economic Development",
+      "hours": 3,
+      "topics": [
+        { "topic": "7.1 Economic Theory and Ecological Limit" },
+        { "topic": "7.2 Concept of sustainable development" },
+        { "topic": "7.3 Ecological Footprint" },
+        { "topic": "7.4 Overcoming Ecological Limits" }
+      ]
+    },
+    {
+      "unit": 8,
+      "title": "Depreciation and Corporate Income Taxes",
+      "hours": 5,
+      "topics": [
+        { "topic": "8.1 Depreciation and its causes, Asset Depreciation and Accounting Depreciation" },
+        { "topic": "8.2 Basic Methods of Depreciation: Straight line method, Declining Balance Method, Sinking Fund Method, Sum of the Year Digit Method, Unit of Production Method, Modified Accelerated Cost Recovery System (MACRS)" },
+        { "topic": "8.3 Introduction to Corporate Income Tax, Taxation Law, Depreciation Rates, Personal Tax, Corporate Tax, VAT" },
+        { "topic": "8.4 After Tax Cash flow Estimate, General Procedure for Making After Tax Economic Analysis" }
+      ]
+    },
+    {
+      "unit": 9,
+      "title": "Enterprise Financing and Capital Investment",
+      "hours": 4,
+      "topics": [
+        { "topic": "9.1 Method of Financing: Equity Financing, Debt Financing and Capital Structure" },
+        { "topic": "9.2 Cost of Capital: Cost of Equity, Cost of Debt and calculating cost of capital" },
+        { "topic": "9.3 Project Funding Mechanism: Government budget, Public Private Partnership and Private Investment" },
+        { "topic": "9.4 FIRR, EIRR and Return on Equity" }
+      ]
+    },
+    {
+      "unit": 10,
+      "title": "Basic Accounting Procedure",
+      "hours": 6,
+      "topics": [
+        { "topic": "10.1 Accounting Terminologies; Asset and liabilities: Fundamental equation of accounting" },
+        { "topic": "10.2 Financial statements: The Balance Sheet, Income Statement and Cashflow Statements" },
+        { "topic": "10.3 Using Ratios to make Decisions: Debt Ratio, Current Ratio, Quick Ratio — Acid Test Ratio, Inventory Turnover Ratio, Total Asset Turnover, Profit Margin on Sales, Return on Total Assets, Price Earnings Ratio and Book Value per Share" }
+      ]
+    }
+  ],
+  "tutorials": "Two assignments and 1 case study.",
+  "text_book": "Chan S. Park. Contemporary Engineering Economics. PHI Learning Private Limited.",
+  "references": [
+    "E. Paul De Garmo, William G. Sullivan and James A. Bontadelli. Engineering Economy. MC Milan Publishing Company.",
+    "James L. Riggs, David D. Bedworth and Sabah U. Randhawa. Engineering Economics. Tata MCGraw Hill Education Private Limited.",
+    "N.N. Borish and S. Kaplan. Economic Analysis for Engineering and Managerial Decision Making. MC Gran Hill Publishing Company.",
+    "Adhikari, D. Principle's of Engineering Economic Analysis. Nepal: Global Publication.",
+    "SenGupta, Ramprasad. Ecological Limits and Economic Development. Oxford University Press."
+  ]
+}

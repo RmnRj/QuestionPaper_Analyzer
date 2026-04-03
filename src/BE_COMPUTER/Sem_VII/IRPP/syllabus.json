@@ -1,0 +1,151 @@
+{
+  "course_title": "Image Processing and Pattern Recognition",
+  "course_code": "3-1-2",
+  "evaluation": {
+    "sessional": { "theory": 30, "practical": 20, "total": 50 },
+    "final": { "theory": 50, "practical": 0, "total": 50 },
+    "total": { "theory": 80, "practical": 20, "total": 100 }
+  },
+  "course_contents": [
+    {
+      "unit": 1,
+      "title": "Introduction to Digital Image Processing",
+      "hours": 4,
+      "topics": [
+        { "topic": "1.1 The origins of Digital Image Processing" },
+        { "topic": "1.2 Examples of Fields that Use Digital Image Processing" },
+        { "topic": "1.3 Fundamentals Steps in Image Processing" },
+        { "topic": "1.4 Elements of Digital Image Processing Systems" },
+        { "topic": "1.5 Image Sampling and Quantization" },
+        { "topic": "1.6 Some basic relationships like Neighbors, Connectivity, Distance Measures between pixels" },
+        { "topic": "1.7 Elements of Visual Perception" }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": "Image Enhancement in Spatial Domain",
+      "hours": 7,
+      "topics": [
+        { "topic": "2.1 Some basic Gray Level Transformations" },
+        { "topic": "2.1.1 Point operations" },
+        { "topic": "2.1.2 Contrast stretching" },
+        { "topic": "2.1.3 Thresholding" },
+        { "topic": "2.1.4 Digital negative" },
+        { "topic": "2.1.5 Intensity level slicing" },
+        { "topic": "2.1.6 Bit Plane Slicing" },
+        { "topic": "2.2 Histogram Processing and Equalization" },
+        { "topic": "2.3 Enhancement Using Arithmetic and Logic operations" },
+        { "topic": "2.4 Basics of Spatial Filters" },
+        { "topic": "2.5 Smoothening and Sharpening Spatial Filters" },
+        { "topic": "2.5.1 Averaging" },
+        { "topic": "2.5.2 Median filtering" },
+        { "topic": "2.5.3 Spatial Low Pass" },
+        { "topic": "2.5.4 High pass filtering" },
+        { "topic": "2.5.5 Magnification by replication and interpolation" },
+        { "topic": "2.6 Combining Spatial Enhancement Methods" }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": "Image Enhancement in the Frequency Domain",
+      "hours": 6,
+      "topics": [
+        { "topic": "3.1 Introduction to Fourier Transform and the frequency Domain" },
+        { "topic": "3.2 Computing and Visualizing the 2D DFT" },
+        { "topic": "3.3 Smoothing Frequency Domain Filters" },
+        { "topic": "3.4 Sharpening Frequency Domain Filters" },
+        { "topic": "3.5 Other Image Transforms" },
+        { "topic": "3.5.1 Hadamard transform" },
+        { "topic": "3.5.2 Haar transform" },
+        { "topic": "3.5.3 Discrete Cosine transform" },
+        { "topic": "3.6 Fast Fourier Transform" }
+      ]
+    },
+    {
+      "unit": 4,
+      "title": "Image Restoration",
+      "hours": 4,
+      "topics": [
+        { "topic": "4.1 A model of The Image Degradation/Restoration Process" },
+        { "topic": "4.2 Noise Models Restoration in the presence of Noise Only Spatial Filtering" },
+        { "topic": "4.3 Periodic Noise Reduction by Frequency Domain Filtering" }
+      ]
+    },
+    {
+      "unit": 5,
+      "title": "Image Compression",
+      "hours": 6,
+      "topics": [
+        { "topic": "5.1 Coding Redundancy" },
+        { "topic": "5.1.1 Huffman coding" },
+        { "topic": "5.2 Interpixel Redundancy" },
+        { "topic": "5.2.1 Run length Coding" },
+        { "topic": "5.3 Psychovisual Redundancy" },
+        { "topic": "5.4 Image Compression models" },
+        { "topic": "5.5 Lossless and Lossy Compressions" },
+        { "topic": "5.5.1 Predictive coding" }
+      ]
+    },
+    {
+      "unit": 6,
+      "title": "Introduction to Morphological Image Processing",
+      "hours": 4,
+      "topics": [
+        { "topic": "6.1 Logic Operations involving binary images" },
+        { "topic": "6.2 Dilation and Erosion" },
+        { "topic": "6.3 Opening and Closing" }
+      ]
+    },
+    {
+      "unit": 7,
+      "title": "Image Segmentation",
+      "hours": 7,
+      "topics": [
+        { "topic": "7.1 Detection of Discontinuities" },
+        { "topic": "7.2 Edge linking and boundary detection" },
+        { "topic": "7.3 Thresholding" },
+        { "topic": "7.4 Region Based Segmentation" }
+      ]
+    },
+    {
+      "unit": 8,
+      "title": "Representations and Description",
+      "hours": 3,
+      "topics": [
+        { "topic": "8.1 Introduction to some descriptors" },
+        { "topic": "8.1.1 Chain codes" },
+        { "topic": "8.1.2 Signatures" },
+        { "topic": "8.1.3 Shape Numbers" },
+        { "topic": "8.1.4 Fourier Descriptors" }
+      ]
+    },
+    {
+      "unit": 9,
+      "title": "Object Recognition",
+      "hours": 3,
+      "topics": [
+        { "topic": "9.1 Patterns and pattern classes" },
+        { "topic": "9.2 Decision-Theoretic Methods" },
+        { "topic": "9.3 Overview of Neural Networks in Image Processing" }
+      ]
+    },
+    {
+      "unit": 10,
+      "title": "Pattern Recognition",
+      "hours": 1,
+      "topics": [
+        { "topic": "10.1 Overview of pattern recognition" }
+      ]
+    }
+  ],
+  "laboratory_work": "Student should write programs related to different image enhancement techniques, image restoration techniques, morphological operations and image segmentation techniques.",
+  "text_book": "Rafael C. Gonzalez and Richard E. Woods, 'Digital Image Processing', Prentice Hall of India Pvt. Ltd., 2010.",
+  "references": [
+    "I. Pitas, 'Digital Image Processing Algorithms', Prentice Hall, 2009.",
+    "A. K. Jain, 'Fundamental of Digital Image processing', Prentice Hall of India Pvt. Ltd., 2011.",
+    "K. Castlemann, 'Digital image processing', Prentice Hall of India Pvt. Ltd., 2010.",
+    "R. C. Gonzalez and P. Wintz, 'Digital Image Processing', Addison-Wesley Publishing, 2009.",
+    "P. Monique and M. Dekker, 'Fundamentals of Pattern recognition', 2007.",
+    "M. James, 'Pattern recognition', BSP professional books, 2008."
+  ]
+}

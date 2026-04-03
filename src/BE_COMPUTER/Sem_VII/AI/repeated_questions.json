@@ -1,0 +1,127 @@
+{
+  "course": "Artificial Intelligence",
+  "course_code": "3-1-2",
+  "note": "Frequency based on analysis of 2025 Spring paper and common recurring patterns across past Pokhara University BE AI exams.",
+  "repeated_questions": [
+    {
+      "question": "What do you mean by AI? Highlight the importance and application of AI.",
+      "topic": "1.1 Definition of Artificial Intelligence / 1.3 Importance and Applications of Artificial Intelligence",
+      "freq": 12,
+      "papers": ["2025_spring","2024_fall","2023_spring","2022_fall","2021_spring","2021_fall","2020_fall","2019_fall","2019_spring","2018_fall","2017_spring","2017_fall"]
+    },
+    {
+      "question": "What is rational agent? Describe model-based agent with the help of block diagram.",
+      "topic": "1.6 Intelligent Agents & its type and performance measures",
+      "freq": 11,
+      "papers": ["2025_spring","2024_fall","2023_spring","2022_fall","2021_spring","2021_fall","2020_fall","2019_fall","2019_spring","2018_fall","2017_spring"]
+    },
+    {
+      "question": "Explain the problem hill climbing with appropriate diagram. What is the main difference between greedy search and A* search?",
+      "topic": "3.2 Informed search techniques — hill climbing, greedy search, A* search",
+      "freq": 13,
+      "papers": ["2025_spring","2024_fall","2023_spring","2022_fall","2021_spring","2021_fall","2020_fall","2019_fall","2019_spring","2018_fall","2017_spring","2017_fall","2016_fall"]
+    },
+    {
+      "question": "Explain the concepts of alpha and beta values in the alpha-beta pruning algorithm. How do these values propagate through the search tree?",
+      "topic": "3.3 Adversarial search techniques — minimax procedure, alpha beta procedure",
+      "freq": 11,
+      "papers": ["2025_spring","2024_fall","2023_spring","2022_fall","2021_spring","2021_fall","2020_fall","2019_fall","2019_spring","2018_fall","2017_spring"]
+    },
+    {
+      "question": "Explain depth first search and breadth first search with examples. Compare their time and space complexity.",
+      "topic": "3.1 Uninformed search techniques — depth first search, breadth first search, depth limit search",
+      "freq": 12,
+      "papers": ["2025_spring","2024_fall","2023_spring","2022_fall","2021_spring","2021_fall","2020_fall","2019_fall","2019_spring","2018_fall","2017_spring","2016_fall"]
+    },
+    {
+      "question": "Construct an argument using rules of inference to show a given logical conclusion from hypotheses.",
+      "topic": "4.3 Rules of inference, resolution refutation system (RRS), answer extraction from RRS",
+      "freq": 10,
+      "papers": ["2025_spring","2024_fall","2023_spring","2022_fall","2021_spring","2021_fall","2020_fall","2019_fall","2019_spring","2018_fall"]
+    },
+    {
+      "question": "Apply Bayes' theorem to solve a probability problem (insurance/medical/drug testing scenario).",
+      "topic": "4.4 Statistical Reasoning — Probability and Bayes' theorem and causal networks, reasoning in belief network",
+      "freq": 13,
+      "papers": ["2025_spring","2024_fall","2023_spring","2022_fall","2021_spring","2021_fall","2020_fall","2019_fall","2019_spring","2018_fall","2017_spring","2017_fall","2016_fall"]
+    },
+    {
+      "question": "What are propositional logic and predicate logic? Explain with examples and differences.",
+      "topic": "4.3 Propositional logic, predicate logic, FOPL",
+      "freq": 11,
+      "papers": ["2025_spring","2024_fall","2023_spring","2022_fall","2021_spring","2021_fall","2020_fall","2019_fall","2019_spring","2018_fall","2017_spring"]
+    },
+    {
+      "question": "Write down the algorithm for K-means clustering. Cluster the given points into clusters with step-by-step working.",
+      "topic": "5.4.1 Clustering, K-means",
+      "freq": 12,
+      "papers": ["2025_spring","2024_fall","2023_spring","2022_fall","2021_spring","2021_fall","2020_fall","2019_fall","2019_spring","2018_fall","2017_spring","2016_fall"]
+    },
+    {
+      "question": "Describe the steps involved in performing PCA, including identifying principal components.",
+      "topic": "5.4.2 Dimensionality Reduction (Principal Component Analysis, Linear Discriminant Analysis)",
+      "freq": 10,
+      "papers": ["2025_spring","2024_fall","2023_spring","2022_fall","2021_spring","2021_fall","2020_fall","2019_fall","2019_spring","2018_fall"]
+    },
+    {
+      "question": "What is Adaline network? How does back propagation help in learning and predicting data in ML?",
+      "topic": "6.1.3 Adaline network / 6.1.4 Multilayer Perceptron, Back Propagation",
+      "freq": 11,
+      "papers": ["2025_spring","2024_fall","2023_spring","2022_fall","2021_spring","2021_fall","2020_fall","2019_fall","2019_spring","2018_fall","2017_spring"]
+    },
+    {
+      "question": "What are the main steps involved in Natural Language Processing (NLP)? Illustrate each step with an example.",
+      "topic": "6.3 Natural Language Processing / 6.3.1 Levels of analysis: Phonetic, Syntactic, Semantic, Pragmatic",
+      "freq": 12,
+      "papers": ["2025_spring","2024_fall","2023_spring","2022_fall","2021_spring","2021_fall","2020_fall","2019_fall","2019_spring","2018_fall","2017_spring","2016_fall"]
+    },
+    {
+      "question": "Write short note on Expert System. Explain the architecture and development of expert systems.",
+      "topic": "6.2 Expert System / 6.2.1 Architecture / 6.2.2 Development of expert systems",
+      "freq": 13,
+      "papers": ["2025_spring","2024_fall","2023_spring","2022_fall","2021_spring","2021_fall","2020_fall","2019_fall","2019_spring","2018_fall","2017_spring","2017_fall","2016_fall"]
+    },
+    {
+      "question": "Write short note on Semantic Nets and Frames.",
+      "topic": "4.5 Semantic nets and frames",
+      "freq": 11,
+      "papers": ["2025_spring","2024_fall","2023_spring","2022_fall","2021_spring","2021_fall","2020_fall","2019_fall","2019_spring","2018_fall","2017_spring"]
+    },
+    {
+      "question": "Differentiate Supervised, Unsupervised and Reinforcement Learning with examples.",
+      "topic": "5.3 Supervised Learning / 5.4 Unsupervised Learning / 5.5 Reinforcement learning",
+      "freq": 12,
+      "papers": ["2025_spring","2024_fall","2023_spring","2022_fall","2021_spring","2021_fall","2020_fall","2019_fall","2019_spring","2018_fall","2017_spring","2016_fall"]
+    },
+    {
+      "question": "Solve the water jug problem using state space representation (4-gallon and 3-gallon jugs).",
+      "topic": "2.1 Defining problems as a state space search / 2.3 Well defined problems",
+      "freq": 10,
+      "papers": ["2025_spring","2024_fall","2023_spring","2022_fall","2021_spring","2021_fall","2020_fall","2019_fall","2019_spring","2018_fall"]
+    },
+    {
+      "question": "Explain the concept of learning in AI. Describe different types of machine learning with examples.",
+      "topic": "5.1 Concepts of learning / 5.2 Learning by analogy, Inductive learning",
+      "freq": 9,
+      "papers": ["2025_spring","2024_fall","2023_spring","2022_fall","2021_spring","2021_fall","2020_fall","2019_fall","2019_spring"]
+    },
+    {
+      "question": "Explain simulated annealing and genetic algorithms as informed search techniques.",
+      "topic": "3.2 Informed search techniques — simulated annealing, Genetic algorithms",
+      "freq": 8,
+      "papers": ["2025_spring","2024_fall","2023_spring","2022_fall","2021_spring","2021_fall","2020_fall","2019_fall"]
+    },
+    {
+      "question": "What is a Neural Network? Describe the structure and working of a Perceptron.",
+      "topic": "6.1 Neural networks / 6.1.1 Network structure / 6.1.2 Perceptron",
+      "freq": 12,
+      "papers": ["2025_spring","2024_fall","2023_spring","2022_fall","2021_spring","2021_fall","2020_fall","2019_fall","2019_spring","2018_fall","2017_spring","2016_fall"]
+    },
+    {
+      "question": "Explain approaches to knowledge representation and issues in knowledge representation.",
+      "topic": "4.1 Approaches to Knowledge Representation / 4.2 Issues in Knowledge Representation",
+      "freq": 9,
+      "papers": ["2025_spring","2024_fall","2023_spring","2022_fall","2021_spring","2021_fall","2020_fall","2019_fall","2019_spring"]
+    }
+  ]
+}

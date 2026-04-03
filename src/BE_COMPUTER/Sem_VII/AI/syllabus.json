@@ -1,0 +1,226 @@
+{
+  "course_title": "Engineering Mathematics IV",
+  "course_code": "MTH 211.3 (3 – 2 – 0)",
+  "total_hours": 45,
+  "university": "Pokhara University",
+  "program": "BE",
+  "evaluation": {
+    "theory": {
+      "sessional": 50,
+      "final": 50,
+      "total": 100
+    },
+    "practical": {
+      "sessional": 0,
+      "final": 0,
+      "total": 0
+    },
+    "grand_total": 100
+  },
+  "course_objectives": "1. To understand complex variable. 2. To apply concepts of Fourier and Z-transform in signal processing. 3. To study wave and diffusion equations in Cartesian, cylindrical, and polar coordinates.",
+  "course_contents": [
+    {
+      "unit": 1,
+      "title": "Complex Variable",
+      "hours": 12,
+      "topics": [
+        {
+          "topic": "1.1 Review of complex numbers — polar form, modulus, argument, DeMoivre's theorem",
+          "frequency": 5,
+          "note": "Asked as intro/short questions. DeMoivre's theorem used in deriving roots and powers."
+        },
+        {
+          "topic": "1.2 Functions of complex variables — definition, limits, continuity",
+          "frequency": 8,
+          "note": "Foundation for analyticity; often combined with Cauchy-Riemann equations."
+        },
+        {
+          "topic": "1.3 Cauchy-Riemann equations — necessary and sufficient conditions for analyticity",
+          "frequency": 18,
+          "note": "One of the highest frequency topics. Asked to check analyticity and as prerequisite for harmonic functions."
+        },
+        {
+          "topic": "1.4 Harmonic functions — harmonic conjugate, construction of analytic function f(z) = u + iv",
+          "frequency": 21,
+          "note": "MOST FREQUENTLY ASKED TOPIC in Unit 1. Appears in virtually every paper. Milne-Thomson method included."
+        },
+        {
+          "topic": "1.5 Conformal mappings — definition, angle-preserving property, standard maps w = e^{iα}z, w = 1/z, w = z²",
+          "frequency": 14,
+          "note": "Image of regions under transformations. Triangular/circular region mapping asked repeatedly."
+        },
+        {
+          "topic": "1.6 Bilinear (Möbius) transformation — definition, fixed points, cross-ratio",
+          "frequency": 10,
+          "note": "Finding bilinear map from three point-pairs and image of unit circle/real axis."
+        },
+        {
+          "topic": "1.7 Cauchy integral theorem and complex line integrals",
+          "frequency": 7,
+          "note": "Statement, conditions, direct evaluation of contour integrals."
+        },
+        {
+          "topic": "1.8 Cauchy's integral formula and its extension for higher-order derivatives",
+          "frequency": 18,
+          "note": "State-and-prove plus evaluation questions. One of the most tested topics in complex integration."
+        },
+        {
+          "topic": "1.9 Taylor's series of a complex function — convergence and radius",
+          "frequency": 4,
+          "note": "Expansion around a regular point; less frequently asked as a standalone question."
+        },
+        {
+          "topic": "1.10 Laurent's series expansion in annular regions",
+          "frequency": 13,
+          "note": "Expanding in multiple annular domains (e.g., |z|<1, 1<|z|<2, |z|>2) is a common exam pattern."
+        },
+        {
+          "topic": "1.11 Zeros, singularities, poles — isolated, removable, essential; classification",
+          "frequency": 8,
+          "note": "Identifying type of singularity and order of pole. Often paired with residue calculation."
+        },
+        {
+          "topic": "1.12 Calculation of residues at poles — Cauchy's residue theorem and evaluation of real integrals",
+          "frequency": 19,
+          "note": "State-and-prove residue theorem + definite integral evaluation. Second most tested integration topic."
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": "Z-Transform",
+      "hours": 9,
+      "topics": [
+        {
+          "topic": "2.1 Z-transform — definition, one-sided and two-sided Z-transform, standard transforms, ROC",
+          "frequency": 15,
+          "note": "Basic Z-transform table, properties (linearity, scaling, time-reversal) regularly asked."
+        },
+        {
+          "topic": "2.2 Linear Time-Invariant system, unit impulse function, properties of Z-transform",
+          "frequency": 10,
+          "note": "Convolution theorem, shifting theorem (first and second), initial and final value theorems."
+        },
+        {
+          "topic": "2.3 Shifting theorems — first and second shifting theorems with applications",
+          "frequency": 14,
+          "note": "Z{aⁿ cos bt}, Z{aⁿ sin bt} and related forms. Appears in nearly every paper."
+        },
+        {
+          "topic": "2.4 Inverse Z-transform by residue and partial fraction methods; long division",
+          "frequency": 12,
+          "note": "Partial fraction decomposition and power series (long division) are both asked."
+        },
+        {
+          "topic": "2.5 Parseval's theorem and convolution theorem for Z-transform",
+          "frequency": 6,
+          "note": "Less frequently asked as standalone; often part of larger Z-transform questions."
+        },
+        {
+          "topic": "2.6 Solution of difference equations using Z-transform",
+          "frequency": 20,
+          "note": "MOST FREQUENTLY TESTED in Unit 2. Solving y_{n+2} + ay_{n+1} + by_n = f(n) with initial conditions appears in nearly every paper."
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": "Fourier Integral and Fourier Transform",
+      "hours": 7,
+      "topics": [
+        {
+          "topic": "3.1 Fourier series in complex form — derivation from Fourier integral theorem",
+          "frequency": 6,
+          "note": "Derivation of Fourier integral from Fourier series; often asked as a first sub-part."
+        },
+        {
+          "topic": "3.2 Fourier integral representation — Fourier sine integral and cosine integral",
+          "frequency": 19,
+          "note": "Evaluating ∫₀^∞ [...] dω using a suitable function. One of the two most tested Fourier topics."
+        },
+        {
+          "topic": "3.3 Fourier transform — definition, linearity, basic properties, Gaussian function",
+          "frequency": 8,
+          "note": "F{e^{-x²/2}} and similar; properties (time-shift, scaling, convolution) regularly asked."
+        },
+        {
+          "topic": "3.4 Fourier sine and cosine transforms — computation and applications",
+          "frequency": 19,
+          "note": "F_s and F_c of e^{-x}, e^{-mx}; then proving standard definite integral results. Equally most-tested with 3.2."
+        },
+        {
+          "topic": "3.5 Inverse Fourier transform and Parseval's identity — evaluation of definite integrals",
+          "frequency": 7,
+          "note": "∫₀^∞ 1/(1+x²)² dx = π/4 via Parseval, and related problems."
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "title": "Partial Differential Equations",
+      "hours": 14,
+      "topics": [
+        {
+          "topic": "4.1 Partial differential equations — definition, examples, classification, order and degree",
+          "frequency": 4,
+          "note": "Introductory theory; less commonly asked as a full question."
+        },
+        {
+          "topic": "4.2 Method of separation of variables — solving PDEs with boundary conditions",
+          "frequency": 14,
+          "note": "Applied to u_{xx} − u_{xy} = 0 and similar. Fundamental tool for 4.3–4.6."
+        },
+        {
+          "topic": "4.3 Derivation and solution of wave equation (one and two dimensional) — vibrating string",
+          "frequency": 20,
+          "note": "MOST FREQUENTLY TESTED in Unit 4. Derive 1D wave equation + solve with BCs and IC appearing in nearly every paper."
+        },
+        {
+          "topic": "4.4 Wave equation by D'Alembert's method",
+          "frequency": 5,
+          "note": "Alternative closed-form solution; asked occasionally as a second sub-part."
+        },
+        {
+          "topic": "4.5 Derivation and solution of heat equation (one and two dimensional) — temperature distribution",
+          "frequency": 19,
+          "note": "Derive 1D heat equation + solve for u(x,t) with ends at zero temperature. Appears in nearly every paper."
+        },
+        {
+          "topic": "4.6 Laplace equation — Cartesian, polar coordinates; expressing ∇²u in polar form",
+          "frequency": 15,
+          "note": "Deriving ∇²u in polar coordinates is a very common question. Cylindrical/spherical form: statement only."
+        },
+        {
+          "topic": "4.7 Helmholtz equation and engineering applications of PDEs",
+          "frequency": 4,
+          "note": "2D boundary-value problems; Helmholtz equation F_{xx}+F_{yy}+k²F = 0 solved occasionally."
+        }
+      ]
+    },
+    {
+      "unit": 5,
+      "title": "Curve in Space (Analytical Solid Geometry)",
+      "hours": 3,
+      "topics": [
+        {
+          "topic": "5.1 Quadric surfaces — ellipsoid, hyperboloid, paraboloid, cylinder, cone; standard equations and sketches",
+          "frequency": 5,
+          "note": "Write equation, sketch, identify axes of symmetry. Asked as short-answer or sub-part."
+        },
+        {
+          "topic": "5.2 Tangent line and tangent plane on the space curve — tangent vector, unit tangent vector",
+          "frequency": 14,
+          "note": "Finding tangent vector r⃗'(t) and unit tangent T̂ at a given point. Appears in most recent papers."
+        }
+      ]
+    }
+  ],
+  "references": [
+    "1. E. Kreyszig, Advanced Engineering Mathematics, 8th edition, Wiley-Eastern Publication, New Delhi.",
+    "2. H. K. Dass & R. Verma, Higher Engineering Mathematics, First edition, S. Chand & Company Limited, New Delhi.",
+    "3. Digital Signal Processing: J.G. Proakis, Prentice Hall of India.",
+    "4. V. Sundaran, R. Bala Subramanayam, K.L. Laxminarayanam, Engineering Mathematics, Volume II.",
+    "5. A.V. Oppenheim, Discrete-Time Signal Processing, Prentice Hall, India Limited, 1990.",
+    "6. K. Ogata, Discrete-Time Control System, Prentice Hall, India Limited, 1993."
+  ]
+}

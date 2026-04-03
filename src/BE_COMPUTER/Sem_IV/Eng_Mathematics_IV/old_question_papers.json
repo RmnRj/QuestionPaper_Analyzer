@@ -7,6 +7,133 @@
   "pass_marks": 45,
   "papers": [
     {
+      "id": "2025-FA",
+      "year": "2025",
+      "semester": "Fall",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Define harmonic function. Show that u = 3x²y + x² − y³ − y² is a harmonic function. Find the analytic function for which the given function is a real part.",
+          "eq": "u = 3x^2 y + x^2 - y^3 - y^2"
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "State Cauchy integral formula for derivative. Evaluate ∮_c z⁶/(2z−1)⁶ dz, where c is the unit circle |z| = 1, counterclockwise.",
+          "eq": "\\oint_c \\frac{z^6}{(2z-1)^6}\\,dz,\\quad |z|=1"
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Show that the transformation w = (2z+3)/(z−4) maps the circle x² + y² − 4x = 0 onto the straight line 4u + 3 = 0 in the w-plane.",
+          "eq": "w = \\frac{2z+3}{z-4},\\quad x^2+y^2-4x=0 \\;\\mapsto\\; 4u+3=0"
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Find the Taylor's and Laurent's series of the function f(z) = (z²−1)/[(z+2)(z+3)].",
+          "eq": "f(z) = \\frac{z^2-1}{(z+2)(z+3)}",
+          "or_question": {
+            "question": "State Cauchy Residue Theorem. By applying Cauchy Residue Theorem, evaluate ∮_c (4−3z)/[z(z−1)(z−2)] dz where C: |z| = 3/2.",
+            "eq": "\\oint_c \\frac{4-3z}{z(z-1)(z-2)}\\,dz,\\quad |z|=\\tfrac{3}{2}"
+          }
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "State and prove initial value theorem and find the inverse z-transform of F(z) = (z²−3z)/[(z−5)(z+2)].",
+          "eq": "F(z) = \\frac{z^2-3z}{(z-5)(z+2)}"
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Solve the difference equation by using Z-transform: y_{n+2} − 4y_{n+1} + 4y_n = 2ⁿ, where y₀ = 0, y₁ = 1.",
+          "eq": "y_{n+2} - 4y_{n+1} + 4y_n = 2^n,\\quad y_0=0,\\;y_1=1"
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Show that ∫₀^∞ (sin πw · sin xw)/(1−w²) dw = (π/2) sin x if 0 ≤ x ≤ π, and 0 if x > π.",
+          "eq": "\\int_0^\\infty \\frac{\\sin\\pi w\\,\\sin xw}{1-w^2}\\,dw = \\begin{cases}\\tfrac{\\pi}{2}\\sin x & 0\\le x\\le\\pi \\\\ 0 & x>\\pi\\end{cases}"
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Find Fourier cosine transform of f(x) = e^{−mx} for m > 0. Then prove that ∫₀^∞ (cos kx)/(1+x²) dx = (π/2)e^{−k}.",
+          "eq": "f(x)=e^{-mx},\\;m>0 \\quad\\Rightarrow\\quad \\int_0^\\infty \\frac{\\cos kx}{1+x^2}\\,dx = \\frac{\\pi}{2}e^{-k}"
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Find u(x, t) from the one-dimensional wave equation ∂²u/∂t² = c² ∂²u/∂x² with boundary conditions u(0,t) = 0 = u(L,t), initial deflection f(x), and initial velocity ∂u/∂t|_{t=0} = g(x).",
+          "eq": "\\frac{\\partial^2 u}{\\partial t^2} = c^2\\frac{\\partial^2 u}{\\partial x^2},\\quad u(0,t)=0=u(L,t),\\quad \\left.\\frac{\\partial u}{\\partial t}\\right|_{t=0}=g(x)"
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Define partial differential equation. By separating variables, solve: (i) u_{xy} − u = 0   (ii) x·u_{xy} + 2y·u = 0.",
+          "eq": "(i)\\; u_{xy} - u = 0 \\qquad (ii)\\; x\\,u_{xy} + 2y\\,u = 0"
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Find the temperature in a laterally insulated bar of length L = 20 cm whose ends are kept at zero temperature, assuming that the initial temperature is f(x) = x if 0 < x < L/2, (L−x) if L/2 < x < L.",
+          "eq": "f(x) = \\begin{cases} x & 0 < x < L/2 \\\\ L-x & L/2 < x < L \\end{cases},\\quad L=20\\text{ cm}"
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Express the Laplacian ∇²u = ∂²u/∂x² + ∂²u/∂y² in polar coordinates.",
+          "eq": "\\nabla^2 u = \\frac{\\partial^2 u}{\\partial x^2} + \\frac{\\partial^2 u}{\\partial y^2}"
+        },
+        {
+          "number": "7",
+          "instruction": "Attempt all questions (4×2.5)",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 2.5,
+              "question": "Show that f(z) = zz̄ is not an analytic function.",
+              "eq": "f(z) = z\\bar{z}"
+            },
+            {
+              "sub_no": "b",
+              "marks": 2.5,
+              "question": "Find z-transform of z(aⁿ).",
+              "eq": "Z\\{a^n\\}"
+            },
+            {
+              "sub_no": "c",
+              "marks": 2.5,
+              "question": "Solve the partial differential equation u_{xx} + 9u = 0.",
+              "eq": "u_{xx} + 9u = 0"
+            },
+            {
+              "sub_no": "d",
+              "marks": 2.5,
+              "question": "Write equation of an ellipsoid. Sketch it with centre and axis of symmetry.",
+              "eq": "\\frac{x^2}{a^2}+\\frac{y^2}{b^2}+\\frac{z^2}{c^2}=1"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2025-SP",
       "year": "2025",
       "semester": "Spring",

@@ -28,6 +28,22 @@
                 {
                     "subject": "AI",
                     "folder": "AI"
+                },
+                {
+                    "subject": "CN",
+                    "folder": "ComputerNetwork"
+                },
+                {
+                    "subject": "Eng Economics",
+                    "folder": "Economics"
+                },
+                {
+                    "subject": "ICT-PM",
+                    "folder": "ICTPM"
+                },
+                {
+                    "subject": "IRPP",
+                    "folder": "IRPP"
                 }
             ],
             "Sem VIII": [

@@ -7,6 +7,108 @@
   "pass_marks": 45,
   "papers": [
     {
+      "id": "2025-SP",
+      "year": "2025",
+      "semester": "Spring",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "What do you mean by AI? Highlight the importance and application of AI."
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "What is rational agent? Describe model-based agent with the help of block diagram."
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "You are given two water jugs: one with a capacity of 4 gallons and the other with a capacity of 3 gallons. Neither jug has any measurement markers. Using a pump to fill the jugs, devise a step-by-step solution to get exactly 2 gallons of water into the 3-gallon jug."
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Explain the concepts of alpha and beta values in the alpha-beta pruning algorithm. How do these values propagate through the search tree?"
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Explain the problem hill climbing with appropriate diagram. What is main difference between greedy search and A* search."
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Construct an argument using rules of inference to show that the hypotheses: \"If it does not rain or if it is not foggy, then the sailing race will be held and the life saving demonstration will go on,\" \"If the sailing race is held, then the trophy will be awarded,\" and \"The trophy was not awarded\" imply the conclusion \"It rained\"."
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "An insurance company insured 2000 scooter drivers, 400 car drivers, 600 truck drivers. The probability of accident involving a scooter, car, and a truck are 0.01, 0.03, and 0.15 respectively. One of the insured persons meets with an accident. What is probability that he is scooter driver?"
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Suppose a blood test used to detect the presence of a particular banned drug is 99% sensitive and 99% specific. That is, the test will produce 99% true positive results for drug users and 99% true negative results for non-drug users. Suppose that 0.5% of people are users of the drug. What is the probability that a randomly selected individual who tests positive is a user?"
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Describe the steps involved in performing PCA, including identifying principal components."
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Write down the algorithm for K-means clustering. Cluster the given eight points (with (x, y) representing locations) into three clusters: A1(2, 10), A2(2, 5), A3(8, 4), A4(5, 8), A5(7, 5), A6(6, 4), A7(1, 2), A8(4, 9)."
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "What are the main steps involved in Natural Language Processing (NLP)? Illustrate each step with an example using a simple sentence."
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "What is Adaline network? How does back propagation help in learning and predicting data in ML?"
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on (Any two)",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 5,
+              "question": "Semantic Nets and Frames"
+            },
+            {
+              "sub_no": "b",
+              "marks": 5,
+              "question": "Supervised vs Unsupervised vs Reinforcement Learning"
+            },
+            {
+              "sub_no": "c",
+              "marks": 5,
+              "question": "Expert system"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2024-SP",
       "year": "2024",
       "semester": "Spring",
@@ -97,9 +199,21 @@
           "number": "7",
           "instruction": "Write short notes on: (Any two) 2×5",
           "options": [
-            { "sub_no": "a", "marks": 5, "question": "Deep learning" },
-            { "sub_no": "b", "marks": 5, "question": "Expert System" },
-            { "sub_no": "c", "marks": 5, "question": "Semantic Nets" }
+            {
+              "sub_no": "a",
+              "marks": 5,
+              "question": "Deep learning"
+            },
+            {
+              "sub_no": "b",
+              "marks": 5,
+              "question": "Expert System"
+            },
+            {
+              "sub_no": "c",
+              "marks": 5,
+              "question": "Semantic Nets"
+            }
           ]
         }
       ]
@@ -187,9 +301,21 @@
           "number": "7",
           "instruction": "Write short notes on: (Any two) 2×5",
           "options": [
-            { "sub_no": "a", "marks": 5, "question": "Statistical reasoning" },
-            { "sub_no": "b", "marks": 5, "question": "Reinforcement learning" },
-            { "sub_no": "c", "marks": 5, "question": "Hopfield network" }
+            {
+              "sub_no": "a",
+              "marks": 5,
+              "question": "Statistical reasoning"
+            },
+            {
+              "sub_no": "b",
+              "marks": 5,
+              "question": "Reinforcement learning"
+            },
+            {
+              "sub_no": "c",
+              "marks": 5,
+              "question": "Hopfield network"
+            }
           ]
         }
       ]
@@ -279,9 +405,21 @@
           "number": "7",
           "instruction": "Write short notes on: (Any two) 2×5",
           "options": [
-            { "sub_no": "a", "marks": 5, "question": "Production System" },
-            { "sub_no": "b", "marks": 5, "question": "Semantic Nets" },
-            { "sub_no": "c", "marks": 5, "question": "Semantic ambiguity in language processing" }
+            {
+              "sub_no": "a",
+              "marks": 5,
+              "question": "Production System"
+            },
+            {
+              "sub_no": "b",
+              "marks": 5,
+              "question": "Semantic Nets"
+            },
+            {
+              "sub_no": "c",
+              "marks": 5,
+              "question": "Semantic ambiguity in language processing"
+            }
           ]
         }
       ]
@@ -369,9 +507,21 @@
           "number": "7",
           "instruction": "Write short notes on: (Any two) 2×5",
           "options": [
-            { "sub_no": "a", "marks": 5, "question": "Bayesian Network" },
-            { "sub_no": "b", "marks": 5, "question": "Learning by analogy" },
-            { "sub_no": "c", "marks": 5, "question": "Phases in Natural language processing" }
+            {
+              "sub_no": "a",
+              "marks": 5,
+              "question": "Bayesian Network"
+            },
+            {
+              "sub_no": "b",
+              "marks": 5,
+              "question": "Learning by analogy"
+            },
+            {
+              "sub_no": "c",
+              "marks": 5,
+              "question": "Phases in Natural language processing"
+            }
           ]
         }
       ]
@@ -459,9 +609,21 @@
           "number": "7",
           "instruction": "Write short notes on: (Any two) 2×5",
           "options": [
-            { "sub_no": "a", "marks": 5, "question": "Constraint Satisfaction Problem" },
-            { "sub_no": "b", "marks": 5, "question": "Expert System" },
-            { "sub_no": "c", "marks": 5, "question": "Machine Vision" }
+            {
+              "sub_no": "a",
+              "marks": 5,
+              "question": "Constraint Satisfaction Problem"
+            },
+            {
+              "sub_no": "b",
+              "marks": 5,
+              "question": "Expert System"
+            },
+            {
+              "sub_no": "c",
+              "marks": 5,
+              "question": "Machine Vision"
+            }
           ]
         }
       ]
@@ -551,9 +713,21 @@
           "number": "7",
           "instruction": "Write short notes on: (Any two) 2×5",
           "options": [
-            { "sub_no": "a", "marks": 5, "question": "Fuzzy learning" },
-            { "sub_no": "b", "marks": 5, "question": "Best first search" },
-            { "sub_no": "c", "marks": 5, "question": "Hopfield Network" }
+            {
+              "sub_no": "a",
+              "marks": 5,
+              "question": "Fuzzy learning"
+            },
+            {
+              "sub_no": "b",
+              "marks": 5,
+              "question": "Best first search"
+            },
+            {
+              "sub_no": "c",
+              "marks": 5,
+              "question": "Hopfield Network"
+            }
           ]
         }
       ]
@@ -568,41 +742,60 @@
       "questions": [
         {
           "number": "1",
-          "sub_no": "-",
           "marks": 10,
           "question": "\"Rational Thinking\" as an aspect of Artificial Intelligence (AI), explain. Discuss on the various application domains of AI. [5+5]"
         },
         {
           "number": "2",
-          "sub_no": "-",
           "marks": 10,
           "question": "Mention search criteria. How are informed search methods more efficient than uninformed search? Explain the algorithm of A* search with a suitable example. [2+2+6]"
         },
         {
           "number": "3",
-          "sub_no": "-",
           "marks": 10,
           "question": "Discuss Propositional logic with its complexity, validity and tautology. Convert the following sentences into FOPL sentences. [5+5]\na) No mango is blue.\nb) You can fool some of the people all the times.\nc) Everyone is younger than his father.\nd) None of the gardener likes sun.\ne) All purple mushrooms are venomous."
         },
         {
           "number": "4",
-          "sub_no": "-",
           "marks": 10,
           "question": "Differentiate Semantic net and Frame. Construct a parse tree for the sentence \"The students took the online examination\". [4+6]"
         },
         {
           "number": "5",
-          "sub_no": "-",
           "marks": 10,
           "question": "Differentiate Supervised Learning with Unsupervised learning. Discuss K-means clustering with following dataset with k=2. [4+6]",
           "table_data": {
-            "headers": ["StaffID", "Age", "No. of Leaves"],
+            "headers": [
+              "StaffID",
+              "Age",
+              "No. of Leaves"
+            ],
             "rows": [
-              { "StaffID": "101", "Age": 20, "No. of Leaves": 4 },
-              { "StaffID": "102", "Age": 29, "No. of Leaves": 7 },
-              { "StaffID": "103", "Age": 35, "No. of Leaves": 6 },
-              { "StaffID": "104", "Age": 22, "No. of Leaves": 9 },
-              { "StaffID": "105", "Age": 28, "No. of Leaves": 8 }
+              {
+                "StaffID": "101",
+                "Age": 20,
+                "No. of Leaves": 4
+              },
+              {
+                "StaffID": "102",
+                "Age": 29,
+                "No. of Leaves": 7
+              },
+              {
+                "StaffID": "103",
+                "Age": 35,
+                "No. of Leaves": 6
+              },
+              {
+                "StaffID": "104",
+                "Age": 22,
+                "No. of Leaves": 9
+              },
+              {
+                "StaffID": "105",
+                "Age": 28,
+                "No. of Leaves": 8
+              }
             ]
           },
           "or_alternative": {
@@ -707,9 +900,21 @@
           "number": "7",
           "instruction": "Write short notes on: (Any two) 2×5",
           "options": [
-            { "sub_no": "a", "marks": 5, "question": "Artificial Neural Network" },
-            { "sub_no": "b", "marks": 5, "question": "Supervised VS Unsupervised" },
-            { "sub_no": "c", "marks": 5, "question": "Breadth first search" }
+            {
+              "sub_no": "a",
+              "marks": 5,
+              "question": "Artificial Neural Network"
+            },
+            {
+              "sub_no": "b",
+              "marks": 5,
+              "question": "Supervised VS Unsupervised"
+            },
+            {
+              "sub_no": "c",
+              "marks": 5,
+              "question": "Breadth first search"
+            }
           ]
         }
       ]
@@ -775,13 +980,37 @@
           "marks": 8,
           "question": "What is Machine Learning and why is machine learning important? Discuss K-Mean Clustering for following dataset with k=2.",
           "table_data": {
-            "headers": ["Staff ID", "Age", "Nos. of Leaves"],
+            "headers": [
+              "Staff ID",
+              "Age",
+              "Nos. of Leaves"
+            ],
             "rows": [
-              { "Staff ID": "1", "Age": 21, "Nos. of Leaves": 3 },
-              { "Staff ID": "2", "Age": 39, "Nos. of Leaves": 7 },
-              { "Staff ID": "3", "Age": 43, "Nos. of Leaves": 6 },
-              { "Staff ID": "4", "Age": 58, "Nos. of Leaves": 12 },
-              { "Staff ID": "5", "Age": 32, "Nos. of Leaves": 15 }
+              {
+                "Staff ID": "1",
+                "Age": 21,
+                "Nos. of Leaves": 3
+              },
+              {
+                "Staff ID": "2",
+                "Age": 39,
+                "Nos. of Leaves": 7
+              },
+              {
+                "Staff ID": "3",
+                "Age": 43,
+                "Nos. of Leaves": 6
+              },
+              {
+                "Staff ID": "4",
+                "Age": 58,
+                "Nos. of Leaves": 12
+              },
+              {
+                "Staff ID": "5",
+                "Age": 32,
+                "Nos. of Leaves": 15
+              }
             ]
           }
         },
@@ -807,9 +1036,21 @@
           "number": "7",
           "instruction": "Write short notes on: (Any two) 2×5",
           "options": [
-            { "sub_no": "a", "marks": 5, "question": "Reinforcement Learning" },
-            { "sub_no": "b", "marks": 5, "question": "Deep Learning" },
-            { "sub_no": "c", "marks": 5, "question": "Expert System" }
+            {
+              "sub_no": "a",
+              "marks": 5,
+              "question": "Reinforcement Learning"
+            },
+            {
+              "sub_no": "b",
+              "marks": 5,
+              "question": "Deep Learning"
+            },
+            {
+              "sub_no": "c",
+              "marks": 5,
+              "question": "Expert System"
+            }
           ]
         }
       ]
@@ -901,9 +1142,21 @@
           "number": "7",
           "instruction": "Write short notes on: (Any two) 2×5",
           "options": [
-            { "sub_no": "a", "marks": 5, "question": "Fuzzy learning" },
-            { "sub_no": "b", "marks": 5, "question": "Best first search" },
-            { "sub_no": "c", "marks": 5, "question": "Baye's Theorem" }
+            {
+              "sub_no": "a",
+              "marks": 5,
+              "question": "Fuzzy learning"
+            },
+            {
+              "sub_no": "b",
+              "marks": 5,
+              "question": "Best first search"
+            },
+            {
+              "sub_no": "c",
+              "marks": 5,
+              "question": "Baye's Theorem"
+            }
           ]
         }
       ]
@@ -993,9 +1246,21 @@
           "number": "7",
           "instruction": "Write short notes on: (Any Two) 2×5",
           "options": [
-            { "sub_no": "a", "marks": 5, "question": "Clustering" },
-            { "sub_no": "b", "marks": 5, "question": "Machine vision" },
-            { "sub_no": "c", "marks": 5, "question": "Resolution refutation system" }
+            {
+              "sub_no": "a",
+              "marks": 5,
+              "question": "Clustering"
+            },
+            {
+              "sub_no": "b",
+              "marks": 5,
+              "question": "Machine vision"
+            },
+            {
+              "sub_no": "c",
+              "marks": 5,
+              "question": "Resolution refutation system"
+            }
           ]
         }
       ]
@@ -1083,9 +1348,21 @@
           "number": "7",
           "instruction": "Write short notes on: (Any two) 2×5",
           "options": [
-            { "sub_no": "a", "marks": 5, "question": "Kohonen Network" },
-            { "sub_no": "b", "marks": 5, "question": "Turing Test" },
-            { "sub_no": "c", "marks": 5, "question": "Informed search Vs Uninformed search" }
+            {
+              "sub_no": "a",
+              "marks": 5,
+              "question": "Kohonen Network"
+            },
+            {
+              "sub_no": "b",
+              "marks": 5,
+              "question": "Turing Test"
+            },
+            {
+              "sub_no": "c",
+              "marks": 5,
+              "question": "Informed search Vs Uninformed search"
+            }
           ]
         }
       ]
