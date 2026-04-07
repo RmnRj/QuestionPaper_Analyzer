@@ -7,82 +7,839 @@
   "pass_marks": 45,
   "papers": [
     {
-      "id": "2010-F",
-      "year": "2010",
+      "id": "2025-S",
+      "year": "2025",
+      "semester": "Spring",
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 5,
+          "question": "Define digital system. Explain why digital systems are preferred in modern communication systems."
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 5,
+          "question": "Perform the following subtraction as indicated: (i) (4321)₁₀ - (1234)₁₀ Using 9's complement  (ii) (11011)₂ - (1010)₂ Using 2's complement"
+        },
+        {
+          "number": "1",
+          "sub_no": "c",
+          "marks": 5,
+          "question": "Define parity. Explain how parity bit detects error in a message with suitable example."
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 5,
+          "question": "Perform the following conversions: (i) (216.3)₁₀ = (?)_BCD  (ii) (100101)_Gray = (?)₂  (iii) (111001.10110)₂ = (?)₈, (?)₁₆  (iv) (1100)_Excess-3 = (?)_84-2-1"
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 5,
+          "question": "State De Morgan's theorem for three variables. Verify the theorem using Venn diagram."
+        },
+        {
+          "number": "2",
+          "sub_no": "c",
+          "marks": 5,
+          "question": "Construct NAND gate using NOR gates and NOR gate using NAND gates."
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Using K-map, simplify the following Boolean function in SOP and POS form. F(A,B,C,D) = Σ(1,3,7,8,10,11,15) with don't care d(A,B,C,D) = Σ(0,2,5). Implement the POS result using NAND gates only."
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Show that the Full Adder can be generated from two half adders and OR gate with relevant expressions."
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "What is a decoder used for? Implement F(A,B,C,D) = Σ(0,1,3,4,5,7,8,11,13,15) using decoder and OR gate."
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Why Multiplexer is used? Implement F(A,B,C,D) = Σ(0,1,2,3,7,8,10,14,15) using 8 to 1 Multiplexer."
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Explain the operation of S-R Flip-flop with its logic diagram, truth table and excitation table."
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Define shift register. Explain the working of serial in serial out shift register with its circuit and timing diagram."
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Write any two differences between synchronous and asynchronous counter. Design a synchronous 4-bit binary up counter using T-flip flops which counts even numbers only."
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Design ALU that performs 8 arithmetic and 4 logical operations."
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on: (Any two) 2×5",
+          "options": [
+            { "sub_no": "a", "marks": 5, "question": "R/W operation in RAM" },
+            { "sub_no": "b", "marks": 5, "question": "Johnson Counter" },
+            { "sub_no": "c", "marks": 5, "question": "Status Register" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2024-F",
+      "year": "2024",
       "semester": "Fall",
       "questions": [
         {
           "number": "1",
           "sub_no": "a",
           "marks": 5,
-          "question": "Define analog and digital Systems. Which system do you prefer and why?"
+          "question": "Define Signal. Differentiate between analog and digital signals."
         },
         {
           "number": "1",
           "sub_no": "b",
           "marks": 5,
-          "question": "Use r's complement to subtract the following: (i) (100010)₂ - (10101)₂  (ii) (3857)₁₀ - (1250)₁₀"
+          "question": "If A = (11011011)₂ and B = (1001101)₂ then perform A-B and B-A using 2's complement method."
         },
         {
           "number": "1",
           "sub_no": "c",
           "marks": 5,
-          "question": "\"Excess-3 code is self complementing code\", how?"
+          "question": "Perform the following conversion as indicated: (i) (346)₈ = ()_Excess-3  (ii) (BDA.DE7)₁₆ = ()₈  (iii) (101111)_gray = ()₁₀"
         },
         {
           "number": "2",
           "sub_no": "a",
-          "marks": 7,
-          "question": "Find the complement of F = X + YZ; then show that F.F' = 0 and F + F' = 1"
+          "marks": 8,
+          "question": "Explain (r-1)'s complement with example. \"8 4-2-1 code is a self-complementing code\". Justify your answer with illustration."
         },
         {
           "number": "2",
           "sub_no": "b",
-          "marks": 8,
-          "question": "Simplify the following Boolean function to minimum no of literal f = AB' + B'C' + A'C'. Implement the reduced form with basic gates and NAND gate only."
+          "marks": 7,
+          "question": "What are the significance of logic circuit? Implement XNOR gate using only NAND gates."
         },
         {
           "number": "3",
           "sub_no": "a",
           "marks": 8,
-          "question": "A Boolean function is given: F(A,B,C,D) = Σ(1,4,5,6,12,14,15) and don't care condition d(A,B,C,D) = Σ(10,11). Simplify it using K-map. Replace all the gates with NAND gate only."
+          "question": "Use K-map scheme to obtain the minimized SOP expression for the given function f(A, B, C, D) = Σm(1, 5, 8, 12) + d(3, 7, 10, 11, 14, 15) and implement the result using NOR gates only."
         },
         {
           "number": "3",
           "sub_no": "b",
           "marks": 7,
-          "question": "Design a combinational logic whose output is the 2's complement of the input number."
+          "question": "What are parity bits? Design 3-bit parity generator and 4-bit parity checker circuit for even parity."
         },
         {
           "number": "4",
           "sub_no": "a",
           "marks": 8,
-          "question": "Draw the truth table for full adder. Implement full adder using two 4:1 MUX."
+          "question": "A combinational circuit is defined by the function: F₁(A, B, C) = Σ(3, 5, 6, 7), F₂(A, B, C) = Σ(0, 2, 4, 7) & F₃(A, B, C) = Σ(1, 2, 4, 6). Implement by using PLA with program table."
         },
         {
           "number": "4",
           "sub_no": "b",
           "marks": 7,
-          "question": "Explain the operation of JK flip-flop with the help of characteristics table. How it can be converted into T-flip-flop?"
+          "question": "Design and implement full adder circuit using decoder."
         },
         {
           "number": "5",
           "sub_no": "a",
-          "marks": 10,
-          "question": "Realize the following state diagram into a circuit using J-K flip-flop.",
-          "fig_url": "BE_COMPUTER/Sem_III/LC/img/2010-F-5a.png"
+          "marks": 8,
+          "question": "Differentiate between Flip-flop and Latch. Explain the operation of clocked J-K flip-flop with the help of its logic diagram, characteristic table and characteristic equation."
         },
         {
           "number": "5",
           "sub_no": "b",
-          "marks": 5,
-          "question": "What is register? What is its use? Briefly explain the operation of serial-in-serial-out shift register using timing diagram."
+          "marks": 7,
+          "question": "With suitable example explain about the state reduction and binary assignment."
         },
         {
           "number": "6",
           "sub_no": "a",
           "marks": 7,
-          "question": "Draw the block diagram of ALU and explain it."
+          "question": "What is shift register? Explain the operating mechanism of serial in serial out shift register with its circuit diagram."
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Differentiate between synchronous and asynchronous counter. Design a 3-bit synchronous binary down counter using JK Flip Flop."
+        },
+        {
+          "number": "6",
+          "sub_no": "c",
+          "marks": 7,
+          "question": "Design an Arithmetic Logic Unit (ALU) that performs eight Arithmetic Operations and four different logical operations."
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on: (Any two) 2×5",
+          "options": [
+            { "sub_no": "a", "marks": 5, "question": "Tristate Logic" },
+            { "sub_no": "b", "marks": 5, "question": "Parity generator and checker" },
+            { "sub_no": "c", "marks": 5, "question": "Nibble Adder" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2024-S",
+      "year": "2024",
+      "semester": "Spring",
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Define Analog and Digital system. Why digital systems are preferred over analog system."
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Perform the Conversion as indicated: (i) (101011)_gray = ()₂  (ii) (561.34)₈ = ()₂  (iii) (123)₁₀ = ()_BCD  (iv) Find 10's Complements of (88)₁₀"
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Why NAND and NOR gate are called Universal Gates? Explain Briefly."
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "What do you mean by Minterm and Maxterm? Simplify the following expression using Boolean algebra: (i) (AB'+ABC)'+A(B+AB')  (ii) [(BC'+A'D)(AB'+CD')]'"
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Discuss the Role of K-Map in Logic Circuit. Minimize the expression mentioned below using K-Map. A Boolean function is given by F(A,B,C,D) = Σ(3,4,5,7,9,13,14,15) and don't care condition d(A,B,C,D) = Σ(0,2,8), and Implement it using NOR gate only."
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Design a combinational circuit that transforms decimal digits from 2421 code to BCD."
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Design a comparator circuit that compared two 3 bit numbers. The two numbers being X and Y. It is required to obtain three possible outcomes i.e. X>Y, X<Y and X=Y."
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Implement the following with appropriate MUX: (i) F(A,B,C) = Σ(1,3,5,6)  (ii) F(A,B,C,D) = Σ(0,1,3,4,8,9,15)"
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Explain operation of SR Flip-flop with its logic diagram, truth table, excitation table. Why JK flip-flop is preferred over SR flipflops?"
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Define shift register. Explain the working of serial in serial out shift register with its circuit and timing diagram."
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Write any two differences between synchronous and asynchronous counter. Design a synchronous 4-bit binary up counter using T-flip flops which counts even numbers only."
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Design ALU that performs 8 arithmetic and 4 logical operations."
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on: (Any two) 2×5",
+          "options": [
+            { "sub_no": "a", "marks": 5, "question": "R/W operation in RAM" },
+            { "sub_no": "b", "marks": 5, "question": "Johnson Counter" },
+            { "sub_no": "c", "marks": 5, "question": "Status Register" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2023-F",
+      "year": "2023",
+      "semester": "Fall",
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Define the digital and analog system. Why do you prefer digital system against analog system? Explain."
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Perform the conversion as indicated: (i) (639)₁₀ = (?)_excess-3  (ii) (1010100011101)_gray = (?)₂  (iii) (6153)₁₀ = (?)_2421  (iv) (D0E)₁₆ = (?)₈"
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 3,
+          "question": "How can you find the r's complement using (r-1)'s complement? Explain with example."
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 4,
+          "question": "\"Excess 3 code is self-complementary code\" verify the statements."
+        },
+        {
+          "number": "2",
+          "sub_no": "c",
+          "marks": 8,
+          "question": "What are the universal gates? Why they are called so? Construct NAND gate using NOR gate and NOR gate using NAND gate."
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Use K-map to simplify the given Boolean function once by considering the don't care condition and once by ignoring the don't care condition and realize it using the basic gates. F(A, B, C, D) = Σ(1,4,8,12,13,15) and don't care d(A, B, C, D) = Σ(3,14)."
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Design a combinational circuit that has four inputs and two outputs. One of the outputs is high when majority of inputs are high. The second output is high only when all inputs are of same type."
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Define the term of MSI and LSI. Implement the following Boolean function using 8*1 MUX. F = Σ(0,1,3,6,8,11,13,15)."
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "What are the significances of a flip-flop? Design a sequential circuit for following state diagram using SR flip-flop.",
+          "fig_description": "State diagram with 4 states (00, 01, 10, 11). Complex state transitions with Mealy outputs."
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Design and implement Mod-5 counter using JK flip flop."
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Design an arithmetic circuit implementing given functions. Where A and B are 4-bit binary input lines.",
+          "fig_description": "Function table: S1=0,S0=0,Cin=0: F=A; S1=0,S0=0,Cin=1: F=A+1; S1=0,S0=1,Cin=0: F=A+B; S1=0,S0=1,Cin=1: F=A+B+1; S1=1,S0=0,Cin=0: F=A+B'; S1=1,S0=0,Cin=1: F=A-B; S1=1,S0=1,Cin=0: F=A-1; S1=1,S0=1,Cin=1: F=Ā"
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on: (Any two) 2×5",
+          "options": [
+            { "sub_no": "a", "marks": 5, "question": "Processor Unit" },
+            { "sub_no": "b", "marks": 5, "question": "Jhonson Counter" },
+            { "sub_no": "c", "marks": 5, "question": "De-Morgan's theorem" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2023-S",
+      "year": "2023",
+      "semester": "Spring",
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "What are the key advantages of digital systems over analog systems in modern technology? Why design of a digital system offers more flexibility than an analog system?"
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Perform the conversion as indicated: (i) (37.432)₁₀ = (?)₂  (ii) (1110110)₂ = (?)_gray  (iii) (58.43)₁₀ = (?)_Excess-3  (iv) 72532 - 3250 using 10's complement"
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "State and prove De-Morgan's theorem for two variables. Explain the universal property of the NAND gate with appropriate logic gates."
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Using the Karnaugh map method obtain the minimal product of the sums expression for the function F(A, B, C, D) = Σ(0, 2, 3, 6, 7) + d(8, 10, 11, 15). Also write its standard Product of Sum (POS) form."
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Design 3 bit odd parity generator circuit."
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Design Full adder circuit using two half adders and an OR gate and draw the logic diagram."
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "How is encoder different from decoder? Implement the following Boolean function F(w,x,y,z) = Σm(1,3,6,7,11,15) using 8 to 1 Multiplexer.",
+          "or": "Design a 4 to 2 line priority encoder and draw the circuit diagram."
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Find out the logical expression of two bit magnitude comparator and draw the circuit diagram.",
+          "or": "A combinational circuit is defined by the function: F₁(X,Y,Z) = Σ(3,5,7) and F₂(X,Y,Z) = Σ(4,5,7). Implement the circuit with a Programmable Logic Array (PLA).",
+          "fig_url" : "BE_COMPUTER/Sem_III/LC/img/2023-S-4b-or.png"
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Explain the operation of J-K flip-flop with its logic diagram, truth table and excitation table."
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "What are shift registers? Explain PIPO and SISO shift register with diagrams."
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "What is a counter? Design a mod 8 counter using a T-flip flop."
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Design 1st stage ALU that performs 8 arithmetic and 4 logical operations."
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on: (Any two) 2×5",
+          "options": [
+            { "sub_no": "a", "marks": 5, "question": "Priority Encoder" },
+            { "sub_no": "b", "marks": 5, "question": "84-2-1 code" },
+            { "sub_no": "c", "marks": 5, "question": "Venn diagram" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2021-S",
+      "year": "2021",
+      "semester": "Spring",
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 5,
+          "question": "'Logical computation is either based on digital system or analog system', today which one is better and why?"
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 5,
+          "question": "Perform the conversion as indicated (any two): (i) (73)₈ = ()_Excess-3  (ii) (196)₁₀ = ()_2421  (iii) (CAB)₁₆ = ()₂"
+        },
+        {
+          "number": "1",
+          "sub_no": "c",
+          "marks": 5,
+          "question": "Use 2's complement to subtract the following: (i) (10101)₂ - (10111)₂  (ii) (25)₁₀ - (876)₁₀  (iii) (378)_BCD - (256)_BCD"
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Simplify the following Boolean functions to a minimum number of literals: (a) (x'+y)(x+y')  (b) x'y'z + x'yz' + xyz'  (c) (x+y)'(x'+y')'  (d) x(wz'+wz)+xy"
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "A Boolean function is given by F(A,B,C,D) = Σ(1,2,7,9,10,13,14) and don't care condition d(A,B,C,D) = Σ(0,3,6,11). Implement it using NAND gate only."
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Design a combinational circuit that converts a decimal digit from BCD to Excess 3 code."
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Derive a PLA program table and circuit to implement the functions: F1(A,B,C) = Σ(1,3,5,7) and F2(A,B,C) = Σ(0,2,4,6)"
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Implement the Boolean function F(A,B,C,D) = Σ(0,1,3,4,7,11,13,15) using: (i) 8×1 MUX  (ii) 16×1 MUX"
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Implement the full adder circuit using 3×8 decoder.",
+          "or": "What is register? Explain the different type of shift register in brief."
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Design a sequential circuit corresponding to the given state diagram.",
+          "fig_url": "BE_COMPUTER/Sem_III/LC/img/2021-S-5a.png",
+          "fig_description": "State diagram with 6 states (000, 001, 010, 011, 100, 101). Complex state transitions."
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Explain operation of RS Flip-flop with its logic diagram, truth table, excitation table.",
+          "or": "Design a MOD-8 asynchronous up counter by using J-K Flip Flop."
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Differentiate between synchronous and Ripple Counter. Design a 2-bit synchronous UP counter by using J.K flip-flop."
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Design an binary adder/subtractor circuit with one selection variable S and two inputs A and B. For S=0, the circuit need to perform addition i.e. (A+B) and for S=1, the circuit must perform subtraction i.e. (A-B) by taking 2's complement of B."
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on: (Any two) 2×5",
+          "options": [
+            { "sub_no": "a", "marks": 5, "question": "Read only memory (ROM)" },
+            { "sub_no": "b", "marks": 5, "question": "Output hazard races" },
+            { "sub_no": "c", "marks": 5, "question": "Ring counter" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2019-S",
+      "year": "2019",
+      "semester": "Spring",
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 5,
+          "question": "With characters differentiate between Digital and Analog system."
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 5,
+          "question": "Perform the conversion as indicated (any two): (i) (543)₆ = ()_Excess-3  (ii) (708)₁₀ = ()_2421  (iii) (BBA)₁₆ = ()₂"
+        },
+        {
+          "number": "1",
+          "sub_no": "c",
+          "marks": 5,
+          "question": "Use 2's complement to subtract the following: (i) (1011)₂ - (10100)₂  (ii) (952)₁₀ - (873)₁₀  (iii) (368)_BCD - (256)_BCD"
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 5,
+          "question": "Prove the following Boolean expression: (i) ĀB̄ + BC + ĀBC̄ = Ā + BC  (ii) XȲ + YZ̄ + ZX̄ = X̄Y + ȲZ + Z̄X"
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 5,
+          "question": "Simplify the Boolean function F and don't care conditions d in (1) SOP (2) POS and (3) draw NAND-NAND equivalent logic. Given: F = B'CD' + A'CD + A'BC + A'B'C'D'  and  d = A'BC'D + ACD + AB'D'"
+        },
+        {
+          "number": "2",
+          "sub_no": "c",
+          "marks": 5,
+          "question": "A Boolean function is given by F(A,B,C,D) = Σ(0,1,2,3,10,13,14) and don't care condition d(A,B,C,D) = Σ(4,7,12). Simplify it using K-Map and implement using NAND gate only."
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Design a combinational circuit that converts decimal digits from 8-4-2-1 to Excess 3."
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Design a combinational circuit using PLD device as PLA (4X8X4) that is used to implement full Subtract or function in which difference is represented as Di and borrow as Br."
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Illustrate the process how does binary value of 4 flags in status registers change with necessary diagram."
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Implement the following with appropriate MUX: (i) F(A,B,C) = Σ(1,4,5,6)  (ii) F(A,B,C,D) = Σ(0,1,3,8,9,15)"
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Realize the following state diagram into a circuit using SR flip-flop.",
+          "fig_description": "State diagram with 4 states (00, 01, 10, 11). From 00: input 0 self-loop with output 0, input 1 → 01 with output 1. From 01: input 1 self-loop, input 0 → 10. From 11: input 1 → 10, input 0 self-loop. From 10: 0/0 self-loop."
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Explain operation of J-K Flip-flop with its logic diagram, truth table, excitation table."
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "What are shift registers? Explain Parallel in serial out and Serial in Parallel out shift register with diagrams."
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Design 3 bit up counter using T flip-flop."
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on: (Any two) 2×5",
+          "options": [
+            { "sub_no": "a", "marks": 5, "question": "Computational Logic Design Procedure" },
+            { "sub_no": "b", "marks": 5, "question": "Johnson Counter" },
+            { "sub_no": "c", "marks": 5, "question": "Self-complementing code" }
+          ]
+        }
+      ]
+    },
+     {
+      "id": "2018-S",
+      "year": "2018",
+      "semester": "Spring",
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 5,
+          "question": "How does the logic system express data during computation? Differentiate between Digital and Analog system."
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 5,
+          "question": "Perform the conversion as indicated (any two): (i) (235)₆ = ()_Excess-3  (ii) (369)₁₀ = ()_2421  (iii) (BCA)₁₆ = ()₂"
+        },
+        {
+          "number": "1",
+          "sub_no": "c",
+          "marks": 5,
+          "question": "Use 2's complement to subtract the following: (i) (1010)₂ - (10100)₂  (ii) (957)₁₀ - (876)₁₀  (iii) (378)_BCD - (256)_BCD"
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Why NAND and NOR are called Universal Gates? Construct F = AB + CD using universal gates."
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Define K-Map. Simplify the expression mentioned below using K-Map. F(A, B, C, D) = Σ(1,3,7,10,13,15) and d(A, B, C, D) = Σ(0, 2, 8). Where d denotes don't care. Also implement the simplified function using NOR gates only."
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Design a combinational circuit that has four inputs and two outputs. One of the outputs is high when majority of inputs are high. The second output is high only when all inputs are of same type."
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Implement the following Boolean function using 16:1 Multiplexer: F(A,B,C,D,E) = Σm(2,4,5,7,10,14,15,16,17,25,26,30,31)"
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Design a 4 bit parallel adder subtractor circuit with one selection variables M and two inputs A and B. For M=0, the circuit required to perform addition i.e. (A+B) and for M=1, the circuit must perform subtraction (A-B) by taking 2'S complement of B."
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Explain negative edge triggered S-R flip-flop with necessary logic diagram, characteristic table, characteristic equation and waveform."
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Design a synchronous Mod-6 counter using clocked D Flip Flop."
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Define shift register. Draw diagram for parallel in serial out shift register and discuss its operation with necessary explanation."
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Explain the process how does binary value of 4 flags in status register change with necessary diagram."
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Design a 3-bit Synchronous DOWN Counter using T flip-flop."
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on: (Any two) 2×5",
+          "options": [
+            { "sub_no": "a", "marks": 5, "question": "State Reduction and State Assignment" },
+            { "sub_no": "b", "marks": 5, "question": "Random Access Memory" },
+            { "sub_no": "c", "marks": 5, "question": "Self-complementing code" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2018-F",
+      "year": "2018",
+      "semester": "Fall",
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 4,
+          "question": "Define Analog and Digital Signal. Differentiate digital system and Analog system."
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Convert the following conversions: (i) (101001.101)₂ = (?)₁₀  (ii) (ABD)₁₆ = (?)₈  (iii) (10101101)₂ = (?)_gray  (iv) (175.351)₈ = (?)₁₆"
+        },
+        {
+          "number": "1",
+          "sub_no": "c",
+          "marks": 3,
+          "question": "Define logic gates. Explain the universality of NAND and NOR gates."
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Why NOR gate is called universal gate? State and prove De-Morgan's theorem."
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Use K-map to simply the given Boolean function with don't care condition and realize it using basic gates only: F = Σ(1,4,8,12,13,15) and d = Σ(3,7,11,14)."
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Design a combinational logic circuit that has four input and two outputs. One of the outputs is high when majority of inputs are high. The second output is high only when all inputs are of same type."
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Design a circuit for 3-bit parity generation and 4-bit parity checker using odd parity."
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "A combinational circuit is defined by the function: F₁(A,B,C) = Σ(3,5,6,7) and F₂(A,B,C) = Σ(0,2,4,7), implement by using PLA."
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "What is magnitude comparator? Design a two bit magnitude comparator whose outputs are A>B, A<B and A=B."
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Design a sequential circuit corresponding to the given state diagram using S-R FlipFlop.",
+          "fig_url": "BE_COMPUTER/Sem_III/LC/img/2018-F-5a.png",
+          "fig_description": "State diagram with 4 states (00, 01, 10, 11). From 00: 0/0 self-loop, 1/1 → 01, 1/0 → 11. From 01: 1/0 self-loop, 0/0 → 10. From 11: 0/0 self-loop, 1/1 → 10. From 10: 0/0 → back to 00."
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "With necessary logic diagram, truth table, excitation table, explain the operation of J-K flip flop."
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "What is shift register? Explain serial in parallel out and parallel in parallel out shift registers."
         },
         {
           "number": "6",
@@ -92,305 +849,866 @@
         },
         {
           "number": "7",
-          "instruction": "Write short notes on (Any Two): 2×5",
+          "instruction": "Write short notes on: (Any two) 2×5",
           "options": [
-            { "sub_no": "a", "marks": 5, "question": "Gray Code" },
-            { "sub_no": "b", "marks": 5, "question": "Output Hazard Race" },
-            { "sub_no": "c", "marks": 5, "question": "Multiplexer" }
+            { "sub_no": "a", "marks": 5, "question": "Counters" },
+            { "sub_no": "b", "marks": 5, "question": "Master-slave Flip Flop" },
+            { "sub_no": "c", "marks": 5, "question": "Nibble Adder" }
           ]
         }
       ]
     },
-    {
-      "id": "2010-S",
-      "year": "2010",
-      "semester": "Spring",
-      "questions": [
-        {
-          "number": "1",
-          "sub_no": "a",
-          "marks": 5,
-          "question": "Perform the following operations: (i) (10101)_gray = ()₂  (ii) (756)₈ = ()₁₆  (iii) (256)₁₀ = ()₈  (iv) (11011.111)₂ = ()₁₀  (v) (3A.CD)₁₆ = ()₁₀"
-        },
-        {
-          "number": "1",
-          "sub_no": "b",
-          "marks": 5,
-          "question": "Perform the following subtraction using r's complement method: (i) (2569)₁₀ - (4382)₁₀  (ii) (1010)₂ - (1100)₂"
-        },
-        {
-          "number": "1",
-          "sub_no": "c",
-          "marks": 5,
-          "question": "\"Excess-3 code is a self-complementing code\". Justify it."
-        },
-        {
-          "number": "2",
-          "sub_no": "a",
-          "marks": 7,
-          "question": "Find the complement of F = X + YZ; then show that F.F' = 0 and F + F' = 1"
-        },
-        {
-          "number": "2",
-          "sub_no": "b",
-          "marks": 8,
-          "question": "Use K-map to simplify the given function and draw the logic diagram F(w,x,y,z) = Σ(0,1,2,3,7,8,10) and the don't care conditions: d(w,x,y,z) = Σ(5,6,11,15). Implement the simplified function using NAND gates only."
-        },
-        {
-          "number": "3",
-          "sub_no": "a",
-          "marks": 8,
-          "question": "Design a code converter circuit which converts 8 4 -2 -1 code to binary."
-        },
-        {
-          "number": "3",
-          "sub_no": "b",
-          "marks": 7,
-          "question": "Show how a full adder can be converted to a full substractor with the addition of one inverter circuit."
-        },
-        {
-          "number": "4",
-          "sub_no": "a",
-          "marks": 8,
-          "question": "Design the 4 bit comparator circuit which compare two numbers A and B either A<B, A>B or A=B."
-        },
-        {
-          "number": "4",
-          "sub_no": "b",
-          "marks": 7,
-          "question": "What is multiplexer? Describe 4:1 multiplexer with internal diagram.",
-          "or": "What is Demultiplexer? Explain 8×1 DMUX with its circuit diagram."
-        },
-        {
-          "number": "5",
-          "sub_no": "a",
-          "marks": 10,
-          "question": "Design a 4-bit synchronous down counter using J-K flip flop."
-        },
-        {
-          "number": "5",
-          "sub_no": "b",
-          "marks": 5,
-          "question": "Present the truth table, logic diagram and characteristics equation of J-K flip flop."
-        },
-        {
-          "number": "6",
-          "sub_no": "a",
-          "marks": 7,
-          "question": "What is shift register? Explain different types of shift register."
-        },
-        {
-          "number": "6",
-          "sub_no": "b",
-          "marks": 8,
-          "question": "Design a 4-bit arithmetic circuit and show its function table."
-        },
-        {
-          "number": "7",
-          "instruction": "Write short notes on any two: 2×5",
-          "options": [
-            { "sub_no": "a", "marks": 5, "question": "Digital and Analog System" },
-            { "sub_no": "b", "marks": 5, "question": "De-Morgan's theorem" },
-            { "sub_no": "c", "marks": 5, "question": "State reduction and assignment" },
-            { "sub_no": "d", "marks": 5, "question": "Design of shifter" }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "2011-F",
-      "year": "2011",
+     {
+      "id": "2017-F",
+      "year": "2017",
       "semester": "Fall",
       "questions": [
         {
           "number": "1",
           "sub_no": "a",
           "marks": 5,
-          "question": "Compare analog and digital system. Which one is better and why?"
+          "question": "'Gray code is also known as reflected code'. Justify your answer with appropriate illustration."
         },
         {
           "number": "1",
           "sub_no": "b",
           "marks": 5,
-          "question": "Use r's complement to subtract the following: (i) (100)₂ - (110000)₂  (ii) (7850)₁₀ - (7650)₁₀"
+          "question": "Determine the value of base x if (211)_x = (152)₈."
         },
         {
           "number": "1",
           "sub_no": "c",
           "marks": 5,
-          "question": "What do you mean by alphanumerical code? \"Excess-3 codes are called self complementing code\". Explain it."
+          "question": "Realize all the basic gates using NAND gate only."
         },
         {
           "number": "2",
           "sub_no": "a",
           "marks": 7,
+          "question": "Use K-map to simplify the given Boolean function in SOP form and implement the simplified function using NAND gate only. F(A, B,C, D) = Σ(5, 7, 9, 12, 13, 14, 15) and don't care, d(A, B, C, D) = Σ(3, 6, 8)"
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Design a circuit of a 3-bit parity generator and the circuit of a 4-bit parity checker for odd parity.",
+          "or": "Design a combinational circuit that has four inputs and two outputs. One of the outputs is high when majority of inputs are high. The second output is high only when all inputs are of same type."
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "With the help of an example, show how you can construct a higher order MUX using two or more number of lower order MUXs."
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Implement a full adder circuit with the help of two half adder circuit along with the truth table."
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Explain the operation of clocked R-S flip-flop with the help of its logic diagram, characteristic table and characteristic equation. Differentiate RS and JK flip flop."
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Design a synchronous 4 bit binary up counter using T flip flop which counts all possible odd numbers.",
+          "or": "What is a modulo-7 counter? Design such a counter using JK flip-flop."
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "What do you mean by ALU? Design an arithmetic circuit to implement the following function table. A and B are 4 bit binary numbers.",
+          "fig_description": "Function table: S1=0,S0=0,Cin=0: F=A; S1=0,S0=0,Cin=1: F=A+1; S1=0,S0=1,Cin=0: F=A+B; S1=0,S0=1,Cin=1: F=A+B+1; S1=1,S0=0,Cin=0: F=A+B'; S1=1,S0=0,Cin=1: F=A-B; S1=1,S0=1,Cin=0: F=A-1; S1=1,S0=1,Cin=1: F=A"
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "What is a shift register? Draw the block diagram for shifting the content of register A to register B. Describe the operation."
+        },
+        {
+          "number": "6",
+          "instruction": "Compare and contrast any three of the following:",
+          "options": [
+            { "sub_no": "a", "marks": 5, "question": "Synchronous and asynchronous logic" },
+            { "sub_no": "b", "marks": 5, "question": "Decoder and encoder" },
+            { "sub_no": "c", "marks": 5, "question": "XOR and XNOR gates" },
+            { "sub_no": "d", "marks": 5, "question": "Analog versus Digital System" }
+          ]
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on: (Any two) 2×5",
+          "options": [
+            { "sub_no": "a", "marks": 5, "question": "Accumulator" },
+            { "sub_no": "b", "marks": 5, "question": "Don't care conditions" },
+            { "sub_no": "c", "marks": 5, "question": "Parity method for error detection" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2016-F",
+      "year": "2016",
+      "semester": "Fall",
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "What is Digital and Analog systems? Also list out the advantages of digital system over the analog system."
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Perform the conversion as indicated: (i) (243)₆ = ()_Excess-3  (ii) (816)₁₀ = ()_2421  (iii) (BE)₁₆ = ()₂  (iv) (777)_x = (212)₈"
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Implement XNOR gate using only NAND gates and XOR gate using NOR gate only."
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Define Literal & term. Find Canonical SOP for this expression F = āc + ab + b̄c."
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Design a combinational circuit that converts a decimal digit from the 2421 code to BCD."
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "A Boolean function is given: F(w,x,y,z) = Σ(1,4,5,6,12,14,15) and don't care condition d(w,x,y,z) = Σ(1011). Simplify it using K-map with logic gate implementation."
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Design a comparator circuit that compared two 4 bit numbers. The two numbers being A and B. It is required to obtain three possible outcomes i.e. A>B, A<B and A=B."
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Realize the following state diagram into a circuit using T-flip-flop.",
+          "fig_url": "BE_COMPUTER/Sem_III/LC/img/2016-F-4b.png",
+          "fig_description": "State diagram with 4 states (00, 01, 10, 11). Transitions labeled with input values 0 and 1."
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "What are major 5 differences between synchronous and asynchronous counters? Design a 4-bit up-down binary counter."
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "What is counter? Differentiate between serial in serial out register and parallel in serial out register with associated diagrams."
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 10,
+          "question": "Design an arithmetic circuit with two selection variables, s₁ and s₀, that generates the following arithmetic operations. Draw the logic diagram of one typical stage.",
+          "fig_description": "Function table: S1=0,S0=0,Cin=0: F=A+B; S1=0,S0=0,Cin=1: F=A+B+1; S1=0,S0=1,Cin=0: F=A; S1=0,S0=1,Cin=1: F=A+1; S1=1,S0=0,Cin=0: F=B'; S1=1,S0=0,Cin=1: F=B'+1; S1=1,S0=1,Cin=0: F=A+B'; S1=1,S0=1,Cin=1: F=A+B'+1"
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on: (Any two) 2×5",
+          "options": [
+            { "sub_no": "a", "marks": 5, "question": "Shift register" },
+            { "sub_no": "b", "marks": 5, "question": "D-flip flop" },
+            { "sub_no": "c", "marks": 5, "question": "PLA" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2016-S",
+      "year": "2016",
+      "semester": "Spring",
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 5,
+          "question": "Define Analog and Digital System. Why digital systems are preferred over Analog system."
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 5,
+          "question": "Convert the following numbers from the given base to the other bases as indicated: (i) (11001.11)₂ = ()₈  (ii) (5FE.DD)₁₆ = ()₁₀  (iii) (777)₈ = ()₁₆"
+        },
+        {
+          "number": "1",
+          "sub_no": "c",
+          "marks": 5,
+          "question": "Perform the subtraction with the following Binary number using 1's Complement: (i) 1010100-1000100  (ii) 1000100-1010100"
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "State and Prove De-Morgan's Theorem. Briefly explain the factors to be considered while constructing the Logic Gates."
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "What is don't care condition? Simplify given function using K-map and implement it in a circuit. F(W,X,Y,Z) = Σ(1,4,5,6,12,14,15) and don't care condition D(W,X,Y,Z) = Σ(11,13)."
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Design a combinational circuit that accepts a 4 bit number as input and generates the output binary number equal to the 2's complement of input number.",
+          "or": "Design a circuit for 3-bit parity generation and 4-bit parity checker using even parity."
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Explain in detail about synchronous Up/Down counter."
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Define the term LSI and MSI. Design 3:8 decoder with its logic circuit and block diagram."
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Implement the following: (i) F(A,B,C) = Σ(1,3,5,6) (using MUX)  (ii) F1 = Σ(0,2,5), F2 = Σ(3,4,7), F3 = Σ(6,7) (using ROM)"
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Realize the following state diagram into a circuit using S-R flip-flop.",
+          "fig_url": "BE_COMPUTER/Sem_III/LC/img/2016-S-5a.png",
+          "fig_description": "State diagram with 4 states (00, 01, 10, 11). From 00: 0/1 self-loop, 1/0 → 01, 1/0 → 10. From 01: 1/1 self-loop, 0/1 → 11. From 10: 0/0 self-loop, 1/0 → 11. From 11: 0/1 → back to 00."
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Explain operation of J-K Flip-flop with its logic diagram and truth table."
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Design Arithmetic Logic Unit (ALU) that performs 8 Arithmetic operation and 4 different logical operations."
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Design a MOD 11 asynchronous counter using J-K flip flop and showing with its working, counting sequence and timing diagram.",
+          "or": "What is shift register? Explain the SISO shift register with circuit diagram."
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on: (Any two) 2×5",
+          "options": [
+            { "sub_no": "a", "marks": 5, "question": "Parity method for error detection" },
+            { "sub_no": "b", "marks": 5, "question": "SOP and POS" },
+            { "sub_no": "c", "marks": 5, "question": "PLA" },
+            { "sub_no": "d", "marks": 5, "question": "Nibble Adder" }
+          ]
+        }
+      ]
+    },  
+    {
+      "id": "2015-F",
+      "year": "2015",
+      "semester": "Fall",
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 5,
+          "question": "Which system is more efficient for logical computation? Differentiate between Digital and Analog system."
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 5,
+          "question": "Perform the conversion as indicated (any two): (i) (243)₆ = ()_Excess-3  (ii) (816)₁₀ = ()_2421  (iii) (BE)₁₆ = ()₂"
+        },
+        {
+          "number": "1",
+          "sub_no": "c",
+          "marks": 5,
+          "question": "Use 2's complement to subtract the following: (i) (101)₂ - (10100)₂  (ii) (3950)₁₀ - (876)₂  (iii) (378)_BCD - (256)_BCD"
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 5,
+          "question": "Prove the following Boolean expression: (i) AB̄ + BC + ĀBC̄ = Ā + BC  (ii) XȲ + YZ̄ + ZX̄ = X̄Y + ȲZ + Z̄X"
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 5,
           "question": "Simplify the Boolean function F and don't care conditions d in (1) SOP (2) POS and (3) draw NAND-NAND equivalent logic. Given: F = A'B'D' + A'CD + A'BC  and  d = A'BC'D + ACD + AB'D'"
         },
         {
           "number": "2",
-          "sub_no": "b",
-          "marks": 8,
-          "question": "Design a code converter circuit which converts 8 4 -2 -1 code to binary."
-        },
-        {
-          "number": "3",
-          "sub_no": "a",
-          "marks": 8,
-          "question": "Design a circuit that compares two 3 bit numbers A and B to check if they are equal. The circuit has one output 'y' so that y = 1 if A = B and y = 0 if A ≠ B.",
-          "or": "Design a combinational circuit using a ROM. The circuit accepts a 3 bit numbers and generates an output binary number equal to the sum of the input numbers."
-        },
-        {
-          "number": "3",
-          "sub_no": "b",
-          "marks": 7,
-          "question": "What is multiplexer? Describe 4:1 multiplexer with internal diagram."
-        },
-        {
-          "number": "4",
-          "sub_no": "a",
-          "marks": 5,
-          "question": "Differentiate between combinational and sequential logic circuit."
-        },
-        {
-          "number": "4",
-          "sub_no": "b",
-          "marks": 5,
-          "question": "Implement a full adder using 3×8 decoder and OR gates."
-        },
-        {
-          "number": "4",
           "sub_no": "c",
           "marks": 5,
-          "question": "Give the truth table, logic diagram and characteristics equation of J-K flip flop."
+          "question": "A Boolean function is given by F(A,B,C,D)' = Σ(3,4,6,8,10,12,14) and don't care condition d(A,B,C,D) = Σ(0,2,8). Simplify it using K-Map and implement using NAND gate only."
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Design a single combinational logic circuit that performs the addition of two input bits (a and b) when third input bit c is set to 0 whereas, the same circuit performs the subtraction of same two input bits when c is set to 1."
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Design a BCD synchronous up counter using T-flip flop."
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Implement the following three Boolean function with a PLA: F₁ = Σ(0,1,2,4), F₂ = Σ(0,5,6,7), F₃ = Σ(0,3,5,7)"
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "What do you mean by Decoder? Implement the following Boolean function F = Σ(1,3,5,6) using 4×1 MUX."
         },
         {
           "number": "5",
           "sub_no": "a",
           "marks": 8,
-          "question": "Define shift registers. Explain operation of parallel in parallel out shift register."
+          "question": "Design a sequential circuit corresponding to the given state diagram using D Flip Flop.",
+          "fig_description": "State diagram with 4 states (00, 01, 10, 11). From 00: 1/1 → 01, 1/0 → 11, 0/0 self-loop. From 01: 1/0 → stays at 01, 0/0 → 10. From 11: 0/0 → 10, 1/1 → 11 (output). From 10: 0/0 self-loop."
         },
         {
           "number": "5",
           "sub_no": "b",
           "marks": 7,
-          "question": "Design a 3-bit synchronous binary counter using T-flip-flop."
+          "question": "Explain operation of J-K Flip-flop with its logic diagram, truth table, excitation table."
         },
         {
           "number": "6",
           "sub_no": "a",
           "marks": 8,
-          "question": "Design a 4-bit arithmetic circuits which performs eight different arithmetic operations."
+          "question": "What is counter? Differentiate between serial in serial out register and parallel in serial out register with associated diagrams."
         },
         {
           "number": "6",
           "sub_no": "b",
           "marks": 7,
-          "question": "Design a 4-bit combinational logic shifter and explain it."
+          "question": "Illustrate the process how does binary value of 4 flags in status registers change with necessary diagram."
         },
         {
           "number": "7",
-          "instruction": "Write short notes on any two: 2×5",
+          "instruction": "Write short notes on: (Any two) 2×5",
           "options": [
-            { "sub_no": "a", "marks": 5, "question": "Tristate logic" },
-            { "sub_no": "b", "marks": 5, "question": "Output Hazard Race" },
-            { "sub_no": "c", "marks": 5, "question": "Universality of 'NAND' and 'NOR' gate" },
-            { "sub_no": "d", "marks": 5, "question": "Design of BCD adder" }
+            { "sub_no": "a", "marks": 5, "question": "Random Access Memory" },
+            { "sub_no": "b", "marks": 5, "question": "Self complementing code" },
+            { "sub_no": "c", "marks": 5, "question": "Universal Gates" }
           ]
         }
       ]
     },
     {
-      "id": "2011-S",
-      "year": "2011",
+      "id": "2015-S",
+      "year": "2015",
       "semester": "Spring",
       "questions": [
         {
           "number": "1",
           "sub_no": "a",
           "marks": 5,
-          "question": "Perform the operation as indicated: (i) (1010)_gray = (.....)₂  (ii) (2EB.7A)₁₆ = (.......)₁₀  (iii) (225.225)₁₀ = (.........)₂  (iv) (237.5)₈ = (...........)₁₆"
+          "question": "How can we represent the information? Differentiate between Digital and Analogue system."
         },
         {
           "number": "1",
           "sub_no": "b",
           "marks": 5,
-          "question": "Describe the parity method of error detection with a suitable four bit system example. Also, write down its limitations."
+          "question": "Perform the following conversion: (i) (573)₁₀ = ()_Excess-3  (ii) (842)₁₀ = ()_2421  (iii) (10101111)_GRAY = ()₂  (iv) (FAB)₁₆ = ()₂"
         },
         {
           "number": "2",
           "sub_no": "a",
           "marks": 7,
-          "question": "Explain the NAND gate as an universal gates."
+          "question": "Simplify the following expression using Boolean algebra: (i) (AB'+AB'C')'+A(B'+AB')  (ii) [(BC'+A'D)(AB'+C'D')]'"
         },
         {
           "number": "2",
           "sub_no": "b",
           "marks": 8,
-          "question": "Reduce the expression F(A, B, C, D) = Σ(0, 6, 8, 13, 14) and d(A, B, C, D) = Σ(2, 4, 10). Express the simplified function in sum of minterms."
+          "question": "Simplify the Boolean function F and don't care conditions d in (1) SOP (2) POS and (3) draw NAND-NAND equivalent logic. Given: F = A'B'D' + A'CD + A'BC  and  d = A'BC'D + ACD + AB'D'"
         },
         {
-          "number": "3",
-          "sub_no": "a",
-          "marks": 8,
-          "question": "Design a combinational circuit with three inputs and one output. The output is equal to logic 1 when the binary value of the input is less than 3. The output is logic 0 otherwise.",
-          "or": "Design a binary to gray code converter circuit using the minimum number of logic gates. Use the four variable input and four variable output case."
-        },
-        {
-          "number": "3",
-          "sub_no": "b",
-          "marks": 7,
-          "question": "Implement the following function with a multiplexer: F = (A,B,C,D) = Σ(0,1,3,4,8,9,15)",
-          "or": "A combinational circuit is defined by the following three functions: F1 = x'y' + xyz'  F2 = x' + y  F3 = xy + x'y'. Design the circuit with decoder and external gates."
-        },
-        {
-          "number": "4",
-          "sub_no": "a",
-          "marks": 7,
-          "question": "What is the major difference between the synchronous and asynchronous logic? Explain about the JK flip flop with respect to truth table, k-map and characteristic equation."
-        },
-        {
-          "number": "4",
-          "sub_no": "b",
-          "marks": 8,
-          "question": "What do you mean shift register? Explain about parallel in parallel out shift register."
-        },
-        {
-          "number": "5",
-          "sub_no": "a",
-          "marks": 5,
-          "question": "Explain the operation of D flip-flop with the help of the truth table, logic diagram and characteristic equation."
-        },
-        {
-          "number": "5",
-          "sub_no": "b",
-          "marks": 5,
-          "question": "Explain briefly about status register."
-        },
-        {
-          "number": "5",
+          "number": "2",
           "sub_no": "c",
-          "marks": 5,
-          "question": "State and prove De-Morgan's theorem."
+          "marks": 7,
+          "question": "A Boolean function is given by F(A,B,C,D) = Σ(3,4,6,8,10,12,14) and don't care condition d(A,B,C,D) = Σ(0,2,8). Simplify it using K-Map and implement using NAND gate only."
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Design a combinational circuit that converts a decimal digit from the 2421 code to 84-2-1 code to binary."
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Design a circuit for 4 bit full Subtract adder."
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Design a comparator circuit that compared two 4 bit numbers. The two numbers being A and B. It is required to obtain three possible outcomes i.e. A>B, A<B and A=B."
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Implement the following with appropriate MUX: (i) F(A,B,C) = Σ(1,3,5,6)  (ii) F(A,B,C,D) = Σ(0,1,3,4,8,9,15)"
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Design a sequential circuit corresponding to the given state diagram using J-K flip flop.",
+          "fig_description": "State diagram with 4 states (00, 01, 10, 11). From 00: 0/0 self-loop, 1/0 → 01, 1/1 → 10. From 01: 1/0 self-loop, 0/0 → 11. From 10: 0/0 self-loop, 0/0 → 11. From 11: 1/0 → back to 00."
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Design a counter with the following binary sequence 0, 1, 3, 2, 6, 4, 5, 7 and repeat. Use T flip flop."
         },
         {
           "number": "6",
           "sub_no": "a",
           "marks": 7,
-          "question": "Design a 4 bit arithmetic circuit."
+          "question": "Design an adder/substractor circuit with one selection variable S and two inputs A and B. When S=0 the circuit performs A+B when S=1 the circuit performs A-B by taking the 2's complement of B."
         },
         {
           "number": "6",
           "sub_no": "b",
           "marks": 8,
-          "question": "Design a 3 bit up down synchronous counter using JK flip flop which is capable of counting the both up and down sequences as desired by user."
+          "question": "Design a 4-bit arithmetic circuit which performs eight different arithmetic operations."
         },
         {
           "number": "7",
-          "instruction": "Write short notes on any two: 2×5",
+          "instruction": "Write short notes on: (Any two) 2×5",
           "options": [
-            { "sub_no": "a", "marks": 5, "question": "Analog and digital system" },
-            { "sub_no": "b", "marks": 5, "question": "PLA" },
-            { "sub_no": "c", "marks": 5, "question": "Venn diagram" }
+            { "sub_no": "a", "marks": 5, "question": "Magnitude comparator" },
+            { "sub_no": "b", "marks": 5, "question": "Universality of NAND and NOR gates" },
+            { "sub_no": "c", "marks": 5, "question": "Output Hazard Races" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2014-F",
+      "year": "2014",
+      "semester": "Fall",
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 5,
+          "question": "What are the differences between Digital and Analog system. Why digital systems are preferred rather than Analog system."
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 5,
+          "question": "Add and multiply the following number in the given base without converting to decimal: (i) (1230)₄ and (23)₄  (ii) (135.4)₆ and (43.2)₆"
+        },
+        {
+          "number": "1",
+          "sub_no": "c",
+          "marks": 5,
+          "question": "Perform the following conversion: (i) (5849)₁₀ = ()_Excess-3  (ii) (8412)₁₀ = ()_2421  (iii) (10101111)_GRAY = ()₂"
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 5,
+          "question": "Simplify the following expression using Boolean algebra: (i) (AB'+ABC)'+A(B+AB')  (ii) [(BC'+A'D)(AB'+CD')]'"
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 5,
+          "question": "Given the following Boolean function: F = xy + x'y' + y'z  (i) Implement it with OR and NOT Gate  (ii) Implement it with only AND and NOT Gate"
+        },
+        {
+          "number": "2",
+          "sub_no": "c",
+          "marks": 5,
+          "question": "A Boolean function is given by F(A,B,C,D) = Σ(3,4,5,7,9,13,14,15) and don't care condition d(A,B,C,D) = Σ(0,2,8). Simplify it using K-Map and implement using NAND gate only."
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Design a combinational circuit that converts a decimal digit from the 2421 code to 84-2-1 code to binary."
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Design a BCD to Excess-3 code converter circuit."
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Design a Comparator circuit that compared two 4 bit numbers. The two numbers being A and B. It is required to obtain three possible outcomes i.e. A>B, A<B and A=B."
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Implement the following with appropriate MUX: (i) F(A,B,C) = Σ(1,3,5,6)  (ii) F(A,B,C,D) = Σ(0,1,3,4,8,9,15)"
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Design a sequential circuit corresponding to the given state diagram using S-R flipflop.",
+          "fig_url": "BE_COMPUTER/Sem_III/LC/img/2014-F-5a.png",
+          "fig_description": "State diagram with 4 states (00, 01, 10, 11). From 00: input/output 0/0 (self-loop), 1/0 → 01, 1/1 → 10. From 01: input 1/0 → stays at 01, 0/0 → goes to 11. From 10: input 0/0 → stays at 10, 0/0 → goes to 11. From 11: 1/0 → goes back to 00."
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Explain operation of J-K Flip-flop with its logic diagram and truth table."
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "What is counter? Explain its any one of its type in brief."
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Design 4-bit logical circuits which perform eight different logical operations."
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on: (Any two) 2×5",
+          "options": [
+            { "sub_no": "a", "marks": 5, "question": "Parity checker" },
+            { "sub_no": "b", "marks": 5, "question": "Output Hazard Races" },
+            { "sub_no": "c", "marks": 5, "question": "Status Register" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2014-S",
+      "year": "2014",
+      "semester": "Spring",
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Define positive and negative logic system. \"Digital circuits are easier to design than analog circuit.\" Do you agree with this statement? Give reasons to support your answer."
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 5,
+          "question": "Find the value of X: (i) (777)_x = (212)₈  (ii) (DEC)_H = (0101)_x  (iii) (563)₇ = (X)₃  (iv) (100111)_Gray = (X)_Binary"
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "State and Prove De-Morgan's Theorem. List out the factors to be considered while constructing the Logic Gates."
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "What is Don't care condition? Simplify given function using K-map with circuit design. F(W,X,Y,Z) = Σ(1,4,5,6,12,14,15) and don't care condition D(W,X,Y,Z) = Σ(10,11)."
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Define universal gate. Design the three bit EX-OR circuit using only Universal gates."
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Design a combinational circuit that accepts a 3 bit number as input and generates the output binary number equal to the 2's complement of input number."
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Show how a full adder can be converted to a full substractor with the addition of one inverter circuit."
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Implement the following: (i) F(A,B,C) = Σ(1,3,5,6) (using MUX)  (ii) F1 = Σ(0,2,5), F2 = Σ(3,4,7), F3 = Σ(6,7) (using ROM)"
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 10,
+          "question": "Realize the following state diagram into a circuit using j-k flip-flop.",
+          "fig_description": "State diagram with 4 states (00, 01, 10, 11). From 00: 1/0 → 01, 0/0 → 10. From 01: v1 self-loop, d1 → 11. From 10: 0/0 self-loop, 1/0 → 11. From 11: d1 → goes back. (Mealy machine type)"
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 5,
+          "question": "Describe read and write operation in RAM with diagram. Draw a circuit for 6-bit SIPO shift register."
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Design an arithmetic circuit with one selection variable and two data inputs A and B. When S=0, the circuit performs the addition operation F=A+B; when S=1, the circuit performs the increment operation F=A+1 (only show the block diagram)."
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Design a 4-bit arithmetic circuits which performs eight different arithmetic operations."
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on: (Any two) 2×5",
+          "options": [
+            { "sub_no": "a", "marks": 5, "question": "Master slave flipflop" },
+            { "sub_no": "b", "marks": 5, "question": "Nibble Adder" },
+            { "sub_no": "c", "marks": 5, "question": "PLA" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2013-F",
+      "year": "2013",
+      "semester": "Fall",
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Define analog and digital systems. Which system do you prefer and why?"
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Subtract (100101)₂ from (1111101)₂ using 2's complement method. Also subtract (7729)₁₀ - (842.4)₁₀ using 9's complement."
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Explain the universal property of NOR gate with appropriate logic gates."
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Design a logic circuit to implement the Boolean function F(A,B,C,D) = Σ(1,3,7,11,15) with D(A,B,C,D) = Σ(0,2,5) in the term of: (i) Sum of products  (ii) Implement with NAND-NAND gate only"
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Design a combinational circuit with four input lines that represent a decimal digit in BCD and four output lines that generate the 9's complement of the input digit.",
+          "or": "Design a combinational circuit which takes three input numbers and produces an output equal to square of the input."
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "A combinational circuit is defined by the following three functions: F₁ = x'y' + xyz'  F₂ = x' + y  F₃ = xy + x'y'. Design the circuit with a decoder and external gates."
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Give the truth table logic circuit and characteristic equation of J-K flip flop. How it can be converted into T flip flop."
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Design a counter with the following binary sequence 0, 1, 3, 2, 6, 4, 5, 7 and repeat. Use T flip flop."
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Design an adder/substractor circuit with one selection variable S and two inputs A and B. When S=0 the circuit performs A+B when S=1 the circuit performs A-B by taking the 2's complement of B."
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "What is PLA? Derive the programming table for the combinational circuit that squares a 3-bit input number."
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 5,
+          "question": "Explain in brief about: (i) Gray code  (ii) Modulo 2 system."
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 5,
+          "question": "Differentiate between synchronous and asynchronous logic."
+        },
+        {
+          "number": "6",
+          "sub_no": "c",
+          "marks": 5,
+          "question": "What do you understand by output hazard races?"
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on (Any two): 2×5",
+          "options": [
+            { "sub_no": "a", "marks": 5, "question": "Nibble Adder" },
+            { "sub_no": "b", "marks": 5, "question": "Magnitude comparator" },
+            { "sub_no": "c", "marks": 5, "question": "Master Slave flip-flop" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2013-S",
+      "year": "2013",
+      "semester": "Spring",
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 5,
+          "question": "Describe in brief why most of system in the present days has been converted to digital rather than analog."
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 5,
+          "question": "\"8 4 -2 -1 code is self-complementing code.\" Justify this statement."
+        },
+        {
+          "number": "1",
+          "sub_no": "c",
+          "marks": 5,
+          "question": "Perform the following subtraction: (i) (34)₈ - (27)₈, convert the given number into binary and perform subtraction using 2's complement.  (ii) Determine the value of base x if (321)_x = (57)₈"
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 5,
+          "question": "Design even parity generator when a 3 bit message contains cyclic code."
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Reduce the given expression in minimum number of literals using Boolean algebra and derive the truth table and implement in NAND logic. A+B[AC+B{AC+(B+C')D}]"
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "A logic circuit implements the following Boolean function F = A'C + AC'D'. It is found that the circuit input combination A=C=1 can never occur. Using K-map with proper don't care conditions, find a simplified expression and implement it using NAND gates only."
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Derive a PLA program table for the combinational circuit that squares 3 bit number minimize the number of product term."
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Differentiate between PLA and ROM. Implement the given four Boolean function using 8×4 PLA: A(x,y,z) = Σ(1,2,4,6); B(x,y,z) = Σ(0,1,6,7); C(x,y,z) = Σ(2,6); D(x,y,z) = Σ(1,2,3,5,7)"
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Explain in detail about the positive edge triggered J-K flip-flop. Write its advantage over S-R flip-flop."
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "With suitable example explain about state reduction and assignment. Also, write the advantages of state reduction and assignment."
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "What is shift register? Explain the operation of serial-In serial out shift register with its circuit diagram and timing diagram."
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Design a 3 bit synchronous binary up counter using JK flip-flop."
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Design a 4-bit arithmetic circuits which performs eight different operations. What do you mean by 'Output Hazard Races'? With the help of diagram explain how Read/Write operation is performed in RAM."
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on: (Any Two) 2×5",
+          "options": [
+            { "sub_no": "a", "marks": 5, "question": "Status Register" },
+            { "sub_no": "b", "marks": 5, "question": "Nibble Adder" },
+            { "sub_no": "c", "marks": 5, "question": "Master Slave f/f" }
           ]
         }
       ]
@@ -597,1703 +1915,390 @@
       ]
     },
     {
-      "id": "2013-F",
-      "year": "2013",
-      "semester": "Fall",
-      "questions": [
-        {
-          "number": "1",
-          "sub_no": "a",
-          "marks": 7,
-          "question": "Define analog and digital systems. Which system do you prefer and why?"
-        },
-        {
-          "number": "1",
-          "sub_no": "b",
-          "marks": 8,
-          "question": "Subtract (100101)₂ from (1111101)₂ using 2's complement method. Also subtract (7729)₁₀ - (842.4)₁₀ using 9's complement."
-        },
-        {
-          "number": "2",
-          "sub_no": "a",
-          "marks": 8,
-          "question": "Explain the universal property of NOR gate with appropriate logic gates."
-        },
-        {
-          "number": "2",
-          "sub_no": "b",
-          "marks": 7,
-          "question": "Design a logic circuit to implement the Boolean function F(A,B,C,D) = Σ(1,3,7,11,15) with D(A,B,C,D) = Σ(0,2,5) in the term of: (i) Sum of products  (ii) Implement with NAND-NAND gate only"
-        },
-        {
-          "number": "3",
-          "sub_no": "a",
-          "marks": 8,
-          "question": "Design a combinational circuit with four input lines that represent a decimal digit in BCD and four output lines that generate the 9's complement of the input digit.",
-          "or": "Design a combinational circuit which takes three input numbers and produces an output equal to square of the input."
-        },
-        {
-          "number": "3",
-          "sub_no": "b",
-          "marks": 7,
-          "question": "A combinational circuit is defined by the following three functions: F₁ = x'y' + xyz'  F₂ = x' + y  F₃ = xy + x'y'. Design the circuit with a decoder and external gates."
-        },
-        {
-          "number": "4",
-          "sub_no": "a",
-          "marks": 7,
-          "question": "Give the truth table logic circuit and characteristic equation of J-K flip flop. How it can be converted into T flip flop."
-        },
-        {
-          "number": "4",
-          "sub_no": "b",
-          "marks": 8,
-          "question": "Design a counter with the following binary sequence 0, 1, 3, 2, 6, 4, 5, 7 and repeat. Use T flip flop."
-        },
-        {
-          "number": "5",
-          "sub_no": "a",
-          "marks": 8,
-          "question": "Design an adder/substractor circuit with one selection variable S and two inputs A and B. When S=0 the circuit performs A+B when S=1 the circuit performs A-B by taking the 2's complement of B."
-        },
-        {
-          "number": "5",
-          "sub_no": "b",
-          "marks": 7,
-          "question": "What is PLA? Derive the programming table for the combinational circuit that squares a 3-bit input number."
-        },
-        {
-          "number": "6",
-          "sub_no": "a",
-          "marks": 5,
-          "question": "Explain in brief about: (i) Gray code  (ii) Modulo 2 system."
-        },
-        {
-          "number": "6",
-          "sub_no": "b",
-          "marks": 5,
-          "question": "Differentiate between synchronous and asynchronous logic."
-        },
-        {
-          "number": "6",
-          "sub_no": "c",
-          "marks": 5,
-          "question": "What do you understand by output hazard races?"
-        },
-        {
-          "number": "7",
-          "instruction": "Write short notes on (Any two): 2×5",
-          "options": [
-            { "sub_no": "a", "marks": 5, "question": "Nibble Adder" },
-            { "sub_no": "b", "marks": 5, "question": "Magnitude comparator" },
-            { "sub_no": "c", "marks": 5, "question": "Master Slave flip-flop" }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "2013-S",
-      "year": "2013",
-      "semester": "Spring",
-      "questions": [
-        {
-          "number": "1",
-          "sub_no": "a",
-          "marks": 5,
-          "question": "Describe in brief why most of system in the present days has been converted to digital rather than analog."
-        },
-        {
-          "number": "1",
-          "sub_no": "b",
-          "marks": 5,
-          "question": "\"8 4 -2 -1 code is self-complementing code.\" Justify this statement."
-        },
-        {
-          "number": "1",
-          "sub_no": "c",
-          "marks": 5,
-          "question": "Perform the following subtraction: (i) (34)₈ - (27)₈, convert the given number into binary and perform subtraction using 2's complement.  (ii) Determine the value of base x if (321)_x = (57)₈"
-        },
-        {
-          "number": "2",
-          "sub_no": "a",
-          "marks": 5,
-          "question": "Design even parity generator when a 3 bit message contains cyclic code."
-        },
-        {
-          "number": "2",
-          "sub_no": "b",
-          "marks": 8,
-          "question": "Reduce the given expression in minimum number of literals using Boolean algebra and derive the truth table and implement in NAND logic. A+B[AC+B{AC+(B+C')D}]"
-        },
-        {
-          "number": "3",
-          "sub_no": "a",
-          "marks": 8,
-          "question": "A logic circuit implements the following Boolean function F = A'C + AC'D'. It is found that the circuit input combination A=C=1 can never occur. Using K-map with proper don't care conditions, find a simplified expression and implement it using NAND gates only."
-        },
-        {
-          "number": "3",
-          "sub_no": "b",
-          "marks": 7,
-          "question": "Derive a PLA program table for the combinational circuit that squares 3 bit number minimize the number of product term."
-        },
-        {
-          "number": "4",
-          "sub_no": "a",
-          "marks": 8,
-          "question": "Differentiate between PLA and ROM. Implement the given four Boolean function using 8×4 PLA: A(x,y,z) = Σ(1,2,4,6); B(x,y,z) = Σ(0,1,6,7); C(x,y,z) = Σ(2,6); D(x,y,z) = Σ(1,2,3,5,7)"
-        },
-        {
-          "number": "4",
-          "sub_no": "b",
-          "marks": 8,
-          "question": "Explain in detail about the positive edge triggered J-K flip-flop. Write its advantage over S-R flip-flop."
-        },
-        {
-          "number": "5",
-          "sub_no": "a",
-          "marks": 7,
-          "question": "With suitable example explain about state reduction and assignment. Also, write the advantages of state reduction and assignment."
-        },
-        {
-          "number": "5",
-          "sub_no": "b",
-          "marks": 8,
-          "question": "What is shift register? Explain the operation of serial-In serial out shift register with its circuit diagram and timing diagram."
-        },
-        {
-          "number": "6",
-          "sub_no": "a",
-          "marks": 8,
-          "question": "Design a 3 bit synchronous binary up counter using JK flip-flop."
-        },
-        {
-          "number": "6",
-          "sub_no": "b",
-          "marks": 7,
-          "question": "Design a 4-bit arithmetic circuits which performs eight different operations. What do you mean by 'Output Hazard Races'? With the help of diagram explain how Read/Write operation is performed in RAM."
-        },
-        {
-          "number": "7",
-          "instruction": "Write short notes on: (Any Two) 2×5",
-          "options": [
-            { "sub_no": "a", "marks": 5, "question": "Status Register" },
-            { "sub_no": "b", "marks": 5, "question": "Nibble Adder" },
-            { "sub_no": "c", "marks": 5, "question": "Master Slave f/f" }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "2014-F",
-      "year": "2014",
+      "id": "2011-F",
+      "year": "2011",
       "semester": "Fall",
       "questions": [
         {
           "number": "1",
           "sub_no": "a",
           "marks": 5,
-          "question": "What are the differences between Digital and Analog system. Why digital systems are preferred rather than Analog system."
+          "question": "Compare analog and digital system. Which one is better and why?"
         },
         {
           "number": "1",
           "sub_no": "b",
           "marks": 5,
-          "question": "Add and multiply the following number in the given base without converting to decimal: (i) (1230)₄ and (23)₄  (ii) (135.4)₆ and (43.2)₆"
-        },
-        {
-          "number": "1",
-          "sub_no": "c",
-          "marks": 5,
-          "question": "Perform the following conversion: (i) (5849)₁₀ = ()_Excess-3  (ii) (8412)₁₀ = ()_2421  (iii) (10101111)_GRAY = ()₂"
-        },
-        {
-          "number": "2",
-          "sub_no": "a",
-          "marks": 5,
-          "question": "Simplify the following expression using Boolean algebra: (i) (AB'+ABC)'+A(B+AB')  (ii) [(BC'+A'D)(AB'+CD')]'"
-        },
-        {
-          "number": "2",
-          "sub_no": "b",
-          "marks": 5,
-          "question": "Given the following Boolean function: F = xy + x'y' + y'z  (i) Implement it with OR and NOT Gate  (ii) Implement it with only AND and NOT Gate"
-        },
-        {
-          "number": "2",
-          "sub_no": "c",
-          "marks": 5,
-          "question": "A Boolean function is given by F(A,B,C,D) = Σ(3,4,5,7,9,13,14,15) and don't care condition d(A,B,C,D) = Σ(0,2,8). Simplify it using K-Map and implement using NAND gate only."
-        },
-        {
-          "number": "3",
-          "sub_no": "a",
-          "marks": 8,
-          "question": "Design a combinational circuit that converts a decimal digit from the 2421 code to 84-2-1 code to binary."
-        },
-        {
-          "number": "3",
-          "sub_no": "b",
-          "marks": 7,
-          "question": "Design a BCD to Excess-3 code converter circuit."
-        },
-        {
-          "number": "4",
-          "sub_no": "a",
-          "marks": 8,
-          "question": "Design a Comparator circuit that compared two 4 bit numbers. The two numbers being A and B. It is required to obtain three possible outcomes i.e. A>B, A<B and A=B."
-        },
-        {
-          "number": "4",
-          "sub_no": "b",
-          "marks": 7,
-          "question": "Implement the following with appropriate MUX: (i) F(A,B,C) = Σ(1,3,5,6)  (ii) F(A,B,C,D) = Σ(0,1,3,4,8,9,15)"
-        },
-        {
-          "number": "5",
-          "sub_no": "a",
-          "marks": 8,
-          "question": "Design a sequential circuit corresponding to the given state diagram using S-R flipflop.",
-          "fig_url": "BE_COMPUTER/Sem_III/LC/img/2014-F-5a.png",
-          "fig_description": "State diagram with 4 states (00, 01, 10, 11). From 00: input/output 0/0 (self-loop), 1/0 → 01, 1/1 → 10. From 01: input 1/0 → stays at 01, 0/0 → goes to 11. From 10: input 0/0 → stays at 10, 0/0 → goes to 11. From 11: 1/0 → goes back to 00."
-        },
-        {
-          "number": "5",
-          "sub_no": "b",
-          "marks": 7,
-          "question": "Explain operation of J-K Flip-flop with its logic diagram and truth table."
-        },
-        {
-          "number": "6",
-          "sub_no": "a",
-          "marks": 8,
-          "question": "What is counter? Explain its any one of its type in brief."
-        },
-        {
-          "number": "6",
-          "sub_no": "b",
-          "marks": 7,
-          "question": "Design 4-bit logical circuits which perform eight different logical operations."
-        },
-        {
-          "number": "7",
-          "instruction": "Write short notes on: (Any two) 2×5",
-          "options": [
-            { "sub_no": "a", "marks": 5, "question": "Parity checker" },
-            { "sub_no": "b", "marks": 5, "question": "Output Hazard Races" },
-            { "sub_no": "c", "marks": 5, "question": "Status Register" }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "2014-S",
-      "year": "2014",
-      "semester": "Spring",
-      "questions": [
-        {
-          "number": "1",
-          "sub_no": "a",
-          "marks": 7,
-          "question": "Define positive and negative logic system. \"Digital circuits are easier to design than analog circuit.\" Do you agree with this statement? Give reasons to support your answer."
-        },
-        {
-          "number": "1",
-          "sub_no": "b",
-          "marks": 5,
-          "question": "Find the value of X: (i) (777)_x = (212)₈  (ii) (DEC)_H = (0101)_x  (iii) (563)₇ = (X)₃  (iv) (100111)_Gray = (X)_Binary"
-        },
-        {
-          "number": "2",
-          "sub_no": "a",
-          "marks": 8,
-          "question": "State and Prove De-Morgan's Theorem. List out the factors to be considered while constructing the Logic Gates."
-        },
-        {
-          "number": "2",
-          "sub_no": "b",
-          "marks": 7,
-          "question": "What is Don't care condition? Simplify given function using K-map with circuit design. F(W,X,Y,Z) = Σ(1,4,5,6,12,14,15) and don't care condition D(W,X,Y,Z) = Σ(10,11)."
-        },
-        {
-          "number": "3",
-          "sub_no": "a",
-          "marks": 8,
-          "question": "Define universal gate. Design the three bit EX-OR circuit using only Universal gates."
-        },
-        {
-          "number": "3",
-          "sub_no": "b",
-          "marks": 7,
-          "question": "Design a combinational circuit that accepts a 3 bit number as input and generates the output binary number equal to the 2's complement of input number."
-        },
-        {
-          "number": "4",
-          "sub_no": "a",
-          "marks": 8,
-          "question": "Show how a full adder can be converted to a full substractor with the addition of one inverter circuit."
-        },
-        {
-          "number": "4",
-          "sub_no": "b",
-          "marks": 7,
-          "question": "Implement the following: (i) F(A,B,C) = Σ(1,3,5,6) (using MUX)  (ii) F1 = Σ(0,2,5), F2 = Σ(3,4,7), F3 = Σ(6,7) (using ROM)"
-        },
-        {
-          "number": "5",
-          "sub_no": "a",
-          "marks": 10,
-          "question": "Realize the following state diagram into a circuit using j-k flip-flop.",
-          "fig_description": "State diagram with 4 states (00, 01, 10, 11). From 00: 1/0 → 01, 0/0 → 10. From 01: v1 self-loop, d1 → 11. From 10: 0/0 self-loop, 1/0 → 11. From 11: d1 → goes back. (Mealy machine type)"
-        },
-        {
-          "number": "5",
-          "sub_no": "b",
-          "marks": 5,
-          "question": "Describe read and write operation in RAM with diagram. Draw a circuit for 6-bit SIPO shift register."
-        },
-        {
-          "number": "6",
-          "sub_no": "a",
-          "marks": 7,
-          "question": "Design an arithmetic circuit with one selection variable and two data inputs A and B. When S=0, the circuit performs the addition operation F=A+B; when S=1, the circuit performs the increment operation F=A+1 (only show the block diagram)."
-        },
-        {
-          "number": "6",
-          "sub_no": "b",
-          "marks": 8,
-          "question": "Design a 4-bit arithmetic circuits which performs eight different arithmetic operations."
-        },
-        {
-          "number": "7",
-          "instruction": "Write short notes on: (Any two) 2×5",
-          "options": [
-            { "sub_no": "a", "marks": 5, "question": "Master slave flipflop" },
-            { "sub_no": "b", "marks": 5, "question": "Nibble Adder" },
-            { "sub_no": "c", "marks": 5, "question": "PLA" }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "2015-F",
-      "year": "2015",
-      "semester": "Fall",
-      "questions": [
-        {
-          "number": "1",
-          "sub_no": "a",
-          "marks": 5,
-          "question": "Which system is more efficient for logical computation? Differentiate between Digital and Analog system."
-        },
-        {
-          "number": "1",
-          "sub_no": "b",
-          "marks": 5,
-          "question": "Perform the conversion as indicated (any two): (i) (243)₆ = ()_Excess-3  (ii) (816)₁₀ = ()_2421  (iii) (BE)₁₆ = ()₂"
+          "question": "Use r's complement to subtract the following: (i) (100)₂ - (110000)₂  (ii) (7850)₁₀ - (7650)₁₀"
         },
         {
           "number": "1",
           "sub_no": "c",
           "marks": 5,
-          "question": "Use 2's complement to subtract the following: (i) (101)₂ - (10100)₂  (ii) (3950)₁₀ - (876)₂  (iii) (378)_BCD - (256)_BCD"
+          "question": "What do you mean by alphanumerical code? \"Excess-3 codes are called self complementing code\". Explain it."
         },
         {
           "number": "2",
           "sub_no": "a",
-          "marks": 5,
-          "question": "Prove the following Boolean expression: (i) AB̄ + BC + ĀBC̄ = Ā + BC  (ii) XȲ + YZ̄ + ZX̄ = X̄Y + ȲZ + Z̄X"
-        },
-        {
-          "number": "2",
-          "sub_no": "b",
-          "marks": 5,
+          "marks": 7,
           "question": "Simplify the Boolean function F and don't care conditions d in (1) SOP (2) POS and (3) draw NAND-NAND equivalent logic. Given: F = A'B'D' + A'CD + A'BC  and  d = A'BC'D + ACD + AB'D'"
         },
         {
           "number": "2",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Design a code converter circuit which converts 8 4 -2 -1 code to binary."
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Design a circuit that compares two 3 bit numbers A and B to check if they are equal. The circuit has one output 'y' so that y = 1 if A = B and y = 0 if A ≠ B.",
+          "or": "Design a combinational circuit using a ROM. The circuit accepts a 3 bit numbers and generates an output binary number equal to the sum of the input numbers."
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "What is multiplexer? Describe 4:1 multiplexer with internal diagram."
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 5,
+          "question": "Differentiate between combinational and sequential logic circuit."
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 5,
+          "question": "Implement a full adder using 3×8 decoder and OR gates."
+        },
+        {
+          "number": "4",
           "sub_no": "c",
           "marks": 5,
-          "question": "A Boolean function is given by F(A,B,C,D)' = Σ(3,4,6,8,10,12,14) and don't care condition d(A,B,C,D) = Σ(0,2,8). Simplify it using K-Map and implement using NAND gate only."
-        },
-        {
-          "number": "3",
-          "sub_no": "a",
-          "marks": 7,
-          "question": "Design a single combinational logic circuit that performs the addition of two input bits (a and b) when third input bit c is set to 0 whereas, the same circuit performs the subtraction of same two input bits when c is set to 1."
-        },
-        {
-          "number": "3",
-          "sub_no": "b",
-          "marks": 8,
-          "question": "Design a BCD synchronous up counter using T-flip flop."
-        },
-        {
-          "number": "4",
-          "sub_no": "a",
-          "marks": 8,
-          "question": "Implement the following three Boolean function with a PLA: F₁ = Σ(0,1,2,4), F₂ = Σ(0,5,6,7), F₃ = Σ(0,3,5,7)"
-        },
-        {
-          "number": "4",
-          "sub_no": "b",
-          "marks": 7,
-          "question": "What do you mean by Decoder? Implement the following Boolean function F = Σ(1,3,5,6) using 4×1 MUX."
+          "question": "Give the truth table, logic diagram and characteristics equation of J-K flip flop."
         },
         {
           "number": "5",
           "sub_no": "a",
           "marks": 8,
-          "question": "Design a sequential circuit corresponding to the given state diagram using D Flip Flop.",
-          "fig_description": "State diagram with 4 states (00, 01, 10, 11). From 00: 1/1 → 01, 1/0 → 11, 0/0 self-loop. From 01: 1/0 → stays at 01, 0/0 → 10. From 11: 0/0 → 10, 1/1 → 11 (output). From 10: 0/0 self-loop."
+          "question": "Define shift registers. Explain operation of parallel in parallel out shift register."
         },
         {
           "number": "5",
           "sub_no": "b",
           "marks": 7,
-          "question": "Explain operation of J-K Flip-flop with its logic diagram, truth table, excitation table."
+          "question": "Design a 3-bit synchronous binary counter using T-flip-flop."
         },
         {
           "number": "6",
           "sub_no": "a",
-          "marks": 8,
-          "question": "What is counter? Differentiate between serial in serial out register and parallel in serial out register with associated diagrams."
-        },
-        {
-          "number": "6",
-          "sub_no": "b",
-          "marks": 7,
-          "question": "Illustrate the process how does binary value of 4 flags in status registers change with necessary diagram."
-        },
-        {
-          "number": "7",
-          "instruction": "Write short notes on: (Any two) 2×5",
-          "options": [
-            { "sub_no": "a", "marks": 5, "question": "Random Access Memory" },
-            { "sub_no": "b", "marks": 5, "question": "Self complementing code" },
-            { "sub_no": "c", "marks": 5, "question": "Universal Gates" }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "2015-S",
-      "year": "2015",
-      "semester": "Spring",
-      "questions": [
-        {
-          "number": "1",
-          "sub_no": "a",
-          "marks": 5,
-          "question": "How can we represent the information? Differentiate between Digital and Analogue system."
-        },
-        {
-          "number": "1",
-          "sub_no": "b",
-          "marks": 5,
-          "question": "Perform the following conversion: (i) (573)₁₀ = ()_Excess-3  (ii) (842)₁₀ = ()_2421  (iii) (10101111)_GRAY = ()₂  (iv) (FAB)₁₆ = ()₂"
-        },
-        {
-          "number": "2",
-          "sub_no": "a",
-          "marks": 7,
-          "question": "Simplify the following expression using Boolean algebra: (i) (AB'+AB'C')'+A(B'+AB')  (ii) [(BC'+A'D)(AB'+C'D')]'"
-        },
-        {
-          "number": "2",
-          "sub_no": "b",
-          "marks": 8,
-          "question": "Simplify the Boolean function F and don't care conditions d in (1) SOP (2) POS and (3) draw NAND-NAND equivalent logic. Given: F = A'B'D' + A'CD + A'BC  and  d = A'BC'D + ACD + AB'D'"
-        },
-        {
-          "number": "2",
-          "sub_no": "c",
-          "marks": 7,
-          "question": "A Boolean function is given by F(A,B,C,D) = Σ(3,4,6,8,10,12,14) and don't care condition d(A,B,C,D) = Σ(0,2,8). Simplify it using K-Map and implement using NAND gate only."
-        },
-        {
-          "number": "3",
-          "sub_no": "a",
-          "marks": 8,
-          "question": "Design a combinational circuit that converts a decimal digit from the 2421 code to 84-2-1 code to binary."
-        },
-        {
-          "number": "3",
-          "sub_no": "b",
-          "marks": 7,
-          "question": "Design a circuit for 4 bit full Subtract adder."
-        },
-        {
-          "number": "4",
-          "sub_no": "a",
-          "marks": 8,
-          "question": "Design a comparator circuit that compared two 4 bit numbers. The two numbers being A and B. It is required to obtain three possible outcomes i.e. A>B, A<B and A=B."
-        },
-        {
-          "number": "4",
-          "sub_no": "b",
-          "marks": 7,
-          "question": "Implement the following with appropriate MUX: (i) F(A,B,C) = Σ(1,3,5,6)  (ii) F(A,B,C,D) = Σ(0,1,3,4,8,9,15)"
-        },
-        {
-          "number": "5",
-          "sub_no": "a",
-          "marks": 8,
-          "question": "Design a sequential circuit corresponding to the given state diagram using J-K flip flop.",
-          "fig_description": "State diagram with 4 states (00, 01, 10, 11). From 00: 0/0 self-loop, 1/0 → 01, 1/1 → 10. From 01: 1/0 self-loop, 0/0 → 11. From 10: 0/0 self-loop, 0/0 → 11. From 11: 1/0 → back to 00."
-        },
-        {
-          "number": "5",
-          "sub_no": "b",
-          "marks": 7,
-          "question": "Design a counter with the following binary sequence 0, 1, 3, 2, 6, 4, 5, 7 and repeat. Use T flip flop."
-        },
-        {
-          "number": "6",
-          "sub_no": "a",
-          "marks": 7,
-          "question": "Design an adder/substractor circuit with one selection variable S and two inputs A and B. When S=0 the circuit performs A+B when S=1 the circuit performs A-B by taking the 2's complement of B."
-        },
-        {
-          "number": "6",
-          "sub_no": "b",
-          "marks": 8,
-          "question": "Design a 4-bit arithmetic circuit which performs eight different arithmetic operations."
-        },
-        {
-          "number": "7",
-          "instruction": "Write short notes on: (Any two) 2×5",
-          "options": [
-            { "sub_no": "a", "marks": 5, "question": "Magnitude comparator" },
-            { "sub_no": "b", "marks": 5, "question": "Universality of NAND and NOR gates" },
-            { "sub_no": "c", "marks": 5, "question": "Output Hazard Races" }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "2016-F",
-      "year": "2016",
-      "semester": "Fall",
-      "questions": [
-        {
-          "number": "1",
-          "sub_no": "a",
-          "marks": 7,
-          "question": "What is Digital and Analog systems? Also list out the advantages of digital system over the analog system."
-        },
-        {
-          "number": "1",
-          "sub_no": "b",
-          "marks": 8,
-          "question": "Perform the conversion as indicated: (i) (243)₆ = ()_Excess-3  (ii) (816)₁₀ = ()_2421  (iii) (BE)₁₆ = ()₂  (iv) (777)_x = (212)₈"
-        },
-        {
-          "number": "2",
-          "sub_no": "a",
-          "marks": 7,
-          "question": "Implement XNOR gate using only NAND gates and XOR gate using NOR gate only."
-        },
-        {
-          "number": "2",
-          "sub_no": "b",
-          "marks": 8,
-          "question": "Define Literal & term. Find Canonical SOP for this expression F = āc + ab + b̄c."
-        },
-        {
-          "number": "3",
-          "sub_no": "a",
-          "marks": 8,
-          "question": "Design a combinational circuit that converts a decimal digit from the 2421 code to BCD."
-        },
-        {
-          "number": "3",
-          "sub_no": "b",
-          "marks": 7,
-          "question": "A Boolean function is given: F(w,x,y,z) = Σ(1,4,5,6,12,14,15) and don't care condition d(w,x,y,z) = Σ(1011). Simplify it using K-map with logic gate implementation."
-        },
-        {
-          "number": "4",
-          "sub_no": "a",
-          "marks": 8,
-          "question": "Design a comparator circuit that compared two 4 bit numbers. The two numbers being A and B. It is required to obtain three possible outcomes i.e. A>B, A<B and A=B."
-        },
-        {
-          "number": "4",
-          "sub_no": "b",
-          "marks": 7,
-          "question": "Realize the following state diagram into a circuit using T-flip-flop.",
-          "fig_description": "State diagram with 4 states (00, 01, 10, 11). Transitions labeled with input values 0 and 1."
-        },
-        {
-          "number": "5",
-          "sub_no": "a",
-          "marks": 8,
-          "question": "What are major 5 differences between synchronous and asynchronous counters? Design a 4-bit up-down binary counter."
-        },
-        {
-          "number": "5",
-          "sub_no": "b",
-          "marks": 7,
-          "question": "What is counter? Differentiate between serial in serial out register and parallel in serial out register with associated diagrams."
-        },
-        {
-          "number": "6",
-          "sub_no": "a",
-          "marks": 10,
-          "question": "Design an arithmetic circuit with two selection variables, s₁ and s₀, that generates the following arithmetic operations. Draw the logic diagram of one typical stage.",
-          "fig_description": "Function table: S1=0,S0=0,Cin=0: F=A+B; S1=0,S0=0,Cin=1: F=A+B+1; S1=0,S0=1,Cin=0: F=A; S1=0,S0=1,Cin=1: F=A+1; S1=1,S0=0,Cin=0: F=B'; S1=1,S0=0,Cin=1: F=B'+1; S1=1,S0=1,Cin=0: F=A+B'; S1=1,S0=1,Cin=1: F=A+B'+1"
-        },
-        {
-          "number": "7",
-          "instruction": "Write short notes on: (Any two) 2×5",
-          "options": [
-            { "sub_no": "a", "marks": 5, "question": "Shift register" },
-            { "sub_no": "b", "marks": 5, "question": "D-flip flop" },
-            { "sub_no": "c", "marks": 5, "question": "PLA" }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "2016-S",
-      "year": "2016",
-      "semester": "Spring",
-      "questions": [
-        {
-          "number": "1",
-          "sub_no": "a",
-          "marks": 5,
-          "question": "Define Analog and Digital System. Why digital systems are preferred over Analog system."
-        },
-        {
-          "number": "1",
-          "sub_no": "b",
-          "marks": 5,
-          "question": "Convert the following numbers from the given base to the other bases as indicated: (i) (11001.11)₂ = ()₈  (ii) (5FE.DD)₁₆ = ()₁₀  (iii) (777)₈ = ()₁₆"
-        },
-        {
-          "number": "1",
-          "sub_no": "c",
-          "marks": 5,
-          "question": "Perform the subtraction with the following Binary number using 1's Complement: (i) 1010100-1000100  (ii) 1000100-1010100"
-        },
-        {
-          "number": "2",
-          "sub_no": "a",
-          "marks": 8,
-          "question": "State and Prove De-Morgan's Theorem. Briefly explain the factors to be considered while constructing the Logic Gates."
-        },
-        {
-          "number": "2",
-          "sub_no": "b",
-          "marks": 7,
-          "question": "What is don't care condition? Simplify given function using K-map and implement it in a circuit. F(W,X,Y,Z) = Σ(1,4,5,6,12,14,15) and don't care condition D(W,X,Y,Z) = Σ(11,13)."
-        },
-        {
-          "number": "3",
-          "sub_no": "a",
-          "marks": 8,
-          "question": "Design a combinational circuit that accepts a 4 bit number as input and generates the output binary number equal to the 2's complement of input number.",
-          "or": "Design a circuit for 3-bit parity generation and 4-bit parity checker using even parity."
-        },
-        {
-          "number": "3",
-          "sub_no": "b",
-          "marks": 7,
-          "question": "Explain in detail about synchronous Up/Down counter."
-        },
-        {
-          "number": "4",
-          "sub_no": "a",
-          "marks": 7,
-          "question": "Define the term LSI and MSI. Design 3:8 decoder with its logic circuit and block diagram."
-        },
-        {
-          "number": "4",
-          "sub_no": "b",
-          "marks": 8,
-          "question": "Implement the following: (i) F(A,B,C) = Σ(1,3,5,6) (using MUX)  (ii) F1 = Σ(0,2,5), F2 = Σ(3,4,7), F3 = Σ(6,7) (using ROM)"
-        },
-        {
-          "number": "5",
-          "sub_no": "a",
-          "marks": 8,
-          "question": "Realize the following state diagram into a circuit using S-R flip-flop.",
-          "fig_description": "State diagram with 4 states (00, 01, 10, 11). From 00: 0/1 self-loop, 1/0 → 01, 1/0 → 10. From 01: 1/1 self-loop, 0/1 → 11. From 10: 0/0 self-loop, 1/0 → 11. From 11: 0/1 → back to 00."
-        },
-        {
-          "number": "5",
-          "sub_no": "b",
-          "marks": 7,
-          "question": "Explain operation of J-K Flip-flop with its logic diagram and truth table."
-        },
-        {
-          "number": "6",
-          "sub_no": "a",
-          "marks": 8,
-          "question": "Design Arithmetic Logic Unit (ALU) that performs 8 Arithmetic operation and 4 different logical operations."
-        },
-        {
-          "number": "6",
-          "sub_no": "b",
-          "marks": 7,
-          "question": "Design a MOD 11 asynchronous counter using J-K flip flop and showing with its working, counting sequence and timing diagram.",
-          "or": "What is shift register? Explain the SISO shift register with circuit diagram."
-        },
-        {
-          "number": "7",
-          "instruction": "Write short notes on: (Any two) 2×5",
-          "options": [
-            { "sub_no": "a", "marks": 5, "question": "Parity method for error detection" },
-            { "sub_no": "b", "marks": 5, "question": "SOP and POS" },
-            { "sub_no": "c", "marks": 5, "question": "PLA" },
-            { "sub_no": "d", "marks": 5, "question": "Nibble Adder" }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "2017-F",
-      "year": "2017",
-      "semester": "Fall",
-      "questions": [
-        {
-          "number": "1",
-          "sub_no": "a",
-          "marks": 5,
-          "question": "'Gray code is also known as reflected code'. Justify your answer with appropriate illustration."
-        },
-        {
-          "number": "1",
-          "sub_no": "b",
-          "marks": 5,
-          "question": "Determine the value of base x if (211)_x = (152)₈."
-        },
-        {
-          "number": "1",
-          "sub_no": "c",
-          "marks": 5,
-          "question": "Realize all the basic gates using NAND gate only."
-        },
-        {
-          "number": "2",
-          "sub_no": "a",
-          "marks": 7,
-          "question": "Use K-map to simplify the given Boolean function in SOP form and implement the simplified function using NAND gate only. F(A, B,C, D) = Σ(5, 7, 9, 12, 13, 14, 15) and don't care, d(A, B, C, D) = Σ(3, 6, 8)"
-        },
-        {
-          "number": "2",
-          "sub_no": "b",
-          "marks": 8,
-          "question": "Design a circuit of a 3-bit parity generator and the circuit of a 4-bit parity checker for odd parity.",
-          "or": "Design a combinational circuit that has four inputs and two outputs. One of the outputs is high when majority of inputs are high. The second output is high only when all inputs are of same type."
-        },
-        {
-          "number": "3",
-          "sub_no": "a",
-          "marks": 8,
-          "question": "With the help of an example, show how you can construct a higher order MUX using two or more number of lower order MUXs."
-        },
-        {
-          "number": "3",
-          "sub_no": "b",
-          "marks": 7,
-          "question": "Implement a full adder circuit with the help of two half adder circuit along with the truth table."
-        },
-        {
-          "number": "4",
-          "sub_no": "a",
-          "marks": 8,
-          "question": "Explain the operation of clocked R-S flip-flop with the help of its logic diagram, characteristic table and characteristic equation. Differentiate RS and JK flip flop."
-        },
-        {
-          "number": "4",
-          "sub_no": "b",
-          "marks": 7,
-          "question": "Design a synchronous 4 bit binary up counter using T flip flop which counts all possible odd numbers.",
-          "or": "What is a modulo-7 counter? Design such a counter using JK flip-flop."
-        },
-        {
-          "number": "5",
-          "sub_no": "a",
-          "marks": 8,
-          "question": "What do you mean by ALU? Design an arithmetic circuit to implement the following function table. A and B are 4 bit binary numbers.",
-          "fig_description": "Function table: S1=0,S0=0,Cin=0: F=A; S1=0,S0=0,Cin=1: F=A+1; S1=0,S0=1,Cin=0: F=A+B; S1=0,S0=1,Cin=1: F=A+B+1; S1=1,S0=0,Cin=0: F=A+B'; S1=1,S0=0,Cin=1: F=A-B; S1=1,S0=1,Cin=0: F=A-1; S1=1,S0=1,Cin=1: F=A"
-        },
-        {
-          "number": "5",
-          "sub_no": "b",
-          "marks": 7,
-          "question": "What is a shift register? Draw the block diagram for shifting the content of register A to register B. Describe the operation."
-        },
-        {
-          "number": "6",
-          "instruction": "Compare and contrast any three of the following:",
-          "options": [
-            { "sub_no": "a", "marks": 5, "question": "Synchronous and asynchronous logic" },
-            { "sub_no": "b", "marks": 5, "question": "Decoder and encoder" },
-            { "sub_no": "c", "marks": 5, "question": "XOR and XNOR gates" },
-            { "sub_no": "d", "marks": 5, "question": "Analog versus Digital System" }
-          ]
-        },
-        {
-          "number": "7",
-          "instruction": "Write short notes on: (Any two) 2×5",
-          "options": [
-            { "sub_no": "a", "marks": 5, "question": "Accumulator" },
-            { "sub_no": "b", "marks": 5, "question": "Don't care conditions" },
-            { "sub_no": "c", "marks": 5, "question": "Parity method for error detection" }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "2018-F",
-      "year": "2018",
-      "semester": "Fall",
-      "questions": [
-        {
-          "number": "1",
-          "sub_no": "a",
-          "marks": 4,
-          "question": "Define Analog and Digital Signal. Differentiate digital system and Analog system."
-        },
-        {
-          "number": "1",
-          "sub_no": "b",
-          "marks": 8,
-          "question": "Convert the following conversions: (i) (101001.101)₂ = (?)₁₀  (ii) (ABD)₁₆ = (?)₈  (iii) (10101101)₂ = (?)_gray  (iv) (175.351)₈ = (?)₁₆"
-        },
-        {
-          "number": "1",
-          "sub_no": "c",
-          "marks": 3,
-          "question": "Define logic gates. Explain the universality of NAND and NOR gates."
-        },
-        {
-          "number": "2",
-          "sub_no": "a",
-          "marks": 8,
-          "question": "Why NOR gate is called universal gate? State and prove De-Morgan's theorem."
-        },
-        {
-          "number": "2",
-          "sub_no": "b",
-          "marks": 7,
-          "question": "Use K-map to simply the given Boolean function with don't care condition and realize it using basic gates only: F = Σ(1,4,8,12,13,15) and d = Σ(3,7,11,14)."
-        },
-        {
-          "number": "3",
-          "sub_no": "a",
-          "marks": 8,
-          "question": "Design a combinational logic circuit that has four input and two outputs. One of the outputs is high when majority of inputs are high. The second output is high only when all inputs are of same type."
-        },
-        {
-          "number": "3",
-          "sub_no": "b",
-          "marks": 7,
-          "question": "Design a circuit for 3-bit parity generation and 4-bit parity checker using odd parity."
-        },
-        {
-          "number": "4",
-          "sub_no": "a",
-          "marks": 8,
-          "question": "A combinational circuit is defined by the function: F₁(A,B,C) = Σ(3,5,6,7) and F₂(A,B,C) = Σ(0,2,4,7), implement by using PLA."
-        },
-        {
-          "number": "4",
-          "sub_no": "b",
-          "marks": 7,
-          "question": "What is magnitude comparator? Design a two bit magnitude comparator whose outputs are A>B, A<B and A=B."
-        },
-        {
-          "number": "5",
-          "sub_no": "a",
-          "marks": 8,
-          "question": "Design a sequential circuit corresponding to the given state diagram using S-R FlipFlop.",
-          "fig_description": "State diagram with 4 states (00, 01, 10, 11). From 00: 0/0 self-loop, 1/1 → 01, 1/0 → 11. From 01: 1/0 self-loop, 0/0 → 10. From 11: 0/0 self-loop, 1/1 → 10. From 10: 0/0 → back to 00."
-        },
-        {
-          "number": "5",
-          "sub_no": "b",
-          "marks": 7,
-          "question": "With necessary logic diagram, truth table, excitation table, explain the operation of J-K flip flop."
-        },
-        {
-          "number": "6",
-          "sub_no": "a",
-          "marks": 7,
-          "question": "What is shift register? Explain serial in parallel out and parallel in parallel out shift registers."
-        },
-        {
-          "number": "6",
-          "sub_no": "b",
           "marks": 8,
           "question": "Design a 4-bit arithmetic circuits which performs eight different arithmetic operations."
         },
         {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Design a 4-bit combinational logic shifter and explain it."
+        },
+        {
           "number": "7",
-          "instruction": "Write short notes on: (Any two) 2×5",
+          "instruction": "Write short notes on any two: 2×5",
           "options": [
-            { "sub_no": "a", "marks": 5, "question": "Counters" },
-            { "sub_no": "b", "marks": 5, "question": "Master-slave Flip Flop" },
-            { "sub_no": "c", "marks": 5, "question": "Nibble Adder" }
+            { "sub_no": "a", "marks": 5, "question": "Tristate logic" },
+            { "sub_no": "b", "marks": 5, "question": "Output Hazard Race" },
+            { "sub_no": "c", "marks": 5, "question": "Universality of 'NAND' and 'NOR' gate" },
+            { "sub_no": "d", "marks": 5, "question": "Design of BCD adder" }
           ]
         }
       ]
     },
     {
-      "id": "2018-S",
-      "year": "2018",
+      "id": "2011-S",
+      "year": "2011",
       "semester": "Spring",
       "questions": [
         {
           "number": "1",
           "sub_no": "a",
           "marks": 5,
-          "question": "How does the logic system express data during computation? Differentiate between Digital and Analog system."
+          "question": "Perform the operation as indicated: (i) (1010)_gray = (.....)₂  (ii) (2EB.7A)₁₆ = (.......)₁₀  (iii) (225.225)₁₀ = (.........)₂  (iv) (237.5)₈ = (...........)₁₆"
         },
         {
           "number": "1",
           "sub_no": "b",
           "marks": 5,
-          "question": "Perform the conversion as indicated (any two): (i) (235)₆ = ()_Excess-3  (ii) (369)₁₀ = ()_2421  (iii) (BCA)₁₆ = ()₂"
+          "question": "Describe the parity method of error detection with a suitable four bit system example. Also, write down its limitations."
         },
         {
-          "number": "1",
+          "number": "2",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Explain the NAND gate as an universal gates."
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Reduce the expression F(A, B, C, D) = Σ(0, 6, 8, 13, 14) and d(A, B, C, D) = Σ(2, 4, 10). Express the simplified function in sum of minterms."
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Design a combinational circuit with three inputs and one output. The output is equal to logic 1 when the binary value of the input is less than 3. The output is logic 0 otherwise.",
+          "or": "Design a binary to gray code converter circuit using the minimum number of logic gates. Use the four variable input and four variable output case."
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Implement the following function with a multiplexer: F = (A,B,C,D) = Σ(0,1,3,4,8,9,15)",
+          "or": "A combinational circuit is defined by the following three functions: F1 = x'y' + xyz'  F2 = x' + y  F3 = xy + x'y'. Design the circuit with decoder and external gates."
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "What is the major difference between the synchronous and asynchronous logic? Explain about the JK flip flop with respect to truth table, k-map and characteristic equation."
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "What do you mean shift register? Explain about parallel in parallel out shift register."
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 5,
+          "question": "Explain the operation of D flip-flop with the help of the truth table, logic diagram and characteristic equation."
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 5,
+          "question": "Explain briefly about status register."
+        },
+        {
+          "number": "5",
           "sub_no": "c",
           "marks": 5,
-          "question": "Use 2's complement to subtract the following: (i) (1010)₂ - (10100)₂  (ii) (957)₁₀ - (876)₁₀  (iii) (378)_BCD - (256)_BCD"
-        },
-        {
-          "number": "2",
-          "sub_no": "a",
-          "marks": 7,
-          "question": "Why NAND and NOR are called Universal Gates? Construct F = AB + CD using universal gates."
-        },
-        {
-          "number": "2",
-          "sub_no": "b",
-          "marks": 8,
-          "question": "Define K-Map. Simplify the expression mentioned below using K-Map. F(A, B, C, D) = Σ(1,3,7,10,13,15) and d(A, B, C, D) = Σ(0, 2, 8). Where d denotes don't care. Also implement the simplified function using NOR gates only."
-        },
-        {
-          "number": "3",
-          "sub_no": "a",
-          "marks": 7,
-          "question": "Design a combinational circuit that has four inputs and two outputs. One of the outputs is high when majority of inputs are high. The second output is high only when all inputs are of same type."
-        },
-        {
-          "number": "3",
-          "sub_no": "b",
-          "marks": 8,
-          "question": "Implement the following Boolean function using 16:1 Multiplexer: F(A,B,C,D,E) = Σm(2,4,5,7,10,14,15,16,17,25,26,30,31)"
-        },
-        {
-          "number": "4",
-          "sub_no": "a",
-          "marks": 8,
-          "question": "Design a 4 bit parallel adder subtractor circuit with one selection variables M and two inputs A and B. For M=0, the circuit required to perform addition i.e. (A+B) and for M=1, the circuit must perform subtraction (A-B) by taking 2'S complement of B."
-        },
-        {
-          "number": "4",
-          "sub_no": "b",
-          "marks": 8,
-          "question": "Explain negative edge triggered S-R flip-flop with necessary logic diagram, characteristic table, characteristic equation and waveform."
-        },
-        {
-          "number": "5",
-          "sub_no": "a",
-          "marks": 8,
-          "question": "Design a synchronous Mod-6 counter using clocked D Flip Flop."
-        },
-        {
-          "number": "5",
-          "sub_no": "b",
-          "marks": 7,
-          "question": "Define shift register. Draw diagram for parallel in serial out shift register and discuss its operation with necessary explanation."
+          "question": "State and prove De-Morgan's theorem."
         },
         {
           "number": "6",
           "sub_no": "a",
-          "marks": 8,
-          "question": "Explain the process how does binary value of 4 flags in status register change with necessary diagram."
+          "marks": 7,
+          "question": "Design a 4 bit arithmetic circuit."
         },
         {
           "number": "6",
           "sub_no": "b",
-          "marks": 7,
-          "question": "Design a 3-bit Synchronous DOWN Counter using T flip-flop."
+          "marks": 8,
+          "question": "Design a 3 bit up down synchronous counter using JK flip flop which is capable of counting the both up and down sequences as desired by user."
         },
         {
           "number": "7",
-          "instruction": "Write short notes on: (Any two) 2×5",
+          "instruction": "Write short notes on any two: 2×5",
           "options": [
-            { "sub_no": "a", "marks": 5, "question": "State Reduction and State Assignment" },
-            { "sub_no": "b", "marks": 5, "question": "Random Access Memory" },
-            { "sub_no": "c", "marks": 5, "question": "Self-complementing code" }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "2019-S",
-      "year": "2019",
-      "semester": "Spring",
-      "questions": [
-        {
-          "number": "1",
-          "sub_no": "a",
-          "marks": 5,
-          "question": "With characters differentiate between Digital and Analog system."
-        },
-        {
-          "number": "1",
-          "sub_no": "b",
-          "marks": 5,
-          "question": "Perform the conversion as indicated (any two): (i) (543)₆ = ()_Excess-3  (ii) (708)₁₀ = ()_2421  (iii) (BBA)₁₆ = ()₂"
-        },
-        {
-          "number": "1",
-          "sub_no": "c",
-          "marks": 5,
-          "question": "Use 2's complement to subtract the following: (i) (1011)₂ - (10100)₂  (ii) (952)₁₀ - (873)₁₀  (iii) (368)_BCD - (256)_BCD"
-        },
-        {
-          "number": "2",
-          "sub_no": "a",
-          "marks": 5,
-          "question": "Prove the following Boolean expression: (i) ĀB̄ + BC + ĀBC̄ = Ā + BC  (ii) XȲ + YZ̄ + ZX̄ = X̄Y + ȲZ + Z̄X"
-        },
-        {
-          "number": "2",
-          "sub_no": "b",
-          "marks": 5,
-          "question": "Simplify the Boolean function F and don't care conditions d in (1) SOP (2) POS and (3) draw NAND-NAND equivalent logic. Given: F = B'CD' + A'CD + A'BC + A'B'C'D'  and  d = A'BC'D + ACD + AB'D'"
-        },
-        {
-          "number": "2",
-          "sub_no": "c",
-          "marks": 5,
-          "question": "A Boolean function is given by F(A,B,C,D) = Σ(0,1,2,3,10,13,14) and don't care condition d(A,B,C,D) = Σ(4,7,12). Simplify it using K-Map and implement using NAND gate only."
-        },
-        {
-          "number": "3",
-          "sub_no": "a",
-          "marks": 8,
-          "question": "Design a combinational circuit that converts decimal digits from 8-4-2-1 to Excess 3."
-        },
-        {
-          "number": "3",
-          "sub_no": "b",
-          "marks": 7,
-          "question": "Design a combinational circuit using PLD device as PLA (4X8X4) that is used to implement full Subtract or function in which difference is represented as Di and borrow as Br."
-        },
-        {
-          "number": "4",
-          "sub_no": "a",
-          "marks": 8,
-          "question": "Illustrate the process how does binary value of 4 flags in status registers change with necessary diagram."
-        },
-        {
-          "number": "4",
-          "sub_no": "b",
-          "marks": 7,
-          "question": "Implement the following with appropriate MUX: (i) F(A,B,C) = Σ(1,4,5,6)  (ii) F(A,B,C,D) = Σ(0,1,3,8,9,15)"
-        },
-        {
-          "number": "5",
-          "sub_no": "a",
-          "marks": 8,
-          "question": "Realize the following state diagram into a circuit using SR flip-flop.",
-          "fig_description": "State diagram with 4 states (00, 01, 10, 11). From 00: input 0 self-loop with output 0, input 1 → 01 with output 1. From 01: input 1 self-loop, input 0 → 10. From 11: input 1 → 10, input 0 self-loop. From 10: 0/0 self-loop."
-        },
-        {
-          "number": "5",
-          "sub_no": "b",
-          "marks": 7,
-          "question": "Explain operation of J-K Flip-flop with its logic diagram, truth table, excitation table."
-        },
-        {
-          "number": "6",
-          "sub_no": "a",
-          "marks": 7,
-          "question": "What are shift registers? Explain Parallel in serial out and Serial in Parallel out shift register with diagrams."
-        },
-        {
-          "number": "6",
-          "sub_no": "b",
-          "marks": 8,
-          "question": "Design 3 bit up counter using T flip-flop."
-        },
-        {
-          "number": "7",
-          "instruction": "Write short notes on: (Any two) 2×5",
-          "options": [
-            { "sub_no": "a", "marks": 5, "question": "Computational Logic Design Procedure" },
-            { "sub_no": "b", "marks": 5, "question": "Johnson Counter" },
-            { "sub_no": "c", "marks": 5, "question": "Self-complementing code" }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "2021-S",
-      "year": "2021",
-      "semester": "Spring",
-      "questions": [
-        {
-          "number": "1",
-          "sub_no": "a",
-          "marks": 5,
-          "question": "'Logical computation is either based on digital system or analog system', today which one is better and why?"
-        },
-        {
-          "number": "1",
-          "sub_no": "b",
-          "marks": 5,
-          "question": "Perform the conversion as indicated (any two): (i) (73)₈ = ()_Excess-3  (ii) (196)₁₀ = ()_2421  (iii) (CAB)₁₆ = ()₂"
-        },
-        {
-          "number": "1",
-          "sub_no": "c",
-          "marks": 5,
-          "question": "Use 2's complement to subtract the following: (i) (10101)₂ - (10111)₂  (ii) (25)₁₀ - (876)₁₀  (iii) (378)_BCD - (256)_BCD"
-        },
-        {
-          "number": "2",
-          "sub_no": "a",
-          "marks": 8,
-          "question": "Simplify the following Boolean functions to a minimum number of literals: (a) (x'+y)(x+y')  (b) x'y'z + x'yz' + xyz'  (c) (x+y)'(x'+y')'  (d) x(wz'+wz)+xy"
-        },
-        {
-          "number": "2",
-          "sub_no": "b",
-          "marks": 7,
-          "question": "A Boolean function is given by F(A,B,C,D) = Σ(1,2,7,9,10,13,14) and don't care condition d(A,B,C,D) = Σ(0,3,6,11). Implement it using NAND gate only."
-        },
-        {
-          "number": "3",
-          "sub_no": "a",
-          "marks": 8,
-          "question": "Design a combinational circuit that converts a decimal digit from BCD to Excess 3 code."
-        },
-        {
-          "number": "3",
-          "sub_no": "b",
-          "marks": 7,
-          "question": "Derive a PLA program table and circuit to implement the functions: F1(A,B,C) = Σ(1,3,5,7) and F2(A,B,C) = Σ(0,2,4,6)"
-        },
-        {
-          "number": "4",
-          "sub_no": "a",
-          "marks": 8,
-          "question": "Implement the Boolean function F(A,B,C,D) = Σ(0,1,3,4,7,11,13,15) using: (i) 8×1 MUX  (ii) 16×1 MUX"
-        },
-        {
-          "number": "4",
-          "sub_no": "b",
-          "marks": 7,
-          "question": "Implement the full adder circuit using 3×8 decoder.",
-          "or": "What is register? Explain the different type of shift register in brief."
-        },
-        {
-          "number": "5",
-          "sub_no": "a",
-          "marks": 8,
-          "question": "Design a sequential circuit corresponding to the given state diagram.",
-          "fig_description": "State diagram with 6 states (000, 001, 010, 011, 100, 101). Complex state transitions."
-        },
-        {
-          "number": "5",
-          "sub_no": "b",
-          "marks": 7,
-          "question": "Explain operation of RS Flip-flop with its logic diagram, truth table, excitation table.",
-          "or": "Design a MOD-8 asynchronous up counter by using J-K Flip Flop."
-        },
-        {
-          "number": "6",
-          "sub_no": "a",
-          "marks": 7,
-          "question": "Differentiate between synchronous and Ripple Counter. Design a 2-bit synchronous UP counter by using J.K flip-flop."
-        },
-        {
-          "number": "6",
-          "sub_no": "b",
-          "marks": 8,
-          "question": "Design an binary adder/subtractor circuit with one selection variable S and two inputs A and B. For S=0, the circuit need to perform addition i.e. (A+B) and for S=1, the circuit must perform subtraction i.e. (A-B) by taking 2's complement of B."
-        },
-        {
-          "number": "7",
-          "instruction": "Write short notes on: (Any two) 2×5",
-          "options": [
-            { "sub_no": "a", "marks": 5, "question": "Read only memory (ROM)" },
-            { "sub_no": "b", "marks": 5, "question": "Output hazard races" },
-            { "sub_no": "c", "marks": 5, "question": "Ring counter" }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "2023-S",
-      "year": "2023",
-      "semester": "Spring",
-      "questions": [
-        {
-          "number": "1",
-          "sub_no": "a",
-          "marks": 7,
-          "question": "What are the key advantages of digital systems over analog systems in modern technology? Why design of a digital system offers more flexibility than an analog system?"
-        },
-        {
-          "number": "1",
-          "sub_no": "b",
-          "marks": 8,
-          "question": "Perform the conversion as indicated: (i) (37.432)₁₀ = (?)₂  (ii) (1110110)₂ = (?)_gray  (iii) (58.43)₁₀ = (?)_Excess-3  (iv) 72532 - 3250 using 10's complement"
-        },
-        {
-          "number": "2",
-          "sub_no": "a",
-          "marks": 8,
-          "question": "State and prove De-Morgan's theorem for two variables. Explain the universal property of the NAND gate with appropriate logic gates."
-        },
-        {
-          "number": "2",
-          "sub_no": "b",
-          "marks": 7,
-          "question": "Using the Karnaugh map method obtain the minimal product of the sums expression for the function F(A, B, C, D) = Σ(0, 2, 3, 6, 7) + d(8, 10, 11, 15). Also write its standard Product of Sum (POS) form."
-        },
-        {
-          "number": "3",
-          "sub_no": "a",
-          "marks": 7,
-          "question": "Design 3 bit odd parity generator circuit."
-        },
-        {
-          "number": "3",
-          "sub_no": "b",
-          "marks": 8,
-          "question": "Design Full adder circuit using two half adders and an OR gate and draw the logic diagram."
-        },
-        {
-          "number": "4",
-          "sub_no": "a",
-          "marks": 7,
-          "question": "How is encoder different from decoder? Implement the following Boolean function F(w,x,y,z) = Σm(1,3,6,7,11,15) using 8 to 1 Multiplexer.",
-          "or": "Design a 4 to 2 line priority encoder and draw the circuit diagram."
-        },
-        {
-          "number": "4",
-          "sub_no": "b",
-          "marks": 8,
-          "question": "Find out the logical expression of two bit magnitude comparator and draw the circuit diagram.",
-          "or": "A combinational circuit is defined by the function: F₁(X,Y,Z) = Σ(3,5,7) and F₂(X,Y,Z) = Σ(4,5,7). Implement the circuit with a Programmable Logic Array (PLA)."
-        },
-        {
-          "number": "5",
-          "sub_no": "a",
-          "marks": 7,
-          "question": "Explain the operation of J-K flip-flop with its logic diagram, truth table and excitation table."
-        },
-        {
-          "number": "5",
-          "sub_no": "b",
-          "marks": 8,
-          "question": "What are shift registers? Explain PIPO and SISO shift register with diagrams."
-        },
-        {
-          "number": "6",
-          "sub_no": "a",
-          "marks": 7,
-          "question": "What is a counter? Design a mod 8 counter using a T-flip flop."
-        },
-        {
-          "number": "6",
-          "sub_no": "b",
-          "marks": 8,
-          "question": "Design 1st stage ALU that performs 8 arithmetic and 4 logical operations."
-        },
-        {
-          "number": "7",
-          "instruction": "Write short notes on: (Any two) 2×5",
-          "options": [
-            { "sub_no": "a", "marks": 5, "question": "Priority Encoder" },
-            { "sub_no": "b", "marks": 5, "question": "84-2-1 code" },
+            { "sub_no": "a", "marks": 5, "question": "Analog and digital system" },
+            { "sub_no": "b", "marks": 5, "question": "PLA" },
             { "sub_no": "c", "marks": 5, "question": "Venn diagram" }
           ]
         }
       ]
     },
     {
-      "id": "2023-F",
-      "year": "2023",
-      "semester": "Fall",
-      "questions": [
-        {
-          "number": "1",
-          "sub_no": "a",
-          "marks": 7,
-          "question": "Define the digital and analog system. Why do you prefer digital system against analog system? Explain."
-        },
-        {
-          "number": "1",
-          "sub_no": "b",
-          "marks": 8,
-          "question": "Perform the conversion as indicated: (i) (639)₁₀ = (?)_excess-3  (ii) (1010100011101)_gray = (?)₂  (iii) (6153)₁₀ = (?)_2421  (iv) (D0E)₁₆ = (?)₈"
-        },
-        {
-          "number": "2",
-          "sub_no": "a",
-          "marks": 3,
-          "question": "How can you find the r's complement using (r-1)'s complement? Explain with example."
-        },
-        {
-          "number": "2",
-          "sub_no": "b",
-          "marks": 4,
-          "question": "\"Excess 3 code is self-complementary code\" verify the statements."
-        },
-        {
-          "number": "2",
-          "sub_no": "c",
-          "marks": 8,
-          "question": "What are the universal gates? Why they are called so? Construct NAND gate using NOR gate and NOR gate using NAND gate."
-        },
-        {
-          "number": "3",
-          "sub_no": "a",
-          "marks": 8,
-          "question": "Use K-map to simplify the given Boolean function once by considering the don't care condition and once by ignoring the don't care condition and realize it using the basic gates. F(A, B, C, D) = Σ(1,4,8,12,13,15) and don't care d(A, B, C, D) = Σ(3,14)."
-        },
-        {
-          "number": "3",
-          "sub_no": "b",
-          "marks": 7,
-          "question": "Design a combinational circuit that has four inputs and two outputs. One of the outputs is high when majority of inputs are high. The second output is high only when all inputs are of same type."
-        },
-        {
-          "number": "4",
-          "sub_no": "a",
-          "marks": 7,
-          "question": "Define the term of MSI and LSI. Implement the following Boolean function using 8*1 MUX. F = Σ(0,1,3,6,8,11,13,15)."
-        },
-        {
-          "number": "4",
-          "sub_no": "b",
-          "marks": 8,
-          "question": "What are the significances of a flip-flop? Design a sequential circuit for following state diagram using SR flip-flop.",
-          "fig_description": "State diagram with 4 states (00, 01, 10, 11). Complex state transitions with Mealy outputs."
-        },
-        {
-          "number": "5",
-          "sub_no": "a",
-          "marks": 8,
-          "question": "Design and implement Mod-5 counter using JK flip flop."
-        },
-        {
-          "number": "5",
-          "sub_no": "b",
-          "marks": 7,
-          "question": "Design an arithmetic circuit implementing given functions. Where A and B are 4-bit binary input lines.",
-          "fig_description": "Function table: S1=0,S0=0,Cin=0: F=A; S1=0,S0=0,Cin=1: F=A+1; S1=0,S0=1,Cin=0: F=A+B; S1=0,S0=1,Cin=1: F=A+B+1; S1=1,S0=0,Cin=0: F=A+B'; S1=1,S0=0,Cin=1: F=A-B; S1=1,S0=1,Cin=0: F=A-1; S1=1,S0=1,Cin=1: F=Ā"
-        },
-        {
-          "number": "7",
-          "instruction": "Write short notes on: (Any two) 2×5",
-          "options": [
-            { "sub_no": "a", "marks": 5, "question": "Processor Unit" },
-            { "sub_no": "b", "marks": 5, "question": "Jhonson Counter" },
-            { "sub_no": "c", "marks": 5, "question": "De-Morgan's theorem" }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "2024-F",
-      "year": "2024",
+      "id": "2010-F",
+      "year": "2010",
       "semester": "Fall",
       "questions": [
         {
           "number": "1",
           "sub_no": "a",
           "marks": 5,
-          "question": "Define Signal. Differentiate between analog and digital signals."
+          "question": "Define analog and digital Systems. Which system do you prefer and why?"
         },
         {
           "number": "1",
           "sub_no": "b",
           "marks": 5,
-          "question": "If A = (11011011)₂ and B = (1001101)₂ then perform A-B and B-A using 2's complement method."
+          "question": "Use r's complement to subtract the following: (i) (100010)₂ - (10101)₂  (ii) (3857)₁₀ - (1250)₁₀"
         },
         {
           "number": "1",
           "sub_no": "c",
           "marks": 5,
-          "question": "Perform the following conversion as indicated: (i) (346)₈ = ()_Excess-3  (ii) (BDA.DE7)₁₆ = ()₈  (iii) (101111)_gray = ()₁₀"
+          "question": "\"Excess-3 code is self complementing code\", how?"
         },
         {
           "number": "2",
           "sub_no": "a",
-          "marks": 8,
-          "question": "Explain (r-1)'s complement with example. \"8 4-2-1 code is a self-complementing code\". Justify your answer with illustration."
+          "marks": 7,
+          "question": "Find the complement of F = X + YZ; then show that F.F' = 0 and F + F' = 1"
         },
         {
           "number": "2",
           "sub_no": "b",
-          "marks": 7,
-          "question": "What are the significance of logic circuit? Implement XNOR gate using only NAND gates."
+          "marks": 8,
+          "question": "Simplify the following Boolean function to minimum no of literal f = AB' + B'C' + A'C'. Implement the reduced form with basic gates and NAND gate only."
         },
         {
           "number": "3",
           "sub_no": "a",
           "marks": 8,
-          "question": "Use K-map scheme to obtain the minimized SOP expression for the given function f(A, B, C, D) = Σm(1, 5, 8, 12) + d(3, 7, 10, 11, 14, 15) and implement the result using NOR gates only."
+          "question": "A Boolean function is given: F(A,B,C,D) = Σ(1,4,5,6,12,14,15) and don't care condition d(A,B,C,D) = Σ(10,11). Simplify it using K-map. Replace all the gates with NAND gate only."
         },
         {
           "number": "3",
           "sub_no": "b",
           "marks": 7,
-          "question": "What are parity bits? Design 3-bit parity generator and 4-bit parity checker circuit for even parity."
+          "question": "Design a combinational logic whose output is the 2's complement of the input number."
         },
         {
           "number": "4",
           "sub_no": "a",
           "marks": 8,
-          "question": "A combinational circuit is defined by the function: F₁(A, B, C) = Σ(3, 5, 6, 7), F₂(A, B, C) = Σ(0, 2, 4, 7) & F₃(A, B, C) = Σ(1, 2, 4, 6). Implement by using PLA with program table."
+          "question": "Draw the truth table for full adder. Implement full adder using two 4:1 MUX."
         },
         {
           "number": "4",
           "sub_no": "b",
           "marks": 7,
-          "question": "Design and implement full adder circuit using decoder."
+          "question": "Explain the operation of JK flip-flop with the help of characteristics table. How it can be converted into T-flip-flop?"
         },
         {
           "number": "5",
           "sub_no": "a",
-          "marks": 8,
-          "question": "Differentiate between Flip-flop and Latch. Explain the operation of clocked J-K flip-flop with the help of its logic diagram, characteristic table and characteristic equation."
+          "marks": 10,
+          "question": "Realize the following state diagram into a circuit using J-K flip-flop.",
+          "fig_url": "BE_COMPUTER/Sem_III/LC/img/2010-F-5a.png"
         },
         {
           "number": "5",
           "sub_no": "b",
-          "marks": 7,
-          "question": "With suitable example explain about the state reduction and binary assignment."
+          "marks": 5,
+          "question": "What is register? What is its use? Briefly explain the operation of serial-in-serial-out shift register using timing diagram."
         },
         {
           "number": "6",
           "sub_no": "a",
           "marks": 7,
-          "question": "What is shift register? Explain the operating mechanism of serial in serial out shift register with its circuit diagram."
+          "question": "Draw the block diagram of ALU and explain it."
         },
         {
           "number": "6",
           "sub_no": "b",
           "marks": 8,
-          "question": "Differentiate between synchronous and asynchronous counter. Design a 3-bit synchronous binary down counter using JK Flip Flop."
-        },
-        {
-          "number": "6",
-          "sub_no": "c",
-          "marks": 7,
-          "question": "Design an Arithmetic Logic Unit (ALU) that performs eight Arithmetic Operations and four different logical operations."
+          "question": "Design a 4-bit arithmetic circuits which performs eight different arithmetic operations."
         },
         {
           "number": "7",
-          "instruction": "Write short notes on: (Any two) 2×5",
+          "instruction": "Write short notes on (Any Two): 2×5",
           "options": [
-            { "sub_no": "a", "marks": 5, "question": "Tristate Logic" },
-            { "sub_no": "b", "marks": 5, "question": "Parity generator and checker" },
-            { "sub_no": "c", "marks": 5, "question": "Nibble Adder" }
+            { "sub_no": "a", "marks": 5, "question": "Gray Code" },
+            { "sub_no": "b", "marks": 5, "question": "Output Hazard Race" },
+            { "sub_no": "c", "marks": 5, "question": "Multiplexer" }
           ]
         }
       ]
     },
     {
-      "id": "2024-S",
-      "year": "2024",
-      "semester": "Spring",
-      "questions": [
-        {
-          "number": "1",
-          "sub_no": "a",
-          "marks": 8,
-          "question": "Define Analog and Digital system. Why digital systems are preferred over analog system."
-        },
-        {
-          "number": "1",
-          "sub_no": "b",
-          "marks": 7,
-          "question": "Perform the Conversion as indicated: (i) (101011)_gray = ()₂  (ii) (561.34)₈ = ()₂  (iii) (123)₁₀ = ()_BCD  (iv) Find 10's Complements of (88)₁₀"
-        },
-        {
-          "number": "2",
-          "sub_no": "a",
-          "marks": 8,
-          "question": "Why NAND and NOR gate are called Universal Gates? Explain Briefly."
-        },
-        {
-          "number": "2",
-          "sub_no": "b",
-          "marks": 7,
-          "question": "What do you mean by Minterm and Maxterm? Simplify the following expression using Boolean algebra: (i) (AB'+ABC)'+A(B+AB')  (ii) [(BC'+A'D)(AB'+CD')]'"
-        },
-        {
-          "number": "3",
-          "sub_no": "a",
-          "marks": 8,
-          "question": "Discuss the Role of K-Map in Logic Circuit. Minimize the expression mentioned below using K-Map. A Boolean function is given by F(A,B,C,D) = Σ(3,4,5,7,9,13,14,15) and don't care condition d(A,B,C,D) = Σ(0,2,8), and Implement it using NOR gate only."
-        },
-        {
-          "number": "3",
-          "sub_no": "b",
-          "marks": 7,
-          "question": "Design a combinational circuit that transforms decimal digits from 2421 code to BCD."
-        },
-        {
-          "number": "4",
-          "sub_no": "a",
-          "marks": 8,
-          "question": "Design a comparator circuit that compared two 3 bit numbers. The two numbers being X and Y. It is required to obtain three possible outcomes i.e. X>Y, X<Y and X=Y."
-        },
-        {
-          "number": "4",
-          "sub_no": "b",
-          "marks": 7,
-          "question": "Implement the following with appropriate MUX: (i) F(A,B,C) = Σ(1,3,5,6)  (ii) F(A,B,C,D) = Σ(0,1,3,4,8,9,15)"
-        },
-        {
-          "number": "5",
-          "sub_no": "a",
-          "marks": 8,
-          "question": "Explain operation of SR Flip-flop with its logic diagram, truth table, excitation table. Why JK flip-flop is preferred over SR flipflops?"
-        },
-        {
-          "number": "5",
-          "sub_no": "b",
-          "marks": 7,
-          "question": "Define shift register. Explain the working of serial in serial out shift register with its circuit and timing diagram."
-        },
-        {
-          "number": "6",
-          "sub_no": "a",
-          "marks": 8,
-          "question": "Write any two differences between synchronous and asynchronous counter. Design a synchronous 4-bit binary up counter using T-flip flops which counts even numbers only."
-        },
-        {
-          "number": "6",
-          "sub_no": "b",
-          "marks": 7,
-          "question": "Design ALU that performs 8 arithmetic and 4 logical operations."
-        },
-        {
-          "number": "7",
-          "instruction": "Write short notes on: (Any two) 2×5",
-          "options": [
-            { "sub_no": "a", "marks": 5, "question": "R/W operation in RAM" },
-            { "sub_no": "b", "marks": 5, "question": "Johnson Counter" },
-            { "sub_no": "c", "marks": 5, "question": "Status Register" }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "2025-S",
-      "year": "2025",
+      "id": "2010-S",
+      "year": "2010",
       "semester": "Spring",
       "questions": [
         {
           "number": "1",
           "sub_no": "a",
           "marks": 5,
-          "question": "Define digital system. Explain why digital systems are preferred in modern communication systems."
+          "question": "Perform the following operations: (i) (10101)_gray = ()₂  (ii) (756)₈ = ()₁₆  (iii) (256)₁₀ = ()₈  (iv) (11011.111)₂ = ()₁₀  (v) (3A.CD)₁₆ = ()₁₀"
         },
         {
           "number": "1",
           "sub_no": "b",
           "marks": 5,
-          "question": "Perform the following subtraction as indicated: (i) (4321)₁₀ - (1234)₁₀ Using 9's complement  (ii) (11011)₂ - (1010)₂ Using 2's complement"
+          "question": "Perform the following subtraction using r's complement method: (i) (2569)₁₀ - (4382)₁₀  (ii) (1010)₂ - (1100)₂"
         },
         {
           "number": "1",
           "sub_no": "c",
           "marks": 5,
-          "question": "Define parity. Explain how parity bit detects error in a message with suitable example."
+          "question": "\"Excess-3 code is a self-complementing code\". Justify it."
         },
         {
           "number": "2",
           "sub_no": "a",
-          "marks": 5,
-          "question": "Perform the following conversions: (i) (216.3)₁₀ = (?)_BCD  (ii) (100101)_Gray = (?)₂  (iii) (111001.10110)₂ = (?)₈, (?)₁₆  (iv) (1100)_Excess-3 = (?)_84-2-1"
+          "marks": 7,
+          "question": "Find the complement of F = X + YZ; then show that F.F' = 0 and F + F' = 1"
         },
         {
           "number": "2",
           "sub_no": "b",
-          "marks": 5,
-          "question": "State De Morgan's theorem for three variables. Verify the theorem using Venn diagram."
-        },
-        {
-          "number": "2",
-          "sub_no": "c",
-          "marks": 5,
-          "question": "Construct NAND gate using NOR gates and NOR gate using NAND gates."
+          "marks": 8,
+          "question": "Use K-map to simplify the given function and draw the logic diagram F(w,x,y,z) = Σ(0,1,2,3,7,8,10) and the don't care conditions: d(w,x,y,z) = Σ(5,6,11,15). Implement the simplified function using NAND gates only."
         },
         {
           "number": "3",
           "sub_no": "a",
           "marks": 8,
-          "question": "Using K-map, simplify the following Boolean function in SOP and POS form. F(A,B,C,D) = Σ(1,3,7,8,10,11,15) with don't care d(A,B,C,D) = Σ(0,2,5). Implement the POS result using NAND gates only."
+          "question": "Design a code converter circuit which converts 8 4 -2 -1 code to binary."
         },
         {
           "number": "3",
           "sub_no": "b",
           "marks": 7,
-          "question": "Show that the Full Adder can be generated from two half adders and OR gate with relevant expressions."
+          "question": "Show how a full adder can be converted to a full substractor with the addition of one inverter circuit."
         },
         {
           "number": "4",
           "sub_no": "a",
-          "marks": 7,
-          "question": "What is a decoder used for? Implement F(A,B,C,D) = Σ(0,1,3,4,5,7,8,11,13,15) using decoder and OR gate."
+          "marks": 8,
+          "question": "Design the 4 bit comparator circuit which compare two numbers A and B either A<B, A>B or A=B."
         },
         {
           "number": "4",
           "sub_no": "b",
-          "marks": 8,
-          "question": "Why Multiplexer is used? Implement F(A,B,C,D) = Σ(0,1,2,3,7,8,10,14,15) using 8 to 1 Multiplexer."
+          "marks": 7,
+          "question": "What is multiplexer? Describe 4:1 multiplexer with internal diagram.",
+          "or": "What is Demultiplexer? Explain 8×1 DMUX with its circuit diagram."
         },
         {
           "number": "5",
           "sub_no": "a",
-          "marks": 7,
-          "question": "Explain the operation of S-R Flip-flop with its logic diagram, truth table and excitation table."
+          "marks": 10,
+          "question": "Design a 4-bit synchronous down counter using J-K flip flop."
         },
         {
           "number": "5",
           "sub_no": "b",
-          "marks": 8,
-          "question": "Define shift register. Explain the working of serial in serial out shift register with its circuit and timing diagram."
+          "marks": 5,
+          "question": "Present the truth table, logic diagram and characteristics equation of J-K flip flop."
         },
         {
           "number": "6",
           "sub_no": "a",
-          "marks": 8,
-          "question": "Write any two differences between synchronous and asynchronous counter. Design a synchronous 4-bit binary up counter using T-flip flops which counts even numbers only."
+          "marks": 7,
+          "question": "What is shift register? Explain different types of shift register."
         },
         {
           "number": "6",
           "sub_no": "b",
-          "marks": 7,
-          "question": "Design ALU that performs 8 arithmetic and 4 logical operations."
+          "marks": 8,
+          "question": "Design a 4-bit arithmetic circuit and show its function table."
         },
         {
           "number": "7",
-          "instruction": "Write short notes on: (Any two) 2×5",
+          "instruction": "Write short notes on any two: 2×5",
           "options": [
-            { "sub_no": "a", "marks": 5, "question": "R/W operation in RAM" },
-            { "sub_no": "b", "marks": 5, "question": "Johnson Counter" },
-            { "sub_no": "c", "marks": 5, "question": "Status Register" }
+            { "sub_no": "a", "marks": 5, "question": "Digital and Analog System" },
+            { "sub_no": "b", "marks": 5, "question": "De-Morgan's theorem" },
+            { "sub_no": "c", "marks": 5, "question": "State reduction and assignment" },
+            { "sub_no": "d", "marks": 5, "question": "Design of shifter" }
           ]
         }
       ]
