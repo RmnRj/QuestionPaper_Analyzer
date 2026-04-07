@@ -2,8 +2,8 @@
     "program": "BE `COMPUTER",
     "semesters": [
         {"semester" : "Sem II", "address" : "BE_COMPUTER/Sem_II"},
-        {"semester" : "Sem IV", "address" : "BE_COMPUTER/Sem_IV"},
         {"semester" : "Sem III", "address" : "BE_COMPUTER/Sem_III"},
+        {"semester" : "Sem IV", "address" : "BE_COMPUTER/Sem_IV"},
         {"semester" : "Sem VII", "address" : "BE_COMPUTER/Sem_VII"},
         {"semester" : "Sem VIII", "address" : "BE_COMPUTER/Sem_VIII"}
     ],
