@@ -8,6 +8,306 @@
   "images_required": [],
   "papers": [
     {
+      "id": "2024-FA",
+      "year": "2024",
+      "semester": "Fall",
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Calculate the Fermi level for Iron with density 7.86 g/cm³ and atomic mass 56 g/mol. Given, N_A = 6.023 × 10²³/mol and Planck constant, h = 6.62×10⁻³⁴ Joule – second."
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Define the term electrons drift velocity and mobility. How are they related? Show that the conductivity of electrons within metallic conductor is product of charge density and mobility."
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Drift mobility of conduction electron is 43 cm²V⁻¹s⁻¹ and mean speed is 1.2×10⁶ ms⁻¹. Calculate the mean free path of electrons between collisions."
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Discuss the electrical conduction in liquid. Does the ionic conductivity depend upon the temperature? Explain."
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Explain different polarization mechanisms in dielectric materials."
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Calculate the percentage of ionic polarizability if the optical index of refraction and the dielectric constant for glass are 1.45 and 6.5 respectively."
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Explain the eddy current loss and hysteresis loss in magnetic materials."
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Calculate the magnetization and flux density in a diamagnetic sample having susceptibility −0.3 × 10⁻⁵ and magnetic field strength 1000 A/m."
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Show that the Fermi level of intrinsic semiconductor lies midway between the valance band and the conduction band. [E_F = E_G/2]."
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Given that the density of states related effective masses of electrons and holes in Si are approximately 1.08 mₑ and 0.50 mₑ respectively, and the electron and hole drift mobilities at room temperature are 1350 and 450 cm²/V.s respectively. Calculate the intrinsic concentration and intrinsic resistivity of Si. The energy band gap for Silicon is 1.10 eV. (T = 300 K)."
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "What is PN junction? Derive the formula for depletion width of a PN junction."
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Define diffusion length and obtain the continuity equation for holes."
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on: (Any two)",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 5,
+              "question": "Ion implantation."
+            },
+            {
+              "sub_no": "b",
+              "marks": 5,
+              "question": "Piezoelectricity and Piezoelectric materials."
+            },
+            {
+              "sub_no": "c",
+              "marks": 5,
+              "question": "Electron – hole recombination."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2023-SP",
+      "year": "2023",
+      "semester": "Spring",
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "What is the significance of wave function? Derive the expression for the wave function and the energy of a particle confined in an infinite potential well."
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "An electron is confined to a 1-micron thin layer of silicon. Assuming that the semiconductor can be adequately described by a one-dimensional quantum well with infinite wall, calculate the lowest possible energy within the material in units of electron volt. If the energy is interpreted as the kinetic energy of the electron, what is the corresponding electron velocity? (The effective mass of electrons in silicon is 0.26 m₀ where m₀ = 9.11×10⁻³¹ kg is the free electron rest mass)."
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Calculate the Fermi energy at 0K for Copper. Given its density 8.96 g/cm³ and atomic mass 63.5 g/mol. N_A = 6.022 × 10²³ /mol."
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Define the terms drift velocity and mobility of electrons. How are they related? Demonstrate that electron conductivity in a metallic conductor is a function of charge density and mobility."
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "What is electric breakdown in liquid? Show that ionic conductivity depends inversely on temperature."
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "What is ionic polarization? Determine the mathematical relationship between ionic polarizability and relative permittivity for the Clausius-Massotti equation."
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "A parallel plate capacitor has a 20 cm² area and a 0.5 mm spacing. Polyethylene fills the area between the plates. At a frequency of 2 MHz, an alternate voltage with an amplitude of 12V is applied. The real component of the relative permittivity at this frequency is 2.5, and the loss tangent is 4×10⁻⁴. Determine the amount of energy dissipated each second."
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Explain Domain structure in detail. The magnetic susceptibility of copper is –0.5×10⁻⁵. Calculate the magnetic moment per unit volume in copper when subjected to a field whose magnitude inside copper is 10⁴ A/m."
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Derive the ideal diode equation for forward biased pn Junction."
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "A heavily doped p side with acceptor concentration of 10¹⁸ cm⁻³ is connected to n-side donor concentration of 10¹⁶ cm⁻³. Calculate the built-in-potential, depletion width in n-side and p-side and overall depletion width. Assume intrinsic concentration as 1.45×10¹⁰ cm⁻³."
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Calculate the resistance of pure silicon cubic crystal of 1 cm³ at room temperature. What will be the resistance of the cube when it is doped with 1 arsenic in 10⁹ Silicon atoms and 1 boron atom per billion silicon atoms? Atomic concentration of silicon is 5×10²² cm⁻³, intrinsic concentration ni = 1.45×10¹⁰ cm⁻³. Assume the mobilities of electron and hole are 1350 and 450 cm²V⁻¹s⁻¹."
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Explain the Czochralski Crystal Growth method with a neat sketch."
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on: (Any two)",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 5,
+              "question": "Thermionic Emission."
+            },
+            {
+              "sub_no": "b",
+              "marks": 5,
+              "question": "Relaxation oscillator."
+            },
+            {
+              "sub_no": "c",
+              "marks": 5,
+              "question": "Effective density of states."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2022-SP",
+      "year": "2022",
+      "semester": "Spring",
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Show that the energy of an electron is quantized in an infinite potential well hence determine the normalized wave function of electron."
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Calculate the first and fifth energy levels for an electron in a potential well of 0.2 nm wide."
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "What do you mean by effective mass of an electron? Derive an expression m* = h²/(d²E/dk²)."
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "If electrical conductivity of potassium is 1.3901×10⁵ Sm/cm, calculate the drift mobility of electron at room temperature. Molar mass and density of potassium are 39.95 gm/mole and 0.9101 gm/cm³."
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Derive the mathematical relation between ionic polarization and relative permittivity using Clausius-Massotti equation."
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Explain how electrical conduction takes place in gas."
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Classify magnetic materials based on their magnetic susceptibilities. What is the basic difference between ferromagnetic and ferrimagnetic materials?"
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Calculate the permeability and susceptibility of an iron bar of cross-sectional area 0.29 cm² when a magnetic field strength of 1350 A/m produces magnetic flux of 24 micro weber."
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Derive an expression for concentration of electron in conduction band of an intrinsic semiconductor."
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Show that the Fermi level of intrinsic semiconductor lies midway between the valance band and the conduction band. [Ef = Eg/2]."
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "A heavily doped p-side with acceptor concentration of 10¹⁸ cm⁻³ is connected to n-side with donor concentration of 10¹⁶ cm⁻³. Calculate the built in potential, depletion width in n-side and p-side and overall depletion width. Maximum field the intrinsic concentration is 1.45×10¹⁰ cm⁻³ and T = 300K."
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Explain ion-implantation process for the fabrication. What are its advantages and disadvantages over diffusion process?"
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on: (Any two)",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 5,
+              "question": "Drift and diffusion phenomena."
+            },
+            {
+              "sub_no": "b",
+              "marks": 5,
+              "question": "Thermionic emission."
+            },
+            {
+              "sub_no": "c",
+              "marks": 5,
+              "question": "Continuity equation and its application."
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2022-F",
       "year": "2022",
       "semester": "Fall",
@@ -1337,5 +1637,6 @@
         }
       ]
     }
-  ]
+  ],
+  "last_updated": "2026-04-11"
 }
