@@ -8,6 +8,111 @@
   "images_required": [],
   "papers": [
     {
+      "id": "2025-SP",
+      "year": "2025",
+      "semester": "Spring",
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Show that the energy of an electron is quantized in an infinite potential well hence determine the normalized wave function of electron.",
+          "eq": "E_n = \\frac{n^2 h^2}{8mL^2},\\quad \\Psi_n = \\sqrt{\\frac{2}{L}}\\sin\\frac{n\\pi x}{L}"
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Drift mobility of conduction electron is 43 cm²V⁻¹s⁻¹ and mean speed is 1.2×10⁶ ms⁻¹. Calculate the mean free path of electrons between collisions.",
+          "eq": "\\ell = \\frac{\\mu m_e \\bar{v}}{e},\\quad \\mu=43\\,\\text{cm}^2\\text{V}^{-1}\\text{s}^{-1},\\;\\bar{v}=1.2\\times10^6\\,\\text{ms}^{-1}"
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Explain different crystalline structures."
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Discuss the electrical conduction in liquid. Hence show that the ionic conductivity depends upon the temperature."
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Derive the mathematical relation between ionic polarization and relative permittivity using Clausius-Massotti equation."
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Explain dielectric breakdown in different states of matter in brief."
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Calculate the magnetization and flux density in a diamagnetic sample having susceptibility −0.3 × 10⁻⁵ and magnetic field strength 1000 A/m.",
+          "eq": "M = \\chi_m H,\\quad B = \\mu_0(H+M),\\quad \\chi_m=-0.3\\times10^{-5},\\;H=1000\\,\\text{A/m}"
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Differentiate between hard and soft magnetic materials. What kind of magnetic material is used in transformer and why?"
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Derive an expression for concentration of electron in conduction band of an intrinsic semiconductor."
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Show that the Fermi level of intrinsic semiconductor lies midway between the valance band and the conduction band. [E_F = E_g/2].",
+          "eq": "E_F = \\frac{E_g}{2}"
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "A heavily doped p-side with acceptor concentration of 10¹⁸ cm⁻³ is connected to n-side with donor concentration of 10¹⁶ cm⁻³. Calculate the built in potential, depletion width in n-side and p-side and the overall depletion width. Assume T = 300 K and nᵢ = 1.45 × 10¹⁰ cm⁻³.",
+          "eq": "V_0 = \\frac{k_BT}{q}\\ln\\frac{N_a N_d}{n_i^2},\\quad N_a=10^{18},\\;N_d=10^{16},\\;n_i=1.45\\times10^{10}\\,\\text{cm}^{-3}"
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Why is silicon a superior semiconductor material? Discuss the float zone method of crystal growth."
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on: (Any two)",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 5,
+              "question": "Fermi energy and Fermi level."
+            },
+            {
+              "sub_no": "b",
+              "marks": 5,
+              "question": "Einstein relationship."
+            },
+            {
+              "sub_no": "c",
+              "marks": 5,
+              "question": "Piezoelectric materials."
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2024-FA",
       "year": "2024",
       "semester": "Fall",
@@ -16,19 +121,22 @@
           "number": "1",
           "sub_no": "a",
           "marks": 7,
-          "question": "Calculate the Fermi level for Iron with density 7.86 g/cm³ and atomic mass 56 g/mol. Given, N_A = 6.023 × 10²³/mol and Planck constant, h = 6.62×10⁻³⁴ Joule – second."
+          "question": "Calculate the Fermi level for Iron with density 7.86 g/cm³ and atomic mass 56 g/mol. Given, N_A = 6.023 × 10²³/mol and Planck constant, h = 6.62×10⁻³⁴ Joule – second.",
+          "eq": "E_F = \\frac{h^2}{2m}\\left(\\frac{3n}{8\\pi}\\right)^{2/3},\\quad \\rho_{Fe}=7.86\\,\\text{g/cm}^3,\\;M=56\\,\\text{g/mol}"
         },
         {
           "number": "1",
           "sub_no": "b",
           "marks": 8,
-          "question": "Define the term electrons drift velocity and mobility. How are they related? Show that the conductivity of electrons within metallic conductor is product of charge density and mobility."
+          "question": "Define the term electrons drift velocity and mobility. How are they related? Show that the conductivity of electrons within metallic conductor is product of charge density and mobility.",
+          "eq": "\\sigma = nq\\mu,\\quad v_d = \\mu E"
         },
         {
           "number": "2",
           "sub_no": "a",
           "marks": 7,
-          "question": "Drift mobility of conduction electron is 43 cm²V⁻¹s⁻¹ and mean speed is 1.2×10⁶ ms⁻¹. Calculate the mean free path of electrons between collisions."
+          "question": "Drift mobility of conduction electron is 43 cm²V⁻¹s⁻¹ and mean speed is 1.2×10⁶ ms⁻¹. Calculate the mean free path of electrons between collisions.",
+          "eq": "\\ell = \\frac{\\mu m_e \\bar{v}}{e},\\quad \\mu=43\\,\\text{cm}^2\\text{V}^{-1}\\text{s}^{-1},\\;\\bar{v}=1.2\\times10^6\\,\\text{ms}^{-1}"
         },
         {
           "number": "2",
@@ -58,31 +166,36 @@
           "number": "4",
           "sub_no": "b",
           "marks": 7,
-          "question": "Calculate the magnetization and flux density in a diamagnetic sample having susceptibility −0.3 × 10⁻⁵ and magnetic field strength 1000 A/m."
+          "question": "Calculate the magnetization and flux density in a diamagnetic sample having susceptibility −0.3 × 10⁻⁵ and magnetic field strength 1000 A/m.",
+          "eq": "M = \\chi_m H,\\quad B = \\mu_0(H+M),\\quad \\chi_m=-0.3\\times10^{-5},\\;H=1000\\,\\text{A/m}"
         },
         {
           "number": "5",
           "sub_no": "a",
           "marks": 8,
-          "question": "Show that the Fermi level of intrinsic semiconductor lies midway between the valance band and the conduction band. [E_F = E_G/2]."
+          "question": "Show that the Fermi level of intrinsic semiconductor lies midway between the valance band and the conduction band. [E_F = E_G/2].",
+          "eq": "E_F = \\frac{E_g}{2}"
         },
         {
           "number": "5",
           "sub_no": "b",
           "marks": 7,
-          "question": "Given that the density of states related effective masses of electrons and holes in Si are approximately 1.08 mₑ and 0.50 mₑ respectively, and the electron and hole drift mobilities at room temperature are 1350 and 450 cm²/V.s respectively. Calculate the intrinsic concentration and intrinsic resistivity of Si. The energy band gap for Silicon is 1.10 eV. (T = 300 K)."
+          "question": "Given that the density of states related effective masses of electrons and holes in Si are approximately 1.08 mₑ and 0.50 mₑ respectively, and the electron and hole drift mobilities at room temperature are 1350 and 450 cm²/V.s respectively. Calculate the intrinsic concentration and intrinsic resistivity of Si. The energy band gap for Silicon is 1.10 eV. (T = 300 K).",
+          "eq": "n_i = \\sqrt{N_c N_v}\\,e^{-E_g/2k_BT},\\quad E_g=1.10\\,\\text{eV},\\;T=300\\,\\text{K}"
         },
         {
           "number": "6",
           "sub_no": "a",
           "marks": 8,
-          "question": "What is PN junction? Derive the formula for depletion width of a PN junction."
+          "question": "What is PN junction? Derive the formula for depletion width of a PN junction.",
+          "eq": "V_0 = \\frac{k_BT}{q}\\ln\\frac{N_a N_d}{n_i^2}"
         },
         {
           "number": "6",
           "sub_no": "b",
           "marks": 7,
-          "question": "Define diffusion length and obtain the continuity equation for holes."
+          "question": "Define diffusion length and obtain the continuity equation for holes.",
+          "eq": "L_p = \\sqrt{D_p\\tau_p},\\quad \\frac{\\partial p}{\\partial t} = D_p\\frac{\\partial^2 p}{\\partial x^2} - \\frac{\\Delta p}{\\tau_p}"
         },
         {
           "number": "7",
@@ -116,19 +229,22 @@
           "number": "1",
           "sub_no": "a",
           "marks": 7,
-          "question": "What is the significance of wave function? Derive the expression for the wave function and the energy of a particle confined in an infinite potential well."
+          "question": "What is the significance of wave function? Derive the expression for the wave function and the energy of a particle confined in an infinite potential well.",
+          "eq": "E_n = \\frac{n^2 h^2}{8mL^2},\\quad \\Psi_n = \\sqrt{\\frac{2}{L}}\\sin\\frac{n\\pi x}{L}"
         },
         {
           "number": "1",
           "sub_no": "b",
           "marks": 8,
-          "question": "An electron is confined to a 1-micron thin layer of silicon. Assuming that the semiconductor can be adequately described by a one-dimensional quantum well with infinite wall, calculate the lowest possible energy within the material in units of electron volt. If the energy is interpreted as the kinetic energy of the electron, what is the corresponding electron velocity? (The effective mass of electrons in silicon is 0.26 m₀ where m₀ = 9.11×10⁻³¹ kg is the free electron rest mass)."
+          "question": "An electron is confined to a 1-micron thin layer of silicon. Assuming that the semiconductor can be adequately described by a one-dimensional quantum well with infinite wall, calculate the lowest possible energy within the material in units of electron volt. If the energy is interpreted as the kinetic energy of the electron, what is the corresponding electron velocity? (The effective mass of electrons in silicon is 0.26 m₀ where m₀ = 9.11×10⁻³¹ kg is the free electron rest mass).",
+          "eq": "E_1 = \\frac{h^2}{8m^* L^2},\\quad m^*=0.26\\,m_0,\\;L=1\\,\\mu\\text{m}"
         },
         {
           "number": "2",
           "sub_no": "a",
           "marks": 7,
-          "question": "Calculate the Fermi energy at 0K for Copper. Given its density 8.96 g/cm³ and atomic mass 63.5 g/mol. N_A = 6.022 × 10²³ /mol."
+          "question": "Calculate the Fermi energy at 0K for Copper. Given its density 8.96 g/cm³ and atomic mass 63.5 g/mol. N_A = 6.022 × 10²³ /mol.",
+          "eq": "E_F = \\frac{h^2}{2m}(3\\pi^2 n)^{2/3},\\quad n=\\frac{\\rho N_A}{M},\\;N_A=6.022\\times10^{23}\\,\\text{mol}^{-1}"
         },
         {
           "number": "2",
@@ -146,19 +262,22 @@
           "number": "3",
           "sub_no": "b",
           "marks": 7,
-          "question": "What is ionic polarization? Determine the mathematical relationship between ionic polarizability and relative permittivity for the Clausius-Massotti equation."
+          "question": "What is ionic polarization? Determine the mathematical relationship between ionic polarizability and relative permittivity for the Clausius-Massotti equation.",
+          "eq": "\\frac{\\varepsilon_r-1}{\\varepsilon_r+2} = \\frac{N\\alpha_i}{3\\varepsilon_0}"
         },
         {
           "number": "4",
           "sub_no": "a",
           "marks": 7,
-          "question": "A parallel plate capacitor has a 20 cm² area and a 0.5 mm spacing. Polyethylene fills the area between the plates. At a frequency of 2 MHz, an alternate voltage with an amplitude of 12V is applied. The real component of the relative permittivity at this frequency is 2.5, and the loss tangent is 4×10⁻⁴. Determine the amount of energy dissipated each second."
+          "question": "A parallel plate capacitor has a 20 cm² area and a 0.5 mm spacing. Polyethylene fills the area between the plates. At a frequency of 2 MHz, an alternate voltage with an amplitude of 12V is applied. The real component of the relative permittivity at this frequency is 2.5, and the loss tangent is 4×10⁻⁴. Determine the amount of energy dissipated each second.",
+          "eq": "P = \\omega\\varepsilon_0\\varepsilon_r'\\tan\\delta\\cdot E_0^2\\cdot V,\\quad f=2\\,\\text{MHz},\\;\\varepsilon_r'=2.5,\\;\\tan\\delta=4\\times10^{-4}"
         },
         {
           "number": "4",
           "sub_no": "b",
           "marks": 8,
-          "question": "Explain Domain structure in detail. The magnetic susceptibility of copper is –0.5×10⁻⁵. Calculate the magnetic moment per unit volume in copper when subjected to a field whose magnitude inside copper is 10⁴ A/m."
+          "question": "Explain Domain structure in detail. The magnetic susceptibility of copper is –0.5×10⁻⁵. Calculate the magnetic moment per unit volume in copper when subjected to a field whose magnitude inside copper is 10⁴ A/m.",
+          "eq": "M = \\chi_m H,\\quad \\chi_m=-0.5\\times10^{-5},\\;H=10^4\\,\\text{A/m}"
         },
         {
           "number": "5",
@@ -170,13 +289,15 @@
           "number": "5",
           "sub_no": "b",
           "marks": 8,
-          "question": "A heavily doped p side with acceptor concentration of 10¹⁸ cm⁻³ is connected to n-side donor concentration of 10¹⁶ cm⁻³. Calculate the built-in-potential, depletion width in n-side and p-side and overall depletion width. Assume intrinsic concentration as 1.45×10¹⁰ cm⁻³."
+          "question": "A heavily doped p side with acceptor concentration of 10¹⁸ cm⁻³ is connected to n-side donor concentration of 10¹⁶ cm⁻³. Calculate the built-in-potential, depletion width in n-side and p-side and overall depletion width. Assume intrinsic concentration as 1.45×10¹⁰ cm⁻³.",
+          "eq": "V_0 = \\frac{k_BT}{q}\\ln\\frac{N_a N_d}{n_i^2},\\quad n_i=1.45\\times10^{10}\\,\\text{cm}^{-3}"
         },
         {
           "number": "6",
           "sub_no": "a",
           "marks": 8,
-          "question": "Calculate the resistance of pure silicon cubic crystal of 1 cm³ at room temperature. What will be the resistance of the cube when it is doped with 1 arsenic in 10⁹ Silicon atoms and 1 boron atom per billion silicon atoms? Atomic concentration of silicon is 5×10²² cm⁻³, intrinsic concentration ni = 1.45×10¹⁰ cm⁻³. Assume the mobilities of electron and hole are 1350 and 450 cm²V⁻¹s⁻¹."
+          "question": "Calculate the resistance of pure silicon cubic crystal of 1 cm³ at room temperature. What will be the resistance of the cube when it is doped with 1 arsenic in 10⁹ Silicon atoms and 1 boron atom per billion silicon atoms? Atomic concentration of silicon is 5×10²² cm⁻³, intrinsic concentration ni = 1.45×10¹⁰ cm⁻³. Assume the mobilities of electron and hole are 1350 and 450 cm²V⁻¹s⁻¹.",
+          "eq": "\\rho = \\frac{1}{n_i q(\\mu_e+\\mu_h)},\\quad n_i=1.45\\times10^{10}\\,\\text{cm}^{-3}"
         },
         {
           "number": "6",
@@ -228,19 +349,22 @@
           "number": "2",
           "sub_no": "a",
           "marks": 8,
-          "question": "What do you mean by effective mass of an electron? Derive an expression m* = h²/(d²E/dk²)."
+          "question": "What do you mean by effective mass of an electron? Derive an expression m* = h²/(d²E/dk²).",
+          "eq": "m^* = \\frac{h^2}{d^2E/dk^2}"
         },
         {
           "number": "2",
           "sub_no": "b",
           "marks": 7,
-          "question": "If electrical conductivity of potassium is 1.3901×10⁵ Sm/cm, calculate the drift mobility of electron at room temperature. Molar mass and density of potassium are 39.95 gm/mole and 0.9101 gm/cm³."
+          "question": "If electrical conductivity of potassium is 1.3901×10⁵ Sm/cm, calculate the drift mobility of electron at room temperature. Molar mass and density of potassium are 39.95 gm/mole and 0.9101 gm/cm³.",
+          "eq": "\\sigma = nq\\mu,\\quad n=\\frac{\\rho N_A}{M},\\quad \\sigma=1.3901\\times10^5\\,\\text{Sm/cm}"
         },
         {
           "number": "3",
           "sub_no": "a",
           "marks": 8,
-          "question": "Derive the mathematical relation between ionic polarization and relative permittivity using Clausius-Massotti equation."
+          "question": "Derive the mathematical relation between ionic polarization and relative permittivity using Clausius-Massotti equation.",
+          "eq": "\\frac{\\varepsilon_r-1}{\\varepsilon_r+2} = \\frac{N\\alpha_i}{3\\varepsilon_0}"
         },
         {
           "number": "3",
@@ -258,7 +382,8 @@
           "number": "4",
           "sub_no": "b",
           "marks": 7,
-          "question": "Calculate the permeability and susceptibility of an iron bar of cross-sectional area 0.29 cm² when a magnetic field strength of 1350 A/m produces magnetic flux of 24 micro weber."
+          "question": "Calculate the permeability and susceptibility of an iron bar of cross-sectional area 0.29 cm² when a magnetic field strength of 1350 A/m produces magnetic flux of 24 micro weber.",
+          "eq": "\\mu_r = \\frac{B}{\\mu_0 H},\\quad B=\\frac{\\Phi}{A},\\quad A=0.29\\,\\text{cm}^2,\\;H=1350\\,\\text{A/m}"
         },
         {
           "number": "5",
@@ -276,7 +401,8 @@
           "number": "6",
           "sub_no": "a",
           "marks": 8,
-          "question": "A heavily doped p-side with acceptor concentration of 10¹⁸ cm⁻³ is connected to n-side with donor concentration of 10¹⁶ cm⁻³. Calculate the built in potential, depletion width in n-side and p-side and overall depletion width. Maximum field the intrinsic concentration is 1.45×10¹⁰ cm⁻³ and T = 300K."
+          "question": "A heavily doped p-side with acceptor concentration of 10¹⁸ cm⁻³ is connected to n-side with donor concentration of 10¹⁶ cm⁻³. Calculate the built in potential, depletion width in n-side and p-side and overall depletion width. Maximum field the intrinsic concentration is 1.45×10¹⁰ cm⁻³ and T = 300K.",
+          "eq": "V_0 = \\frac{k_BT}{q}\\ln\\frac{N_a N_d}{n_i^2},\\quad n_i=1.45\\times10^{10}\\,\\text{cm}^{-3}"
         },
         {
           "number": "6",
@@ -328,19 +454,22 @@
           "number": "2",
           "sub_no": "a",
           "marks": 8,
-          "question": "What do you mean by effective mass of an electron? Derive an expression m* = h²/(d²E/dk²)."
+          "question": "What do you mean by effective mass of an electron? Derive an expression m* = h²/(d²E/dk²).",
+          "eq": "m^* = \\frac{h^2}{d^2E/dk^2}"
         },
         {
           "number": "2",
           "sub_no": "b",
           "marks": 7,
-          "question": "If electrical conductivity of potassium is 1.3901×10⁵ Sm/cm, calculate the drift mobility of electron at room temperature. Molar mass and density of potassium are 39.95 gm/mole and 0.9101 gm/cm³."
+          "question": "If electrical conductivity of potassium is 1.3901×10⁵ Sm/cm, calculate the drift mobility of electron at room temperature. Molar mass and density of potassium are 39.95 gm/mole and 0.9101 gm/cm³.",
+          "eq": "\\sigma = nq\\mu,\\quad n=\\frac{\\rho N_A}{M},\\quad \\sigma=1.3901\\times10^5\\,\\text{Sm/cm}"
         },
         {
           "number": "3",
           "sub_no": "a",
           "marks": 8,
-          "question": "Derive the mathematical relation between ionic polarization and relative permittivity using Clausius-Massotti equation."
+          "question": "Derive the mathematical relation between ionic polarization and relative permittivity using Clausius-Massotti equation.",
+          "eq": "\\frac{\\varepsilon_r-1}{\\varepsilon_r+2} = \\frac{N\\alpha_i}{3\\varepsilon_0}"
         },
         {
           "number": "3",
@@ -358,7 +487,8 @@
           "number": "4",
           "sub_no": "b",
           "marks": 7,
-          "question": "Calculate the permeability and susceptibility of an iron bar of cross-sectional area 0.29 cm² when a magnetic field strength of 1350 A/m produces magnetic flux of 24 micro weber."
+          "question": "Calculate the permeability and susceptibility of an iron bar of cross-sectional area 0.29 cm² when a magnetic field strength of 1350 A/m produces magnetic flux of 24 micro weber.",
+          "eq": "\\mu_r = \\frac{B}{\\mu_0 H},\\quad B=\\frac{\\Phi}{A},\\quad A=0.29\\,\\text{cm}^2,\\;H=1350\\,\\text{A/m}"
         },
         {
           "number": "5",
@@ -376,7 +506,8 @@
           "number": "6",
           "sub_no": "a",
           "marks": 8,
-          "question": "A heavily doped p-side with acceptor concentration of 10¹⁸ cm⁻³ is connected to n-side with donor concentration of 10¹⁶ cm⁻³. Calculate the built in potential, depletion width in n-side and p-side and overall depletion width. Intrinsic concentration is 1.45×10¹⁰ cm⁻³ and T = 300K."
+          "question": "A heavily doped p-side with acceptor concentration of 10¹⁸ cm⁻³ is connected to n-side with donor concentration of 10¹⁶ cm⁻³. Calculate the built in potential, depletion width in n-side and p-side and overall depletion width. Intrinsic concentration is 1.45×10¹⁰ cm⁻³ and T = 300K.",
+          "eq": "V_0 = \\frac{k_BT}{q}\\ln\\frac{N_a N_d}{n_i^2},\\quad n_i=1.45\\times10^{10}\\,\\text{cm}^{-3}"
         },
         {
           "number": "6",
@@ -428,7 +559,8 @@
           "number": "2",
           "sub_no": "a",
           "marks": 8,
-          "question": "Calculate mean scattering time and conductivity of conduction electrons in copper at room temperature, given that drift mobility of conduction electron is 43 cm² V⁻¹ S⁻¹, density of copper is 8.96 g cm⁻³ and its atomic mass is 63.5 g/mol."
+          "question": "Calculate mean scattering time and conductivity of conduction electrons in copper at room temperature, given that drift mobility of conduction electron is 43 cm² V⁻¹ S⁻¹, density of copper is 8.96 g cm⁻³ and its atomic mass is 63.5 g/mol.",
+          "eq": "\\sigma = nq\\mu,\\quad n=\\frac{\\rho N_A}{M},\\quad \\mu=43\\,\\text{cm}^2\\text{V}^{-1}\\text{S}^{-1}"
         },
         {
           "number": "2",
@@ -458,19 +590,22 @@
           "number": "4",
           "sub_no": "b",
           "marks": 7,
-          "question": "Find the diffusion coefficients of electrons and holes of a silicon single crystal at 27°C if the mobilities of electrons and holes are 0.17 m² V⁻¹ S⁻¹ and 0.025 m² V⁻¹ S⁻¹ respectively at 27°C."
+          "question": "Find the diffusion coefficients of electrons and holes of a silicon single crystal at 27°C if the mobilities of electrons and holes are 0.17 m² V⁻¹ S⁻¹ and 0.025 m² V⁻¹ S⁻¹ respectively at 27°C.",
+          "eq": "V_0 = \\frac{k_BT}{q}\\ln\\frac{N_a N_d}{n_i^2},\\quad n_i=1.45\\times10^{10}\\,\\text{cm}^{-3}"
         },
         {
           "number": "5",
           "sub_no": "a",
           "marks": 7,
-          "question": "A glass dielectric has dielectric constant 2.6 and loss tangent 4×10⁻⁵ at 1 MHz. Calculate the loss of power per unit volume if the signal applied to the glass has peak amplitude of 0.71 V/m."
+          "question": "A glass dielectric has dielectric constant 2.6 and loss tangent 4×10⁻⁵ at 1 MHz. Calculate the loss of power per unit volume if the signal applied to the glass has peak amplitude of 0.71 V/m.",
+          "eq": "n_0 = N_c\\,e^{-(E_c-E_F)/k_BT}"
         },
         {
           "number": "5",
           "sub_no": "b",
           "marks": 8,
-          "question": "A heavily doped p-side with acceptor concentration of 10¹⁸ cm⁻³ is connected to n-side with donor concentration of 10¹⁶ cm⁻³. Calculate the built in potential and depletion width. Assume T = 300 K and ni = 1.45×10¹⁰ cm⁻³."
+          "question": "A heavily doped p-side with acceptor concentration of 10¹⁸ cm⁻³ is connected to n-side with donor concentration of 10¹⁶ cm⁻³. Calculate the built in potential and depletion width. Assume T = 300 K and ni = 1.45×10¹⁰ cm⁻³.",
+          "eq": "V_0 = \\frac{k_BT}{q}\\ln\\frac{N_a N_d}{n_i^2},\\quad n_i=1.45\\times10^{10}\\,\\text{cm}^{-3}"
         },
         {
           "number": "6",
@@ -482,13 +617,15 @@
           "number": "6",
           "sub_no": "b",
           "marks": 4,
-          "question": "Define relative permeability and susceptibility. Show that M = H(μr − 1), where symbols have their usual meaning."
+          "question": "Define relative permeability and susceptibility. Show that M = H(μr − 1), where symbols have their usual meaning.",
+          "eq": "P = \\omega\\varepsilon_0\\varepsilon_r'\\tan\\delta\\cdot E_0^2\\cdot V,\\quad f=1.5\\,\\text{MHz},\\;\\varepsilon_r'=2.25,\\;\\tan\\delta=4\\times10^{-4}"
         },
         {
           "number": "6",
           "sub_no": "c",
           "marks": 4,
-          "question": "Calculate the permeability and susceptibility of an iron bar of cross-section area 0.2 cm² when a magnetising field of 1200 Am⁻¹ produces magnetic field of 24 micro Weber."
+          "question": "Calculate the permeability and susceptibility of an iron bar of cross-section area 0.2 cm² when a magnetising field of 1200 Am⁻¹ produces magnetic field of 24 micro Weber.",
+          "eq": "\\mu_r = \\frac{B}{\\mu_0 H},\\quad B=\\frac{\\Phi}{A},\\quad H=1200\\,\\text{Am}^{-1}"
         },
         {
           "number": "7",
@@ -540,7 +677,8 @@
           "number": "2",
           "sub_no": "b",
           "marks": 8,
-          "question": "What are different types of polarization in dielectric medium? Explain orientational polarization in detail."
+          "question": "What are different types of polarization in dielectric medium? Explain orientational polarization in detail.",
+          "eq": "\\frac{\\varepsilon_r-1}{\\varepsilon_r+2} = \\frac{N\\alpha_i}{3\\varepsilon_0}"
         },
         {
           "number": "3",
@@ -558,25 +696,29 @@
           "number": "4",
           "sub_no": "a",
           "marks": 8,
-          "question": "In intrinsic semiconductor, prove that the Fermi level lies at the center of valence band and conduction band."
+          "question": "In intrinsic semiconductor, prove that the Fermi level lies at the center of valence band and conduction band.",
+          "eq": "E_F = \\frac{E_g}{2}"
         },
         {
           "number": "4",
           "sub_no": "b",
           "marks": 7,
-          "question": "A heavily doped p-side with acceptor concentration of 10¹⁸ cm⁻³ is connected to n-side with donor concentration of 10¹⁶ cm⁻³. Calculate the built in potential and depletion width. Assume T = 300 K and ni = 1.45×10¹⁰ cm⁻³."
+          "question": "A heavily doped p-side with acceptor concentration of 10¹⁸ cm⁻³ is connected to n-side with donor concentration of 10¹⁶ cm⁻³. Calculate the built in potential and depletion width. Assume T = 300 K and ni = 1.45×10¹⁰ cm⁻³.",
+          "eq": "V_0 = \\frac{k_BT}{q}\\ln\\frac{N_a N_d}{n_i^2},\\quad n_i=1.45\\times10^{10}\\,\\text{cm}^{-3}"
         },
         {
           "number": "5",
           "sub_no": "a",
           "marks": 8,
-          "question": "Derive the Ideal diode Equation for PN junction."
+          "question": "Derive the Ideal diode Equation for PN junction.",
+          "eq": "I = I_0\\left(e^{qV/k_BT}-1\\right)"
         },
         {
           "number": "5",
           "sub_no": "b",
           "marks": 7,
-          "question": "Calculate the resistance of pure silicon cubic crystal of 1 cm³ at room temperature. What will be the resistance of the cube when it is doped with 1 arsenic in 10⁹ Silicon atoms and 1 boron atom per billion silicon atoms? Atomic concentration of silicon is 5×10²² cm⁻³, intrinsic concentration ni = 1.45×10¹⁰ cm⁻³. Assume the mobilities of electron and hole are 1350 and 450 cm² V⁻¹ S⁻¹."
+          "question": "Calculate the resistance of pure silicon cubic crystal of 1 cm³ at room temperature. What will be the resistance of the cube when it is doped with 1 arsenic in 10⁹ Silicon atoms and 1 boron atom per billion silicon atoms? Atomic concentration of silicon is 5×10²² cm⁻³, intrinsic concentration ni = 1.45×10¹⁰ cm⁻³. Assume the mobilities of electron and hole are 1350 and 450 cm² V⁻¹ S⁻¹.",
+          "eq": "\\rho = \\frac{1}{n_i q(\\mu_e+\\mu_h)},\\quad n_i=1.45\\times10^{10}\\,\\text{cm}^{-3}"
         },
         {
           "number": "6",
@@ -588,7 +730,8 @@
           "number": "6",
           "sub_no": "b",
           "marks": 7,
-          "question": "A parallel plate capacitor has an area of 20 cm² and a separation of 0.5 mm. The space between the plates is filled with polyethylene. An alternative voltage with amplitude of 12V is applied at a frequency of 1.5 MHz. At this frequency, the real part of the relative permittivity is 2.25 and the loss tangent is 4×10⁻⁴. Calculate the energy dissipated per second."
+          "question": "A parallel plate capacitor has an area of 20 cm² and a separation of 0.5 mm. The space between the plates is filled with polyethylene. An alternative voltage with amplitude of 12V is applied at a frequency of 1.5 MHz. At this frequency, the real part of the relative permittivity is 2.25 and the loss tangent is 4×10⁻⁴. Calculate the energy dissipated per second.",
+          "eq": "P = \\omega\\varepsilon_0\\varepsilon_r'\\tan\\delta\\cdot E_0^2\\cdot V,\\quad f=1.5\\,\\text{MHz},\\;\\varepsilon_r'=2.25,\\;\\tan\\delta=4\\times10^{-4}"
         },
         {
           "number": "7",
@@ -622,13 +765,15 @@
           "number": "1",
           "sub_no": "a",
           "marks": 8,
-          "question": "The normalized wave function for electron in infinite potential is Ψₙ = (2/L)^(1/2) Sin(nπx/L), where symbols have their usual meaning. Find the expected value of position and momentum for the electron."
+          "question": "The normalized wave function for electron in infinite potential is Ψₙ = (2/L)^(1/2) Sin(nπx/L), where symbols have their usual meaning. Find the expected value of position and momentum for the electron.",
+          "eq": "\\Psi_n = \\sqrt{\\frac{2}{L}}\\sin\\frac{n\\pi x}{L},\\quad \\langle x\\rangle=\\int_0^L x|\\Psi_n|^2\\,dx"
         },
         {
           "number": "1",
           "sub_no": "b",
           "marks": 7,
-          "question": "What do you mean by effective mass of an electron? Derive an expression m* = h²/(d²E/dk²)."
+          "question": "What do you mean by effective mass of an electron? Derive an expression m* = h²/(d²E/dk²).",
+          "eq": "m^* = \\frac{h^2}{d^2E/dk^2}"
         },
         {
           "number": "2",
@@ -646,7 +791,8 @@
           "number": "3",
           "sub_no": "a",
           "marks": 7,
-          "question": "What is polarization? Derive the Clausius–Mossetti equation for ionic polarization."
+          "question": "What is polarization? Derive the Clausius–Mossetti equation for ionic polarization.",
+          "eq": "\\frac{\\varepsilon_r-1}{\\varepsilon_r+2} = \\frac{N\\alpha_i}{3\\varepsilon_0}"
         },
         {
           "number": "3",
@@ -664,13 +810,15 @@
           "number": "4",
           "sub_no": "b",
           "marks": 7,
-          "question": "Find the resistance of a 1 cm³ pure Silicon crystal. What is the resistance when the crystal is doped with one Arsenic in 10⁹ Silicon atoms? Given: Atomic concentration of Si is 5×10²² cm⁻³, ni = 1.45×10¹⁰ cm⁻³, μe = 1350 cm² V⁻¹ S⁻¹ and μh = 450 cm² V⁻¹ S⁻¹."
+          "question": "Find the resistance of a 1 cm³ pure Silicon crystal. What is the resistance when the crystal is doped with one Arsenic in 10⁹ Silicon atoms? Given: Atomic concentration of Si is 5×10²² cm⁻³, ni = 1.45×10¹⁰ cm⁻³, μe = 1350 cm² V⁻¹ S⁻¹ and μh = 450 cm² V⁻¹ S⁻¹.",
+          "eq": "\\rho = \\frac{1}{n_i q(\\mu_e+\\mu_h)},\\quad n_i=1.45\\times10^{10}\\,\\text{cm}^{-3}"
         },
         {
           "number": "5",
           "sub_no": "a",
           "marks": 8,
-          "question": "A heavily doped p-side with acceptor concentration of 10¹⁸ cm⁻³ is connected to n-side with donor concentration of 10¹⁶ cm⁻³. Calculate the built in potential, depletion width in n-side and p-side, total depletion width and electric field at the junction. Relative permittivity of material is 11.9, K = 1.38×10⁻²³ J/K, e = 1.6×10⁻¹⁹ C."
+          "question": "A heavily doped p-side with acceptor concentration of 10¹⁸ cm⁻³ is connected to n-side with donor concentration of 10¹⁶ cm⁻³. Calculate the built in potential, depletion width in n-side and p-side, total depletion width and electric field at the junction. Relative permittivity of material is 11.9, K = 1.38×10⁻²³ J/K, e = 1.6×10⁻¹⁹ C.",
+          "eq": "V_0 = \\frac{k_BT}{q}\\ln\\frac{N_a N_d}{n_i^2},\\quad N_a=10^{18},\\;N_d=10^{16},\\;\\varepsilon_r=11.9"
         },
         {
           "number": "5",
@@ -734,7 +882,8 @@
           "number": "2",
           "sub_no": "a",
           "marks": 8,
-          "question": "What do you mean by effective mass of an electron? Derive an expression m* = h²/(d²E/dk²)."
+          "question": "What do you mean by effective mass of an electron? Derive an expression m* = h²/(d²E/dk²).",
+          "eq": "m^* = \\frac{h^2}{d^2E/dk^2}"
         },
         {
           "number": "2",
@@ -746,7 +895,8 @@
           "number": "3",
           "sub_no": "a",
           "marks": 7,
-          "question": "Define local field in relation to polarization. Derive the Clausius-Massotti equation for electronic polarization, relating polarizability with the permittivity."
+          "question": "Define local field in relation to polarization. Derive the Clausius-Massotti equation for electronic polarization, relating polarizability with the permittivity.",
+          "eq": "\\frac{\\varepsilon_r-1}{\\varepsilon_r+2} = \\frac{N\\alpha_i}{3\\varepsilon_0}"
         },
         {
           "number": "3",
@@ -764,7 +914,8 @@
           "number": "4",
           "sub_no": "b",
           "marks": 8,
-          "question": "Calculate permeability and susceptibility of an iron bar of cross-sectional area 0.2 cm² when a magnetizing field of 1200 Am⁻¹ produces magnetic field of 24 microweber."
+          "question": "Calculate permeability and susceptibility of an iron bar of cross-sectional area 0.2 cm² when a magnetizing field of 1200 Am⁻¹ produces magnetic field of 24 microweber.",
+          "eq": "\\mu_r = \\frac{B}{\\mu_0 H},\\quad B=\\frac{\\Phi}{A},\\quad H=1200\\,\\text{Am}^{-1},\\;\\Phi=24\\,\\mu\\text{Wb}"
         },
         {
           "number": "5",
@@ -782,7 +933,8 @@
           "number": "6",
           "sub_no": "a",
           "marks": 8,
-          "question": "The intrinsic carrier concentration for silicon at room temperature (300K) is 1.501×10¹⁰/cm³. If the mobilities of electrons and holes are 1300 cm²/V.s. and 450 cm²/V.s. respectively. What is the conductivity of silicon at that temperature? If silicon is doped with 10¹⁸ Boron atoms/cm³, what is the conductivity?"
+          "question": "The intrinsic carrier concentration for silicon at room temperature (300K) is 1.501×10¹⁰/cm³. If the mobilities of electrons and holes are 1300 cm²/V.s. and 450 cm²/V.s. respectively. What is the conductivity of silicon at that temperature? If silicon is doped with 10¹⁸ Boron atoms/cm³, what is the conductivity?",
+          "eq": "\\sigma = n_i q(\\mu_e+\\mu_h),\\quad n_i=1.501\\times10^{10}\\,\\text{cm}^{-3}"
         },
         {
           "number": "6",
@@ -828,7 +980,8 @@
           "number": "1",
           "sub_no": "b",
           "marks": 7,
-          "question": "Derive an expression for effective mass of an electron in crystal."
+          "question": "Derive an expression for effective mass of an electron in crystal.",
+          "eq": "m^* = \\frac{h^2}{d^2E/dk^2}"
         },
         {
           "number": "2",
@@ -846,13 +999,15 @@
           "number": "3",
           "sub_no": "a",
           "marks": 8,
-          "question": "Derive Clausius-Massotti equation [(εr−1)/(εr+2) = Nαi/(3ε₀)] for ionic polarization."
+          "question": "Derive Clausius-Massotti equation [(εr−1)/(εr+2) = Nαi/(3ε₀)] for ionic polarization.",
+          "eq": "\\frac{\\varepsilon_r-1}{\\varepsilon_r+2} = \\frac{N\\alpha_i}{3\\varepsilon_0}"
         },
         {
           "number": "3",
           "sub_no": "b",
           "marks": 7,
-          "question": "The electronic polarizability of Ar atom is 1.7×10⁻⁴ Fm². Calculate the static dielectric constants of solid Ar given its density is 1.8 gcm⁻³, Mat = 39.5 gmol⁻¹ and NA = 6.02×10²³ mol⁻¹."
+          "question": "The electronic polarizability of Ar atom is 1.7×10⁻⁴ Fm². Calculate the static dielectric constants of solid Ar given its density is 1.8 gcm⁻³, Mat = 39.5 gmol⁻¹ and NA = 6.02×10²³ mol⁻¹.",
+          "eq": "\\varepsilon_r = 1+\\frac{N\\alpha_e}{\\varepsilon_0},\\quad \\alpha_e=1.7\\times10^{-4}\\,\\text{Fm}^2"
         },
         {
           "number": "4",
@@ -864,19 +1019,22 @@
           "number": "4",
           "sub_no": "b",
           "marks": 7,
-          "question": "The magnetic field strength in a piece of Fe₂O₃ is 10⁶ Am⁻¹. Given that the susceptibility at room temperature is 1.4×10⁻³. Find the flux density and magnetization in the material."
+          "question": "The magnetic field strength in a piece of Fe₂O₃ is 10⁶ Am⁻¹. Given that the susceptibility at room temperature is 1.4×10⁻³. Find the flux density and magnetization in the material.",
+          "eq": "M = \\chi_m H,\\quad B = \\mu_0(H+M),\\quad \\chi_m=1.4\\times10^{-3},\\;H=10^6\\,\\text{Am}^{-1}"
         },
         {
           "number": "5",
           "sub_no": "a",
           "marks": 8,
-          "question": "With necessary derivation show that the Fermi-level in intrinsic semiconductor lies between the conduction band and valence band."
+          "question": "With necessary derivation show that the Fermi-level in intrinsic semiconductor lies between the conduction band and valence band.",
+          "eq": "E_F = \\frac{E_g}{2}"
         },
         {
           "number": "5",
           "sub_no": "b",
           "marks": 7,
-          "question": "A heavily doped P-side with acceptor concentration of 10¹⁸ cm⁻³ is connected to N-side with donor concentration of 10¹⁶ cm⁻³. Calculate the built in potential and overall depletion width. Given that T = 300K, ni = 1.45×10¹⁰ cm⁻³ and εr = 11.9."
+          "question": "A heavily doped P-side with acceptor concentration of 10¹⁸ cm⁻³ is connected to N-side with donor concentration of 10¹⁶ cm⁻³. Calculate the built in potential and overall depletion width. Given that T = 300K, ni = 1.45×10¹⁰ cm⁻³ and εr = 11.9.",
+          "eq": "V_0 = \\frac{k_BT}{q}\\ln\\frac{N_a N_d}{n_i^2},\\quad n_i=1.45\\times10^{10}\\,\\text{cm}^{-3},\\;\\varepsilon_r=11.9"
         },
         {
           "number": "6",
@@ -934,7 +1092,8 @@
           "number": "2",
           "sub_no": "a",
           "marks": 7,
-          "question": "Calculate the drift mobility and the mean scattering time of conduction electrons in copper at room temperature, given that the conductivity of copper is 5.9×10⁵ Ω⁻¹cm⁻¹. The density of copper is 8.96 gcm⁻³ and its atomic mass is 63.5 gmol⁻¹. (Assume one free electron per atom)"
+          "question": "Calculate the drift mobility and the mean scattering time of conduction electrons in copper at room temperature, given that the conductivity of copper is 5.9×10⁵ Ω⁻¹cm⁻¹. The density of copper is 8.96 gcm⁻³ and its atomic mass is 63.5 gmol⁻¹. (Assume one free electron per atom)",
+          "eq": "\\sigma = nq\\mu,\\quad n=\\frac{\\rho N_A}{M},\\quad \\sigma=5.9\\times10^5\\,\\Omega^{-1}\\text{cm}^{-1}"
         },
         {
           "number": "2",
@@ -946,13 +1105,15 @@
           "number": "3",
           "sub_no": "a",
           "marks": 7,
-          "question": "Define local field in relation to polarization. Derive the Clausius-Massotti equation for electronic polarization, relating polarizability with the permittivity."
+          "question": "Define local field in relation to polarization. Derive the Clausius-Massotti equation for electronic polarization, relating polarizability with the permittivity.",
+          "eq": "\\frac{\\varepsilon_r-1}{\\varepsilon_r+2} = \\frac{N\\alpha_i}{3\\varepsilon_0}"
         },
         {
           "number": "3",
           "sub_no": "b",
           "marks": 8,
-          "question": "The electronic polarizability of Ar atom is 1.7×10⁻⁴ Fm². Calculate the static dielectric constants of solid Ar given its density is 1.8 gcm⁻³, Mat = 39.5 gmol⁻¹ and NA = 6.02×10²³ mol⁻¹."
+          "question": "The electronic polarizability of Ar atom is 1.7×10⁻⁴ Fm². Calculate the static dielectric constants of solid Ar given its density is 1.8 gcm⁻³, Mat = 39.5 gmol⁻¹ and NA = 6.02×10²³ mol⁻¹.",
+          "eq": "\\varepsilon_r \\approx 1+\\frac{N\\alpha_e}{\\varepsilon_0},\\quad \\alpha_e=1.7\\times10^{-4}\\,\\text{Fm}^2"
         },
         {
           "number": "4",
@@ -964,19 +1125,22 @@
           "number": "4",
           "sub_no": "b",
           "marks": 8,
-          "question": "Find the percentage increase in the magnetic field B, when the space within a current carrying coil is fixed with aluminium. The susceptibility of aluminium is 2.132×10⁻⁵."
+          "question": "Find the percentage increase in the magnetic field B, when the space within a current carrying coil is fixed with aluminium. The susceptibility of aluminium is 2.132×10⁻⁵.",
+          "eq": "\\mu_r = 1+\\chi_m,\\quad \\chi_m=2.132\\times10^{-5}"
         },
         {
           "number": "5",
           "sub_no": "a",
           "marks": 8,
-          "question": "What are the types of semiconductor? Prove that the position of Fermi level is near the middle of band gap in pure silicon semiconductor."
+          "question": "What are the types of semiconductor? Prove that the position of Fermi level is near the middle of band gap in pure silicon semiconductor.",
+          "eq": "E_F = \\frac{E_g}{2}"
         },
         {
           "number": "5",
           "sub_no": "b",
           "marks": 7,
-          "question": "A heavily doped p-side with acceptor concentration of 10¹⁸ cm⁻³ is connected to n-side with donor concentration of 10¹⁶ cm⁻³. Calculate the built in potential, depletion width in n-side and p-side and overall depletion width. The intrinsic concentration is 1.45×10¹⁰ cm⁻³ and T = 300K."
+          "question": "A heavily doped p-side with acceptor concentration of 10¹⁸ cm⁻³ is connected to n-side with donor concentration of 10¹⁶ cm⁻³. Calculate the built in potential, depletion width in n-side and p-side and overall depletion width. The intrinsic concentration is 1.45×10¹⁰ cm⁻³ and T = 300K.",
+          "eq": "V_0 = \\frac{k_BT}{q}\\ln\\frac{N_a N_d}{n_i^2},\\quad n_i=1.45\\times10^{10}\\,\\text{cm}^{-3}"
         },
         {
           "number": "6",
@@ -1040,7 +1204,8 @@
           "number": "2",
           "sub_no": "b",
           "marks": 6,
-          "question": "Molybdenum has the BCC crystal structure, a density of 10.22 g cm⁻³, and an atomic mass of 95.94 g mol⁻¹. What is atomic concentration, lattice parameter and atomic radius of molybdenum?"
+          "question": "Molybdenum has the BCC crystal structure, a density of 10.22 g cm⁻³, and an atomic mass of 95.94 g mol⁻¹. What is atomic concentration, lattice parameter and atomic radius of molybdenum?",
+          "eq": "a = \\sqrt[3]{\\frac{2M}{\\rho N_A}}\\;(\\text{BCC}),\\quad \\rho=10.22\\,\\text{g/cm}^3,\\;M=95.94\\,\\text{g/mol}"
         },
         {
           "number": "3",
@@ -1052,7 +1217,8 @@
           "number": "3",
           "sub_no": "b",
           "marks": 8,
-          "question": "Write the types of polarization. Derive the Clausius-Massotti equation for electronic polarization, relating polarizability with the permittivity."
+          "question": "Write the types of polarization. Derive the Clausius-Massotti equation for electronic polarization, relating polarizability with the permittivity.",
+          "eq": "\\frac{\\varepsilon_r-1}{\\varepsilon_r+2} = \\frac{N\\alpha_i}{3\\varepsilon_0}"
         },
         {
           "number": "4",
@@ -1064,19 +1230,22 @@
           "number": "4",
           "sub_no": "b",
           "marks": 7,
-          "question": "Calculate the permeability and susceptibility of an iron bar of cross-sectional area 0.2 cm² when a magnetic field strength of 1200 A/m produces magnetic flux of 24 micro weber."
+          "question": "Calculate the permeability and susceptibility of an iron bar of cross-sectional area 0.2 cm² when a magnetic field strength of 1200 A/m produces magnetic flux of 24 micro weber.",
+          "eq": "\\mu_r = \\frac{B}{\\mu_0 H},\\quad B=\\frac{\\Phi}{A},\\quad A=0.2\\,\\text{cm}^2,\\;H=1200\\,\\text{A/m}"
         },
         {
           "number": "5",
           "sub_no": "a",
           "marks": 8,
-          "question": "Show that the Fermi level of intrinsic semiconductor lies midway between the valance band and the conduction band. [Ef = Eg/2]"
+          "question": "Show that the Fermi level of intrinsic semiconductor lies midway between the valance band and the conduction band. [Ef = Eg/2]",
+          "eq": "E_F = \\frac{E_g}{2}"
         },
         {
           "number": "5",
           "sub_no": "b",
           "marks": 7,
-          "question": "A silicon sample is doped with 10¹⁵ Antimony atoms/cm³. Find carrier concentration, its resistance and the shift in Fermi level from its intrinsic Fermi level at 27°C. If it is further doped with 2×10¹⁷ boron atoms/cm³, what is the new resistance?"
+          "question": "A silicon sample is doped with 10¹⁵ Antimony atoms/cm³. Find carrier concentration, its resistance and the shift in Fermi level from its intrinsic Fermi level at 27°C. If it is further doped with 2×10¹⁷ boron atoms/cm³, what is the new resistance?",
+          "eq": "n = N_d,\\quad p = \\frac{n_i^2}{N_d},\\quad E_F - E_{Fi} = k_BT\\ln\\frac{N_d}{n_i}"
         },
         {
           "number": "6",
@@ -1122,7 +1291,8 @@
           "number": "1",
           "sub_no": "a",
           "marks": 8,
-          "question": "Explain the Energy well model of metal and show that the stationary energy levels of the particle are given by En = n²h²/(8mL²)."
+          "question": "Explain the Energy well model of metal and show that the stationary energy levels of the particle are given by En = n²h²/(8mL²).",
+          "eq": "E_n = \\frac{n^2 h^2}{8mL^2}"
         },
         {
           "number": "1",
@@ -1176,13 +1346,15 @@
           "number": "5",
           "sub_no": "b",
           "marks": 6,
-          "question": "A Si sample has been doped with 10¹⁷ arsenic atoms cm⁻³. Calculate the conductivity of sample at 27°C and at 127°C. Given, μe = 800 cm² V⁻¹S⁻¹ at 27°C, μe = 420 cm² V⁻¹S⁻¹ at 127°C and ni = 1.45×10¹⁰ cm⁻³."
+          "question": "A Si sample has been doped with 10¹⁷ arsenic atoms cm⁻³. Calculate the conductivity of sample at 27°C and at 127°C. Given, μe = 800 cm² V⁻¹S⁻¹ at 27°C, μe = 420 cm² V⁻¹S⁻¹ at 127°C and ni = 1.45×10¹⁰ cm⁻³.",
+          "eq": "\\sigma = N_d q\\mu_e,\\quad N_d=10^{17}\\,\\text{cm}^{-3}"
         },
         {
           "number": "6",
           "sub_no": "a",
           "marks": 9,
-          "question": "A n-type semiconductor containing 10¹⁶ Phosphorus (donor) atoms cm⁻³ has been doped with 10¹⁷ Boron (acceptor) atoms cm⁻³. Calculate electron and hole concentration in this semiconductor (ni = 1.45×10¹⁰ cm⁻³)."
+          "question": "A n-type semiconductor containing 10¹⁶ Phosphorus (donor) atoms cm⁻³ has been doped with 10¹⁷ Boron (acceptor) atoms cm⁻³. Calculate electron and hole concentration in this semiconductor (ni = 1.45×10¹⁰ cm⁻³).",
+          "eq": "n = N_d - N_a,\\quad p = \\frac{n_i^2}{n},\\quad n_i=1.45\\times10^{10}\\,\\text{cm}^{-3}"
         },
         {
           "number": "6",
@@ -1240,7 +1412,8 @@
           "number": "2",
           "sub_no": "b",
           "marks": 7,
-          "question": "Drift mobility of conduction electrons is 43 cm² V⁻¹ S⁻¹ and mean speed is 1.2×10⁶ m/s. Calculate the mean free path of electrons between collisions."
+          "question": "Drift mobility of conduction electrons is 43 cm² V⁻¹ S⁻¹ and mean speed is 1.2×10⁶ m/s. Calculate the mean free path of electrons between collisions.",
+          "eq": "\\ell = \\frac{\\mu m_e \\bar{v}}{e},\\quad \\mu=43\\,\\text{cm}^2\\text{V}^{-1}\\text{S}^{-1},\\;\\bar{v}=1.2\\times10^6\\,\\text{m/s}"
         },
         {
           "number": "3",
@@ -1252,7 +1425,8 @@
           "number": "3",
           "sub_no": "b",
           "marks": 8,
-          "question": "Explain different polarization mechanisms in materials."
+          "question": "Explain different polarization mechanisms in materials.",
+          "eq": "\\frac{\\varepsilon_r-1}{\\varepsilon_r+2} = \\frac{N\\alpha_i}{3\\varepsilon_0}"
         },
         {
           "number": "4",
@@ -1276,13 +1450,15 @@
           "number": "5",
           "sub_no": "a",
           "marks": 8,
-          "question": "Show that Fermi level of intrinsic semiconductor lies midway between valence band and conduction band."
+          "question": "Show that Fermi level of intrinsic semiconductor lies midway between valence band and conduction band.",
+          "eq": "E_F = \\frac{E_g}{2}"
         },
         {
           "number": "5",
           "sub_no": "b",
           "marks": 7,
-          "question": "The intrinsic resistivity of germanium at 300K is 0.45 Ωm. The electron mobility at 300K is 0.39 m²/V·s. The hole mobility at 300K in Germanium is 0.19 m²/V·s. Calculate the density of electrons in the intrinsic material. Also calculate the drift velocity of holes and electrons for an electric field E = 10⁴ V/m."
+          "question": "The intrinsic resistivity of germanium at 300K is 0.45 Ωm. The electron mobility at 300K is 0.39 m²/V·s. The hole mobility at 300K in Germanium is 0.19 m²/V·s. Calculate the density of electrons in the intrinsic material. Also calculate the drift velocity of holes and electrons for an electric field E = 10⁴ V/m.",
+          "eq": "\\rho = \\frac{1}{n_i q(\\mu_e+\\mu_h)},\\quad \\mu_e=0.39,\\;\\mu_h=0.19\\,\\text{m}^2\\text{V}^{-1}\\text{s}^{-1}"
         },
         {
           "number": "6",
@@ -1334,13 +1510,15 @@
           "number": "1",
           "sub_no": "b",
           "marks": 7,
-          "question": "Prove that the expression of Fermi energy at absolute zero for free electron model is Ef = 3.65×10⁻¹⁹ n²/³ (in eV), where n is the number of electrons per unit volume."
+          "question": "Prove that the expression of Fermi energy at absolute zero for free electron model is Ef = 3.65×10⁻¹⁹ n²/³ (in eV), where n is the number of electrons per unit volume.",
+          "eq": "E_F = \\frac{h^2}{2m}(3\\pi^2 n)^{2/3} = 3.65\\times10^{-19}\\,n^{2/3}\\,\\text{eV}"
         },
         {
           "number": "2",
           "sub_no": "a",
           "marks": 7,
-          "question": "Electrons in undoped gallium arsenide have a mobility of 8.8 cm²/V·S. Calculate average time between collision. Calculate distance travelled between two collisions. The average velocity of electron is 10⁷ m/s."
+          "question": "Electrons in undoped gallium arsenide have a mobility of 8.8 cm²/V·S. Calculate average time between collision. Calculate distance travelled between two collisions. The average velocity of electron is 10⁷ m/s.",
+          "eq": "\\ell = \\frac{\\mu m_e \\bar{v}}{e},\\quad \\mu=8.8\\,\\text{cm}^2\\text{V}^{-1}\\text{s}^{-1},\\;\\bar{v}=10^7\\,\\text{m/s}"
         },
         {
           "number": "2",
@@ -1364,7 +1542,8 @@
           "number": "3",
           "sub_no": "c",
           "marks": 4,
-          "question": "Calculate the permeability of an iron bar of cross-sectional area 0.2 cm² when a magnetizing field of 1200 Am⁻¹ produces magnetic field of 24 microWeber."
+          "question": "Calculate the permeability of an iron bar of cross-sectional area 0.2 cm² when a magnetizing field of 1200 Am⁻¹ produces magnetic field of 24 microWeber.",
+          "eq": "\\mu_r = \\frac{B}{\\mu_0 H},\\quad B=\\frac{\\Phi}{A},\\quad A=0.2\\,\\text{cm}^2,\\;H=1200\\,\\text{Am}^{-1}"
         },
         {
           "number": "4",
@@ -1388,7 +1567,8 @@
           "number": "5",
           "sub_no": "a",
           "marks": 7,
-          "question": "A p-n junction is formed at 300K. The acceptor and donor concentration in p-side and n-side are 10¹⁸ cm⁻³ respectively. Calculate: (i) Built in potential, (ii) Width of depletion layer, (iii) Maximum value of electric field. Given: ηi = 1.45×10¹⁰ cm⁻³, ε = ε₀εr = (11.9)×(8.85×10⁻¹² F/m)."
+          "question": "A p-n junction is formed at 300K. The acceptor and donor concentration in p-side and n-side are 10¹⁸ cm⁻³ respectively. Calculate: (i) Built in potential, (ii) Width of depletion layer, (iii) Maximum value of electric field. Given: ηi = 1.45×10¹⁰ cm⁻³, ε = ε₀εr = (11.9)×(8.85×10⁻¹² F/m).",
+          "eq": "V_0 = \\frac{k_BT}{q}\\ln\\frac{N_a N_d}{n_i^2},\\quad N_a=N_d=10^{18}\\,\\text{cm}^{-3},\\;n_i=1.45\\times10^{10}\\,\\text{cm}^{-3}"
         },
         {
           "number": "5",
@@ -1452,25 +1632,29 @@
           "number": "1",
           "sub_no": "b",
           "marks": 7,
-          "question": "An electron is confined to a 1 micron thin layer of silicon. Assuming that the semiconductor can be adequately described by a one-dimensional quantum well with infinite walls, calculate the lowest possible energy within the material in units of electron volt. If the energy is interpreted as the kinetic energy of the electron, what is the corresponding electron velocity? (The effective mass of electrons in silicon is 0.26 m₀, where m₀ = 9.11×10⁻³¹ kg is the free electron rest mass)."
+          "question": "An electron is confined to a 1 micron thin layer of silicon. Assuming that the semiconductor can be adequately described by a one-dimensional quantum well with infinite walls, calculate the lowest possible energy within the material in units of electron volt. If the energy is interpreted as the kinetic energy of the electron, what is the corresponding electron velocity? (The effective mass of electrons in silicon is 0.26 m₀, where m₀ = 9.11×10⁻³¹ kg is the free electron rest mass).",
+          "eq": "E_1 = \\frac{h^2}{8m^* L^2},\\quad m^*=0.26\\,m_0,\\;L=1\\,\\mu\\text{m}"
         },
         {
           "number": "2",
           "sub_no": "a",
           "marks": 7,
-          "question": "A uniform silver wire has resistivity of 5×10⁻⁸ ohm-m at room temperature. For the electrical field along the wire of 1 Vcm⁻¹, compute average drift velocity of electron assuming there are 5.8×10²⁸ conduction electrons per m³. Also calculate mobility and relaxation time of electron."
+          "question": "A uniform silver wire has resistivity of 5×10⁻⁸ ohm-m at room temperature. For the electrical field along the wire of 1 Vcm⁻¹, compute average drift velocity of electron assuming there are 5.8×10²⁸ conduction electrons per m³. Also calculate mobility and relaxation time of electron.",
+          "eq": "\\sigma = nq\\mu,\\quad v_d=\\mu E,\\quad \\rho=5\\times10^{-8}\\,\\Omega\\text{m},\\;n=5.8\\times10^{28}\\,\\text{m}^{-3}"
         },
         {
           "number": "2",
           "sub_no": "b",
           "marks": 8,
-          "question": "Derive the relation m* = h²/(d²E/dK²)."
+          "question": "Derive the relation m* = h²/(d²E/dK²).",
+          "eq": "m^* = \\frac{h^2}{d^2E/dk^2}"
         },
         {
           "number": "3",
           "sub_no": "a",
           "marks": 7,
-          "question": "An electrolyte condenser consisting of an oxidizing aluminum sheet with effective surface area 400 cm² has capacitance of 8 μF. Relative dielectric constant of Al₂O₃ (εr) is 8. A potential difference of 10 V is applied between aluminum and electrode. What is field strength and dipole moment induced in oxide layer?"
+          "question": "An electrolyte condenser consisting of an oxidizing aluminum sheet with effective surface area 400 cm² has capacitance of 8 μF. Relative dielectric constant of Al₂O₃ (εr) is 8. A potential difference of 10 V is applied between aluminum and electrode. What is field strength and dipole moment induced in oxide layer?",
+          "eq": "E = \\frac{V}{d},\\quad P = \\varepsilon_0(\\varepsilon_r-1)E,\\quad A=400\\,\\text{cm}^2,\\;C=8\\,\\mu\\text{F},\\;\\varepsilon_r=8"
         },
         {
           "number": "3",
@@ -1482,25 +1666,29 @@
           "number": "4",
           "sub_no": "a",
           "marks": 7,
-          "question": "Prove that in thermal equilibrium for a given semiconductor, n₀p₀ product is a constant that depends only on temperature (Law of Mass Action)."
+          "question": "Prove that in thermal equilibrium for a given semiconductor, n₀p₀ product is a constant that depends only on temperature (Law of Mass Action).",
+          "eq": "n_0 p_0 = n_i^2"
         },
         {
           "number": "4",
           "sub_no": "b",
           "marks": 8,
-          "question": "Derive the continuity equation. The steady state excess hole concentration of Δp = 10¹⁶ cm⁻³ at (x = 0) is injected to semi-infinite Silicon bar of cross section area A = 10⁻³ cm². If the hole diffusion length Lp = 10⁻³ cm and hole lifetime τp = 10⁻⁶ S, calculate steady state stored charge Qp and hole current Ip(x = 0)."
+          "question": "Derive the continuity equation. The steady state excess hole concentration of Δp = 10¹⁶ cm⁻³ at (x = 0) is injected to semi-infinite Silicon bar of cross section area A = 10⁻³ cm². If the hole diffusion length Lp = 10⁻³ cm and hole lifetime τp = 10⁻⁶ S, calculate steady state stored charge Qp and hole current Ip(x = 0).",
+          "eq": "\\frac{\\partial p}{\\partial t} = D_p\\frac{\\partial^2 p}{\\partial x^2} - \\frac{\\Delta p}{\\tau_p} + G"
         },
         {
           "number": "5",
           "sub_no": "a",
           "marks": 7,
-          "question": "Derive the expression for the contact potential with necessary assumption."
+          "question": "Derive the expression for the contact potential with necessary assumption.",
+          "eq": "E_F = \\frac{E_g}{2}"
         },
         {
           "number": "5",
           "sub_no": "b",
           "marks": 8,
-          "question": "Aluminum is alloyed into an n-type silicon sample (Nd = 10¹⁶ cm⁻³) forming an abrupt junction of circular cross section, with diameter 0.052 cm. Assume that the acceptor concentration in the alloyed re-grown region is Na = 4×10¹⁸ cm⁻³. Calculate V₀, xn0, xp0, Q+, and maximum field and sketch the charge density and E(x)."
+          "question": "Aluminum is alloyed into an n-type silicon sample (Nd = 10¹⁶ cm⁻³) forming an abrupt junction of circular cross section, with diameter 0.052 cm. Assume that the acceptor concentration in the alloyed re-grown region is Na = 4×10¹⁸ cm⁻³. Calculate V₀, xn0, xp0, Q+, and maximum field and sketch the charge density and E(x).",
+          "eq": "V_0 = \\frac{k_BT}{q}\\ln\\frac{N_a N_d}{n_i^2},\\quad N_d=10^{16},\\;N_a=4\\times10^{18}\\,\\text{cm}^{-3}"
         },
         {
           "number": "6",
@@ -1546,7 +1734,8 @@
           "number": "1",
           "sub_no": "a",
           "marks": 8,
-          "question": "A particle of mass 'm' is confined in a field free region between impenetrable wall at X = 0 and X = L. Show that the stationary energy levels of the particle are given by Eₙ = n²h²/(8mL²)."
+          "question": "A particle of mass 'm' is confined in a field free region between impenetrable wall at X = 0 and X = L. Show that the stationary energy levels of the particle are given by Eₙ = n²h²/(8mL²).",
+          "eq": "E_n = \\frac{n^2 h^2}{8mL^2}"
         },
         {
           "number": "1",
@@ -1570,7 +1759,8 @@
           "number": "3",
           "sub_no": "a",
           "marks": 8,
-          "question": "Obtain Clausius-Mossotti relation for ionic polarization."
+          "question": "Obtain Clausius-Mossotti relation for ionic polarization.",
+          "eq": "\\frac{\\varepsilon_r-1}{\\varepsilon_r+2} = \\frac{N\\alpha_i}{3\\varepsilon_0}"
         },
         {
           "number": "3",
@@ -1588,19 +1778,22 @@
           "number": "4",
           "sub_no": "b",
           "marks": 7,
-          "question": "A heavily doped p-side with acceptor concentration of 10¹⁸ cm⁻³ is connected to n-side with donor concentration of 10¹⁶ cm⁻³. Calculate the built in potential and overall depletion width. Assume T = 300K and ni₀ = 1.45×10¹⁰ cm⁻³."
+          "question": "A heavily doped p-side with acceptor concentration of 10¹⁸ cm⁻³ is connected to n-side with donor concentration of 10¹⁶ cm⁻³. Calculate the built in potential and overall depletion width. Assume T = 300K and ni₀ = 1.45×10¹⁰ cm⁻³.",
+          "eq": "V_0 = \\frac{k_BT}{q}\\ln\\frac{N_a N_d}{n_i^2},\\quad n_i=1.45\\times10^{10}\\,\\text{cm}^{-3}"
         },
         {
           "number": "5",
           "sub_no": "a",
           "marks": 8,
-          "question": "Obtain the expression for contact potential V₀ = (KT/q) ln(NaNd/ni²)."
+          "question": "Obtain the expression for contact potential V₀ = (KT/q) ln(NaNd/ni²).",
+          "eq": "V_0 = \\frac{k_BT}{q}\\ln\\frac{N_a N_d}{n_i^2}"
         },
         {
           "number": "5",
           "sub_no": "b",
           "marks": 7,
-          "question": "Starting from Fermi-Dirac function prove that the Fermi-level in intrinsic semiconductor lies midway between the conduction band and valence band."
+          "question": "Starting from Fermi-Dirac function prove that the Fermi-level in intrinsic semiconductor lies midway between the conduction band and valence band.",
+          "eq": "E_F = \\frac{E_g}{2}"
         },
         {
           "number": "6",
